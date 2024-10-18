@@ -1,0 +1,89 @@
+/* 设置全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .podcast-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .podcast-info p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* 图标样式 */
+  .icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .podcast-icon {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* 鼠标移上时的发光效果 */
+  .podcast-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(100, 149, 237, 0.7);
+  }
+  
+  /* 订阅平台链接样式 */
+  .subscription-links {
+    margin-top: 20px;
+  }
+  
+  .subscription-links h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-links ul {
+    list-style: none;
+  }
+  
+  .subscription-links li {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-links a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .subscription-links a:hover {
+    color: #ff6347;
+  }
+  
+  /* 复制成功消息的样式 */
+  #copyMessage {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  
