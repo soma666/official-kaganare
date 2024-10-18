@@ -5,7 +5,8 @@ const podcastIcon = document.getElementById('podcastIcon');
 const copyMessage = document.getElementById('copyMessage');
 
 // RSS 链接
-const rssLink = 'd6gnt9hx86fv.xml';
+const rssLink = `${window.location.origin}${window.location.pathname}feed.xml`;
+
 
 // 当用户点击图标时，复制 RSS 链接到剪贴板
 podcastIcon.addEventListener('click', () => {
