@@ -72,18 +72,17 @@
 
         /* 目录样式 */
         .toc {
-      padding-top: 500px; /* 顶部间距，避开导航栏 */
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 250px;
-      height: 100vh;
-      background-color: #f4f4f9;
-      border-right: 1px solid #ccc;
-      padding: 20px;
-      box-sizing: border-box;
-      overflow-y: auto;
-    }
+  position: fixed;
+  top: 200px; /* 导航栏高度 */
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 200px); /* 确保目录不会超出页面高度 */
+  background-color: #f4f4f9;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
 
     .toc h2 {
       font-size: 18px;
