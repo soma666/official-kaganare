@@ -8,7 +8,109 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     body {
-        margin-top: 150px; /* 导航栏高度 */
+        background-color: #f6f8fa;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-top: 80px; /* 为导航栏留出空间 */
+    }
+
+    .card {
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .markdown-body {
+        padding: 40px;
+        max-height: calc(100vh - 120px); /* 限制最大高度 */
+        overflow-y: auto; /* 添加滚动条 */
+    }
+
+    /* 自定义滚动条样式 */
+    .markdown-body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .markdown-body::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+    }
+
+    .markdown-body::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 4px;
+    }
+
+    .markdown-body::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+    }
+
+    /* 固定导航栏样式 */
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: #ffffff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px;
+            padding-top: 70px;
+        }
+
+        .markdown-body {
+            padding: 20px;
+        }
+
+        .card {
+            border-radius: 4px;
+        }
+    }
+
+    /* 暗色模式 */
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #0d1117;
+        }
+
+        .card {
+            background: #161b22;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav {
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .markdown-body::-webkit-scrollbar-track {
+            background: #21262d;
+        }
+
+        .markdown-body::-webkit-scrollbar-thumb {
+            background: #30363d;
+        }
+
+        .markdown-body::-webkit-scrollbar-thumb:hover {
+            background: #3f444c;
+        }
     }
 </style>
 </head>
@@ -31,13 +133,23 @@
     </div>
 </nav>
 
-    <div>
-        <div id="markdown-content"></div>
+<div class="container">
+    <div class="card">
+        <article class="markdown-body">
+            <div id="markdown-content"></div>
+        </article>
     </div>
+</div>
 
   <!-- 添加 Markdown 渲染器 -->
 
     <script>
+
+marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
+        
         // 加载并渲染 Markdown 文件
         fetch('how-to-buy-sakurazaka46-tickets.md')
             .then(response => response.text())
