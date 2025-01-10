@@ -97,7 +97,6 @@
   background-color: #333;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between; /* 左右两端对齐 */
   z-index: 1000;
 }
