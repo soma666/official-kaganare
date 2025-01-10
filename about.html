@@ -7,12 +7,9 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
-    /* 通用样式 */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 20px;
+    /* 页面主内容 */
+    .main-content {
+      padding-top: 80px; /* 顶部间距，避开导航栏 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -27,8 +24,6 @@
       max-width: 800px;
       width: 100%;
       padding: 20px;
-      overflow: auto;
-      padding-top: 300px;
     }
 
     /* Markdown 内容样式 */
@@ -37,27 +32,21 @@
       color: #333;
     }
 
-    .markdown-content h1,
-    .markdown-content h2,
-    .markdown-content h3 {
+    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
       margin-top: 20px;
       margin-bottom: 10px;
       color: #444;
     }
-
     .markdown-content p {
       margin: 10px 0;
     }
-
     .markdown-content a {
       color: #007BFF;
       text-decoration: none;
     }
-
     .markdown-content a:hover {
       text-decoration: underline;
     }
-
     .markdown-content code {
       background-color: #f7f7f9;
       padding: 2px 4px;
@@ -65,7 +54,6 @@
       font-family: monospace;
       color: #d6336c;
     }
-
     .markdown-content pre {
       background-color: #f7f7f9;
       padding: 10px;
@@ -74,16 +62,13 @@
       font-family: monospace;
       color: #333;
     }
-
     .markdown-content ul {
       margin: 10px 0;
       padding-left: 20px;
     }
-
     .markdown-content li {
       margin: 5px 0;
     }
-
 
   </style>
 
@@ -106,11 +91,12 @@
 </nav>
 
 
-
+<div class="main-content">
 <div class="card">
     <div class="markdown-content">
     <div id="markdown-content"></div>
     </div>
+</div>
 </div>
   <!-- 添加 Markdown 渲染器 -->
     <script>
