@@ -5,6 +5,188 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Officials-Kagenare</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* 设置全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .podcast-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .podcast-info p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* 图标样式 */
+  .icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .podcast-icon {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* 鼠标移上时的发光效果 */
+  .podcast-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(100, 149, 237, 0.7);
+  }
+  
+  /* 订阅平台链接样式 */
+  .subscription-links {
+    margin-top: 20px;
+  }
+  
+  .subscription-links h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-links ul {
+    list-style: none;
+  }
+  
+  .subscription-links li {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-links a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .subscription-links a:hover {
+    color: #ff6347;
+  }
+  
+  /* 复制成功消息的样式 */
+  #copyMessage {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;  /* 确保文字左对齐 */
+}
+
+.nav-logo {
+    color: white;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.nav-menu li a:hover {
+    background-color: #555;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        flex-direction: column;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+  </style>
+
+
+
 </head>
 <body>
 
