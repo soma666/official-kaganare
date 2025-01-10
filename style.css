@@ -15,7 +15,7 @@
   }
   
   .container {
-    text-align: center;
+    text-align: left;
     padding: 20px;
     max-width: 600px;
   }
@@ -87,3 +87,84 @@
     font-size: 1.1rem;
   }
   
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;  /* 确保文字左对齐 */
+}
+
+.nav-logo {
+    color: white;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.nav-menu li a:hover {
+    background-color: #555;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        flex-direction: column;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-container {
+        flex-wrap: wrap;
+    }
+}
