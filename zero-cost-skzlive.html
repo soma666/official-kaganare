@@ -82,13 +82,8 @@
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
-  transition: transform 0.3s ease; /* 平滑关闭效果 */
 }
 
-    /* 隐藏目录 */
-    .toc.hidden {
-      transform: translateX(-100%); /* 将目录移出屏幕 */
-    }
     .toc h2 {
       font-size: 18px;
       margin-bottom: 10px;
@@ -112,16 +107,6 @@
 
     .toc a:hover {
       text-decoration: underline;
-    }
-
-        /* 响应式布局 */
-        @media screen and (max-width: 768px) {
-      .toc {
-        transform: translateX(-100%); /* 默认隐藏目录 */
-      }
-      .content {
-        margin-left: 0; /* 内容占满屏幕 */
-      }
     }
 
 
@@ -230,21 +215,6 @@
       });
     }
 
-        // 目录展开/收起逻辑
-        const toc = document.getElementById('toc');
-    const toggleTocButton = document.getElementById('toggle-toc');
-    const content = document.querySelector('.content');
-
-    toggleTocButton.addEventListener('click', () => {
-      const isHidden = toc.classList.contains('hidden');
-      if (isHidden) {
-        toc.classList.remove('hidden');
-        content.classList.remove('full-width');
-      } else {
-        toc.classList.add('hidden');
-        content.classList.add('full-width');
-      }
-    });
     // 页面加载时执行
     loadMarkdownFile();   
     </script>
