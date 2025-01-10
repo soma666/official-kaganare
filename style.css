@@ -93,11 +93,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px; /* 导航栏高度 */
+  height: 150px; /* 根据你的导航栏高度调整 */
   background-color: #333;
   color: white;
   display: flex;
-  justify-content: space-between; /* 左右两端对齐 */
+  align-items: center;
+  justify-content: center;
   z-index: 1000;
 }
 
@@ -175,3 +176,4 @@
         flex-wrap: wrap;
     }
 }
+
