@@ -70,6 +70,46 @@
       margin: 5px 0;
     }
 
+        /* 目录样式 */
+        .toc {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100vh;
+      background-color: #f4f4f9;
+      border-right: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    .toc h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .toc li {
+      margin-bottom: 5px;
+    }
+
+    .toc a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 14px;
+      padding-left: 10px;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+
   </style>
 
 </head>
@@ -92,6 +132,13 @@
     </div>
 </nav>
 
+<div class="toc">
+    <h2>目录</h2>
+    <ul id="toc-list">
+      <!-- 动态生成的目录将插入到这里 -->
+    </ul>
+  </div>
+
 
 <div class="main-content">
 <div class="card">
@@ -103,17 +150,73 @@
   <!-- 添加 Markdown 渲染器 -->
     <script>
 
-marked.setOptions({
-            breaks: true,
-            gfm: true
-        });
+    // 加载 Markdown 文件并渲染内容
+    async function loadMarkdownFile() {
+      try {
+        // 1. 加载 Markdown 文件
+        const response = await fetch('how-to-buy-sakurazaka46-tickets.md'); // 替换为你的 Markdown 文件路径
+        const markdownText = await response.text();
 
-        // 加载并渲染 Markdown 文件
-        fetch('how-to-buy-sakurazaka46-tickets.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked.parse(text);
+        // 2. 使用 marked.js 渲染 Markdown 为 HTML
+        const markdownContent = document.getElementById('markdown-content');
+        markdownContent.innerHTML = marked.parse(markdownText);
+
+        // 3. 生成目录
+        generateTOC();
+      } catch (error) {
+        console.error('无法加载 Markdown 文件:', error);
+      }
+    }
+
+    // 生成目录
+    function generateTOC() {
+      const markdownContent = document.getElementById('markdown-content');
+      const tocList = document.getElementById('toc-list');
+
+      // 查找所有标题元素（h1, h2, h3, ...）
+      const headers = markdownContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+      headers.forEach((header, index) => {
+        // 1. 创建唯一的 ID
+        const id = `header-${index}`;
+        header.id = id;
+
+        // 2. 创建目录项
+        const li = document.createElement('li');
+        li.style.marginLeft = `${(parseInt(header.tagName.substring(1)) - 1) * 10}px`; // 根据标题级别缩进
+
+        const a = document.createElement('a');
+        a.href = `#${id}`;
+        a.textContent = header.textContent;
+
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+
+      // 添加平滑滚动效果
+      enableSmoothScroll();
+    }
+
+    // 平滑滚动功能
+    function enableSmoothScroll() {
+      document.querySelectorAll('.toc a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const target = document.getElementById(targetId);
+
+          if (target) {
+            window.scrollTo({
+              top: target.offsetTop - 20, // 调整偏移量以适配固定导航栏
+              behavior: 'smooth'
             });
+          }
+        });
+      });
+    }
+
+    // 页面加载时执行
+    loadMarkdownFile();   
     </script>
 </body>
 </html>
