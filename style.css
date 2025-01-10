@@ -168,3 +168,33 @@
         flex-wrap: wrap;
     }
 }
+
+/* Markdown 内容样式 */
+#markdown-content {
+  padding: 20px;
+}
+
+#markdown-content h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#markdown-content h2 {
+  color: #444;
+  margin: 15px 0;
+}
+
+#markdown-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#markdown-content ul, 
+#markdown-content ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+#markdown-content li {
+  margin-bottom: 5px;
+}
