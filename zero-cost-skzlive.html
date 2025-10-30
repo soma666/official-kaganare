@@ -70,19 +70,20 @@
       margin: 5px 0;
     }
 
-        /* 目录样式 */
-        .toc {
-  position: fixed;
-  top: 80px; /* 导航栏高度 */
-  left: 0;
-  width: 250px;
-  height: calc(100vh - 80px); /* 确保目录不会超出页面高度 */
-  background-color: #f4f4f9;
-  border-right: 1px solid #ccc;
-  padding: 20px;
-  box-sizing: border-box;
-  overflow-y: auto;
-}
+    /* 目录样式 */
+    .toc {
+      position: fixed;
+      top: 80px; /* 导航栏高度 */
+      left: 0;
+      width: 250px;
+      height: calc(100vh - 80px); /* 确保目录不会超出页面高度 */
+      background-color: #f4f4f9;
+      border-right: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+    }
 
     .toc h2 {
       font-size: 18px;
@@ -102,19 +103,81 @@
       text-decoration: none;
       color: #007BFF;
       font-size: 14px;
-      padding-left: 10px;
+      padding: 5px 10px;
+      display: block;
+      border-radius: 4px;
+      transition: all 0.2s ease;
     }
 
     .toc a:hover {
-      text-decoration: underline;
+      background-color: #e0e0e0;
+      color: #0056b3;
     }
 
+    /* 活动状态指示 */
+    .toc a.active {
+      background-color: #007BFF;
+      color: white;
+    }
 
+    /* 不同级别的标题样式 */
+    .toc .toc-level-1 a {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .toc .toc-level-2 a {
+      font-size: 14px;
+      padding-left: 20px;
+    }
+
+    .toc .toc-level-3 a {
+      font-size: 13px;
+      padding-left: 35px;
+    }
+
+    .toc .toc-level-4 a {
+      font-size: 12px;
+      padding-left: 50px;
+    }
+
+    /* 移动端适配 */
+    .toc-toggle {
+      display: none;
+      position: fixed;
+      top: 90px;
+      left: 10px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 12px;
+      cursor: pointer;
+      z-index: 1001;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .toc {
+        transform: translateX(-100%);
+      }
+      
+      .toc.open {
+        transform: translateX(0);
+      }
+      
+      .toc-toggle {
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .toc {
+        width: 220px;
+      }
+    }
   </style>
-
 </head>
 <body>
-
   <nav class="navbar">
     <div class="nav-container">
         <!--
@@ -132,13 +195,14 @@
     </div>
 </nav>
 
-<div class="toc">
+<button class="toc-toggle" id="tocToggle">目录</button>
+
+<div class="toc" id="toc">
     <h2>目录</h2>
     <ul id="toc-list">
       <!-- 动态生成的目录将插入到这里 -->
     </ul>
-  </div>
-
+</div>
 
 <div class="main-content">
 <div class="card">
@@ -147,34 +211,87 @@
     </div>
 </div>
 </div>
-  <!-- 添加 Markdown 渲染器 -->
-    <script>
 
+<!-- 添加 Markdown 渲染器 -->
+<script>
     // 加载 Markdown 文件并渲染内容
     async function loadMarkdownFile() {
       try {
+        console.log('开始加载 Markdown 文件');
         // 1. 加载 Markdown 文件
-        const response = await fetch('how-to-buy-sakurazaka46-tickets.md'); // 替换为你的 Markdown 文件路径
-        const markdownText = await response.text();
-
+        const response = await fetch('how-to-buy-sakurazaka46-tickets.md', { mode: 'no-cors' });
+        console.log('响应状态:', response.status);
+        // 注意：使用 no-cors 模式时，我们无法读取响应内容
+        // 所以我们需要使用另一种方式加载文件
+        
+        // 使用 XMLHttpRequest 作为替代方案
+        const markdownText = await loadMarkdownWithXHR();
+        
         // 2. 使用 marked.js 渲染 Markdown 为 HTML
         const markdownContent = document.getElementById('markdown-content');
-        markdownContent.innerHTML = marked.parse(markdownText);
+        console.log('找到 markdown-content 元素:', !!markdownContent);
+        if (markdownContent) {
+          markdownContent.innerHTML = marked.parse(markdownText);
+          console.log('Markdown 渲染完成');
+        } else {
+          console.error('未找到 ID 为 markdown-content 的元素');
+        }
 
         // 3. 生成目录
+        console.log('开始生成目录');
         generateTOC();
       } catch (error) {
         console.error('无法加载 Markdown 文件:', error);
+        // 尝试使用 XMLHttpRequest 加载
+        try {
+          const markdownText = await loadMarkdownWithXHR();
+          const markdownContent = document.getElementById('markdown-content');
+          if (markdownContent) {
+            markdownContent.innerHTML = marked.parse(markdownText);
+            console.log('使用 XHR 加载成功');
+            generateTOC();
+          }
+        } catch (xhrError) {
+          console.error('XHR 加载也失败了:', xhrError);
+        }
       }
+    }
+    
+    // 使用 XMLHttpRequest 加载 Markdown 文件
+    function loadMarkdownWithXHR() {
+      return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'how-to-buy-sakurazaka46-tickets.md', true);
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+              resolve(xhr.responseText);
+            } else {
+              reject(new Error(`XHR Error: ${xhr.status}`));
+            }
+          }
+        };
+        xhr.send();
+      });
     }
 
     // 生成目录
     function generateTOC() {
+      console.log('执行 generateTOC 函数');
       const markdownContent = document.getElementById('markdown-content');
       const tocList = document.getElementById('toc-list');
+      
+      console.log('markdownContent 元素:', !!markdownContent);
+      console.log('tocList 元素:', !!tocList);
+
+      if (!markdownContent || !tocList) {
+        console.error('缺少必要的 DOM 元素');
+        return;
+      }
 
       // 查找所有标题元素（h1, h2, h3, ...）
       const headers = markdownContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+      console.log('找到标题元素数量:', headers.length);
 
       headers.forEach((header, index) => {
         // 1. 创建唯一的 ID
@@ -183,11 +300,13 @@
 
         // 2. 创建目录项
         const li = document.createElement('li');
-        li.style.marginLeft = `${(parseInt(header.tagName.substring(1)) - 1) * 10}px`; // 根据标题级别缩进
+        const level = parseInt(header.tagName.substring(1));
+        li.className = `toc-level-${level}`; // 添加级别类名
 
         const a = document.createElement('a');
         a.href = `#${id}`;
         a.textContent = header.textContent;
+        a.setAttribute('data-target', id); // 用于活动状态跟踪
 
         li.appendChild(a);
         tocList.appendChild(li);
@@ -195,6 +314,9 @@
 
       // 添加平滑滚动效果
       enableSmoothScroll();
+      
+      // 启动活动状态跟踪
+      setupActiveTracking();
     }
 
     // 平滑滚动功能
@@ -207,16 +329,86 @@
 
           if (target) {
             window.scrollTo({
-              top: target.offsetTop - 20, // 调整偏移量以适配固定导航栏
+              top: target.offsetTop - 100, // 调整偏移量以适配固定导航栏
               behavior: 'smooth'
             });
+            
+            // 在移动端点击目录项后隐藏目录
+            if (window.innerWidth <= 1024) {
+              document.getElementById('toc').classList.remove('open');
+            }
           }
         });
       });
     }
 
+    // 设置活动状态跟踪
+    function setupActiveTracking() {
+      const headers = document.querySelectorAll('#markdown-content h1, #markdown-content h2, #markdown-content h3, #markdown-content h4, #markdown-content h5, #markdown-content h6');
+      const links = document.querySelectorAll('.toc a');
+      
+      console.log('设置活动状态跟踪，标题数量:', headers.length, '链接数量:', links.length);
+      
+      function setActiveLink() {
+        let currentHeader = null;
+        
+        // 找到当前在视口中的标题
+        for (let i = headers.length - 1; i >= 0; i--) {
+          const header = headers[i];
+          const rect = header.getBoundingClientRect();
+          
+          if (rect.top <= 120) { // 当标题接近顶部时激活对应的目录项
+            currentHeader = header;
+            break;
+          }
+        }
+        
+        // 移除所有活动状态
+        links.forEach(link => link.classList.remove('active'));
+        
+        // 激活当前标题对应的链接
+        if (currentHeader) {
+          const targetId = currentHeader.id;
+          const activeLink = document.querySelector(`.toc a[data-target="${targetId}"]`);
+          if (activeLink) {
+            activeLink.classList.add('active');
+            
+            // 确保活动项在视口中可见
+            activeLink.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }
+      }
+      
+      // 页面滚动时更新活动状态
+      window.addEventListener('scroll', setActiveLink);
+      
+      // 初始设置
+      setActiveLink();
+    }
+
+    // 目录开关功能
+    document.getElementById('tocToggle').addEventListener('click', function() {
+      document.getElementById('toc').classList.toggle('open');
+    });
+
+    // 点击目录外部区域时关闭目录
+    document.addEventListener('click', function(event) {
+      const toc = document.getElementById('toc');
+      const tocToggle = document.getElementById('tocToggle');
+      
+      if (window.innerWidth <= 1024 && 
+          !toc.contains(event.target) && 
+          event.target !== tocToggle && 
+          !tocToggle.contains(event.target)) {
+        toc.classList.remove('open');
+      }
+    });
+
     // 页面加载时执行
-    loadMarkdownFile();   
-    </script>
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM 加载完成，开始加载 Markdown 文件');
+      loadMarkdownFile();
+    });
+</script>
 </body>
 </html>
