@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.html",
+      "src": "**/*.{html,css,js,svg,md}",
       "use": "@vercel/static"
     }
   ],
@@ -14,6 +14,10 @@
     {
       "src": "/zero-cost-skzlive",
       "dest": "/zero-cost-skzlive.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }

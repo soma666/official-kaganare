@@ -223,7 +223,8 @@
     // 页面加载时执行
     document.addEventListener('DOMContentLoaded', function() {
       console.log('DOM 加载完成，开始加载 Markdown 文件');
-      loadMarkdownFile();
+      // 确保在导航栏加载完成后再加载Markdown文件
+      setTimeout(loadMarkdownFile, 100);
     });
   </script>
 </body>

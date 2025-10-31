@@ -29,7 +29,7 @@ function initNavbar() {
   // 导航栏样式已移至CSS文件中统一管理
   
   // 添加移动端菜单切换功能
-  document.addEventListener('DOMContentLoaded', function() {
+  function initMobileMenu() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
@@ -38,7 +38,10 @@ function initNavbar() {
         navMenu.classList.toggle('active');
       });
     }
-  });
+  }
+  
+  // 在导航栏插入后再初始化移动端菜单
+  setTimeout(initMobileMenu, 0);
 }
 
 // 执行初始化

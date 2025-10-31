@@ -15,10 +15,11 @@
 
 项目包含 `vercel.json` 配置文件，定义了：
 
-- 静态文件构建设置
+- 静态文件构建设置，包括 HTML、CSS、JavaScript 和其他静态资源
 - 路由规则：
   - `/` 指向 `index.html`
   - `/zero-cost-skzlive` 指向 `zero-cost-skzlive.html`
+  - 通配符路由确保所有静态资源正确加载
 
 ## 自定义域名
 
