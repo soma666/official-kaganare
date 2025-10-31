@@ -37,11 +37,3 @@ podcastIcon.addEventListener('click', () => {
     copyMessage.style.display = 'none';
   }, 2000);
 });
-
-// 移动端菜单切换
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
-
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});

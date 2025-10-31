@@ -3,233 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Officials-Kagenare</title>
+  <title>幕前须知 KAGENARE</title>
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* 设置全局样式 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f9;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    max-width: 600px;
-  }
-  
-  .podcast-info h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .podcast-info p {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  /* 图标样式 */
-  .icon-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .podcast-icon {
-    width: 150px;
-    height: 150px;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  /* 鼠标移上时的发光效果 */
-  .podcast-icon:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px rgba(100, 149, 237, 0.7);
-  }
-  
-  /* 订阅平台链接样式 */
-  .subscription-links {
-    margin-top: 20px;
-  }
-  
-  .subscription-links h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .subscription-links ul {
-    list-style: none;
-  }
-  
-  .subscription-links li {
-    margin-bottom: 10px;
-  }
-  
-  .subscription-links a {
-    text-decoration: none;
-    color: #1e90ff;
-    font-size: 1.2rem;
-    transition: color 0.3s;
-  }
-  
-  .subscription-links a:hover {
-    color: #ff6347;
-  }
-  
-  /* 复制成功消息的样式 */
-  #copyMessage {
-    margin-top: 15px;
-    font-size: 1.1rem;
-  }
-  
-
-/* 导航栏样式 */
-.navbar {
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;  /* 确保文字左对齐 */
-}
-
-.nav-logo {
-    color: white;
-    padding: 15px 0;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-}
-
-.nav-menu li a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-}
-
-.nav-menu li a:hover {
-    background-color: #555;
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-    padding: 15px 0;
-}
-
-.hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px 0;
-}
-
-
-/* 响应式设计 */
-@media screen and (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: #333;
-        flex-direction: column;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .nav-container {
-        flex-wrap: wrap;
-    }
-}
-
-
-
-
-
-
-  </style>
-
-
-
 </head>
 <body>
-
-  <nav class="navbar">
-    <div class="nav-container">
-<!--
-        <a class="nav-logo">幕前须知 KAGENARE</a>
--->
-        <div class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <ul class="nav-menu">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="zero-cost-skzlive.html">如何参与樱坂46现场演出门票FanClub抽选？</a></li>
-           
-            
-        </ul>
-    </div>
-</nav>
-
-
-  <div class="container">
+  <div class="container home-container">
     <!-- Podcast 介绍 -->
     <div class="podcast-info">
       <h1>幕前须知 KAGENARE</h1>
-      <br>
-      <p align="left">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;『幕前须知』是一档专注于讨论坂道系偶像的播客。我们希望可以摒弃消费主义的论述，从艺术、商业等多种视角对坂道系偶像这一文化产品进行整体性的观察。
-      </p>
-      <br>
-      <p align="left">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您可以通过以下播客平台订阅我们的节目，或者点击图标复制RSS链接，通过泛用形播客客户端订阅。
-      </p>
-
+      <p>『幕前须知』是一档专注于讨论坂道系偶像的播客。我们希望可以摒弃消费主义的论述，从艺术、商业等多种视角对坂道系偶像这一文化产品进行整体性的观察。</p>
+      <p>您可以通过以下播客平台订阅我们的节目，或者点击图标复制RSS链接，通过泛用形播客客户端订阅。</p>
     </div>
-    <br>
+    
     <!-- 图标部分 -->
     <div class="icon-container">
       <img src="sub-icon.svg" alt="Podcast Icon" class="podcast-icon" id="podcastIcon">
     </div>
-    <br>
-    <br>
+    <div class="rss-hint">点击图标复制RSS链接</div>
+    
     <!-- 订阅平台链接 -->
     <div class="subscription-links">
       <h2>Subscribe on:</h2>
@@ -237,14 +28,14 @@
         <li><a href="https://www.xiaoyuzhoufm.com/podcast/661ffa9548c40e2fb00052a0" target="_blank">小宇宙</a></li>
         <li><a href="https://podcasts.apple.com/us/podcast/幕前须知-kagenare/id1774731183" target="_blank">Apple Podcasts</a></li>
         <li><a href="https://open.spotify.com/show/3KXcJueksfOvN1YDvb3XdJ" target="_blank">Spotify</a></li>
-        
       </ul>
     </div>
 
     <!-- 提示用户已复制的反馈 -->
-    <p id="copyMessage" style="display: none; color: green;">RSS feed link copied to clipboard!</p>
+    <p id="copyMessage" style="display: none;">RSS feed link copied to clipboard!</p>
   </div>
 
-  <script src="script.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

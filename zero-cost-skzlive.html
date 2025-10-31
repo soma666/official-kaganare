@@ -4,216 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>如何参与樱坂46现场演出门票FanClub抽选？</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.1">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <style>
-    /* 页面主内容 */
-    .main-content {
-      padding-top: 2500px; /* 顶部间距，避开导航栏 */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    /* 卡片样式 */
-    .card {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      max-width: 800px;
-      width: 100%;
-      padding: 20px;
-    }
-
-    /* Markdown 内容样式 */
-    .markdown-content {
-      line-height: 1.6;
-      color: #333;
-    }
-
-    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      color: #444;
-    }
-    .markdown-content p {
-      margin: 10px 0;
-    }
-    .markdown-content a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    .markdown-content a:hover {
-      text-decoration: underline;
-    }
-    .markdown-content code {
-      background-color: #f7f7f9;
-      padding: 2px 4px;
-      border-radius: 4px;
-      font-family: monospace;
-      color: #d6336c;
-    }
-    .markdown-content pre {
-      background-color: #f7f7f9;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-      font-family: monospace;
-      color: #333;
-    }
-    .markdown-content ul {
-      margin: 10px 0;
-      padding-left: 20px;
-    }
-    .markdown-content li {
-      margin: 5px 0;
-    }
-
-    /* 目录样式 */
-    .toc {
-      position: fixed;
-      top: 80px; /* 导航栏高度 */
-      left: 0;
-      width: 250px;
-      height: calc(100vh - 80px); /* 确保目录不会超出页面高度 */
-      background-color: #f4f4f9;
-      border-right: 1px solid #ccc;
-      padding: 20px;
-      box-sizing: border-box;
-      overflow-y: auto;
-      transition: transform 0.3s ease;
-    }
-
-    .toc h2 {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    .toc ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .toc li {
-      margin-bottom: 5px;
-    }
-
-    .toc a {
-      text-decoration: none;
-      color: #007BFF;
-      font-size: 14px;
-      padding: 5px 10px;
-      display: block;
-      border-radius: 4px;
-      transition: all 0.2s ease;
-    }
-
-    .toc a:hover {
-      background-color: #e0e0e0;
-      color: #0056b3;
-    }
-
-    /* 活动状态指示 */
-    .toc a.active {
-      background-color: #007BFF;
-      color: white;
-    }
-
-    /* 不同级别的标题样式 */
-    .toc .toc-level-1 a {
-      font-weight: bold;
-      font-size: 15px;
-    }
-
-    .toc .toc-level-2 a {
-      font-size: 14px;
-      padding-left: 20px;
-    }
-
-    .toc .toc-level-3 a {
-      font-size: 13px;
-      padding-left: 35px;
-    }
-
-    .toc .toc-level-4 a {
-      font-size: 12px;
-      padding-left: 50px;
-    }
-
-    /* 移动端适配 */
-    .toc-toggle {
-      display: none;
-      position: fixed;
-      top: 90px;
-      left: 10px;
-      background: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      padding: 8px 12px;
-      cursor: pointer;
-      z-index: 1001;
-    }
-
-    @media screen and (max-width: 1024px) {
-      .toc {
-        transform: translateX(-100%);
-      }
-      
-      .toc.open {
-        transform: translateX(0);
-      }
-      
-      .toc-toggle {
-        display: block;
-      }
-    }
-
-    @media screen and (max-width: 768px) {
-      .toc {
-        width: 220px;
-      }
-    }
-  </style>
 </head>
 <body>
-  <nav class="navbar">
-    <div class="nav-container">
-        <!--
-        <a class="nav-logo">幕前须知 KAGENARE</a>
-        -->
-        <div class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
+  <div class="container doc-container">
+    <button class="toc-toggle" id="tocToggle">目录</button>
+
+    <div class="toc" id="toc">
+      <h2>目录</h2>
+      <ul id="toc-list">
+        <!-- 动态生成的目录将插入到这里 -->
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div class="card">
+        <div class="markdown-content">
+          <div id="markdown-content"></div>
         </div>
-        <ul class="nav-menu">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="zero-cost-skzlive.html">如何参与樱坂46现场演出门票FanClub抽选？</a></li>
-        </ul>
+      </div>
     </div>
-</nav>
+  </div>
 
-<button class="toc-toggle" id="tocToggle">目录</button>
-
-<div class="toc" id="toc">
-    <h2>目录</h2>
-    <ul id="toc-list">
-      <!-- 动态生成的目录将插入到这里 -->
-    </ul>
-</div>
-
-<div class="main-content">
-<div class="card">
-    <div class="markdown-content">
-    <div id="markdown-content"></div>
-    </div>
-</div>
-</div>
-
-<!-- 添加 Markdown 渲染器 -->
-<script>
+  <!-- 添加 Markdown 渲染器 -->
+  <script src="js/navbar.js"></script>
+  <script>
     // 加载 Markdown 文件并渲染内容
     async function loadMarkdownFile() {
       try {
@@ -409,6 +225,6 @@
       console.log('DOM 加载完成，开始加载 Markdown 文件');
       loadMarkdownFile();
     });
-</script>
+  </script>
 </body>
 </html>
