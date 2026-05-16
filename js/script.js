@@ -1,39 +1,58 @@
 // script.js
 
-// 获取图标和提示信息元素
-const podcastIcon = document.getElementById('podcastIcon');
+// Get the icon and feedback message elements.
+const copyRssButton = document.getElementById('copyRssButton');
 const copyMessage = document.getElementById('copyMessage');
+const rssValue = document.getElementById('rssValue');
 
-// RSS 链接
+// RSS link.
 const rssLink = `https://feed.xyzfm.space/d6gnt9hx86fv`;
 
+if (rssValue) {
+  rssValue.textContent = rssLink;
+}
 
-// 当用户点击图标时，复制 RSS 链接到剪贴板
-podcastIcon.addEventListener('click', () => {
-  // 创建一个临时的文本框
+// Copy the RSS link to the clipboard when the icon is clicked.
+async function copyRssLink() {
+  if (navigator.clipboard && window.isSecureContext) {
+    try {
+      await navigator.clipboard.writeText(rssLink);
+      return;
+    } catch (error) {
+      // Fall back to the legacy copy path when clipboard permission is denied.
+    }
+  }
+
+  // Create a temporary input.
   const tempInput = document.createElement('input');
   tempInput.style.position = 'absolute';
-  tempInput.style.left = '-9999px'; // 隐藏文本框
+  tempInput.style.left = '-9999px'; // Hide the input.
   tempInput.value = rssLink;
 
-  // 添加临时文本框到页面
+  // Add the temporary input to the page.
   document.body.appendChild(tempInput);
 
-  // 选择文本框的内容
+  // Select the input content.
   tempInput.select();
-  tempInput.setSelectionRange(0, 99999); // 对于移动设备
+  tempInput.setSelectionRange(0, 99999); // Mobile support.
 
-  // 复制内容到剪贴板
+  // Copy the content to the clipboard.
   document.execCommand('copy');
 
-  // 移除临时文本框
+  // Remove the temporary input.
   document.body.removeChild(tempInput);
+}
 
-  // 显示复制成功消息
-  copyMessage.style.display = 'block';
+if (copyRssButton && copyMessage) {
+  copyRssButton.addEventListener('click', async () => {
+    await copyRssLink();
+  
+    // Show the copy success message.
+    copyMessage.hidden = false;
 
-  // 2 秒后隐藏成功消息
-  setTimeout(() => {
-    copyMessage.style.display = 'none';
-  }, 2000);
-});
+    // Hide the success message after 2 seconds.
+    setTimeout(() => {
+      copyMessage.hidden = true;
+    }, 2000);
+  });
+}
