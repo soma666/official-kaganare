@@ -8,13 +8,21 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
+  <header class="site-header">
+    <a class="site-brand" href="/">KAGENARE</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">podcast</a>
+      <a href="/zero-cost-skzlive.html">How I Learned to join sakurazaka46 Live</a>
+    </nav>
+  </header>
+
   <div class="container doc-container">
     <button class="toc-toggle" id="tocToggle">目录</button>
 
     <div class="toc" id="toc">
       <h2>目录</h2>
       <ul id="toc-list">
-        <!-- 动态生成的目录将插入到这里 -->
+        <!-- The generated table of contents will be inserted here -->
       </ul>
     </div>
 
@@ -27,23 +35,22 @@
     </div>
   </div>
 
-  <!-- 添加 Markdown 渲染器 -->
-  <script src="js/navbar.js"></script>
+  <!-- Markdown renderer -->
   <script>
-    // 加载 Markdown 文件并渲染内容
+    // Load the Markdown file and render its content.
     async function loadMarkdownFile() {
       try {
         console.log('开始加载 Markdown 文件');
-        // 1. 加载 Markdown 文件
+        // 1. Load the Markdown file.
         const response = await fetch('how-to-buy-sakurazaka46-tickets.md', { mode: 'no-cors' });
         console.log('响应状态:', response.status);
-        // 注意：使用 no-cors 模式时，我们无法读取响应内容
-        // 所以我们需要使用另一种方式加载文件
+        // Note: no-cors responses cannot be read directly.
+        // Use a separate loader for the file content.
         
-        // 使用 XMLHttpRequest 作为替代方案
+        // Use XMLHttpRequest as a fallback loader.
         const markdownText = await loadMarkdownWithXHR();
         
-        // 2. 使用 marked.js 渲染 Markdown 为 HTML
+        // 2. Render Markdown to HTML with marked.js.
         const markdownContent = document.getElementById('markdown-content');
         console.log('找到 markdown-content 元素:', !!markdownContent);
         if (markdownContent) {
@@ -53,12 +60,12 @@
           console.error('未找到 ID 为 markdown-content 的元素');
         }
 
-        // 3. 生成目录
+        // 3. Generate the table of contents.
         console.log('开始生成目录');
         generateTOC();
       } catch (error) {
         console.error('无法加载 Markdown 文件:', error);
-        // 尝试使用 XMLHttpRequest 加载
+        // Try loading with XMLHttpRequest.
         try {
           const markdownText = await loadMarkdownWithXHR();
           const markdownContent = document.getElementById('markdown-content');
@@ -73,7 +80,7 @@
       }
     }
     
-    // 使用 XMLHttpRequest 加载 Markdown 文件
+    // Load the Markdown file with XMLHttpRequest.
     function loadMarkdownWithXHR() {
       return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
@@ -91,7 +98,7 @@
       });
     }
 
-    // 生成目录
+    // Generate the table of contents.
     function generateTOC() {
       console.log('执行 generateTOC 函数');
       const markdownContent = document.getElementById('markdown-content');
@@ -105,37 +112,37 @@
         return;
       }
 
-      // 查找所有标题元素（h1, h2, h3, ...）
+      // Find all heading elements (h1, h2, h3, ...).
       const headers = markdownContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
       console.log('找到标题元素数量:', headers.length);
 
       headers.forEach((header, index) => {
-        // 1. 创建唯一的 ID
+        // 1. Create a unique ID.
         const id = `header-${index}`;
         header.id = id;
 
-        // 2. 创建目录项
+        // 2. Create a TOC item.
         const li = document.createElement('li');
         const level = parseInt(header.tagName.substring(1));
-        li.className = `toc-level-${level}`; // 添加级别类名
+        li.className = `toc-level-${level}`; // Add the level class.
 
         const a = document.createElement('a');
         a.href = `#${id}`;
         a.textContent = header.textContent;
-        a.setAttribute('data-target', id); // 用于活动状态跟踪
+        a.setAttribute('data-target', id); // Used for active state tracking.
 
         li.appendChild(a);
         tocList.appendChild(li);
       });
 
-      // 添加平滑滚动效果
+      // Add smooth scrolling.
       enableSmoothScroll();
       
-      // 启动活动状态跟踪
+      // Start active state tracking.
       setupActiveTracking();
     }
 
-    // 平滑滚动功能
+    // Smooth scrolling.
     function enableSmoothScroll() {
       document.querySelectorAll('.toc a').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -145,11 +152,11 @@
 
           if (target) {
             window.scrollTo({
-              top: target.offsetTop - 100, // 调整偏移量以适配固定导航栏
+              top: target.offsetTop - 100, // Keep the target slightly below the viewport top.
               behavior: 'smooth'
             });
             
-            // 在移动端点击目录项后隐藏目录
+            // Hide the TOC after tapping an item on mobile.
             if (window.innerWidth <= 1024) {
               document.getElementById('toc').classList.remove('open');
             }
@@ -158,7 +165,7 @@
       });
     }
 
-    // 设置活动状态跟踪
+    // Set up active state tracking.
     function setupActiveTracking() {
       const headers = document.querySelectorAll('#markdown-content h1, #markdown-content h2, #markdown-content h3, #markdown-content h4, #markdown-content h5, #markdown-content h6');
       const links = document.querySelectorAll('.toc a');
@@ -168,46 +175,46 @@
       function setActiveLink() {
         let currentHeader = null;
         
-        // 找到当前在视口中的标题
+        // Find the current heading in the viewport.
         for (let i = headers.length - 1; i >= 0; i--) {
           const header = headers[i];
           const rect = header.getBoundingClientRect();
           
-          if (rect.top <= 120) { // 当标题接近顶部时激活对应的目录项
+          if (rect.top <= 120) { // Activate the matching TOC item near the top.
             currentHeader = header;
             break;
           }
         }
         
-        // 移除所有活动状态
+        // Remove all active states.
         links.forEach(link => link.classList.remove('active'));
         
-        // 激活当前标题对应的链接
+        // Activate the link for the current heading.
         if (currentHeader) {
           const targetId = currentHeader.id;
           const activeLink = document.querySelector(`.toc a[data-target="${targetId}"]`);
           if (activeLink) {
             activeLink.classList.add('active');
             
-            // 确保活动项在视口中可见
+            // Keep the active item visible in the viewport.
             activeLink.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
           }
         }
       }
       
-      // 页面滚动时更新活动状态
+      // Update active state while scrolling.
       window.addEventListener('scroll', setActiveLink);
       
-      // 初始设置
+      // Initial setup.
       setActiveLink();
     }
 
-    // 目录开关功能
+    // TOC toggle.
     document.getElementById('tocToggle').addEventListener('click', function() {
       document.getElementById('toc').classList.toggle('open');
     });
 
-    // 点击目录外部区域时关闭目录
+    // Close the TOC when clicking outside it.
     document.addEventListener('click', function(event) {
       const toc = document.getElementById('toc');
       const tocToggle = document.getElementById('tocToggle');
@@ -220,10 +227,10 @@
       }
     });
 
-    // 页面加载时执行
+    // Run after the page loads.
     document.addEventListener('DOMContentLoaded', function() {
       console.log('DOM 加载完成，开始加载 Markdown 文件');
-      // 确保在导航栏加载完成后再加载Markdown文件
+      // Delay Markdown loading until the page shell is ready.
       setTimeout(loadMarkdownFile, 100);
     });
   </script>

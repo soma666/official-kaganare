@@ -6,36 +6,62 @@
   <title>幕前须知 KAGENARE</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container home-container">
-    <!-- Podcast 介绍 -->
-    <div class="podcast-info">
-      <h1>幕前须知 KAGENARE</h1>
-      <p>『幕前须知』是一档专注于讨论坂道系偶像的播客。我们希望可以摒弃消费主义的论述，从艺术、商业等多种视角对坂道系偶像这一文化产品进行整体性的观察。</p>
-      <p>您可以通过以下播客平台订阅我们的节目，或者点击图标复制RSS链接，通过泛用形播客客户端订阅。</p>
-    </div>
-    
-    <!-- 图标部分 -->
-    <div class="icon-container">
-      <img src="sub-icon.svg" alt="Podcast Icon" class="podcast-icon" id="podcastIcon">
-    </div>
-    <div class="rss-hint">点击图标复制RSS链接</div>
-    
-    <!-- 订阅平台链接 -->
-    <div class="subscription-links">
-      <h2>Subscribe on:</h2>
-      <ul>
-        <li><a href="https://www.xiaoyuzhoufm.com/podcast/661ffa9548c40e2fb00052a0" target="_blank">小宇宙</a></li>
-        <li><a href="https://podcasts.apple.com/us/podcast/幕前须知-kagenare/id1774731183" target="_blank">Apple Podcasts</a></li>
-        <li><a href="https://open.spotify.com/show/3KXcJueksfOvN1YDvb3XdJ" target="_blank">Spotify</a></li>
-      </ul>
-    </div>
+<body class="home-page">
+  <header class="site-header">
+    <a class="site-brand" href="/">KAGENARE</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">podcast</a>
+      <a href="/zero-cost-skzlive.html">How I Learned to join sakurazaka46 Live</a>
+    </nav>
+  </header>
 
-    <!-- 提示用户已复制的反馈 -->
-    <p id="copyMessage" style="display: none;">RSS feed link copied to clipboard!</p>
+  <div class="site-shell">
+    <main class="broadcast-main">
+      <section class="hero-section" id="podcast">
+        <p class="signal-kicker">signal detected</p>
+        <h1>KAGENARE</h1>
+        <p class="hero-title-jp">幕前须知</p>
+        <p class="hero-copy">a podcast about idol culture, music, and the things we keep watching.</p>
+        <p class="hero-copy secondary">『幕前须知』是一档专注于讨论坂道系偶像的播客。我们希望可以摒弃消费主义的论述，从艺术、商业等多种视角对坂道系偶像这一文化产品进行整体性的观察。</p>
+      </section>
+
+      <section class="terminal-grid" aria-label="Broadcast sections">
+        <div class="signal-panel listen-panel" id="listen">
+          <div class="panel-heading">
+            <span>LISTEN</span>
+            <span>platform relay</span>
+          </div>
+          <div class="listen-links">
+            <a href="https://www.xiaoyuzhoufm.com/podcast/661ffa9548c40e2fb00052a0" target="_blank" rel="noopener">小宇宙</a>
+            <a href="https://podcasts.apple.com/us/podcast/幕前须知-kagenare/id1774731183" target="_blank" rel="noopener">Apple Podcasts</a>
+            <a href="https://open.spotify.com/show/3KXcJueksfOvN1YDvb3XdJ" target="_blank" rel="noopener">Spotify</a>
+          </div>
+        </div>
+
+        <div class="signal-panel rss-panel" id="rss">
+          <div class="panel-heading">
+            <span>RSS</span>
+            <span>open feed</span>
+          </div>
+          <img src="sub-icon.svg" alt="KAGENARE podcast icon" class="podcast-icon">
+          <p class="rss-label">rss.xml</p>
+          <p class="rss-value" id="rssValue">https://feed.xyzfm.space/d6gnt9hx86fv</p>
+          <button class="copy-rss-button" id="copyRssButton" type="button">copy feed</button>
+          <p class="copy-message" id="copyMessage" hidden>RSS feed link copied.</p>
+        </div>
+
+        <a class="signal-panel document-panel" href="/zero-cost-skzlive.html">
+          <div class="panel-heading">
+            <span>DOCUMENT</span>
+            <span>archive layer</span>
+          </div>
+          <p class="document-title">如何参与樱坂46现场演出门票 FanClub 抽选？</p>
+          <p class="document-meta">guide / sakurazaka46 / tickets</p>
+        </a>
+      </section>
+    </main>
   </div>
 
-  <script src="js/navbar.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
