@@ -317,7 +317,7 @@ const fanEraDefinitions = [
 const compareDefinitions = {
   fanPeriod: {
     title: '成为粉丝的时期',
-    copy: '2025 是月份填空，2026 是发行期选项；这里把 2025 月份折算到 2026 发行期口径，并单列 2026 选项没有精确覆盖的发行间隔。',
+    copy: '2025 原题是月份填空，2026 原题是发行期选项；页面统一按发行时期桶展示，避免把月份和时期直接放在一起比较。',
     custom: 'fanEra',
   },
   firstContact: {
@@ -677,14 +677,6 @@ function renderOverview() {
       <section class="panel-grid three">
         ${renderMetricPanel('2025-Q34', 2025, '2025 性别', 5)}
         ${renderMetricPanel('2026-Q33', 2026, '2026 性别', 5)}
-        ${renderMetricPanel('2026-Q01', 2026, '2026 入坑时期', 7)}
-      </section>
-      <section class="panel-grid">
-        ${renderComparePanel(compareDefinitions.gender, 6)}
-        ${renderComparePanel(compareDefinitions.age, 8)}
-      </section>
-      <section class="panel-grid">
-        ${renderMetricPanel('2025-Q01', 2025, '2025 入坑月份', 12)}
         ${renderComparePanel({
           title: '日语水平',
           copy: '基础画像维度，按回答人数占比展示。',
@@ -692,6 +684,10 @@ function renderOverview() {
           q2026: '2026-Q35',
           labels: [['完全不会'], ['基础水平'], ['日常沟通'], ['母语水平'], ['商务洽谈']],
         }, 5)}
+      </section>
+      <section class="panel-grid">
+        ${renderComparePanel(compareDefinitions.gender, 6)}
+        ${renderComparePanel(compareDefinitions.age, 8)}
       </section>
       <section class="panel-grid">
         ${renderMetricPanel('2025-Q13', 2025, '2025 偶像活动方式', 12)}
@@ -2428,15 +2424,15 @@ function renderFanEraPanel(wide = false) {
       <div class="panel-head">
         <div>
           <div class="panel-kicker">cohort bridge</div>
-          <h2 class="panel-title">成为粉丝时期：月份口径折算到发行期</h2>
-          <p class="panel-copy">2025 是“YYYY-MM”填空，2026 是发行期选项。这里把 2025 月份落到 2026 的发行期框架里，并单列 2026 选项没有精确覆盖的发行间隔；因为 2025 问卷发生在 2025 年 1 月，后续发行期不会出现在 2025 样本中。</p>
+          <h2 class="panel-title">成为粉丝时期：统一按时期</h2>
+          <p class="panel-copy">2025 原始答案是“YYYY-MM”，这里先按月份归入同一套发行时期；2026 原始答案本身是发行时期。下方所有 2025 / 2026 比例都按同一时期桶计算，后续发行期在 2025 样本中会自然为 0。</p>
         </div>
       </div>
       <div class="metric-strip">
-        ${renderBaseMetric('2025 month answers', answerBase(getQuestion(2025, '2025-Q01')), getQuestion(2025, '2025-Q01'))}
-        ${renderBaseMetric('2026 era answers', answerBase(getQuestion(2026, '2026-Q01')), getQuestion(2026, '2026-Q01'))}
-        ${renderBaseMetric('mapped eras', fanEraDefinitions.length)}
-        ${renderBaseMetric('post-2025 eras', rows.filter((row) => row.count2025 === 0 && row.count2026 > 0).length)}
+        ${renderBaseMetric('2025 已归入时期', answerBase(getQuestion(2025, '2025-Q01')), getQuestion(2025, '2025-Q01'))}
+        ${renderBaseMetric('2026 时期作答', answerBase(getQuestion(2026, '2026-Q01')), getQuestion(2026, '2026-Q01'))}
+        ${renderBaseMetric('统一时期数', fanEraDefinitions.length)}
+        ${renderBaseMetric('2026 独有时期', rows.filter((row) => row.count2025 === 0 && row.count2026 > 0).length)}
       </div>
       <div class="timeline-list">
         ${rows.map((row) => renderFanEraRow(row, maxPct)).join('')}
