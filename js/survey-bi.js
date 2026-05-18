@@ -16,6 +16,7 @@ const LAZY_SURVEY_FILES = {
   flows: 'data/survey/flows.json',
   networks: 'data/survey/networks.json',
   keywords: 'data/survey/keywords.json',
+  memberProfiles: 'data/survey/member-profiles.json',
 };
 
 const VIEW_RESOURCE_REQUIREMENTS = {
@@ -23,6 +24,7 @@ const VIEW_RESOURCE_REQUIREMENTS = {
   paths: ['flows', 'networks'],
   segments: ['segments'],
   members: ['crosstabs'],
+  memberProfiles: ['memberProfiles'],
   works: ['keywords', 'crosstabs'],
   tickets: ['crosstabs'],
   community: ['crosstabs', 'keywords'],
@@ -117,6 +119,11 @@ const state = {
   explorePreset: 'era_activity_2026',
   genFilter: 'all',
   includeGraduated: true,
+  profileYear: '2026',
+  profileSupport: 'favorite',
+  profileMember: '',
+  profileBaseline: 'overall',
+  profileCompareMember: '',
   data: null,
 };
 
@@ -411,6 +418,7 @@ const viewNames = {
   compare: '年份对比',
   segments: '人群分层',
   members: '成员',
+  memberProfiles: '成员画像',
   works: '作品',
   tickets: '票务',
   community: '社区',
@@ -601,6 +609,7 @@ function render() {
     compare: renderCompare,
     segments: renderSegments,
     members: renderMembers,
+    memberProfiles: renderMemberProfiles,
     works: renderWorks,
     tickets: renderTickets,
     community: renderCommunity,
@@ -618,6 +627,7 @@ function renderResourceLoader(resources) {
     flows: '路径流向',
     networks: '共现网络',
     keywords: '自由文本关键词',
+    memberProfiles: '成员画像',
   };
   const failed = resources.filter((name) => state.data?.resourceErrors?.[name]);
   if (failed.length) {
@@ -1705,12 +1715,501 @@ function renderMembers() {
   `;
 }
 
+function renderMemberProfiles() {
+  const payload = state.data.memberProfiles;
+  if (!payload?.years) {
+    return '<div class="empty-state">尚未生成成员画像聚合数据。</div>';
+  }
+
+  ensureProfileSelection();
+  const year = state.profileYear;
+  const supportId = state.profileSupport;
+  const supportTypes = getProfileSupportTypes(year);
+  const supportType = supportTypes.find((item) => item.id === supportId) || supportTypes[0];
+  const members = getProfileMemberOptions(year, supportId);
+
+  if (!members.length) {
+    return `
+      <div class="view-layout">
+        ${renderGenFilter()}
+        ${renderProfileControls([], supportTypes)}
+        <div class="empty-state">当前年份、口径和期别筛选下没有可展示的成员画像。</div>
+      </div>
+    `;
+  }
+
+  if (!members.some((member) => member.name === state.profileMember)) {
+    state.profileMember = members[0].name;
+  }
+
+  const selected = getProfileMember(year, state.profileMember);
+  const supportInfo = selected?.supports?.[supportId] || null;
+  const profile = selected?.profiles?.[supportId] || null;
+  const baseline = getProfileBaselineContext(selected, supportId);
+
+  return `
+    <div class="view-layout">
+      ${renderGenFilter()}
+      ${renderProfileControls(members, supportTypes)}
+      ${renderMemberProfileSummary(selected, supportType, supportInfo, profile, baseline)}
+      ${renderMemberProfileHighlights(profile, baseline)}
+      ${renderMemberProfileSections(profile, baseline, selected)}
+      ${renderMemberAffinityPanel(profile, supportType)}
+      ${renderSimilarMembersPanel(selected, supportId)}
+    </div>
+  `;
+}
+
+function ensureProfileSelection() {
+  const payload = state.data.memberProfiles;
+  const years = Object.keys(payload?.years || {}).sort();
+  if (!years.includes(state.profileYear)) {
+    state.profileYear = years.includes('2026') ? '2026' : years[0] || '2026';
+  }
+  const supports = getProfileSupportTypes(state.profileYear);
+  if (!supports.some((item) => item.id === state.profileSupport)) {
+    state.profileSupport = supports[0]?.id || '';
+  }
+  const members = getProfileMemberOptions(state.profileYear, state.profileSupport);
+  if (!members.some((member) => member.name === state.profileMember)) {
+    state.profileMember = members[0]?.name || '';
+  }
+  const compareMembers = members.filter((member) => member.name !== state.profileMember);
+  if (!compareMembers.some((member) => member.name === state.profileCompareMember)) {
+    state.profileCompareMember = compareMembers[0]?.name || '';
+  }
+  if (!['overall', 'generation', 'member'].includes(state.profileBaseline)) {
+    state.profileBaseline = 'overall';
+  }
+}
+
+function getProfileSupportTypes(year = state.profileYear) {
+  return state.data.memberProfiles?.supportTypes?.[year] || [];
+}
+
+function getProfileMember(year, name) {
+  return state.data.memberProfiles?.years?.[year]?.members?.[name] || null;
+}
+
+function getProfileMemberOptions(year, supportId) {
+  const yearData = state.data.memberProfiles?.years?.[year];
+  if (!yearData) {
+    return [];
+  }
+  return Object.values(yearData.members || {})
+    .map((member) => ({
+      ...member,
+      supportCount: member.supports?.[supportId]?.count || 0,
+      supportRate: member.supports?.[supportId]?.rate || 0,
+      supportReliability: member.supports?.[supportId]?.reliability || 'none',
+    }))
+    .filter((member) => member.supportCount > 0)
+    .filter((member) => memberPassesGenFilter(member.name))
+    .sort((a, b) => (b.supportCount - a.supportCount) || a.name.localeCompare(b.name));
+}
+
+function renderProfileControls(members, supportTypes) {
+  const years = Object.keys(state.data.memberProfiles?.years || {}).sort();
+  const yearOptions = years.map((year) => `<option value="${year}" ${state.profileYear === year ? 'selected' : ''}>${year}</option>`).join('');
+  const supportOptions = supportTypes.map((support) => `
+    <option value="${escapeHtml(support.id)}" ${state.profileSupport === support.id ? 'selected' : ''}>${escapeHtml(support.label)}</option>
+  `).join('');
+  const memberOptions = members.map((member) => `
+    <option value="${escapeHtml(member.name)}" ${state.profileMember === member.name ? 'selected' : ''}>
+      ${escapeHtml(member.name)} · N=${formatNumber(member.supportCount)}
+    </option>
+  `).join('');
+  const compareMembers = members.filter((member) => member.name !== state.profileMember);
+  if (!compareMembers.some((member) => member.name === state.profileCompareMember)) {
+    state.profileCompareMember = compareMembers[0]?.name || '';
+  }
+  const compareOptions = compareMembers.map((member) => `
+    <option value="${escapeHtml(member.name)}" ${state.profileCompareMember === member.name ? 'selected' : ''}>
+      ${escapeHtml(member.name)} · N=${formatNumber(member.supportCount)}
+    </option>
+  `).join('');
+  const baselineOptions = [
+    ['overall', '同年全体样本'],
+    ['generation', '同期期别均值'],
+    ['member', '另一个成员'],
+  ].map(([value, label]) => `
+    <option value="${value}" ${state.profileBaseline === value ? 'selected' : ''}>${label}</option>
+  `).join('');
+  const quickMembers = members.slice(0, 14).map((member) => `
+    <button class="member-profile-chip ${state.profileMember === member.name ? 'is-active' : ''}" type="button" data-profile-member="${escapeHtml(member.name)}">
+      <span>${escapeHtml(member.name)} ${renderGenBadge(member)}</span>
+      <strong>${formatNumber(member.supportCount)}</strong>
+    </button>
+  `).join('');
+
+  return `
+    <section class="explore-controls member-profile-controls" aria-label="成员画像控制">
+      <label>
+        年份
+        <select id="profileYear">${yearOptions}</select>
+      </label>
+      <label>
+        推的口径
+        <select id="profileSupport">${supportOptions}</select>
+      </label>
+      <label>
+        成员
+        <select id="profileMember">${memberOptions}</select>
+      </label>
+      <label>
+        对比基准
+        <select id="profileBaseline">${baselineOptions}</select>
+      </label>
+      <label class="${state.profileBaseline === 'member' ? '' : 'is-muted'}">
+        对比成员
+        <select id="profileCompareMember" ${state.profileBaseline === 'member' ? '' : 'disabled'}>${compareOptions}</select>
+      </label>
+      <div class="explore-note">差异值可切换为相对全体、相对同期画像均值，或相对另一个成员；小样本和低频格子会自动隐藏。</div>
+    </section>
+    <section class="member-profile-chip-row" aria-label="热门成员快速选择">
+      ${quickMembers}
+    </section>
+  `;
+}
+
+function getProfileBaselineContext(member, supportId) {
+  const baseline = {
+    type: state.profileBaseline,
+    label: '同年全体样本',
+    member: null,
+  };
+  if (state.profileBaseline === 'generation') {
+    baseline.label = `${member?.gen || '?'}期画像均值`;
+  }
+  if (state.profileBaseline === 'member') {
+    const compareMember = getProfileMember(state.profileYear, state.profileCompareMember);
+    baseline.member = compareMember;
+    baseline.label = compareMember ? `${compareMember.name} 的支持者` : '另一个成员';
+  }
+  baseline.supportId = supportId;
+  return baseline;
+}
+
+function getProfileComparisonItems(dimension, baseline, member) {
+  return (dimension.items || []).map((item) => {
+    const baselineRate = getProfileBaselineRate(dimension.id, item.label, baseline, member);
+    const lift = baselineRate == null ? null : (item.rate || 0) - baselineRate;
+    return {
+      ...item,
+      baselineRate,
+      lift,
+    };
+  }).sort((a, b) => {
+    const av = a.lift == null ? -1 : Math.abs(a.lift);
+    const bv = b.lift == null ? -1 : Math.abs(b.lift);
+    return (bv - av) || ((b.count || 0) - (a.count || 0)) || a.label.localeCompare(b.label);
+  });
+}
+
+function getProfileBaselineRate(dimensionId, label, baseline, member) {
+  if (!baseline || baseline.type === 'overall') {
+    const item = getProfileDimensionItem(member?.profiles?.[baseline?.supportId || state.profileSupport], dimensionId, label);
+    return item?.overallRate ?? null;
+  }
+  if (baseline.type === 'member') {
+    const compareProfile = baseline.member?.profiles?.[baseline.supportId];
+    if (!compareProfile || compareProfile.sampleStatus !== 'ok') {
+      return null;
+    }
+    return getProfileDimensionItem(compareProfile, dimensionId, label)?.rate ?? null;
+  }
+  if (baseline.type === 'generation') {
+    const candidates = getProfileMemberOptions(state.profileYear, baseline.supportId)
+      .filter((candidate) => candidate.name !== member?.name)
+      .filter((candidate) => String(candidate.gen ?? '') === String(member?.gen ?? ''));
+    const rates = candidates
+      .map((candidate) => getProfileDimensionItem(candidate.profiles?.[baseline.supportId], dimensionId, label)?.rate)
+      .filter((rate) => typeof rate === 'number');
+    if (rates.length < 2) {
+      return null;
+    }
+    return rates.reduce((sum, rate) => sum + rate, 0) / rates.length;
+  }
+  return null;
+}
+
+function getProfileDimensionItem(profile, dimensionId, label) {
+  const dimension = profile?.dimensions?.[dimensionId];
+  return (dimension?.items || []).find((item) => item.label === label) || null;
+}
+
+function buildDynamicProfileHighlights(profile, baseline, member) {
+  if (!profile || profile.sampleStatus !== 'ok') {
+    return [];
+  }
+  const rows = [];
+  Object.values(profile.dimensions || {}).forEach((dimension) => {
+    getProfileComparisonItems(dimension, baseline, member).forEach((item) => {
+      if (item.lift == null || Math.abs(item.lift) < 0.08) {
+        return;
+      }
+      rows.push({
+        dimensionId: dimension.id,
+        dimensionLabel: dimension.label,
+        groupId: dimension.groupId,
+        label: item.label,
+        count: item.count,
+        rate: item.rate,
+        baselineRate: item.baselineRate,
+        lift: item.lift,
+      });
+    });
+  });
+  return rows.sort((a, b) => (Math.abs(b.lift) - Math.abs(a.lift)) || ((b.count || 0) - (a.count || 0))).slice(0, 10);
+}
+
+function renderMemberProfileSummary(member, supportType, supportInfo, profile, baseline) {
+  if (!member || !supportInfo) {
+    return '<div class="empty-state">请选择一个有足够数据的成员。</div>';
+  }
+  const sampleStatus = profile?.sampleStatus || supportInfo.reliability;
+  const statusCopy = sampleStatus === 'ok' ? '可展开画像' : '样本偏小';
+  const supportDescription = getSupportTypeCopy(supportType?.id, supportType?.description);
+  const sentence = buildProfileSentence(member, profile, baseline);
+
+  return `
+    <article class="bi-panel wide member-profile-summary">
+      <div class="panel-head">
+        <div>
+          <div class="panel-kicker">${escapeHtml(state.profileYear)} · ${escapeHtml(supportType?.label || state.profileSupport)}</div>
+          <h2 class="panel-title">${escapeHtml(member.name)} 的支持者画像 ${renderGenBadge(member)}</h2>
+          <p class="panel-copy">${escapeHtml(supportDescription)}</p>
+        </div>
+      </div>
+      <div class="metric-strip">
+        ${renderBaseMetric('支持者 N', supportInfo.count)}
+        ${renderBaseMetric('占此口径比例', formatPercent(supportInfo.rate))}
+        ${renderBaseMetric('此口径样本', supportInfo.base)}
+        ${renderBaseMetric('可靠度', statusCopy)}
+        ${renderBaseMetric('对比基准', baseline.label)}
+      </div>
+      ${sentence ? `<p class="profile-sentence">${sentence}</p>` : ''}
+      ${profile?.sampleStatus === 'low_sample' ? `<div class="empty-state compact">${escapeHtml(profile.note || '样本偏小，暂不展开细分画像。')}</div>` : ''}
+    </article>
+  `;
+}
+
+function getSupportTypeCopy(id, fallback = '') {
+  const copy = {
+    ranked: '2025 成员好感排序中被排入列表。这个口径样本最稳，适合观察“对 ta 有印象/好感的人”。',
+    top3: '2025 成员好感排序中排在前 3 位。这个口径更接近核心好感。',
+    top1: '2025 成员好感排序中排在第 1 位。这个口径最接近首推，但样本会更集中。',
+    favorite: '2026 多选“有好感成员”。这个口径样本最稳，适合观察支持者画像。',
+    most_2_3: '2026 单选“最喜欢的二期和三期成员”。它不是全成员统一首推，适合在二/三期内部观察。',
+    most_4: '2026 单选“最喜欢的四期生成员”。“以上均无”不进入成员画像。',
+  };
+  return copy[id] || fallback || '';
+}
+
+function buildProfileSentence(member, profile, baseline) {
+  const highlights = buildDynamicProfileHighlights(profile, baseline, member).filter((item) => item.lift > 0).slice(0, 3);
+  if (!highlights.length || profile.sampleStatus !== 'ok') {
+    return '';
+  }
+  const bits = highlights.map((item) => `${escapeHtml(item.dimensionLabel)}「${escapeHtml(item.label)}」${formatSignedPercent(item.lift)}`);
+  return `相比${escapeHtml(baseline.label)}，${escapeHtml(member.name)} 的支持者更集中在 ${bits.join('、')}。`;
+}
+
+function renderMemberProfileHighlights(profile, baseline) {
+  const member = getProfileMember(state.profileYear, state.profileMember);
+  const highlights = buildDynamicProfileHighlights(profile, baseline, member);
+  if (!highlights.length || profile.sampleStatus !== 'ok') {
+    return '';
+  }
+  return `
+    <section class="bi-panel wide">
+      <div class="panel-head">
+        <div>
+          <div class="panel-kicker">profile lifts</div>
+          <h2 class="panel-title">最突出的画像差异</h2>
+          <p class="panel-copy">显示该成员支持者相对「${escapeHtml(baseline.label)}」高出或低出的比例差，单位是百分点。</p>
+        </div>
+      </div>
+      <div class="profile-highlight-grid">
+        ${highlights.map((item) => `
+          <div class="profile-highlight ${item.lift >= 0 ? 'positive' : 'negative'}">
+            <span>${escapeHtml(item.dimensionLabel)}</span>
+            <strong>${escapeHtml(item.label)}</strong>
+            <em>${formatSignedPercent(item.lift)}</em>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+  `;
+}
+
+function renderMemberProfileSections(profile, baseline, member) {
+  if (!profile || profile.sampleStatus !== 'ok') {
+    return '';
+  }
+  const groups = [
+    ['basic', '基础画像'],
+    ['behavior', '行为画像'],
+    ['preference', '偏好线索'],
+  ];
+  return groups.map(([groupId, title]) => {
+    const dimensions = Object.values(profile.dimensions || {}).filter((dimension) => dimension.groupId === groupId && dimension.items?.length);
+    if (!dimensions.length) {
+      return '';
+    }
+    return `
+      <section class="profile-section">
+        <div class="profile-section-head">
+          <div class="panel-kicker">${escapeHtml(groupId)}</div>
+          <h2 class="panel-title">${escapeHtml(title)}</h2>
+        </div>
+        <div class="member-profile-grid">
+          ${dimensions.map((dimension) => renderProfileDimensionCard(dimension, baseline, member)).join('')}
+        </div>
+      </section>
+    `;
+  }).join('');
+}
+
+function renderProfileDimensionCard(dimension, baseline, member) {
+  const items = getProfileComparisonItems(dimension, baseline, member);
+  const maxRate = Math.max(0.01, ...items.map((item) => item.rate || 0));
+  return `
+    <article class="bi-panel profile-dimension-card">
+      <div class="profile-card-head">
+        <h3>${escapeHtml(dimension.label)}</h3>
+        <span>N=${formatNumber(dimension.base)}</span>
+      </div>
+      <div class="profile-row-list">
+        ${items.map((item) => `
+          <div class="profile-row">
+            <div class="profile-row-label" title="${escapeHtml(item.label)}">${escapeHtml(item.label)}</div>
+            <div class="profile-row-bar">
+              <span class="bar-track"><span class="bar-fill" style="--bar-width: ${Math.round(((item.rate || 0) / maxRate) * 100)}%"></span></span>
+              <span>${formatPercent(item.rate || 0)}</span>
+            </div>
+            <div class="profile-row-lift ${item.lift == null ? 'is-muted' : item.lift >= 0 ? 'positive' : 'negative'}">${item.lift == null ? 'n/a' : formatSignedPercent(item.lift)}</div>
+          </div>
+        `).join('')}
+      </div>
+    </article>
+  `;
+}
+
+function renderMemberAffinityPanel(profile, supportType) {
+  const affinities = profile?.affinities || [];
+  if (!affinities.length || profile.sampleStatus !== 'ok') {
+    return '';
+  }
+  const maxRate = Math.max(0.01, ...affinities.map((item) => item.rate || 0));
+  return `
+    <article class="bi-panel wide">
+      <div class="panel-head">
+        <div>
+          <div class="panel-kicker">co-favorite network</div>
+          <h2 class="panel-title">共推关系</h2>
+          <p class="panel-copy">在「${escapeHtml(supportType?.label || state.profileSupport)}」口径下，喜欢这个成员的人还更常同时选择谁。</p>
+        </div>
+      </div>
+      <div class="affinity-list">
+        ${affinities.map((item) => `
+          <div class="affinity-row">
+            <span class="affinity-name">${escapeHtml(item.member)} ${renderGenBadge(lookupMember(item.member) || {})}</span>
+            <span class="bar-track"><span class="bar-fill compare-fill-2026" style="--bar-width: ${Math.round(((item.rate || 0) / maxRate) * 100)}%"></span></span>
+            <span class="affinity-value">${formatPercent(item.rate || 0)}</span>
+            <span class="profile-row-lift ${item.lift >= 0 ? 'positive' : 'negative'}">${formatSignedPercent(item.lift || 0)}</span>
+          </div>
+        `).join('')}
+      </div>
+    </article>
+  `;
+}
+
+function renderSimilarMembersPanel(member, supportId) {
+  const similar = getSimilarMembers(member, supportId).slice(0, 8);
+  if (!member || !similar.length) {
+    return '';
+  }
+  return `
+    <article class="bi-panel wide">
+      <div class="panel-head">
+        <div>
+          <div class="panel-kicker">profile similarity</div>
+          <h2 class="panel-title">画像相似成员</h2>
+          <p class="panel-copy">按公开画像维度计算余弦相似度。它比较的是“支持者构成相似”，不是成员风格或关系。</p>
+        </div>
+      </div>
+      <div class="similar-member-grid">
+        ${similar.map((item) => `
+          <button class="similar-member-card" type="button" data-profile-member="${escapeHtml(item.member.name)}">
+            <span>${escapeHtml(item.member.name)} ${renderGenBadge(item.member)}</span>
+            <strong>${formatPercent(item.score)}</strong>
+            <em>N=${formatNumber(item.member.supportCount)}</em>
+          </button>
+        `).join('')}
+      </div>
+    </article>
+  `;
+}
+
+function getSimilarMembers(member, supportId) {
+  const profile = member?.profiles?.[supportId];
+  if (!member || !profile || profile.sampleStatus !== 'ok') {
+    return [];
+  }
+  const baseVector = buildProfileVector(profile);
+  return getProfileMemberOptions(state.profileYear, supportId)
+    .filter((candidate) => candidate.name !== member.name)
+    .map((candidate) => {
+      const candidateProfile = candidate.profiles?.[supportId];
+      if (!candidateProfile || candidateProfile.sampleStatus !== 'ok') {
+        return null;
+      }
+      return {
+        member: candidate,
+        score: cosineSimilarity(baseVector, buildProfileVector(candidateProfile)),
+      };
+    })
+    .filter(Boolean)
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score || b.member.supportCount - a.member.supportCount);
+}
+
+function buildProfileVector(profile) {
+  const vector = new Map();
+  Object.values(profile?.dimensions || {}).forEach((dimension) => {
+    (dimension.items || []).forEach((item) => {
+      vector.set(`${dimension.id}::${item.label}`, item.rate || 0);
+    });
+  });
+  return vector;
+}
+
+function cosineSimilarity(left, right) {
+  const keys = new Set([...left.keys(), ...right.keys()]);
+  let dot = 0;
+  let leftNorm = 0;
+  let rightNorm = 0;
+  keys.forEach((key) => {
+    const a = left.get(key) || 0;
+    const b = right.get(key) || 0;
+    dot += a * b;
+    leftNorm += a * a;
+    rightNorm += b * b;
+  });
+  if (!leftNorm || !rightNorm) {
+    return 0;
+  }
+  return dot / (Math.sqrt(leftNorm) * Math.sqrt(rightNorm));
+}
+
 function renderGenFilter() {
   const gens = [
     { key: 'all', label: '全部期别' },
     { key: '1', label: '一期生' },
     { key: '2', label: '二期生' },
     { key: '3', label: '三期生' },
+    { key: '4', label: '四期生' },
   ];
   const chips = gens.map((gen) => `
     <button class="selector-button ${state.genFilter === gen.key ? 'is-active' : ''}" type="button" data-gen-filter="${gen.key}">
@@ -2007,6 +2506,56 @@ function bindDynamicControls(container) {
       render();
     });
   }
+
+  const profileYear = container.querySelector('#profileYear');
+  if (profileYear) {
+    profileYear.addEventListener('change', () => {
+      state.profileYear = profileYear.value;
+      state.profileSupport = state.profileYear === '2025' ? 'ranked' : 'favorite';
+      state.profileMember = '';
+      render();
+    });
+  }
+
+  const profileSupport = container.querySelector('#profileSupport');
+  if (profileSupport) {
+    profileSupport.addEventListener('change', () => {
+      state.profileSupport = profileSupport.value;
+      state.profileMember = '';
+      render();
+    });
+  }
+
+  const profileMember = container.querySelector('#profileMember');
+  if (profileMember) {
+    profileMember.addEventListener('change', () => {
+      state.profileMember = profileMember.value;
+      render();
+    });
+  }
+
+  const profileBaseline = container.querySelector('#profileBaseline');
+  if (profileBaseline) {
+    profileBaseline.addEventListener('change', () => {
+      state.profileBaseline = profileBaseline.value;
+      render();
+    });
+  }
+
+  const profileCompareMember = container.querySelector('#profileCompareMember');
+  if (profileCompareMember) {
+    profileCompareMember.addEventListener('change', () => {
+      state.profileCompareMember = profileCompareMember.value;
+      render();
+    });
+  }
+
+  container.querySelectorAll('[data-profile-member]').forEach((button) => {
+    button.addEventListener('click', () => {
+      state.profileMember = button.dataset.profileMember;
+      render();
+    });
+  });
 
   const yearSelect = container.querySelector('#explorerYear');
   if (yearSelect) {
@@ -2624,10 +3173,11 @@ function renderComparePanel(definition, limit = 8, wide = false) {
 
 function renderBaseMetric(label, value, question = null) {
   const skipped = question ? question.statusCounts.skipped_by_logic || 0 : 0;
+  const displayValue = typeof value === 'number' ? formatNumber(value) : escapeHtml(value);
   return `
     <div class="metric-box">
       <div class="metric-meta">${escapeHtml(label)}</div>
-      <div class="metric-value">${formatNumber(value)}</div>
+      <div class="metric-value">${displayValue}</div>
       <div class="kpi-sub">${skipped ? `${formatNumber(skipped)} skipped` : 'ready'}</div>
     </div>
   `;
@@ -2868,6 +3418,11 @@ function formatNumber(value) {
 
 function formatPercent(value) {
   return `${Math.round(value * 1000) / 10}%`;
+}
+
+function formatSignedPercent(value) {
+  const sign = value > 0 ? '+' : '';
+  return `${sign}${formatPercent(value)}`;
 }
 
 function formatDate(value) {

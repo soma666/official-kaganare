@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-18T08:02:14.863Z",
-  "sourceGeneratedAt": "2026-05-18T04:03:09+00:00",
+  "generatedAt": "2026-05-18T16:09:05.956Z",
+  "sourceGeneratedAt": "2026-05-18T16:09:05+00:00",
   "site": {
     "name": "KAGENARE Survey BI",
     "page": "/survey-bi.html",
@@ -28,7 +28,8 @@
     "keywords": "keywords.json",
     "insights": "insights.json",
     "comparability": "comparability.json",
-    "segments": "segments.json"
+    "segments": "segments.json",
+    "memberProfiles": "member-profiles.json"
   },
   "cli": {
     "local": "node cli/survey-bi.mjs",
@@ -43,13 +44,15 @@
       "keywords",
       "flow",
       "network",
-      "preset"
+      "preset",
+      "member-profile",
+      "member-similar"
     ]
   },
   "presets": [
     {
       "id": "era_activity_2026",
-      "label": "??????????",
+      "label": "新老粉的活动方式差异",
       "command": "preset era_activity_2026",
       "year": 2026,
       "dimensionId": "fan_era",
@@ -57,7 +60,7 @@
     },
     {
       "id": "language_ticket_2026",
-      "label": "?????????",
+      "label": "日语水平和购票难点",
       "command": "preset language_ticket_2026",
       "year": 2026,
       "dimensionId": "japanese_level",
@@ -65,7 +68,7 @@
     },
     {
       "id": "depth_support_2025",
-      "label": "????????????",
+      "label": "深度参与者希望官方做什么",
       "command": "preset depth_support_2025",
       "year": 2025,
       "dimensionId": "participation_depth",
@@ -73,7 +76,7 @@
     },
     {
       "id": "investment_song_2026",
-      "label": "?????????",
+      "label": "投入变化与作品偏好",
       "command": "preset investment_song_2026",
       "year": 2026,
       "dimensionId": "investment_mood",
@@ -81,7 +84,7 @@
     },
     {
       "id": "depth_members_2026",
-      "label": "?????????",
+      "label": "参与深度与好感成员",
       "command": "preset depth_members_2026",
       "year": 2026,
       "dimensionId": "participation_depth",
@@ -89,7 +92,7 @@
     },
     {
       "id": "segment_overseas_2026",
-      "label": "????????",
+      "label": "行为分层与海外席",
       "command": "preset segment_overseas_2026",
       "year": 2026,
       "dimensionId": "behavior_segment",
@@ -4253,5 +4256,237 @@
       "status": "仅单年可用",
       "note": "这些题仅 2026 问卷存在。"
     }
-  ]
+  ],
+  "memberProfiles": {
+    "file": "member-profiles.json",
+    "description": "Anonymous aggregate profiles for people who support a given member under supported survey lenses.",
+    "privacy": "Only anonymous aggregate member-support profiles are published. Supporter groups below minSupport do not expose breakdowns; profile cells below minCell are omitted.",
+    "minSupport": 10,
+    "minCell": 5,
+    "supportTypes": {
+      "2025": [
+        {
+          "id": "ranked",
+          "label": "入榜成员",
+          "questionId": "2025-Q03",
+          "description": "2025 ranking question: member appears in the ranked list. Recommended as the default profile lens.",
+          "selection": "multi"
+        },
+        {
+          "id": "top3",
+          "label": "Top3 成员",
+          "questionId": "2025-Q03",
+          "description": "2025 ranking question: member is ranked in the top 3.",
+          "selection": "multi"
+        },
+        {
+          "id": "top1",
+          "label": "首推成员",
+          "questionId": "2025-Q03",
+          "description": "2025 ranking question: member is ranked first.",
+          "selection": "single"
+        }
+      ],
+      "2026": [
+        {
+          "id": "favorite",
+          "label": "有好感成员",
+          "questionId": "2026-Q04",
+          "description": "2026 multi-select favorite members. Recommended as the default profile lens.",
+          "selection": "multi"
+        },
+        {
+          "id": "most_2_3",
+          "label": "最喜欢二/三期",
+          "questionId": "2026-Q05",
+          "description": "2026 single-select favorite member among 2nd and 3rd generations. Not a unified all-member top1 metric.",
+          "selection": "single"
+        },
+        {
+          "id": "most_4",
+          "label": "最喜欢四期",
+          "questionId": "2026-Q06",
+          "description": "2026 single-select favorite 4th generation member. None-of-the-above is excluded.",
+          "selection": "single"
+        }
+      ]
+    },
+    "signals": [
+      {
+        "id": "fan_era",
+        "label": "入坑时期",
+        "groupId": "basic",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "gender",
+        "label": "性别",
+        "groupId": "basic",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "age",
+        "label": "年龄段",
+        "groupId": "basic",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "region",
+        "label": "居住地区",
+        "groupId": "basic",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "japanese_level",
+        "label": "日语水平",
+        "groupId": "basic",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "fan_club",
+        "label": "FC 状态",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "message",
+        "label": "MSG 状态",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "message_count",
+        "label": "MSG 订阅数",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "content_creator",
+        "label": "内容制作",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "other_idol_mode",
+        "label": "其他偶像参与",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "participation_depth",
+        "label": "参与深度",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "behavior_segment",
+        "label": "行为分层",
+        "groupId": "behavior",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "investment_mood",
+        "label": "投入变化",
+        "groupId": "behavior",
+        "years": [
+          2026
+        ]
+      },
+      {
+        "id": "love_reasons",
+        "label": "爱上樱坂的原因",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "member_charm",
+        "label": "成员好感因素",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "activity_methods",
+        "label": "偶像活动方式",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "favorite_mv",
+        "label": "最喜欢的 MV",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "favorite_song",
+        "label": "歌曲/制作偏好",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "id": "ticket_issues",
+        "label": "购票难点",
+        "groupId": "preference",
+        "years": [
+          2025,
+          2026
+        ]
+      }
+    ],
+    "examples": [
+      "member-profile --year 2026 --member 藤吉夏鈴 --support favorite",
+      "member-profile --year 2025 --member 森田ひかる --support top1",
+      "member-similar --year 2026 --member 藤吉夏鈴 --support favorite"
+    ]
+  }
 }

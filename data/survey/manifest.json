@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T04:03:09+00:00",
+  "generatedAt": "2026-05-18T16:09:05+00:00",
   "sources": {
     "2025Questionnaire": "private 2025 questionnaire definition; source file not published",
     "2025Responses": "private 2025 response export; source file not published",
@@ -18,7 +18,8 @@
     "keywords": "keywords.json",
     "insights": "insights.json",
     "comparability": "comparability.json",
-    "agentCatalog": "agent-catalog.json"
+    "agentCatalog": "agent-catalog.json",
+    "memberProfiles": "member-profiles.json"
   },
   "privacy": {
     "publicOutputs": "Aggregated data only; source IPs, submission timestamps, and raw free-text answers are not included.",

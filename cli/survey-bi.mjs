@@ -19,6 +19,7 @@ const SURVEY_FILES = {
   insights: 'insights.json',
   comparability: 'comparability.json',
   segments: 'segments.json',
+  memberProfiles: 'member-profiles.json',
 };
 
 const MEMBER_FILE = 'members.json';
@@ -142,6 +143,27 @@ async function runCommand(name, options, ctx) {
     return ok({ network: summarizeNetwork(network, options) });
   }
 
+  if (name === 'member-profile') {
+    const profiles = await loadSurveyJson(ctx, 'memberProfiles');
+    const year = String(options.year || '2026');
+    const support = options.support || defaultMemberSupport(year);
+    const member = options.member || options._[1];
+    if (!profiles.years?.[year]) throw new Error(`Member profiles not found for year=${year}.`);
+    if (!member) {
+      return ok({ memberProfiles: listMemberProfiles(profiles, year, support, options) });
+    }
+    return ok({ memberProfile: summarizeMemberProfile(profiles, year, support, member, options) });
+  }
+
+  if (name === 'member-similar') {
+    const profiles = await loadSurveyJson(ctx, 'memberProfiles');
+    const year = String(options.year || '2026');
+    const support = options.support || defaultMemberSupport(year);
+    const member = options.member || options._[1];
+    if (!member) throw new Error('member-similar requires --member or a member name argument.');
+    return ok({ similarMembers: summarizeSimilarMembers(profiles, year, support, member, options) });
+  }
+
   if (name === 'preset') {
     const presetId = options._[1];
     if (!presetId || !PRESETS[presetId]) {
@@ -194,6 +216,7 @@ function summarizeCatalog(catalog) {
     flows: catalog.flows?.length || 0,
     networks: catalog.networks?.length || 0,
     keywordQuestions: catalog.keywordQuestions?.length || 0,
+    memberProfiles: catalog.memberProfiles ? true : false,
     privacy: catalog.privacy,
   };
 }
@@ -215,6 +238,8 @@ function findCatalog(catalog, query, top) {
     ['flow', catalog.flows || []],
     ['network', catalog.networks || []],
     ['keyword', catalog.keywordQuestions || []],
+    ['memberProfileSignal', catalog.memberProfiles?.signals || []],
+    ['memberProfileSupport', Object.values(catalog.memberProfiles?.supportTypes || {}).flat()],
   ];
   const results = [];
   collections.forEach(([type, items]) => {
@@ -320,6 +345,138 @@ function summarizeNetwork(network, options) {
   };
 }
 
+function defaultMemberSupport(year) {
+  return String(year) === '2025' ? 'ranked' : 'favorite';
+}
+
+function listMemberProfiles(profiles, year, support, options) {
+  const top = Number(options.top || 20);
+  const supportType = (profiles.supportTypes?.[year] || []).find((item) => item.id === support);
+  if (!supportType) throw new Error(`Support type not found: year=${year}, support=${support}`);
+  const members = Object.values(profiles.years[year].members || {})
+    .map((member) => ({
+      member: member.name,
+      gen: member.gen,
+      status: member.status,
+      count: member.supports?.[support]?.count || 0,
+      rate: member.supports?.[support]?.rate || 0,
+      reliability: member.supports?.[support]?.reliability || 'none',
+    }))
+    .filter((member) => member.count > 0)
+    .sort((a, b) => (b.count - a.count) || String(a.member).localeCompare(String(b.member)))
+    .slice(0, top);
+  return {
+    year,
+    support,
+    supportLabel: supportType.label,
+    minSupport: profiles._meta?.minSupport,
+    members,
+  };
+}
+
+function summarizeMemberProfile(profiles, year, support, memberName, options) {
+  const yearData = profiles.years[year];
+  const supportType = (profiles.supportTypes?.[year] || []).find((item) => item.id === support);
+  if (!supportType) throw new Error(`Support type not found: year=${year}, support=${support}`);
+  const member = findMemberProfile(yearData.members || {}, memberName);
+  if (!member) throw new Error(`Member profile not found: year=${year}, member=${memberName}`);
+  const supportInfo = member.supports?.[support];
+  if (!supportInfo) throw new Error(`No support data for member=${member.name}, support=${support}`);
+  const profile = member.profiles?.[support] || {};
+  const top = Number(options.top || 8);
+  const dimensions = Object.fromEntries(Object.entries(profile.dimensions || {}).map(([key, value]) => [
+    key,
+    {
+      ...pick(value, ['id', 'label', 'groupId', 'base', 'overallBase']),
+      items: (value.items || []).slice(0, top),
+    },
+  ]));
+  return {
+    year,
+    member: member.name,
+    gen: member.gen,
+    status: member.status,
+    support,
+    supportLabel: supportType.label,
+    supportDescription: supportType.description,
+    supportInfo,
+    sampleStatus: profile.sampleStatus || supportInfo.reliability,
+    note: profile.note || profiles._meta?.privacy,
+    highlights: (profile.highlights || []).slice(0, top),
+    dimensions,
+    affinities: (profile.affinities || []).slice(0, Number(options.affinities || top)),
+  };
+}
+
+function summarizeSimilarMembers(profiles, year, support, memberName, options) {
+  const yearData = profiles.years?.[year];
+  if (!yearData) throw new Error(`Member profiles not found for year=${year}.`);
+  const supportType = (profiles.supportTypes?.[year] || []).find((item) => item.id === support);
+  if (!supportType) throw new Error(`Support type not found: year=${year}, support=${support}`);
+  const member = findMemberProfile(yearData.members || {}, memberName);
+  if (!member) throw new Error(`Member profile not found: year=${year}, member=${memberName}`);
+  const profile = member.profiles?.[support];
+  if (!profile || profile.sampleStatus !== 'ok') throw new Error(`Member profile has insufficient sample: ${member.name}, support=${support}`);
+  const baseVector = profileVector(profile);
+  const rows = Object.values(yearData.members || {})
+    .filter((candidate) => candidate.name !== member.name)
+    .map((candidate) => {
+      const candidateProfile = candidate.profiles?.[support];
+      if (!candidateProfile || candidateProfile.sampleStatus !== 'ok') return null;
+      return {
+        member: candidate.name,
+        gen: candidate.gen,
+        count: candidate.supports?.[support]?.count || 0,
+        supportRate: candidate.supports?.[support]?.rate || 0,
+        similarity: round(cosine(baseVector, profileVector(candidateProfile)), 4),
+      };
+    })
+    .filter(Boolean)
+    .filter((item) => item.similarity > 0)
+    .sort((a, b) => b.similarity - a.similarity || b.count - a.count)
+    .slice(0, Number(options.top || 10));
+  return {
+    year,
+    support,
+    supportLabel: supportType.label,
+    member: member.name,
+    method: 'cosine similarity over public member-profile dimension rates',
+    rows,
+  };
+}
+
+function profileVector(profile) {
+  const vector = new Map();
+  Object.values(profile.dimensions || {}).forEach((dimension) => {
+    (dimension.items || []).forEach((item) => {
+      vector.set(`${dimension.id}::${item.label}`, item.rate || 0);
+    });
+  });
+  return vector;
+}
+
+function cosine(left, right) {
+  const keys = new Set([...left.keys(), ...right.keys()]);
+  let dot = 0;
+  let leftNorm = 0;
+  let rightNorm = 0;
+  keys.forEach((key) => {
+    const a = left.get(key) || 0;
+    const b = right.get(key) || 0;
+    dot += a * b;
+    leftNorm += a * a;
+    rightNorm += b * b;
+  });
+  if (!leftNorm || !rightNorm) return 0;
+  return dot / (Math.sqrt(leftNorm) * Math.sqrt(rightNorm));
+}
+
+function findMemberProfile(members, query) {
+  if (members[query]) return members[query];
+  const found = Object.values(members).find((member) => includesText(member.name, query));
+  return found || null;
+}
+
 function ok(payload) {
   return {
     ok: true,
@@ -356,7 +513,7 @@ function toMarkdown(payload) {
 }
 
 function toTable(payload) {
-  const rows = payload.results || payload.table?.cells || payload.insights || payload.question?.keywords || payload.question?.result?.counts || payload.flow?.links || payload.network?.edges || [];
+  const rows = payload.results || payload.table?.cells || payload.insights || payload.memberProfiles?.members || payload.memberProfile?.highlights || payload.similarMembers?.rows || payload.question?.keywords || payload.question?.result?.counts || payload.flow?.links || payload.network?.edges || [];
   if (!Array.isArray(rows) || !rows.length) return JSON.stringify(payload, null, 2);
   const columns = [...new Set(rows.flatMap((row) => Object.keys(row)))];
   const widths = columns.map((key) => Math.max(key.length, ...rows.map((row) => cellText(row[key]).length)));
@@ -386,6 +543,8 @@ Usage:
   node cli/survey-bi.mjs keywords <questionId>
   node cli/survey-bi.mjs flow --year 2026 --id era_to_activity [--source text] [--target text]
   node cli/survey-bi.mjs network --year 2026 --id favorite_members [--focus text]
+  node cli/survey-bi.mjs member-profile --year 2026 --member 藤吉夏鈴 [--support favorite]
+  node cli/survey-bi.mjs member-similar --year 2026 --member 藤吉夏鈴 [--support favorite]
   node cli/survey-bi.mjs preset <presetId>
 
 Global options:
@@ -439,4 +598,9 @@ function normalizeBaseUrl(value) {
 
 function pick(object, keys) {
   return Object.fromEntries(keys.map((key) => [key, object[key]]).filter(([, value]) => value !== undefined));
+}
+
+function round(value, digits) {
+  const factor = 10 ** digits;
+  return Math.round(value * factor) / factor;
 }

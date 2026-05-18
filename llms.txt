@@ -24,6 +24,7 @@ Allowed public data:
 - `/data/survey/insights.json`
 - `/data/survey/comparability.json`
 - `/data/survey/segments.json`
+- `/data/survey/member-profiles.json`
 - `/data/members.json`
 
 Do not read or publish:
@@ -53,6 +54,8 @@ node cli/survey-bi.mjs insights --theme ticket --year 2026 --top 10
 node cli/survey-bi.mjs keywords 2026-Q17 --top 30
 node cli/survey-bi.mjs flow --year 2026 --id era_to_activity --source "Start over!"
 node cli/survey-bi.mjs network --year 2026 --id favorite_members --focus "山下瞳月"
+node cli/survey-bi.mjs member-profile --year 2026 --member "藤吉夏鈴" --support favorite
+node cli/survey-bi.mjs member-similar --year 2026 --member "藤吉夏鈴" --support favorite
 ```
 
 The CLI can also read public survey JSON from the live site:
@@ -71,6 +74,8 @@ Default output is JSON. Use `--format md` or `--format table` when a human-reada
 - `preset investment_song_2026`: investment mood by favorite song/production.
 - `preset depth_members_2026`: participation depth by favorite members.
 - `preset segment_overseas_2026`: behavior segment by overseas lottery participation.
+- `member-profile --year 2026 --member <name>`: supporter profile for one member, using public aggregate counts only.
+- `member-similar --year 2026 --member <name>`: members whose supporter profiles are closest by public aggregate dimension rates.
 
 ## Interpretation Notes
 
