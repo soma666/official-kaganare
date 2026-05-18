@@ -17,7 +17,8 @@
     "networks": "networks.json",
     "keywords": "keywords.json",
     "insights": "insights.json",
-    "comparability": "comparability.json"
+    "comparability": "comparability.json",
+    "agentCatalog": "agent-catalog.json"
   },
   "privacy": {
     "publicOutputs": "Aggregated data only; source IPs, submission timestamps, and raw free-text answers are not included.",

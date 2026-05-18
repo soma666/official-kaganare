@@ -1,0 +1,4257 @@
+{
+  "generatedAt": "2026-05-18T08:02:14.863Z",
+  "sourceGeneratedAt": "2026-05-18T04:03:09+00:00",
+  "site": {
+    "name": "KAGENARE Survey BI",
+    "page": "/survey-bi.html",
+    "publicDataBase": "/data/survey/"
+  },
+  "privacy": {
+    "publicAggregateOnly": true,
+    "rawResponses": false,
+    "rawFreeText": false,
+    "privateRows": false,
+    "notes": [
+      "Use only public aggregate JSON files in data/survey/ and data/members.json.",
+      "Do not read survey-private/, source spreadsheets, source documents, or internal notes.",
+      "Free-text questions expose keyword and theme aggregates only, never raw answers.",
+      "Small cells are suppressed in crosstab/path/network aggregates."
+    ]
+  },
+  "files": {
+    "manifest": "manifest.json",
+    "aggregate2025": "aggregate-2025.json",
+    "aggregate2026": "aggregate-2026.json",
+    "crosstabs": "crosstabs.json",
+    "flows": "flows.json",
+    "networks": "networks.json",
+    "keywords": "keywords.json",
+    "insights": "insights.json",
+    "comparability": "comparability.json",
+    "segments": "segments.json"
+  },
+  "cli": {
+    "local": "node cli/survey-bi.mjs",
+    "remoteExample": "node cli/survey-bi.mjs meta --base-url https://www.kagenare.com/data/survey/",
+    "commands": [
+      "meta",
+      "catalog",
+      "find",
+      "question",
+      "crosstab",
+      "insights",
+      "keywords",
+      "flow",
+      "network",
+      "preset"
+    ]
+  },
+  "presets": [
+    {
+      "id": "era_activity_2026",
+      "label": "??????????",
+      "command": "preset era_activity_2026",
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "metricId": "activity_methods"
+    },
+    {
+      "id": "language_ticket_2026",
+      "label": "?????????",
+      "command": "preset language_ticket_2026",
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "metricId": "ticket_issues"
+    },
+    {
+      "id": "depth_support_2025",
+      "label": "????????????",
+      "command": "preset depth_support_2025",
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "metricId": "official_support"
+    },
+    {
+      "id": "investment_song_2026",
+      "label": "?????????",
+      "command": "preset investment_song_2026",
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "metricId": "favorite_song"
+    },
+    {
+      "id": "depth_members_2026",
+      "label": "?????????",
+      "command": "preset depth_members_2026",
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "metricId": "favorite_members"
+    },
+    {
+      "id": "segment_overseas_2026",
+      "label": "????????",
+      "command": "preset segment_overseas_2026",
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "metricId": "overseas_lottery"
+    }
+  ],
+  "questions": [
+    {
+      "year": 2025,
+      "questionId": "2025-Q01",
+      "number": 1,
+      "kind": "text",
+      "title": "请问您成为欅坂46/櫻坂46粉丝的时期：",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q02",
+      "number": 2,
+      "kind": "single",
+      "title": "你和樱坂的第一次接触是什么呢",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q03",
+      "number": 3,
+      "kind": "ranking",
+      "title": "请对成员的好感度排个序吧～",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q04",
+      "number": 4,
+      "kind": "single",
+      "title": "您最喜欢的A面/主打曲是哪一首：",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q05",
+      "number": 5,
+      "kind": "single",
+      "title": "您最喜欢的附加单曲是哪一首",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q06",
+      "number": 6,
+      "kind": "single",
+      "title": "您最喜欢的Unit曲是哪一首",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q07",
+      "number": 7,
+      "kind": "single",
+      "title": "您最喜欢的期别曲是哪一首",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q08",
+      "number": 8,
+      "kind": "single",
+      "title": "您最喜欢的Backs曲是哪一首",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q09",
+      "number": 9,
+      "kind": "single",
+      "title": "您最喜欢的MV是哪一支",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q10",
+      "number": 10,
+      "kind": "multi",
+      "title": "什么让您爱上樱坂46",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q11",
+      "number": 11,
+      "kind": "multi",
+      "title": "当您选推的时候，都有哪些因素影响了您",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q12",
+      "number": 12,
+      "kind": "ratio",
+      "title": "您中文和日文内容浏览占比大约各有多少？",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q13",
+      "number": 13,
+      "kind": "multi",
+      "title": "您如何进行您的樱坂46偶像活动呢？",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q14",
+      "number": 14,
+      "kind": "multi",
+      "title": "您希望Seed&Flower如何支持中文区偶像活动呢",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q15",
+      "number": 15,
+      "kind": "text",
+      "title": "您希望在樱坂官方频道上看到更多什么内容",
+      "answered": 341,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q16",
+      "number": 16,
+      "kind": "single",
+      "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q17",
+      "number": 17,
+      "kind": "single",
+      "title": "您是否订阅了成员Message",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q18",
+      "number": 18,
+      "kind": "single",
+      "title": "您订阅了多少个成员的Message",
+      "answered": 419,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q19",
+      "number": 19,
+      "kind": "multi",
+      "title": "您大多使用哪些平台获取樱坂内容",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q20",
+      "number": 20,
+      "kind": "single",
+      "title": "您是否参与了樱坂46中文内容的制作/发布",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q21",
+      "number": 21,
+      "kind": "multi",
+      "title": "您是否还参与其他团体的活动",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q22",
+      "number": 22,
+      "kind": "text",
+      "title": "您在2024年都参与了哪些现场活动",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q23",
+      "number": 23,
+      "kind": "single",
+      "title": "谁是您的2024最佳进步奖",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q24",
+      "number": 24,
+      "kind": "single",
+      "title": "2025年，您觉得谁会拿到solo单曲",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q25",
+      "number": 25,
+      "kind": "single",
+      "title": "2025年，您觉得谁哪位成员会成为万众瞩目的焦点",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q26",
+      "number": 26,
+      "kind": "multi",
+      "title": "2025年，您觉得哪些成员会走上C位",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q27",
+      "number": 27,
+      "kind": "text",
+      "title": "你对于四期生有什么期待吗",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q28",
+      "number": 28,
+      "kind": "text",
+      "title": "写一句话给我们即将到来的四期生吧",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q29",
+      "number": 29,
+      "kind": "rating",
+      "title": "抽选樱坂46演唱会门票的难度您觉得有多大",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q30",
+      "number": 30,
+      "kind": "multi",
+      "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q31",
+      "number": 31,
+      "kind": "rating",
+      "title": "您对2024年樱坂46演唱会的海外票体验如何",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q32",
+      "number": 32,
+      "kind": "rating",
+      "title": "如果说对中文区销售海外票，您的购买意愿如何",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q33",
+      "number": 33,
+      "kind": "text",
+      "title": "请问在购买中文区的海外票时您希望有什么属性",
+      "answered": 421,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q34",
+      "number": 34,
+      "kind": "single",
+      "title": "您的性别：",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q35",
+      "number": 35,
+      "kind": "single",
+      "title": "您的年龄段：",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q36",
+      "number": 36,
+      "kind": "single",
+      "title": "请问您所在的地区是",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q37",
+      "number": 37,
+      "kind": "text",
+      "title": "请选择省份城市与地区:",
+      "answered": 736,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q38",
+      "number": 38,
+      "kind": "text",
+      "title": "国家及地区：",
+      "answered": 101,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q39",
+      "number": 39,
+      "kind": "single",
+      "title": "请问您的日语水平如何",
+      "answered": 837,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q40",
+      "number": 40,
+      "kind": "text",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "answered": 241,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q01",
+      "number": 1,
+      "kind": "single",
+      "title": "请问您成为欅坂46/櫻坂46粉丝在哪个时期：",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q02",
+      "number": 2,
+      "kind": "single",
+      "title": "您是从以下哪个领域第一次认识樱坂",
+      "answered": 39,
+      "skippedByLogic": 181,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q03",
+      "number": 3,
+      "kind": "multi",
+      "title": "什么让您爱上樱坂46",
+      "answered": 39,
+      "skippedByLogic": 181,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q04",
+      "number": 4,
+      "kind": "multi",
+      "title": "请选择您有好感的成员",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q05",
+      "number": 5,
+      "kind": "single",
+      "title": "请选择您最喜欢的二期和三期成员",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q06",
+      "number": 6,
+      "kind": "single",
+      "title": "请选择您最喜欢的四期生成员",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q07",
+      "number": 7,
+      "kind": "ranking_order",
+      "title": "对于成员的好感度，请按照影响程度排个序吧",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q08",
+      "number": 8,
+      "kind": "multi",
+      "title": "2025年，您如何进行您的樱坂46偶像活动呢？",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q09",
+      "number": 9,
+      "kind": "single",
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q09-2",
+      "number": 9,
+      "kind": "single",
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q09-3",
+      "number": 9,
+      "kind": "single",
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q10",
+      "number": 10,
+      "kind": "single",
+      "title": "相比2024年，在2025年您感觉",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q10-2",
+      "number": 10,
+      "kind": "single",
+      "title": "相比2024年，在2025年您感觉",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q11",
+      "number": 11,
+      "kind": "single",
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q11-2",
+      "number": 11,
+      "kind": "single",
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q11-3",
+      "number": 11,
+      "kind": "single",
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q11-4",
+      "number": 11,
+      "kind": "single",
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q11-5",
+      "number": 11,
+      "kind": "single",
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "answered": 204,
+      "skippedByLogic": 16,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q12",
+      "number": 12,
+      "kind": "multi",
+      "title": "2025年您参加了谁的见面会",
+      "answered": 106,
+      "skippedByLogic": 114,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q13",
+      "number": 13,
+      "kind": "multi",
+      "title": "2025年您参加了谁的签名会",
+      "answered": 15,
+      "skippedByLogic": 205,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q14",
+      "number": 14,
+      "kind": "text",
+      "title": "关于见面会/签名会，你有什么想对没有参与过的人说的话",
+      "answered": 25,
+      "skippedByLogic": 113,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q15",
+      "number": 15,
+      "kind": "single",
+      "title": "2025年您最喜欢的是哪一张单曲的制作",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q16",
+      "number": 16,
+      "kind": "single",
+      "title": "2025年樱坂MV里边，您最喜欢的MV是哪一支",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q17",
+      "number": 17,
+      "kind": "text",
+      "title": "2025年你印象最深刻的是哪一首歌曲的演出",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q18",
+      "number": 18,
+      "kind": "single",
+      "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q19",
+      "number": 19,
+      "kind": "single",
+      "title": "您是否订阅了成员Message",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q20",
+      "number": 20,
+      "kind": "single",
+      "title": "您订阅了多少个成员的Message",
+      "answered": 142,
+      "skippedByLogic": 78,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q21",
+      "number": 21,
+      "kind": "single",
+      "title": "您通过什么订阅Message",
+      "answered": 142,
+      "skippedByLogic": 78,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q22",
+      "number": 22,
+      "kind": "single",
+      "title": "您是否参与了樱坂46中文内容的制作/发布",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q23",
+      "number": 23,
+      "kind": "multi",
+      "title": "您是否还参与其他偶像团体的活动",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q24",
+      "number": 24,
+      "kind": "single",
+      "title": "谁是您的2025最佳进步奖",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q25",
+      "number": 25,
+      "kind": "multi",
+      "title": "2026年，您觉得哪些成员会走上C位",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q26",
+      "number": 26,
+      "kind": "single",
+      "title": "对于四期生以下哪个描述更符合你的感受",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q27",
+      "number": 27,
+      "kind": "single",
+      "title": "关于抽选樱坂46演唱会门票以下哪个描述更符合你的感受",
+      "answered": 208,
+      "skippedByLogic": 12,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q28",
+      "number": 28,
+      "kind": "multi",
+      "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+      "answered": 208,
+      "skippedByLogic": 12,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q29",
+      "number": 29,
+      "kind": "single",
+      "title": "2025年，您是否参与了海外席演出抽选",
+      "answered": 208,
+      "skippedByLogic": 12,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q30",
+      "number": 30,
+      "kind": "multi",
+      "title": "您海外席抽选中了哪一场呢",
+      "answered": 71,
+      "skippedByLogic": 149,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q31",
+      "number": 31,
+      "kind": "single",
+      "title": "2025年樱坂46演唱会的海外票抽选以下哪个描述最符合你的感受",
+      "answered": 71,
+      "skippedByLogic": 149,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q32",
+      "number": 32,
+      "kind": "single",
+      "title": "2025年，樱坂46演唱会海外席观看体验以下哪个描述最符合你的感受",
+      "answered": 154,
+      "skippedByLogic": 66,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q33",
+      "number": 33,
+      "kind": "single",
+      "title": "您的性别：",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q34",
+      "number": 34,
+      "kind": "single",
+      "title": "您的年龄段：",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q35",
+      "number": 35,
+      "kind": "single",
+      "title": "请问您的日语水平如何",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q36",
+      "number": 36,
+      "kind": "single",
+      "title": "请问您在2025年，居住最久的地区是哪里",
+      "answered": 220,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": false
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q37",
+      "number": 37,
+      "kind": "text",
+      "title": "请问方便透露是哪个城市吗",
+      "answered": 125,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q38",
+      "number": 38,
+      "kind": "text",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "answered": 71,
+      "skippedByLogic": 0,
+      "hasKeywordAggregate": true
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "fan_era",
+      "label": "入坑时期",
+      "description": "2025 月份填空折算到发行期；2026 直接使用发行期选项。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "age",
+      "label": "年龄段",
+      "description": "基础画像。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "gender",
+      "label": "性别",
+      "description": "基础画像。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "region",
+      "label": "居住地区",
+      "description": "大陆 / 港澳台与海外。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "japanese_level",
+      "label": "日语水平",
+      "description": "自评日语能力。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "fan_club",
+      "label": "FC 状态",
+      "description": "是否订阅 Official Fan Club。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "message",
+      "label": "MSG 状态",
+      "description": "是否订阅成员 Message。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "content_creator",
+      "label": "内容制作",
+      "description": "是否参与中文内容制作/发布。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "other_idol_mode",
+      "label": "其他偶像参与",
+      "description": "只看樱坂或也参与其他偶像。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "participation_depth",
+      "label": "参与深度",
+      "description": "根据 FC、MSG、活动、票务和内容行为派生。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "behavior_segment",
+      "label": "行为分层",
+      "description": "内容观看型、成员订阅型、票务行动型等派生分群。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "investment_mood",
+      "label": "投入变化",
+      "description": "根据 2026 时间/金钱/精力变化派生。",
+      "years": [
+        2026
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": "fan_club",
+      "label": "FC 订阅",
+      "description": "是否订阅 Official Fan Club。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "message",
+      "label": "MSG 订阅",
+      "description": "是否订阅成员 Message。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "message_count",
+      "label": "MSG 订阅数",
+      "description": "订阅了多少位成员的 Message。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "love_reasons",
+      "label": "爱上樱坂的原因",
+      "description": "多选题，每个格子表示群体内选择该原因的比例。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "activity_methods",
+      "label": "偶像活动方式",
+      "description": "多选题，每个格子表示群体内进行该活动的比例。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "ticket_issues",
+      "label": "购票难点",
+      "description": "多选题，剔除抽选随机性后的购票阻碍。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "other_idols",
+      "label": "其他偶像活动",
+      "description": "是否也参与其他偶像团体活动。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "content_creation",
+      "label": "中文内容制作",
+      "description": "是否参与中文内容制作/发布。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "favorite_mv",
+      "label": "最喜欢的 MV",
+      "description": "单选题，显示各群体更偏好的 MV。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "favorite_song",
+      "label": "歌曲/制作偏好",
+      "description": "2025 为最喜欢 A 面/主打；2026 为 2025 单曲制作。",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "official_support",
+      "label": "希望官方支持方式",
+      "description": "中文区官方需求，多选题。",
+      "years": [
+        2025
+      ]
+    },
+    {
+      "id": "content_platforms",
+      "label": "内容获取平台",
+      "description": "获取樱坂内容的平台，多选题。",
+      "years": [
+        2025
+      ]
+    },
+    {
+      "id": "overseas_lottery",
+      "label": "海外席抽选参与",
+      "description": "2025 年是否参与海外席演出抽选。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "overseas_ticket_feel",
+      "label": "海外票抽选感受",
+      "description": "2025 年海外票抽选感受。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "fourth_gen_feeling",
+      "label": "四期生态度",
+      "description": "对四期生的感受。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "investment_time",
+      "label": "时间投入变化",
+      "description": "相比 2024 年的时间投入变化。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "investment_money",
+      "label": "金钱投入变化",
+      "description": "相比 2024 年的金钱投入变化。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "investment_energy",
+      "label": "精力投入变化",
+      "description": "相比 2024 年的精力投入变化。",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "favorite_members",
+      "label": "有好感成员",
+      "description": "2026 有好感成员多选。",
+      "years": [
+        2026
+      ]
+    }
+  ],
+  "crosstabs": [
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 419
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "official_support",
+      "metricLabel": "希望官方支持方式",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "content_platforms",
+      "metricLabel": "内容获取平台",
+      "base": 837
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "fan_club",
+      "metricLabel": "FC 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "message",
+      "metricLabel": "MSG 订阅",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "message_count",
+      "metricLabel": "MSG 订阅数",
+      "base": 142
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "love_reasons",
+      "metricLabel": "爱上樱坂的原因",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "activity_methods",
+      "metricLabel": "偶像活动方式",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "ticket_issues",
+      "metricLabel": "购票难点",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "other_idols",
+      "metricLabel": "其他偶像活动",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "content_creation",
+      "metricLabel": "中文内容制作",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "favorite_mv",
+      "metricLabel": "最喜欢的 MV",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "favorite_song",
+      "metricLabel": "歌曲/制作偏好",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "overseas_lottery",
+      "metricLabel": "海外席抽选参与",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "overseas_ticket_feel",
+      "metricLabel": "海外票抽选感受",
+      "base": 71
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "fourth_gen_feeling",
+      "metricLabel": "四期生态度",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "investment_time",
+      "metricLabel": "时间投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "investment_money",
+      "metricLabel": "金钱投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "investment_energy",
+      "metricLabel": "精力投入变化",
+      "base": 204
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_era",
+      "dimensionLabel": "入坑时期",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "age",
+      "dimensionLabel": "年龄段",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "gender",
+      "dimensionLabel": "性别",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "region",
+      "dimensionLabel": "居住地区",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "japanese_level",
+      "dimensionLabel": "日语水平",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "fan_club",
+      "dimensionLabel": "FC 状态",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "message",
+      "dimensionLabel": "MSG 状态",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "content_creator",
+      "dimensionLabel": "内容制作",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "other_idol_mode",
+      "dimensionLabel": "其他偶像参与",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "participation_depth",
+      "dimensionLabel": "参与深度",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "behavior_segment",
+      "dimensionLabel": "行为分层",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "dimensionId": "investment_mood",
+      "dimensionLabel": "投入变化",
+      "metricId": "favorite_members",
+      "metricLabel": "有好感成员",
+      "base": 220
+    }
+  ],
+  "flows": [
+    {
+      "year": 2025,
+      "id": "entry_to_reason",
+      "label": "认识入口 → 爱上原因",
+      "description": "从第一次认识樱坂的入口，流向真正爱上樱坂的原因。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "reason_to_activity",
+      "label": "爱上原因 → 活动方式",
+      "description": "不同喜欢理由最终会导向什么样的偶像活动方式。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "activity_to_ticket_issue",
+      "label": "活动方式 → 购票难点",
+      "description": "不同活动方式的人，遭遇的购票阻碍是否不同。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "era_to_activity",
+      "label": "入坑时期 → 活动方式",
+      "description": "不同入坑世代进入社区后采用的活动方式。",
+      "base": 833
+    },
+    {
+      "year": 2026,
+      "id": "entry_to_reason",
+      "label": "认识入口 → 爱上原因",
+      "description": "从第一次认识樱坂的入口，流向真正爱上樱坂的原因。",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "id": "reason_to_activity",
+      "label": "爱上原因 → 活动方式",
+      "description": "不同喜欢理由最终会导向什么样的偶像活动方式。",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "id": "activity_to_ticket_issue",
+      "label": "活动方式 → 购票难点",
+      "description": "不同活动方式的人，遭遇的购票阻碍是否不同。",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "id": "era_to_activity",
+      "label": "入坑时期 → 活动方式",
+      "description": "不同入坑世代进入社区后采用的活动方式。",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "id": "activity_to_investment",
+      "label": "活动方式 → 投入变化",
+      "description": "2026 限定：活动方式与时间/金钱/精力综合升降温之间的关联。",
+      "base": 204
+    }
+  ],
+  "networks": [
+    {
+      "year": 2025,
+      "id": "love_reasons",
+      "label": "爱上原因共现",
+      "description": "哪些喜欢理由经常被同一个人同时选择。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "activity_methods",
+      "label": "活动方式共现",
+      "description": "哪些偶像活动方式经常组合出现。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "ticket_issues",
+      "label": "购票难点共现",
+      "description": "购票障碍的组合结构。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "other_idols",
+      "label": "其他偶像参与共现",
+      "description": "其他偶像参与类型的重叠。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "official_support",
+      "label": "官方支持需求共现",
+      "description": "中文区希望官方提供的支持之间的组合关系。",
+      "base": 837
+    },
+    {
+      "year": 2025,
+      "id": "content_platforms",
+      "label": "内容平台共现",
+      "description": "内容获取平台之间的组合关系。",
+      "base": 837
+    },
+    {
+      "year": 2026,
+      "id": "love_reasons",
+      "label": "爱上原因共现",
+      "description": "哪些喜欢理由经常被同一个人同时选择。",
+      "base": 39
+    },
+    {
+      "year": 2026,
+      "id": "activity_methods",
+      "label": "活动方式共现",
+      "description": "哪些偶像活动方式经常组合出现。",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "id": "ticket_issues",
+      "label": "购票难点共现",
+      "description": "购票障碍的组合结构。",
+      "base": 208
+    },
+    {
+      "year": 2026,
+      "id": "other_idols",
+      "label": "其他偶像参与共现",
+      "description": "其他偶像参与类型的重叠。",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "id": "favorite_members",
+      "label": "好感成员共现",
+      "description": "2026 好感成员之间的共同选择关系。",
+      "base": 220
+    },
+    {
+      "year": 2026,
+      "id": "meet_members",
+      "label": "见面会成员共现",
+      "description": "2026 见面会参与成员之间的共同出现关系。",
+      "base": 106
+    }
+  ],
+  "keywordQuestions": [
+    {
+      "year": 2025,
+      "questionId": "2025-Q15",
+      "title": "您希望在樱坂官方频道上看到更多什么内容",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 30,
+      "themeCount": 4
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q22",
+      "title": "您在2024年都参与了哪些现场活动",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 40,
+      "themeCount": 3
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q27",
+      "title": "你对于四期生有什么期待吗",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 24,
+      "themeCount": 4
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q28",
+      "title": "写一句话给我们即将到来的四期生吧",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 28,
+      "themeCount": 4
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q33",
+      "title": "请问在购买中文区的海外票时您希望有什么属性",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 20,
+      "themeCount": 5
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q37",
+      "title": "请选择省份城市与地区:",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywordCount": 67,
+      "themeCount": 1
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q38",
+      "title": "国家及地区：",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywordCount": 5,
+      "themeCount": 1
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q40",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 19,
+      "themeCount": 6
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q14",
+      "title": "关于见面会/签名会，你有什么想对没有参与过的人说的话",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 0,
+      "themeCount": 0
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q17",
+      "title": "2025年你印象最深刻的是哪一首歌曲的演出",
+      "method": "song-dictionary substring match",
+      "minCount": 1,
+      "keywordCount": 48,
+      "themeCount": 1
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q37",
+      "title": "请问方便透露是哪个城市吗",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywordCount": 4,
+      "themeCount": 1
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q38",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywordCount": 4,
+      "themeCount": 3
+    }
+  ],
+  "insightThemes": {
+    "member": [
+      "favorite_members",
+      "fan_club",
+      "message",
+      "message_count"
+    ],
+    "activity": [
+      "activity_methods",
+      "love_reasons",
+      "other_idols",
+      "content_creation"
+    ],
+    "ticket": [
+      "ticket_issues",
+      "overseas_lottery",
+      "overseas_ticket_feel"
+    ],
+    "works": [
+      "favorite_song",
+      "favorite_mv",
+      "content_platforms",
+      "official_support"
+    ],
+    "investment": [
+      "investment_time",
+      "investment_money",
+      "investment_energy",
+      "fourth_gen_feeling"
+    ]
+  },
+  "insightCount": 48,
+  "comparability": [
+    {
+      "id": "fan_era",
+      "label": "入坑时期",
+      "status": "近似比较",
+      "note": "2025 为月份填空，2026 为发行期选项；已折算到统一发行期。"
+    },
+    {
+      "id": "demographics",
+      "label": "性别 / 年龄 / 地区 / 日语水平",
+      "status": "可直接比较",
+      "note": "题目口径接近，地区题年份描述略有不同。"
+    },
+    {
+      "id": "fc_msg",
+      "label": "FC / MSG",
+      "status": "可直接比较",
+      "note": "两年题干和选项基本一致。"
+    },
+    {
+      "id": "love_reasons",
+      "label": "爱上樱坂的原因",
+      "status": "可直接比较",
+      "note": "多选项基本一致，按回答人数占比比较。"
+    },
+    {
+      "id": "activity_methods",
+      "label": "偶像活动方式",
+      "status": "近似比较",
+      "note": "2026 选项略有调整，探索页按各年份原题内部分布展示。"
+    },
+    {
+      "id": "ticket_issues",
+      "label": "购票难点",
+      "status": "可直接比较",
+      "note": "主要障碍选项一致。"
+    },
+    {
+      "id": "free_text",
+      "label": "自由文本",
+      "status": "关键词聚合",
+      "note": "不展示原文，仅展示词云、关键词 TOP 和主题分布。"
+    },
+    {
+      "id": "2026_only",
+      "label": "投入变化 / 海外席 / 四期生态度",
+      "status": "仅单年可用",
+      "note": "这些题仅 2026 问卷存在。"
+    }
+  ]
+}

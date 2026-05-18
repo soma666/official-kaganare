@@ -1,0 +1,81 @@
+# KAGENARE
+
+KAGENARE is a static website with a standalone interactive BI page for the Sakurazaka46 Chinese community surveys.
+
+## Primary Pages
+
+- [Survey BI](https://www.kagenare.com/survey-bi.html): Interactive BI page for the 2025 and 2026 Sakurazaka46 Chinese community surveys.
+- [Home](https://www.kagenare.com/): Main site entry.
+
+## Agent Data Contract
+
+Agents should use only public aggregate data. Do not request, infer, or expose raw survey responses.
+
+Allowed public data:
+
+- `/data/survey/manifest.json`
+- `/data/survey/agent-catalog.json`
+- `/data/survey/aggregate-2025.json`
+- `/data/survey/aggregate-2026.json`
+- `/data/survey/crosstabs.json`
+- `/data/survey/flows.json`
+- `/data/survey/networks.json`
+- `/data/survey/keywords.json`
+- `/data/survey/insights.json`
+- `/data/survey/comparability.json`
+- `/data/survey/segments.json`
+- `/data/members.json`
+
+Do not read or publish:
+
+- `survey-private/`
+- source spreadsheet or document exports
+- row-level response files
+- internal project notes such as `KAGENARE-change.md` or `survey-bi-changes.md`
+- raw free-text answers
+- source-only metadata fields such as IP, submission time, or source detail
+
+Free-text survey questions are represented only as keyword counts, word-cloud terms, and theme aggregates. Raw text is intentionally unavailable in public outputs.
+
+Small cells in crosstabs, flows, and networks may be suppressed to protect privacy and avoid over-interpreting tiny groups.
+
+## CLI For Agents
+
+Use the local CLI when working inside this repository:
+
+```bash
+node cli/survey-bi.mjs meta
+node cli/survey-bi.mjs catalog
+node cli/survey-bi.mjs find "海外席"
+node cli/survey-bi.mjs question 2026-Q01 --format md
+node cli/survey-bi.mjs crosstab --year 2026 --x japanese_level --y ticket_issues --top 12
+node cli/survey-bi.mjs insights --theme ticket --year 2026 --top 10
+node cli/survey-bi.mjs keywords 2026-Q17 --top 30
+node cli/survey-bi.mjs flow --year 2026 --id era_to_activity --source "Start over!"
+node cli/survey-bi.mjs network --year 2026 --id favorite_members --focus "山下瞳月"
+```
+
+The CLI can also read public survey JSON from the live site:
+
+```bash
+node cli/survey-bi.mjs meta --base-url https://www.kagenare.com/data/survey/
+```
+
+Default output is JSON. Use `--format md` or `--format table` when a human-readable response is more useful.
+
+## Useful Exploration Presets
+
+- `preset era_activity_2026`: fan era by activity methods.
+- `preset language_ticket_2026`: Japanese level by ticket issues.
+- `preset depth_support_2025`: participation depth by official support needs.
+- `preset investment_song_2026`: investment mood by favorite song/production.
+- `preset depth_members_2026`: participation depth by favorite members.
+- `preset segment_overseas_2026`: behavior segment by overseas lottery participation.
+
+## Interpretation Notes
+
+- `lift` means group rate minus overall rate.
+- Counts are anonymous aggregate counts.
+- 2025 fan period was collected as a month-like free-text answer and mapped to release-era buckets.
+- 2026 fan period was collected as release-era options.
+- Some cross-year comparisons are approximate because survey wording and answer options differ.
