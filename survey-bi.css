@@ -232,11 +232,12 @@
 
 .metric-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
   gap: 10px;
 }
 
 .metric-box {
+  min-width: 0;
   min-height: 98px;
   padding: 14px;
   border: 1px solid var(--line);
@@ -245,7 +246,7 @@
 
 .metric-value {
   margin-top: 12px;
-  font-size: 30px;
+  font-size: clamp(25px, 4vw, 30px);
   font-weight: 780;
   line-height: 1;
 }
@@ -304,27 +305,30 @@
 
 .compare-row {
   display: grid;
-  grid-template-columns: minmax(118px, 0.34fr) minmax(180px, 1fr) 112px;
-  gap: 12px;
+  grid-template-columns: minmax(92px, 0.42fr) minmax(116px, 1fr) minmax(78px, max-content);
+  gap: 10px;
   align-items: center;
+  min-width: 0;
 }
 
 .compare-bars {
   display: grid;
   gap: 5px;
+  min-width: 0;
 }
 
 .compare-line {
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  gap: 8px;
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 6px;
   align-items: center;
+  min-width: 0;
 }
 
 .compare-year {
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .compare-fill-2025 {
@@ -336,10 +340,12 @@
 }
 
 .compare-value {
+  min-width: 0;
   color: var(--muted);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 12px;
+  font-size: 11px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .timeline-list {
@@ -1744,6 +1750,7 @@
   .bar-value,
   .compare-value {
     text-align: left;
+    white-space: normal;
   }
 
   .bar-label {
