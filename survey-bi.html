@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>樱坂46中文区生态调研 BI / KAGENARE</title>
+  <link rel="stylesheet" href="style.css?v=1.1">
+  <link rel="stylesheet" href="survey-bi.css">
+  <script src="js/survey-bi.js" defer></script>
+</head>
+<body class="survey-page">
+  <header class="site-header">
+    <a class="site-brand" href="/">KAGENARE</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">podcast</a>
+      <a href="/zero-cost-skzlive.html">How I Learned to join sakurazaka46 Live</a>
+    </nav>
+  </header>
+
+  <main class="survey-shell">
+    <section class="survey-hero" aria-labelledby="surveyTitle">
+      <div class="survey-title-block">
+        <p class="signal-kicker">survey relay</p>
+        <h1 id="surveyTitle">樱坂46中文区生态调研</h1>
+        <p>2025 与 2026 两次问卷的匿名聚合数据工作台。这里先作为独立测试页，不并入正式导航。</p>
+      </div>
+      <div class="survey-load-panel" id="dataStatus" aria-live="polite">
+        <span class="status-dot"></span>
+        <span>loading data</span>
+      </div>
+    </section>
+
+    <section class="kpi-grid" id="kpiGrid" aria-label="Survey key figures"></section>
+
+    <section class="survey-toolbar" aria-label="Dashboard controls">
+      <div class="view-tabs" role="tablist" aria-label="Dashboard views">
+        <button class="view-tab is-active" type="button" data-view="overview">总览</button>
+        <button class="view-tab" type="button" data-view="compare">年份对比</button>
+        <button class="view-tab" type="button" data-view="members">成员</button>
+        <button class="view-tab" type="button" data-view="works">作品</button>
+        <button class="view-tab" type="button" data-view="tickets">票务</button>
+        <button class="view-tab" type="button" data-view="explorer">题库</button>
+      </div>
+      <div class="toolbar-meta" id="toolbarMeta">waiting for aggregates</div>
+    </section>
+
+    <section class="dashboard-content" id="dashboardContent" aria-live="polite"></section>
+  </main>
+</body>
+</html>

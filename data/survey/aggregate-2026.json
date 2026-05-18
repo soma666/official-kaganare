@@ -1,0 +1,2305 @@
+{
+  "sampleCount": 220,
+  "questions": [
+    {
+      "questionId": "2026-Q01",
+      "number": 1,
+      "title": "请问您成为欅坂46/櫻坂46粉丝在哪个时期：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "桜月 至 何歳の頃に戻りたいのか？",
+            "count": 85
+          },
+          {
+            "label": "欅坂成团~黒い羊",
+            "count": 45
+          },
+          {
+            "label": "Nobody‘s Fault 至 As you know?",
+            "count": 19
+          },
+          {
+            "label": "自業自得",
+            "count": 16
+          },
+          {
+            "label": "Unhappy birthday構文",
+            "count": 15
+          },
+          {
+            "label": "UDAGAWA GENERATION",
+            "count": 11
+          },
+          {
+            "label": "I want tomorrow to come",
+            "count": 9
+          },
+          {
+            "label": "Addiction",
+            "count": 7
+          },
+          {
+            "label": "永遠より長い一瞬 〜あの頃、確かに存在した私たち〜",
+            "count": 7
+          },
+          {
+            "label": "Make or Break",
+            "count": 5
+          },
+          {
+            "label": "The growing up train",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q02",
+      "number": 2,
+      "title": "您是从以下哪个领域第一次认识樱坂",
+      "kind": "single",
+      "statusCounts": {
+        "skipped_by_logic": 181,
+        "answered": 39
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "Bilibili/抖音/视频平台推荐",
+            "count": 10
+          },
+          {
+            "label": "电视剧/综艺/广播/电影",
+            "count": 8
+          },
+          {
+            "label": "毕业成员的的活跃",
+            "count": 6
+          },
+          {
+            "label": "家人/朋友/同学/同事推荐",
+            "count": 5
+          },
+          {
+            "label": "来自姐妹团（乃木坂/日向坂）",
+            "count": 5
+          },
+          {
+            "label": "社交媒体",
+            "count": 3
+          },
+          {
+            "label": "其他",
+            "count": 1
+          },
+          {
+            "label": "音乐节/活动",
+            "count": 1
+          }
+        ],
+        "detailCount": 1,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q03",
+      "number": 3,
+      "title": "什么让您爱上樱坂46",
+      "kind": "multi",
+      "statusCounts": {
+        "skipped_by_logic": 181,
+        "answered": 39
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "成员/个性",
+            "count": 35
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 30
+          },
+          {
+            "label": "综艺",
+            "count": 24
+          },
+          {
+            "label": "世界观/概念",
+            "count": 21
+          },
+          {
+            "label": "音乐",
+            "count": 20
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 19
+          },
+          {
+            "label": "与朋友拥有一样的爱好",
+            "count": 4
+          },
+          {
+            "label": "其他",
+            "count": 1
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 3.95
+      }
+    },
+    {
+      "questionId": "2026-Q04",
+      "number": 4,
+      "title": "请选择您有好感的成员",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "田村保乃",
+            "count": 127
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 126
+          },
+          {
+            "label": "森田ひかる",
+            "count": 124
+          },
+          {
+            "label": "山下瞳月",
+            "count": 95
+          },
+          {
+            "label": "中嶋優月",
+            "count": 94
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 94
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 92
+          },
+          {
+            "label": "山﨑天",
+            "count": 88
+          },
+          {
+            "label": "石森璃花",
+            "count": 88
+          },
+          {
+            "label": "谷口愛季",
+            "count": 85
+          },
+          {
+            "label": "遠藤理子",
+            "count": 79
+          },
+          {
+            "label": "小島凪紗",
+            "count": 78
+          },
+          {
+            "label": "大園玲",
+            "count": 77
+          },
+          {
+            "label": "的野美青",
+            "count": 76
+          },
+          {
+            "label": "村山美羽",
+            "count": 75
+          },
+          {
+            "label": "武元唯衣",
+            "count": 70
+          },
+          {
+            "label": "村井優",
+            "count": 68
+          },
+          {
+            "label": "松本和子",
+            "count": 65
+          },
+          {
+            "label": "増本綺良",
+            "count": 63
+          },
+          {
+            "label": "勝又春",
+            "count": 62
+          },
+          {
+            "label": "松田里奈",
+            "count": 56
+          },
+          {
+            "label": "山川宇衣",
+            "count": 54
+          },
+          {
+            "label": "向井純葉",
+            "count": 53
+          },
+          {
+            "label": "大沼晶保",
+            "count": 52
+          },
+          {
+            "label": "中川智尋",
+            "count": 48
+          },
+          {
+            "label": "山田桃実",
+            "count": 48
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 47
+          },
+          {
+            "label": "浅井恋乃未",
+            "count": 39
+          },
+          {
+            "label": "佐藤愛桜",
+            "count": 38
+          },
+          {
+            "label": "稲熊ひな",
+            "count": 35
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 26
+          },
+          {
+            "label": "目黒陽色",
+            "count": 19
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 10.19
+      }
+    },
+    {
+      "questionId": "2026-Q05",
+      "number": 5,
+      "title": "请选择您最喜欢的二期和三期成员",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "藤吉夏鈴",
+            "count": 51
+          },
+          {
+            "label": "森田ひかる",
+            "count": 38
+          },
+          {
+            "label": "山下瞳月",
+            "count": 17
+          },
+          {
+            "label": "山﨑天",
+            "count": 16
+          },
+          {
+            "label": "村山美羽",
+            "count": 10
+          },
+          {
+            "label": "村井優",
+            "count": 9
+          },
+          {
+            "label": "田村保乃",
+            "count": 9
+          },
+          {
+            "label": "小島凪紗",
+            "count": 7
+          },
+          {
+            "label": "遠藤理子",
+            "count": 7
+          },
+          {
+            "label": "大園玲",
+            "count": 6
+          },
+          {
+            "label": "石森璃花",
+            "count": 6
+          },
+          {
+            "label": "中嶋優月",
+            "count": 5
+          },
+          {
+            "label": "向井純葉",
+            "count": 5
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 5
+          },
+          {
+            "label": "武元唯衣",
+            "count": 5
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 4
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 4
+          },
+          {
+            "label": "松田里奈",
+            "count": 4
+          },
+          {
+            "label": "的野美青",
+            "count": 4
+          },
+          {
+            "label": "増本綺良",
+            "count": 3
+          },
+          {
+            "label": "谷口愛季",
+            "count": 3
+          },
+          {
+            "label": "大沼晶保",
+            "count": 2
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q06",
+      "number": 6,
+      "title": "请选择您最喜欢的四期生成员",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "松本和子",
+            "count": 45
+          },
+          {
+            "label": "勝又春",
+            "count": 40
+          },
+          {
+            "label": "以上均无",
+            "count": 39
+          },
+          {
+            "label": "山川宇衣",
+            "count": 23
+          },
+          {
+            "label": "山田桃実",
+            "count": 21
+          },
+          {
+            "label": "浅井恋乃未",
+            "count": 15
+          },
+          {
+            "label": "中川智尋",
+            "count": 13
+          },
+          {
+            "label": "稲熊ひな",
+            "count": 13
+          },
+          {
+            "label": "佐藤愛桜",
+            "count": 10
+          },
+          {
+            "label": "目黒陽色",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q07",
+      "number": 7,
+      "title": "对于成员的好感度，请按照影响程度排个序吧",
+      "kind": "ranking_order",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "ranking_order",
+        "items": [
+          {
+            "item": "舞台表现",
+            "rankedCount": 220,
+            "averageRank": 2.14,
+            "top1": 99,
+            "top3": 186,
+            "score": 0
+          },
+          {
+            "item": "性格",
+            "rankedCount": 220,
+            "averageRank": 2.46,
+            "top1": 60,
+            "top3": 177,
+            "score": 0
+          },
+          {
+            "item": "颜值",
+            "rankedCount": 220,
+            "averageRank": 2.87,
+            "top1": 41,
+            "top3": 150,
+            "score": 0
+          },
+          {
+            "item": "成长潜力",
+            "rankedCount": 220,
+            "averageRank": 4.13,
+            "top1": 6,
+            "top3": 65,
+            "score": 0
+          },
+          {
+            "item": "亲和力",
+            "rankedCount": 220,
+            "averageRank": 4.18,
+            "top1": 13,
+            "top3": 69,
+            "score": 0
+          },
+          {
+            "item": "身材",
+            "rankedCount": 220,
+            "averageRank": 5.81,
+            "top1": 1,
+            "top3": 9,
+            "score": 0
+          },
+          {
+            "item": "人气",
+            "rankedCount": 220,
+            "averageRank": 6.4,
+            "top1": 0,
+            "top3": 4,
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "questionId": "2026-Q08",
+      "number": 8,
+      "title": "2025年，您如何进行您的樱坂46偶像活动呢？",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "观看冠名综艺",
+            "count": 209
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 208
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 132
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 106
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 99
+          },
+          {
+            "label": "签名会",
+            "count": 15
+          },
+          {
+            "label": "UOA/樱恋线下活动",
+            "count": 13
+          },
+          {
+            "label": "其他",
+            "count": 9
+          }
+        ],
+        "detailCounts": [
+          {
+            "label": "其他",
+            "count": 6
+          }
+        ],
+        "averageSelected": 3.6
+      }
+    },
+    {
+      "questionId": "2026-Q09",
+      "number": 9,
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "增加",
+            "count": 113
+          },
+          {
+            "label": "不变",
+            "count": 46
+          },
+          {
+            "label": "减少",
+            "count": 45
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q09-2",
+      "number": 9,
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "增加",
+            "count": 121
+          },
+          {
+            "label": "不变",
+            "count": 39
+          },
+          {
+            "label": "减少",
+            "count": 32
+          },
+          {
+            "label": "没有此项投入",
+            "count": 12
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q09-3",
+      "number": 9,
+      "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "增加",
+            "count": 107
+          },
+          {
+            "label": "不变",
+            "count": 52
+          },
+          {
+            "label": "减少",
+            "count": 45
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q10",
+      "number": 10,
+      "title": "相比2024年，在2025年您感觉",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "不变",
+            "count": 85
+          },
+          {
+            "label": "增加",
+            "count": 56
+          },
+          {
+            "label": "为零",
+            "count": 35
+          },
+          {
+            "label": "减少",
+            "count": 28
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q10-2",
+      "number": 10,
+      "title": "相比2024年，在2025年您感觉",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "增加",
+            "count": 74
+          },
+          {
+            "label": "为零",
+            "count": 59
+          },
+          {
+            "label": "不变",
+            "count": 52
+          },
+          {
+            "label": "减少",
+            "count": 19
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q11",
+      "number": 11,
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "增加",
+            "count": 78
+          },
+          {
+            "label": "没有参加",
+            "count": 77
+          },
+          {
+            "label": "不变",
+            "count": 37
+          },
+          {
+            "label": "减少",
+            "count": 12
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q11-2",
+      "number": 11,
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "没有参加",
+            "count": 149
+          },
+          {
+            "label": "不变",
+            "count": 26
+          },
+          {
+            "label": "增加",
+            "count": 22
+          },
+          {
+            "label": "减少",
+            "count": 7
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q11-3",
+      "number": 11,
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "没有参加",
+            "count": 165
+          },
+          {
+            "label": "不变",
+            "count": 25
+          },
+          {
+            "label": "增加",
+            "count": 8
+          },
+          {
+            "label": "减少",
+            "count": 6
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q11-4",
+      "number": 11,
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "没有参加",
+            "count": 167
+          },
+          {
+            "label": "不变",
+            "count": 24
+          },
+          {
+            "label": "增加",
+            "count": 8
+          },
+          {
+            "label": "减少",
+            "count": 5
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q11-5",
+      "number": 11,
+      "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 204,
+        "skipped_by_logic": 16
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "没有参加",
+            "count": 90
+          },
+          {
+            "label": "增加",
+            "count": 68
+          },
+          {
+            "label": "不变",
+            "count": 35
+          },
+          {
+            "label": "减少",
+            "count": 11
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q12",
+      "number": 12,
+      "title": "2025年您参加了谁的见面会",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 106,
+        "skipped_by_logic": 114
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "藤吉夏鈴",
+            "count": 25
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 18
+          },
+          {
+            "label": "森田ひかる",
+            "count": 17
+          },
+          {
+            "label": "村山美羽",
+            "count": 16
+          },
+          {
+            "label": "田村保乃",
+            "count": 15
+          },
+          {
+            "label": "石森璃花",
+            "count": 15
+          },
+          {
+            "label": "山﨑天",
+            "count": 14
+          },
+          {
+            "label": "山下瞳月",
+            "count": 13
+          },
+          {
+            "label": "中嶋優月",
+            "count": 12
+          },
+          {
+            "label": "勝又春",
+            "count": 11
+          },
+          {
+            "label": "不愿透露",
+            "count": 10
+          },
+          {
+            "label": "井上梨名",
+            "count": 10
+          },
+          {
+            "label": "小島凪紗",
+            "count": 9
+          },
+          {
+            "label": "松本和子",
+            "count": 9
+          },
+          {
+            "label": "遠藤理子",
+            "count": 9
+          },
+          {
+            "label": "的野美青",
+            "count": 8
+          },
+          {
+            "label": "向井純葉",
+            "count": 7
+          },
+          {
+            "label": "山川宇衣",
+            "count": 7
+          },
+          {
+            "label": "村井優",
+            "count": 7
+          },
+          {
+            "label": "中川智尋",
+            "count": 6
+          },
+          {
+            "label": "増本綺良",
+            "count": 6
+          },
+          {
+            "label": "大園玲",
+            "count": 6
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 6
+          },
+          {
+            "label": "武元唯衣",
+            "count": 6
+          },
+          {
+            "label": "谷口愛季",
+            "count": 6
+          },
+          {
+            "label": "山田桃実",
+            "count": 5
+          },
+          {
+            "label": "佐藤愛桜",
+            "count": 4
+          },
+          {
+            "label": "大沼晶保",
+            "count": 4
+          },
+          {
+            "label": "松田里奈",
+            "count": 4
+          },
+          {
+            "label": "浅井恋乃未",
+            "count": 4
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 3
+          },
+          {
+            "label": "目黒陽色",
+            "count": 2
+          },
+          {
+            "label": "稲熊ひな",
+            "count": 2
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 1
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 2.8
+      }
+    },
+    {
+      "questionId": "2026-Q13",
+      "number": 13,
+      "title": "2025年您参加了谁的签名会",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 15,
+        "skipped_by_logic": 205
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "不愿透露",
+            "count": 5
+          },
+          {
+            "label": "中嶋優月",
+            "count": 2
+          },
+          {
+            "label": "勝又春",
+            "count": 2
+          },
+          {
+            "label": "向井純葉",
+            "count": 1
+          },
+          {
+            "label": "増本綺良",
+            "count": 1
+          },
+          {
+            "label": "大園玲",
+            "count": 1
+          },
+          {
+            "label": "大沼晶保",
+            "count": 1
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 1
+          },
+          {
+            "label": "小島凪紗",
+            "count": 1
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 1
+          },
+          {
+            "label": "山下瞳月",
+            "count": 1
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 1
+          },
+          {
+            "label": "村山美羽",
+            "count": 1
+          },
+          {
+            "label": "松本和子",
+            "count": 1
+          },
+          {
+            "label": "森田ひかる",
+            "count": 1
+          },
+          {
+            "label": "石森璃花",
+            "count": 1
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 1
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 1.53
+      }
+    },
+    {
+      "questionId": "2026-Q14",
+      "number": 14,
+      "title": "关于见面会/签名会，你有什么想对没有参与过的人说的话",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 25,
+        "skipped_by_logic": 113,
+        "empty_marker": 82
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 25,
+        "averageLength": 11.76,
+        "maxLength": 30
+      }
+    },
+    {
+      "questionId": "2026-Q15",
+      "number": 15,
+      "title": "2025年您最喜欢的是哪一张单曲的制作",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "Unhappy birthday構文",
+            "count": 77
+          },
+          {
+            "label": "UDAGAWA GENERATION",
+            "count": 73
+          },
+          {
+            "label": "Addiction",
+            "count": 56
+          },
+          {
+            "label": "Make or Break",
+            "count": 14
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q16",
+      "number": 16,
+      "title": "2025年樱坂MV里边，您最喜欢的MV是哪一支",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "UDAGAWA GENERATION",
+            "count": 59
+          },
+          {
+            "label": "Addiction",
+            "count": 48
+          },
+          {
+            "label": "Unhappy birthday構文",
+            "count": 30
+          },
+          {
+            "label": "Nightmare症候群",
+            "count": 28
+          },
+          {
+            "label": "港区パセリ",
+            "count": 22
+          },
+          {
+            "label": "木枯らしは泣かない",
+            "count": 14
+          },
+          {
+            "label": "死んだふり",
+            "count": 11
+          },
+          {
+            "label": "Make or Break",
+            "count": 3
+          },
+          {
+            "label": "Nothing special",
+            "count": 3
+          },
+          {
+            "label": "Alter ego",
+            "count": 2
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q17",
+      "number": 17,
+      "title": "2025年你印象最深刻的是哪一首歌曲的演出",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 220,
+        "averageLength": 16.87,
+        "maxLength": 71,
+        "counts": [
+          {
+            "label": "Addiction",
+            "count": 34
+          },
+          {
+            "label": "UDAGAWA GENERATION",
+            "count": 22
+          },
+          {
+            "label": "港区パセリ",
+            "count": 19
+          },
+          {
+            "label": "紋白蝶が確か飛んでた",
+            "count": 14
+          },
+          {
+            "label": "五月雨よ",
+            "count": 11
+          },
+          {
+            "label": "二人セゾン",
+            "count": 9
+          },
+          {
+            "label": "I will be",
+            "count": 7
+          },
+          {
+            "label": "ノンアルコール",
+            "count": 7
+          },
+          {
+            "label": "流れ弾",
+            "count": 6
+          },
+          {
+            "label": "もう一曲 欲しいのかい？",
+            "count": 4
+          },
+          {
+            "label": "マンホールの蓋の上",
+            "count": 4
+          },
+          {
+            "label": "夜空で一番輝いてる星の名前を僕は知らない",
+            "count": 4
+          },
+          {
+            "label": "本質的なこと",
+            "count": 4
+          },
+          {
+            "label": "Buddies",
+            "count": 3
+          },
+          {
+            "label": "Make or Break",
+            "count": 3
+          },
+          {
+            "label": "TOKYO SNOW",
+            "count": 3
+          },
+          {
+            "label": "Unhappy birthday構文",
+            "count": 3
+          },
+          {
+            "label": "偶然の答え",
+            "count": 3
+          },
+          {
+            "label": "承認欲求",
+            "count": 3
+          },
+          {
+            "label": "摩擦係数",
+            "count": 3
+          },
+          {
+            "label": "油を注せ！",
+            "count": 3
+          },
+          {
+            "label": "On my way",
+            "count": 2
+          },
+          {
+            "label": "One-way stairs",
+            "count": 2
+          },
+          {
+            "label": "Start over!",
+            "count": 2
+          },
+          {
+            "label": "コンセントレーション",
+            "count": 2
+          },
+          {
+            "label": "マモリビト",
+            "count": 2
+          },
+          {
+            "label": "何歳の頃に戻りたいのか？",
+            "count": 2
+          },
+          {
+            "label": "僕は僕を好きになれない",
+            "count": 2
+          },
+          {
+            "label": "制服の人魚",
+            "count": 2
+          },
+          {
+            "label": "恋愛無双",
+            "count": 2
+          },
+          {
+            "label": "青空が見えるまで",
+            "count": 2
+          },
+          {
+            "label": "Alter ego",
+            "count": 1
+          },
+          {
+            "label": "BAN",
+            "count": 1
+          },
+          {
+            "label": "Nightmare症候群",
+            "count": 1
+          },
+          {
+            "label": "Nobody's fault",
+            "count": 1
+          },
+          {
+            "label": "Nothing special",
+            "count": 1
+          },
+          {
+            "label": "ずっと 春だったらなあ",
+            "count": 1
+          },
+          {
+            "label": "なぜ 恋をして来なかったんだろう?",
+            "count": 1
+          },
+          {
+            "label": "君と僕と洗濯物",
+            "count": 1
+          },
+          {
+            "label": "引きこもる時間はない",
+            "count": 1
+          },
+          {
+            "label": "桜月",
+            "count": 1
+          },
+          {
+            "label": "死んだふり",
+            "count": 1
+          },
+          {
+            "label": "真夏に何か起きるのかしら",
+            "count": 1
+          },
+          {
+            "label": "確信的クロワッサン",
+            "count": 1
+          },
+          {
+            "label": "紫外線",
+            "count": 1
+          },
+          {
+            "label": "自業自得",
+            "count": 1
+          },
+          {
+            "label": "行かないで",
+            "count": 1
+          },
+          {
+            "label": "静寂の暴力",
+            "count": 1
+          }
+        ],
+        "extractionMethod": "song-dictionary substring match",
+        "matchedAnswerCount": 186,
+        "songCatalogSize": 99
+      }
+    },
+    {
+      "questionId": "2026-Q18",
+      "number": 18,
+      "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "否",
+            "count": 123
+          },
+          {
+            "label": "是",
+            "count": 97
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q19",
+      "number": 19,
+      "title": "您是否订阅了成员Message",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "是",
+            "count": 142
+          },
+          {
+            "label": "否",
+            "count": 78
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q20",
+      "number": 20,
+      "title": "您订阅了多少个成员的Message",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 142,
+        "skipped_by_logic": 78
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "2～5",
+            "count": 82
+          },
+          {
+            "label": "1",
+            "count": 46
+          },
+          {
+            "label": "6～9",
+            "count": 8
+          },
+          {
+            "label": "12个以上（非全员）",
+            "count": 3
+          },
+          {
+            "label": "10～12",
+            "count": 2
+          },
+          {
+            "label": "全员订阅",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q21",
+      "number": 21,
+      "title": "您通过什么订阅Message",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 142,
+        "skipped_by_logic": 78
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "iOS/Google Play 手机订阅",
+            "count": 97
+          },
+          {
+            "label": "网页订阅",
+            "count": 36
+          },
+          {
+            "label": "混合订阅",
+            "count": 9
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q22",
+      "number": 22,
+      "title": "您是否参与了樱坂46中文内容的制作/发布",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "否",
+            "count": 153
+          },
+          {
+            "label": "是",
+            "count": 67
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q23",
+      "number": 23,
+      "title": "您是否还参与其他偶像团体的活动",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "没有，偶像只看樱坂46",
+            "count": 112
+          },
+          {
+            "label": "有，日系偶像",
+            "count": 86
+          },
+          {
+            "label": "有，非日系偶像",
+            "count": 37
+          }
+        ],
+        "detailCounts": [
+          {
+            "label": "有，日系偶像",
+            "count": 77
+          },
+          {
+            "label": "有，非日系偶像",
+            "count": 31
+          }
+        ],
+        "averageSelected": 1.07
+      }
+    },
+    {
+      "questionId": "2026-Q24",
+      "number": 24,
+      "title": "谁是您的2025最佳进步奖",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "遠藤理子",
+            "count": 35
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 27
+          },
+          {
+            "label": "小島凪紗",
+            "count": 24
+          },
+          {
+            "label": "村井優",
+            "count": 16
+          },
+          {
+            "label": "的野美青",
+            "count": 16
+          },
+          {
+            "label": "大沼晶保",
+            "count": 14
+          },
+          {
+            "label": "石森璃花",
+            "count": 13
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 9
+          },
+          {
+            "label": "中嶋優月",
+            "count": 8
+          },
+          {
+            "label": "谷口愛季",
+            "count": 8
+          },
+          {
+            "label": "向井純葉",
+            "count": 7
+          },
+          {
+            "label": "井上梨名",
+            "count": 6
+          },
+          {
+            "label": "村山美羽",
+            "count": 6
+          },
+          {
+            "label": "山﨑天",
+            "count": 5
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 5
+          },
+          {
+            "label": "増本綺良",
+            "count": 3
+          },
+          {
+            "label": "大園玲",
+            "count": 3
+          },
+          {
+            "label": "山下瞳月",
+            "count": 3
+          },
+          {
+            "label": "森田ひかる",
+            "count": 3
+          },
+          {
+            "label": "武元唯衣",
+            "count": 3
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 3
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 1
+          },
+          {
+            "label": "松田里奈",
+            "count": 1
+          },
+          {
+            "label": "田村保乃",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q25",
+      "number": 25,
+      "title": "2026年，您觉得哪些成员会走上C位",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "森田ひかる",
+            "count": 82
+          },
+          {
+            "label": "谷口愛季",
+            "count": 81
+          },
+          {
+            "label": "山下瞳月",
+            "count": 64
+          },
+          {
+            "label": "田村保乃",
+            "count": 62
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 45
+          },
+          {
+            "label": "松本和子",
+            "count": 44
+          },
+          {
+            "label": "山﨑天",
+            "count": 39
+          },
+          {
+            "label": "山川宇衣",
+            "count": 32
+          },
+          {
+            "label": "浅井恋乃未",
+            "count": 30
+          },
+          {
+            "label": "的野美青",
+            "count": 29
+          },
+          {
+            "label": "村山美羽",
+            "count": 27
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 20
+          },
+          {
+            "label": "佐藤愛桜",
+            "count": 19
+          },
+          {
+            "label": "向井純葉",
+            "count": 16
+          },
+          {
+            "label": "大園玲",
+            "count": 12
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 11
+          },
+          {
+            "label": "中嶋優月",
+            "count": 10
+          },
+          {
+            "label": "小島凪紗",
+            "count": 10
+          },
+          {
+            "label": "山田桃実",
+            "count": 10
+          },
+          {
+            "label": "村井優",
+            "count": 10
+          },
+          {
+            "label": "遠藤理子",
+            "count": 7
+          },
+          {
+            "label": "勝又春",
+            "count": 6
+          },
+          {
+            "label": "石森璃花",
+            "count": 6
+          },
+          {
+            "label": "中川智尋",
+            "count": 4
+          },
+          {
+            "label": "大沼晶保",
+            "count": 4
+          },
+          {
+            "label": "稲熊ひな",
+            "count": 4
+          },
+          {
+            "label": "増本綺良",
+            "count": 2
+          },
+          {
+            "label": "松田里奈",
+            "count": 2
+          },
+          {
+            "label": "目黒陽色",
+            "count": 1
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 3.13
+      }
+    },
+    {
+      "questionId": "2026-Q26",
+      "number": 26,
+      "title": "对于四期生以下哪个描述更符合你的感受",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "中规中矩",
+            "count": 118
+          },
+          {
+            "label": "满意",
+            "count": 48
+          },
+          {
+            "label": "不满意",
+            "count": 27
+          },
+          {
+            "label": "非常满意",
+            "count": 20
+          },
+          {
+            "label": "非常不满意",
+            "count": 7
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q27",
+      "number": 27,
+      "title": "关于抽选樱坂46演唱会门票以下哪个描述更符合你的感受",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 208,
+        "skipped_by_logic": 12
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "中规中矩",
+            "count": 115
+          },
+          {
+            "label": "满意",
+            "count": 42
+          },
+          {
+            "label": "不满意",
+            "count": 27
+          },
+          {
+            "label": "非常不满意",
+            "count": 17
+          },
+          {
+            "label": "非常满意",
+            "count": 7
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q28",
+      "number": 28,
+      "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 208,
+        "skipped_by_logic": 12
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "日本号码",
+            "count": 160
+          },
+          {
+            "label": "付款方式",
+            "count": 87
+          },
+          {
+            "label": "账号注册",
+            "count": 70
+          },
+          {
+            "label": "语言障碍",
+            "count": 52
+          },
+          {
+            "label": "网页导航",
+            "count": 35
+          },
+          {
+            "label": "其他",
+            "count": 19
+          }
+        ],
+        "detailCounts": [
+          {
+            "label": "其他",
+            "count": 15
+          }
+        ],
+        "averageSelected": 2.03
+      }
+    },
+    {
+      "questionId": "2026-Q29",
+      "number": 29,
+      "title": "2025年，您是否参与了海外席演出抽选",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 208,
+        "skipped_by_logic": 12
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "否",
+            "count": 137
+          },
+          {
+            "label": "是",
+            "count": 71
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q30",
+      "number": 30,
+      "title": "您海外席抽选中了哪一场呢",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 71,
+        "skipped_by_logic": 149
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "东京 Day3",
+            "count": 32
+          },
+          {
+            "label": "大阪 Day2",
+            "count": 29
+          },
+          {
+            "label": "东京 Day2",
+            "count": 24
+          },
+          {
+            "label": "东京 Day1",
+            "count": 19
+          },
+          {
+            "label": "大阪 Day1",
+            "count": 18
+          },
+          {
+            "label": "一天都没中",
+            "count": 4
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 1.77
+      }
+    },
+    {
+      "questionId": "2026-Q31",
+      "number": 31,
+      "title": "2025年樱坂46演唱会的海外票抽选以下哪个描述最符合你的感受",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 71,
+        "skipped_by_logic": 149
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "满意",
+            "count": 35
+          },
+          {
+            "label": "中规中矩",
+            "count": 16
+          },
+          {
+            "label": "非常满意",
+            "count": 15
+          },
+          {
+            "label": "不满意",
+            "count": 4
+          },
+          {
+            "label": "非常不满意",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q32",
+      "number": 32,
+      "title": "2025年，樱坂46演唱会海外席观看体验以下哪个描述最符合你的感受",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 154,
+        "skipped_by_logic": 66
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "中规中矩",
+            "count": 77
+          },
+          {
+            "label": "满意",
+            "count": 42
+          },
+          {
+            "label": "非常满意",
+            "count": 28
+          },
+          {
+            "label": "不满意",
+            "count": 6
+          },
+          {
+            "label": "非常不满意",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q33",
+      "number": 33,
+      "title": "您的性别：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "女",
+            "count": 139
+          },
+          {
+            "label": "男",
+            "count": 53
+          },
+          {
+            "label": "不愿透露",
+            "count": 28
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q34",
+      "number": 34,
+      "title": "您的年龄段：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "18~25",
+            "count": 119
+          },
+          {
+            "label": "26~30",
+            "count": 62
+          },
+          {
+            "label": "31~40",
+            "count": 29
+          },
+          {
+            "label": "18岁以下",
+            "count": 8
+          },
+          {
+            "label": "41~50",
+            "count": 2
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q35",
+      "number": 35,
+      "title": "请问您的日语水平如何",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "基础水平",
+            "count": 115
+          },
+          {
+            "label": "日常沟通",
+            "count": 49
+          },
+          {
+            "label": "完全不会",
+            "count": 44
+          },
+          {
+            "label": "商务洽谈",
+            "count": 10
+          },
+          {
+            "label": "母语水平",
+            "count": 2
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q36",
+      "number": 36,
+      "title": "请问您在2025年，居住最久的地区是哪里",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 220
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "中国大陆地区",
+            "count": 195
+          },
+          {
+            "label": "港澳台和其他海外地区",
+            "count": 25
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2026-Q37",
+      "number": 37,
+      "title": "请问方便透露是哪个城市吗",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 125,
+        "empty_marker": 95
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 125,
+        "averageLength": 2.53,
+        "maxLength": 10
+      }
+    },
+    {
+      "questionId": "2026-Q38",
+      "number": 38,
+      "title": "还有什么别的想要告诉我们的吗~",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 71,
+        "empty_marker": 149
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 71,
+        "averageLength": 20.68,
+        "maxLength": 196
+      }
+    }
+  ]
+}

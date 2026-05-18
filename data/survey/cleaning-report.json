@@ -1,0 +1,811 @@
+{
+  "years": {
+    "2025": {
+      "sampleCount": 837,
+      "questions": [
+        {
+          "questionId": "2025-Q01",
+          "number": 1,
+          "title": "请问您成为欅坂46/櫻坂46粉丝的时期：",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q02",
+          "number": 2,
+          "title": "你和樱坂的第一次接触是什么呢",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q03",
+          "number": 3,
+          "title": "请对成员的好感度排个序吧～",
+          "kind": "ranking",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q04",
+          "number": 4,
+          "title": "您最喜欢的A面/主打曲是哪一首：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q05",
+          "number": 5,
+          "title": "您最喜欢的附加单曲是哪一首",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q06",
+          "number": 6,
+          "title": "您最喜欢的Unit曲是哪一首",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q07",
+          "number": 7,
+          "title": "您最喜欢的期别曲是哪一首",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q08",
+          "number": 8,
+          "title": "您最喜欢的Backs曲是哪一首",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q09",
+          "number": 9,
+          "title": "您最喜欢的MV是哪一支",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q10",
+          "number": 10,
+          "title": "什么让您爱上樱坂46",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q11",
+          "number": 11,
+          "title": "当您选推的时候，都有哪些因素影响了您",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q12",
+          "number": 12,
+          "title": "您中文和日文内容浏览占比大约各有多少？",
+          "kind": "ratio",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q13",
+          "number": 13,
+          "title": "您如何进行您的樱坂46偶像活动呢？",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q14",
+          "number": 14,
+          "title": "您希望Seed&Flower如何支持中文区偶像活动呢",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q15",
+          "number": 15,
+          "title": "您希望在樱坂官方频道上看到更多什么内容",
+          "kind": "text",
+          "statusCounts": {
+            "empty_marker": 496,
+            "answered": 341
+          }
+        },
+        {
+          "questionId": "2025-Q16",
+          "number": 16,
+          "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q17",
+          "number": 17,
+          "title": "您是否订阅了成员Message",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q18",
+          "number": 18,
+          "title": "您订阅了多少个成员的Message",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 419,
+            "blank": 418
+          }
+        },
+        {
+          "questionId": "2025-Q19",
+          "number": 19,
+          "title": "您大多使用哪些平台获取樱坂内容",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q20",
+          "number": 20,
+          "title": "您是否参与了樱坂46中文内容的制作/发布",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q21",
+          "number": 21,
+          "title": "您是否还参与其他团体的活动",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q22",
+          "number": 22,
+          "title": "您在2024年都参与了哪些现场活动",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q23",
+          "number": 23,
+          "title": "谁是您的2024最佳进步奖",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q24",
+          "number": 24,
+          "title": "2025年，您觉得谁会拿到solo单曲",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q25",
+          "number": 25,
+          "title": "2025年，您觉得谁哪位成员会成为万众瞩目的焦点",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q26",
+          "number": 26,
+          "title": "2025年，您觉得哪些成员会走上C位",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q27",
+          "number": 27,
+          "title": "你对于四期生有什么期待吗",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q28",
+          "number": 28,
+          "title": "写一句话给我们即将到来的四期生吧",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q29",
+          "number": 29,
+          "title": "抽选樱坂46演唱会门票的难度您觉得有多大",
+          "kind": "rating",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q30",
+          "number": 30,
+          "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q31",
+          "number": 31,
+          "title": "您对2024年樱坂46演唱会的海外票体验如何",
+          "kind": "rating",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q32",
+          "number": 32,
+          "title": "如果说对中文区销售海外票，您的购买意愿如何",
+          "kind": "rating",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q33",
+          "number": 33,
+          "title": "请问在购买中文区的海外票时您希望有什么属性",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 421,
+            "empty_marker": 416
+          }
+        },
+        {
+          "questionId": "2025-Q34",
+          "number": 34,
+          "title": "您的性别：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q35",
+          "number": 35,
+          "title": "您的年龄段：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q36",
+          "number": 36,
+          "title": "请问您所在的地区是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q37",
+          "number": 37,
+          "title": "请选择省份城市与地区:",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 736,
+            "blank": 101
+          }
+        },
+        {
+          "questionId": "2025-Q38",
+          "number": 38,
+          "title": "国家及地区：",
+          "kind": "text",
+          "statusCounts": {
+            "blank": 736,
+            "answered": 101
+          }
+        },
+        {
+          "questionId": "2025-Q39",
+          "number": 39,
+          "title": "请问您的日语水平如何",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 837
+          }
+        },
+        {
+          "questionId": "2025-Q40",
+          "number": 40,
+          "title": "还有什么别的想要告诉我们的吗~",
+          "kind": "text",
+          "statusCounts": {
+            "empty_marker": 596,
+            "answered": 241
+          }
+        }
+      ]
+    },
+    "2026": {
+      "sampleCount": 220,
+      "questions": [
+        {
+          "questionId": "2026-Q01",
+          "number": 1,
+          "title": "请问您成为欅坂46/櫻坂46粉丝在哪个时期：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q02",
+          "number": 2,
+          "title": "您是从以下哪个领域第一次认识樱坂",
+          "kind": "single",
+          "statusCounts": {
+            "skipped_by_logic": 181,
+            "answered": 39
+          }
+        },
+        {
+          "questionId": "2026-Q03",
+          "number": 3,
+          "title": "什么让您爱上樱坂46",
+          "kind": "multi",
+          "statusCounts": {
+            "skipped_by_logic": 181,
+            "answered": 39
+          }
+        },
+        {
+          "questionId": "2026-Q04",
+          "number": 4,
+          "title": "请选择您有好感的成员",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q05",
+          "number": 5,
+          "title": "请选择您最喜欢的二期和三期成员",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q06",
+          "number": 6,
+          "title": "请选择您最喜欢的四期生成员",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q07",
+          "number": 7,
+          "title": "对于成员的好感度，请按照影响程度排个序吧",
+          "kind": "ranking_order",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q08",
+          "number": 8,
+          "title": "2025年，您如何进行您的樱坂46偶像活动呢？",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q09",
+          "number": 9,
+          "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q09-2",
+          "number": 9,
+          "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q09-3",
+          "number": 9,
+          "title": "相比2024年，2025年你在樱坂以下项目投入的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q10",
+          "number": 10,
+          "title": "相比2024年，在2025年您感觉",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q10-2",
+          "number": 10,
+          "title": "相比2024年，在2025年您感觉",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q11",
+          "number": 11,
+          "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q11-2",
+          "number": 11,
+          "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q11-3",
+          "number": 11,
+          "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q11-4",
+          "number": 11,
+          "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q11-5",
+          "number": 11,
+          "title": "相比2024年，在2025年您参加以下活动次数的变化是",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 204,
+            "skipped_by_logic": 16
+          }
+        },
+        {
+          "questionId": "2026-Q12",
+          "number": 12,
+          "title": "2025年您参加了谁的见面会",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 106,
+            "skipped_by_logic": 114
+          }
+        },
+        {
+          "questionId": "2026-Q13",
+          "number": 13,
+          "title": "2025年您参加了谁的签名会",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 15,
+            "skipped_by_logic": 205
+          }
+        },
+        {
+          "questionId": "2026-Q14",
+          "number": 14,
+          "title": "关于见面会/签名会，你有什么想对没有参与过的人说的话",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 25,
+            "skipped_by_logic": 113,
+            "empty_marker": 82
+          }
+        },
+        {
+          "questionId": "2026-Q15",
+          "number": 15,
+          "title": "2025年您最喜欢的是哪一张单曲的制作",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q16",
+          "number": 16,
+          "title": "2025年樱坂MV里边，您最喜欢的MV是哪一支",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q17",
+          "number": 17,
+          "title": "2025年你印象最深刻的是哪一首歌曲的演出",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q18",
+          "number": 18,
+          "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q19",
+          "number": 19,
+          "title": "您是否订阅了成员Message",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q20",
+          "number": 20,
+          "title": "您订阅了多少个成员的Message",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 142,
+            "skipped_by_logic": 78
+          }
+        },
+        {
+          "questionId": "2026-Q21",
+          "number": 21,
+          "title": "您通过什么订阅Message",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 142,
+            "skipped_by_logic": 78
+          }
+        },
+        {
+          "questionId": "2026-Q22",
+          "number": 22,
+          "title": "您是否参与了樱坂46中文内容的制作/发布",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q23",
+          "number": 23,
+          "title": "您是否还参与其他偶像团体的活动",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q24",
+          "number": 24,
+          "title": "谁是您的2025最佳进步奖",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q25",
+          "number": 25,
+          "title": "2026年，您觉得哪些成员会走上C位",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q26",
+          "number": 26,
+          "title": "对于四期生以下哪个描述更符合你的感受",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q27",
+          "number": 27,
+          "title": "关于抽选樱坂46演唱会门票以下哪个描述更符合你的感受",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 208,
+            "skipped_by_logic": 12
+          }
+        },
+        {
+          "questionId": "2026-Q28",
+          "number": 28,
+          "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 208,
+            "skipped_by_logic": 12
+          }
+        },
+        {
+          "questionId": "2026-Q29",
+          "number": 29,
+          "title": "2025年，您是否参与了海外席演出抽选",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 208,
+            "skipped_by_logic": 12
+          }
+        },
+        {
+          "questionId": "2026-Q30",
+          "number": 30,
+          "title": "您海外席抽选中了哪一场呢",
+          "kind": "multi",
+          "statusCounts": {
+            "answered": 71,
+            "skipped_by_logic": 149
+          }
+        },
+        {
+          "questionId": "2026-Q31",
+          "number": 31,
+          "title": "2025年樱坂46演唱会的海外票抽选以下哪个描述最符合你的感受",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 71,
+            "skipped_by_logic": 149
+          }
+        },
+        {
+          "questionId": "2026-Q32",
+          "number": 32,
+          "title": "2025年，樱坂46演唱会海外席观看体验以下哪个描述最符合你的感受",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 154,
+            "skipped_by_logic": 66
+          }
+        },
+        {
+          "questionId": "2026-Q33",
+          "number": 33,
+          "title": "您的性别：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q34",
+          "number": 34,
+          "title": "您的年龄段：",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q35",
+          "number": 35,
+          "title": "请问您的日语水平如何",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q36",
+          "number": 36,
+          "title": "请问您在2025年，居住最久的地区是哪里",
+          "kind": "single",
+          "statusCounts": {
+            "answered": 220
+          }
+        },
+        {
+          "questionId": "2026-Q37",
+          "number": 37,
+          "title": "请问方便透露是哪个城市吗",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 125,
+            "empty_marker": 95
+          }
+        },
+        {
+          "questionId": "2026-Q38",
+          "number": 38,
+          "title": "还有什么别的想要告诉我们的吗~",
+          "kind": "text",
+          "statusCounts": {
+            "answered": 71,
+            "empty_marker": 149
+          }
+        }
+      ]
+    }
+  }
+}
