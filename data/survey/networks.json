@@ -1,0 +1,3303 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-18T03:59:11+00:00",
+    "minCount": 5,
+    "privacy": "Only aggregate co-occurrence counts are published. Low-frequency edges are suppressed."
+  },
+  "years": {
+    "2025": [
+      {
+        "id": "love_reasons",
+        "year": 2025,
+        "label": "爱上原因共现",
+        "description": "哪些喜欢理由经常被同一个人同时选择。",
+        "questionId": "2025-Q10",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "成员/个性",
+            "count": 721,
+            "rate": 0.8614
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 698,
+            "rate": 0.8339
+          },
+          {
+            "label": "音乐",
+            "count": 587,
+            "rate": 0.7013
+          },
+          {
+            "label": "综艺",
+            "count": 510,
+            "rate": 0.6093
+          },
+          {
+            "label": "世界观/概念",
+            "count": 467,
+            "rate": 0.5579
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 427,
+            "rate": 0.5102
+          },
+          {
+            "label": "与朋友拥有一样的爱好",
+            "count": 56,
+            "rate": 0.0669
+          },
+          {
+            "label": "其他",
+            "count": 30,
+            "rate": 0.0358
+          }
+        ],
+        "edges": [
+          {
+            "source": "成员/个性",
+            "target": "现场表演/舞蹈",
+            "count": 607,
+            "jaccard": 0.7475,
+            "liftRatio": 1.01
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "音乐",
+            "count": 536,
+            "jaccard": 0.7156,
+            "liftRatio": 1.095
+          },
+          {
+            "source": "成员/个性",
+            "target": "音乐",
+            "count": 518,
+            "jaccard": 0.6557,
+            "liftRatio": 1.024
+          },
+          {
+            "source": "成员/个性",
+            "target": "综艺",
+            "count": 485,
+            "jaccard": 0.6501,
+            "liftRatio": 1.104
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "综艺",
+            "count": 447,
+            "jaccard": 0.5874,
+            "liftRatio": 1.051
+          },
+          {
+            "source": "世界观/概念",
+            "target": "现场表演/舞蹈",
+            "count": 428,
+            "jaccard": 0.5807,
+            "liftRatio": 1.099
+          },
+          {
+            "source": "综艺",
+            "target": "音乐",
+            "count": 406,
+            "jaccard": 0.5876,
+            "liftRatio": 1.135
+          },
+          {
+            "source": "世界观/概念",
+            "target": "成员/个性",
+            "count": 403,
+            "jaccard": 0.5134,
+            "liftRatio": 1.002
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 390,
+            "jaccard": 0.5306,
+            "liftRatio": 1.095
+          },
+          {
+            "source": "成员/个性",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 386,
+            "jaccard": 0.5066,
+            "liftRatio": 1.049
+          },
+          {
+            "source": "世界观/概念",
+            "target": "音乐",
+            "count": 384,
+            "jaccard": 0.5731,
+            "liftRatio": 1.172
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "音乐",
+            "count": 358,
+            "jaccard": 0.5457,
+            "liftRatio": 1.195
+          },
+          {
+            "source": "世界观/概念",
+            "target": "综艺",
+            "count": 316,
+            "jaccard": 0.4781,
+            "liftRatio": 1.111
+          },
+          {
+            "source": "世界观/概念",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 315,
+            "jaccard": 0.544,
+            "liftRatio": 1.322
+          },
+          {
+            "source": "综艺",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 298,
+            "jaccard": 0.4664,
+            "liftRatio": 1.145
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "成员/个性",
+            "count": 49,
+            "jaccard": 0.0673,
+            "liftRatio": 1.016
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "现场表演/舞蹈",
+            "count": 46,
+            "jaccard": 0.065,
+            "liftRatio": 0.985
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 45,
+            "jaccard": 0.1027,
+            "liftRatio": 1.575
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "音乐",
+            "count": 45,
+            "jaccard": 0.0753,
+            "liftRatio": 1.146
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "世界观/概念",
+            "count": 42,
+            "jaccard": 0.0873,
+            "liftRatio": 1.344
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "综艺",
+            "count": 42,
+            "jaccard": 0.0802,
+            "liftRatio": 1.231
+          },
+          {
+            "source": "其他",
+            "target": "成员/个性",
+            "count": 22,
+            "jaccard": 0.0302,
+            "liftRatio": 0.851
+          },
+          {
+            "source": "其他",
+            "target": "现场表演/舞蹈",
+            "count": 21,
+            "jaccard": 0.0297,
+            "liftRatio": 0.839
+          },
+          {
+            "source": "其他",
+            "target": "音乐",
+            "count": 20,
+            "jaccard": 0.0335,
+            "liftRatio": 0.951
+          },
+          {
+            "source": "世界观/概念",
+            "target": "其他",
+            "count": 18,
+            "jaccard": 0.0376,
+            "liftRatio": 1.075
+          },
+          {
+            "source": "其他",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 16,
+            "jaccard": 0.0363,
+            "liftRatio": 1.045
+          },
+          {
+            "source": "其他",
+            "target": "综艺",
+            "count": 15,
+            "jaccard": 0.0286,
+            "liftRatio": 0.821
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "其他",
+            "count": 8,
+            "jaccard": 0.1026,
+            "liftRatio": 3.986
+          }
+        ]
+      },
+      {
+        "id": "activity_methods",
+        "year": 2025,
+        "label": "活动方式共现",
+        "description": "哪些偶像活动方式经常组合出现。",
+        "questionId": "2025-Q13",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "观看そこ曲がったら、櫻坂？",
+            "count": 782,
+            "rate": 0.9343
+          },
+          {
+            "label": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 759,
+            "rate": 0.9068
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 715,
+            "rate": 0.8542
+          },
+          {
+            "label": "阅读成员博客",
+            "count": 565,
+            "rate": 0.675
+          },
+          {
+            "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 521,
+            "rate": 0.6225
+          },
+          {
+            "label": "订阅成员MSG",
+            "count": 379,
+            "rate": 0.4528
+          },
+          {
+            "label": "观看サクラミーツ",
+            "count": 281,
+            "rate": 0.3357
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 271,
+            "rate": 0.3238
+          },
+          {
+            "label": "收听櫻坂チャンネル",
+            "count": 246,
+            "rate": 0.2939
+          },
+          {
+            "label": "櫻坂46の「さ」",
+            "count": 235,
+            "rate": 0.2808
+          },
+          {
+            "label": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 211,
+            "rate": 0.2521
+          },
+          {
+            "label": "观看Love it！",
+            "count": 190,
+            "rate": 0.227
+          },
+          {
+            "label": "阅读杂志",
+            "count": 185,
+            "rate": 0.221
+          },
+          {
+            "label": "其他",
+            "count": 85,
+            "rate": 0.1016
+          },
+          {
+            "label": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 61,
+            "rate": 0.0729
+          }
+        ],
+        "edges": [
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 710,
+            "jaccard": 0.8544,
+            "liftRatio": 1.001
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 678,
+            "jaccard": 0.8278,
+            "liftRatio": 1.015
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 648,
+            "jaccard": 0.7845,
+            "liftRatio": 0.999
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "阅读成员博客",
+            "count": 546,
+            "jaccard": 0.6816,
+            "liftRatio": 1.034
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "阅读成员博客",
+            "count": 526,
+            "jaccard": 0.6591,
+            "liftRatio": 1.027
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "阅读成员博客",
+            "count": 508,
+            "jaccard": 0.658,
+            "liftRatio": 1.053
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 504,
+            "jaccard": 0.6308,
+            "liftRatio": 1.035
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 502,
+            "jaccard": 0.6452,
+            "liftRatio": 1.063
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 470,
+            "jaccard": 0.6136,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "阅读成员博客",
+            "count": 418,
+            "jaccard": 0.6257,
+            "liftRatio": 1.189
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "订阅成员MSG",
+            "count": 368,
+            "jaccard": 0.4641,
+            "liftRatio": 1.039
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "订阅成员MSG",
+            "count": 349,
+            "jaccard": 0.4685,
+            "liftRatio": 1.078
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "阅读成员博客",
+            "count": 349,
+            "jaccard": 0.5866,
+            "liftRatio": 1.364
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "订阅成员MSG",
+            "count": 348,
+            "jaccard": 0.4405,
+            "liftRatio": 1.013
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "订阅成员MSG",
+            "count": 290,
+            "jaccard": 0.4754,
+            "liftRatio": 1.229
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "观看サクラミーツ",
+            "count": 280,
+            "jaccard": 0.3576,
+            "liftRatio": 1.067
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "观看其他团外综艺",
+            "count": 261,
+            "jaccard": 0.3295,
+            "liftRatio": 1.031
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "观看サクラミーツ",
+            "count": 259,
+            "jaccard": 0.3316,
+            "liftRatio": 1.016
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 250,
+            "jaccard": 0.3351,
+            "liftRatio": 1.041
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "观看其他团外综艺",
+            "count": 249,
+            "jaccard": 0.3188,
+            "liftRatio": 1.013
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 243,
+            "jaccard": 0.3096,
+            "liftRatio": 1.057
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 234,
+            "jaccard": 0.2989,
+            "liftRatio": 1.066
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 233,
+            "jaccard": 0.3018,
+            "liftRatio": 1.044
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 230,
+            "jaccard": 0.3042,
+            "liftRatio": 0.994
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 229,
+            "jaccard": 0.3128,
+            "liftRatio": 1.09
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "阅读成员博客",
+            "count": 227,
+            "jaccard": 0.3667,
+            "liftRatio": 1.197
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 225,
+            "jaccard": 0.2926,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "观看サクラミーツ",
+            "count": 213,
+            "jaccard": 0.3616,
+            "liftRatio": 1.218
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 212,
+            "jaccard": 0.2873,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "阅读成员博客",
+            "count": 210,
+            "jaccard": 0.3494,
+            "liftRatio": 1.265
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 208,
+            "jaccard": 0.265,
+            "liftRatio": 1.055
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "观看其他团外综艺",
+            "count": 206,
+            "jaccard": 0.3515,
+            "liftRatio": 1.221
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 204,
+            "jaccard": 0.3623,
+            "liftRatio": 1.332
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 202,
+            "jaccard": 0.263,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 198,
+            "jaccard": 0.272,
+            "liftRatio": 1.099
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "阅读成员博客",
+            "count": 198,
+            "jaccard": 0.3289,
+            "liftRatio": 1.248
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "阅读成员博客",
+            "count": 191,
+            "jaccard": 0.2961,
+            "liftRatio": 1.044
+          },
+          {
+            "source": "观看Love it！",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 188,
+            "jaccard": 0.2398,
+            "liftRatio": 1.059
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 187,
+            "jaccard": 0.3286,
+            "liftRatio": 1.278
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "阅读杂志",
+            "count": 180,
+            "jaccard": 0.2287,
+            "liftRatio": 1.041
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "阅读成员博客",
+            "count": 178,
+            "jaccard": 0.2977,
+            "liftRatio": 1.25
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "观看Love it！",
+            "count": 177,
+            "jaccard": 0.2293,
+            "liftRatio": 1.027
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "阅读杂志",
+            "count": 176,
+            "jaccard": 0.2292,
+            "liftRatio": 1.049
+          },
+          {
+            "source": "观看Love it！",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 172,
+            "jaccard": 0.2347,
+            "liftRatio": 1.06
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "阅读杂志",
+            "count": 171,
+            "jaccard": 0.2346,
+            "liftRatio": 1.082
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "订阅成员MSG",
+            "count": 165,
+            "jaccard": 0.3587,
+            "liftRatio": 1.481
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "订阅成员MSG",
+            "count": 165,
+            "jaccard": 0.3333,
+            "liftRatio": 1.297
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 163,
+            "jaccard": 0.2865,
+            "liftRatio": 1.241
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "阅读杂志",
+            "count": 162,
+            "jaccard": 0.2755,
+            "liftRatio": 1.297
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "观看サクラミーツ",
+            "count": 153,
+            "jaccard": 0.4215,
+            "liftRatio": 1.939
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "櫻坂46の「さ」",
+            "count": 152,
+            "jaccard": 0.462,
+            "liftRatio": 2.201
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "观看Love it！",
+            "count": 150,
+            "jaccard": 0.2674,
+            "liftRatio": 1.268
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "阅读杂志",
+            "count": 147,
+            "jaccard": 0.263,
+            "liftRatio": 1.277
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "观看其他团外综艺",
+            "count": 147,
+            "jaccard": 0.363,
+            "liftRatio": 1.616
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "观看サクラミーツ",
+            "count": 146,
+            "jaccard": 0.3832,
+            "liftRatio": 1.768
+          },
+          {
+            "source": "观看Love it！",
+            "target": "阅读成员博客",
+            "count": 145,
+            "jaccard": 0.2377,
+            "liftRatio": 1.131
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "订阅成员MSG",
+            "count": 144,
+            "jaccard": 0.3064,
+            "liftRatio": 1.353
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "櫻坂46の「さ」",
+            "count": 142,
+            "jaccard": 0.4671,
+            "liftRatio": 2.397
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "订阅成员MSG",
+            "count": 135,
+            "jaccard": 0.2621,
+            "liftRatio": 1.1
+          },
+          {
+            "source": "观看Love it！",
+            "target": "观看其他团外综艺",
+            "count": 134,
+            "jaccard": 0.4098,
+            "liftRatio": 2.178
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "阅读杂志",
+            "count": 131,
+            "jaccard": 0.3025,
+            "liftRatio": 1.564
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "观看サクラミーツ",
+            "count": 131,
+            "jaccard": 0.3629,
+            "liftRatio": 1.849
+          },
+          {
+            "source": "观看Love it！",
+            "target": "观看サクラミーツ",
+            "count": 129,
+            "jaccard": 0.3772,
+            "liftRatio": 2.022
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "观看其他团外综艺",
+            "count": 125,
+            "jaccard": 0.3281,
+            "liftRatio": 1.643
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "收听櫻坂チャンネル",
+            "count": 121,
+            "jaccard": 0.3601,
+            "liftRatio": 1.951
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "订阅成员MSG",
+            "count": 120,
+            "jaccard": 0.2553,
+            "liftRatio": 1.256
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "观看其他团外综艺",
+            "count": 117,
+            "jaccard": 0.2925,
+            "liftRatio": 1.469
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "观看Love it！",
+            "count": 113,
+            "jaccard": 0.3622,
+            "liftRatio": 2.118
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "阅读杂志",
+            "count": 109,
+            "jaccard": 0.3385,
+            "liftRatio": 2.005
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "阅读杂志",
+            "count": 109,
+            "jaccard": 0.3053,
+            "liftRatio": 1.755
+          },
+          {
+            "source": "观看Love it！",
+            "target": "订阅成员MSG",
+            "count": 109,
+            "jaccard": 0.237,
+            "liftRatio": 1.267
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "观看其他团外综艺",
+            "count": 107,
+            "jaccard": 0.2853,
+            "liftRatio": 1.566
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "阅读杂志",
+            "count": 107,
+            "jaccard": 0.3419,
+            "liftRatio": 2.06
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "观看Love it！",
+            "count": 96,
+            "jaccard": 0.2824,
+            "liftRatio": 1.719
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "阅读杂志",
+            "count": 95,
+            "jaccard": 0.3156,
+            "liftRatio": 2.037
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "阅读杂志",
+            "count": 91,
+            "jaccard": 0.2493,
+            "liftRatio": 1.519
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "观看Love it！",
+            "count": 89,
+            "jaccard": 0.2853,
+            "liftRatio": 1.858
+          },
+          {
+            "source": "其他",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 83,
+            "jaccard": 0.1091,
+            "liftRatio": 1.077
+          },
+          {
+            "source": "观看Love it！",
+            "target": "阅读杂志",
+            "count": 82,
+            "jaccard": 0.2799,
+            "liftRatio": 1.953
+          },
+          {
+            "source": "其他",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 80,
+            "jaccard": 0.1017,
+            "liftRatio": 1.007
+          },
+          {
+            "source": "其他",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 75,
+            "jaccard": 0.1034,
+            "liftRatio": 1.033
+          },
+          {
+            "source": "其他",
+            "target": "阅读成员博客",
+            "count": 72,
+            "jaccard": 0.1246,
+            "liftRatio": 1.255
+          },
+          {
+            "source": "其他",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 67,
+            "jaccard": 0.1243,
+            "liftRatio": 1.266
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 61,
+            "jaccard": 0.078,
+            "liftRatio": 1.07
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 59,
+            "jaccard": 0.0775,
+            "liftRatio": 1.067
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 58,
+            "jaccard": 0.0808,
+            "liftRatio": 1.113
+          },
+          {
+            "source": "其他",
+            "target": "收听櫻坂チャンネル",
+            "count": 57,
+            "jaccard": 0.208,
+            "liftRatio": 2.282
+          },
+          {
+            "source": "其他",
+            "target": "櫻坂46の「さ」",
+            "count": 57,
+            "jaccard": 0.2167,
+            "liftRatio": 2.388
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 56,
+            "jaccard": 0.2593,
+            "liftRatio": 3.642
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 55,
+            "jaccard": 0.1044,
+            "liftRatio": 1.449
+          },
+          {
+            "source": "其他",
+            "target": "观看其他团外综艺",
+            "count": 54,
+            "jaccard": 0.1788,
+            "liftRatio": 1.962
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "櫻坂46の「さ」",
+            "count": 53,
+            "jaccard": 0.2181,
+            "liftRatio": 3.095
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "阅读成员博客",
+            "count": 53,
+            "jaccard": 0.0925,
+            "liftRatio": 1.287
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "收听櫻坂チャンネル",
+            "count": 52,
+            "jaccard": 0.2039,
+            "liftRatio": 2.9
+          },
+          {
+            "source": "其他",
+            "target": "订阅成员MSG",
+            "count": 51,
+            "jaccard": 0.1235,
+            "liftRatio": 1.325
+          },
+          {
+            "source": "其他",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 49,
+            "jaccard": 0.1984,
+            "liftRatio": 2.287
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "观看サクラミーツ",
+            "count": 47,
+            "jaccard": 0.1593,
+            "liftRatio": 2.295
+          },
+          {
+            "source": "其他",
+            "target": "观看サクラミーツ",
+            "count": 46,
+            "jaccard": 0.1437,
+            "liftRatio": 1.612
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "订阅成员MSG",
+            "count": 44,
+            "jaccard": 0.1111,
+            "liftRatio": 1.593
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "观看Love it！",
+            "count": 43,
+            "jaccard": 0.2067,
+            "liftRatio": 3.105
+          }
+        ]
+      },
+      {
+        "id": "ticket_issues",
+        "year": 2025,
+        "label": "购票难点共现",
+        "description": "购票障碍的组合结构。",
+        "questionId": "2025-Q30",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "日本号码",
+            "count": 710,
+            "rate": 0.8483
+          },
+          {
+            "label": "付款方式",
+            "count": 518,
+            "rate": 0.6189
+          },
+          {
+            "label": "账号注册",
+            "count": 390,
+            "rate": 0.4659
+          },
+          {
+            "label": "语言障碍",
+            "count": 323,
+            "rate": 0.3859
+          },
+          {
+            "label": "网页导航",
+            "count": 193,
+            "rate": 0.2306
+          },
+          {
+            "label": "其他",
+            "count": 68,
+            "rate": 0.0812
+          }
+        ],
+        "edges": [
+          {
+            "source": "付款方式",
+            "target": "日本号码",
+            "count": 475,
+            "jaccard": 0.6308,
+            "liftRatio": 1.081
+          },
+          {
+            "source": "日本号码",
+            "target": "账号注册",
+            "count": 372,
+            "jaccard": 0.511,
+            "liftRatio": 1.124
+          },
+          {
+            "source": "付款方式",
+            "target": "账号注册",
+            "count": 287,
+            "jaccard": 0.4622,
+            "liftRatio": 1.189
+          },
+          {
+            "source": "日本号码",
+            "target": "语言障碍",
+            "count": 285,
+            "jaccard": 0.381,
+            "liftRatio": 1.04
+          },
+          {
+            "source": "付款方式",
+            "target": "语言障碍",
+            "count": 224,
+            "jaccard": 0.363,
+            "liftRatio": 1.121
+          },
+          {
+            "source": "语言障碍",
+            "target": "账号注册",
+            "count": 206,
+            "jaccard": 0.4063,
+            "liftRatio": 1.369
+          },
+          {
+            "source": "日本号码",
+            "target": "网页导航",
+            "count": 179,
+            "jaccard": 0.2472,
+            "liftRatio": 1.093
+          },
+          {
+            "source": "网页导航",
+            "target": "账号注册",
+            "count": 165,
+            "jaccard": 0.3947,
+            "liftRatio": 1.835
+          },
+          {
+            "source": "付款方式",
+            "target": "网页导航",
+            "count": 159,
+            "jaccard": 0.288,
+            "liftRatio": 1.331
+          },
+          {
+            "source": "网页导航",
+            "target": "语言障碍",
+            "count": 134,
+            "jaccard": 0.3508,
+            "liftRatio": 1.799
+          },
+          {
+            "source": "其他",
+            "target": "日本号码",
+            "count": 16,
+            "jaccard": 0.021,
+            "liftRatio": 0.277
+          },
+          {
+            "source": "付款方式",
+            "target": "其他",
+            "count": 13,
+            "jaccard": 0.0227,
+            "liftRatio": 0.309
+          },
+          {
+            "source": "其他",
+            "target": "语言障碍",
+            "count": 12,
+            "jaccard": 0.0317,
+            "liftRatio": 0.457
+          },
+          {
+            "source": "其他",
+            "target": "网页导航",
+            "count": 8,
+            "jaccard": 0.0316,
+            "liftRatio": 0.51
+          },
+          {
+            "source": "其他",
+            "target": "账号注册",
+            "count": 8,
+            "jaccard": 0.0178,
+            "liftRatio": 0.252
+          }
+        ]
+      },
+      {
+        "id": "other_idols",
+        "year": 2025,
+        "label": "其他偶像参与共现",
+        "description": "其他偶像参与类型的重叠。",
+        "questionId": "2025-Q21",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "没有，只看樱坂46",
+            "count": 422,
+            "rate": 0.5042
+          },
+          {
+            "label": "有，日本偶像",
+            "count": 405,
+            "rate": 0.4839
+          },
+          {
+            "label": "有，地下/地元偶像",
+            "count": 38,
+            "rate": 0.0454
+          }
+        ],
+        "edges": [
+          {
+            "source": "有，地下/地元偶像",
+            "target": "有，日本偶像",
+            "count": 28,
+            "jaccard": 0.0675,
+            "liftRatio": 1.523
+          }
+        ]
+      },
+      {
+        "id": "official_support",
+        "year": 2025,
+        "label": "官方支持需求共现",
+        "description": "中文区希望官方提供的支持之间的组合关系。",
+        "questionId": "2025-Q14",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 635,
+            "rate": 0.7587
+          },
+          {
+            "label": "更高频率的演唱会海外票抽选",
+            "count": 603,
+            "rate": 0.7204
+          },
+          {
+            "label": "参与音乐节/动漫展等活动",
+            "count": 581,
+            "rate": 0.6941
+          },
+          {
+            "label": "官方转樱/微转樱",
+            "count": 554,
+            "rate": 0.6619
+          },
+          {
+            "label": "周边商品的直邮",
+            "count": 530,
+            "rate": 0.6332
+          },
+          {
+            "label": "入驻中文社交平台",
+            "count": 527,
+            "rate": 0.6296
+          },
+          {
+            "label": "其他",
+            "count": 50,
+            "rate": 0.0597
+          }
+        ],
+        "edges": [
+          {
+            "source": "更高频率的演唱会海外票抽选",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 498,
+            "jaccard": 0.673,
+            "liftRatio": 1.089
+          },
+          {
+            "source": "参与音乐节/动漫展等活动",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 471,
+            "jaccard": 0.6322,
+            "liftRatio": 1.069
+          },
+          {
+            "source": "参与音乐节/动漫展等活动",
+            "target": "更高频率的演唱会海外票抽选",
+            "count": 457,
+            "jaccard": 0.6286,
+            "liftRatio": 1.092
+          },
+          {
+            "source": "官方转樱/微转樱",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 451,
+            "jaccard": 0.6111,
+            "liftRatio": 1.073
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 446,
+            "jaccard": 0.6229,
+            "liftRatio": 1.116
+          },
+          {
+            "source": "周边商品的直邮",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 441,
+            "jaccard": 0.6091,
+            "liftRatio": 1.097
+          },
+          {
+            "source": "周边商品的直邮",
+            "target": "更高频率的演唱会海外票抽选",
+            "count": 425,
+            "jaccard": 0.6003,
+            "liftRatio": 1.113
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "官方转樱/微转樱",
+            "count": 416,
+            "jaccard": 0.6256,
+            "liftRatio": 1.193
+          },
+          {
+            "source": "官方转樱/微转樱",
+            "target": "更高频率的演唱会海外票抽选",
+            "count": 414,
+            "jaccard": 0.5572,
+            "liftRatio": 1.037
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "更高频率的演唱会海外票抽选",
+            "count": 409,
+            "jaccard": 0.5673,
+            "liftRatio": 1.077
+          },
+          {
+            "source": "参与音乐节/动漫展等活动",
+            "target": "周边商品的直邮",
+            "count": 408,
+            "jaccard": 0.5804,
+            "liftRatio": 1.109
+          },
+          {
+            "source": "周边商品的直邮",
+            "target": "官方转樱/微转樱",
+            "count": 400,
+            "jaccard": 0.5848,
+            "liftRatio": 1.14
+          },
+          {
+            "source": "参与音乐节/动漫展等活动",
+            "target": "官方转樱/微转樱",
+            "count": 393,
+            "jaccard": 0.5296,
+            "liftRatio": 1.022
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "参与音乐节/动漫展等活动",
+            "count": 389,
+            "jaccard": 0.541,
+            "liftRatio": 1.063
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "周边商品的直邮",
+            "count": 368,
+            "jaccard": 0.5341,
+            "liftRatio": 1.103
+          },
+          {
+            "source": "其他",
+            "target": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 34,
+            "jaccard": 0.0522,
+            "liftRatio": 0.896
+          },
+          {
+            "source": "其他",
+            "target": "参与音乐节/动漫展等活动",
+            "count": 30,
+            "jaccard": 0.0499,
+            "liftRatio": 0.864
+          },
+          {
+            "source": "其他",
+            "target": "更高频率的演唱会海外票抽选",
+            "count": 30,
+            "jaccard": 0.0482,
+            "liftRatio": 0.833
+          },
+          {
+            "source": "入驻中文社交平台",
+            "target": "其他",
+            "count": 28,
+            "jaccard": 0.051,
+            "liftRatio": 0.889
+          },
+          {
+            "source": "其他",
+            "target": "周边商品的直邮",
+            "count": 27,
+            "jaccard": 0.0488,
+            "liftRatio": 0.853
+          },
+          {
+            "source": "其他",
+            "target": "官方转樱/微转樱",
+            "count": 25,
+            "jaccard": 0.0432,
+            "liftRatio": 0.755
+          }
+        ]
+      },
+      {
+        "id": "content_platforms",
+        "year": 2025,
+        "label": "内容平台共现",
+        "description": "内容获取平台之间的组合关系。",
+        "questionId": "2025-Q19",
+        "base": 837,
+        "nodes": [
+          {
+            "label": "樱坂46字幕组Bilibili账号",
+            "count": 723,
+            "rate": 0.8638
+          },
+          {
+            "label": "成员个人字幕组Bilibili账号",
+            "count": 671,
+            "rate": 0.8017
+          },
+          {
+            "label": "成员个人字幕组微博账号",
+            "count": 638,
+            "rate": 0.7622
+          },
+          {
+            "label": "樱坂46官网",
+            "count": 533,
+            "rate": 0.6368
+          },
+          {
+            "label": "海外社交媒体平台",
+            "count": 473,
+            "rate": 0.5651
+          },
+          {
+            "label": "樱坂46微博超话",
+            "count": 399,
+            "rate": 0.4767
+          },
+          {
+            "label": "成员个人QQ应援群",
+            "count": 258,
+            "rate": 0.3082
+          },
+          {
+            "label": "其他",
+            "count": 26,
+            "rate": 0.0311
+          }
+        ],
+        "edges": [
+          {
+            "source": "成员个人字幕组Bilibili账号",
+            "target": "樱坂46字幕组Bilibili账号",
+            "count": 617,
+            "jaccard": 0.7941,
+            "liftRatio": 1.065
+          },
+          {
+            "source": "成员个人字幕组微博账号",
+            "target": "樱坂46字幕组Bilibili账号",
+            "count": 578,
+            "jaccard": 0.7382,
+            "liftRatio": 1.049
+          },
+          {
+            "source": "成员个人字幕组Bilibili账号",
+            "target": "成员个人字幕组微博账号",
+            "count": 562,
+            "jaccard": 0.7523,
+            "liftRatio": 1.099
+          },
+          {
+            "source": "樱坂46字幕组Bilibili账号",
+            "target": "樱坂46官网",
+            "count": 458,
+            "jaccard": 0.5739,
+            "liftRatio": 0.995
+          },
+          {
+            "source": "成员个人字幕组Bilibili账号",
+            "target": "樱坂46官网",
+            "count": 431,
+            "jaccard": 0.5576,
+            "liftRatio": 1.009
+          },
+          {
+            "source": "成员个人字幕组微博账号",
+            "target": "樱坂46官网",
+            "count": 425,
+            "jaccard": 0.5697,
+            "liftRatio": 1.046
+          },
+          {
+            "source": "樱坂46字幕组Bilibili账号",
+            "target": "海外社交媒体平台",
+            "count": 405,
+            "jaccard": 0.512,
+            "liftRatio": 0.991
+          },
+          {
+            "source": "成员个人字幕组Bilibili账号",
+            "target": "海外社交媒体平台",
+            "count": 377,
+            "jaccard": 0.4915,
+            "liftRatio": 0.994
+          },
+          {
+            "source": "樱坂46字幕组Bilibili账号",
+            "target": "樱坂46微博超话",
+            "count": 376,
+            "jaccard": 0.504,
+            "liftRatio": 1.091
+          },
+          {
+            "source": "樱坂46官网",
+            "target": "海外社交媒体平台",
+            "count": 373,
+            "jaccard": 0.5893,
+            "liftRatio": 1.238
+          },
+          {
+            "source": "成员个人字幕组微博账号",
+            "target": "樱坂46微博超话",
+            "count": 373,
+            "jaccard": 0.5617,
+            "liftRatio": 1.226
+          },
+          {
+            "source": "成员个人字幕组微博账号",
+            "target": "海外社交媒体平台",
+            "count": 366,
+            "jaccard": 0.4913,
+            "liftRatio": 1.015
+          },
+          {
+            "source": "成员个人字幕组Bilibili账号",
+            "target": "樱坂46微博超话",
+            "count": 355,
+            "jaccard": 0.4965,
+            "liftRatio": 1.11
+          },
+          {
+            "source": "樱坂46官网",
+            "target": "樱坂46微博超话",
+            "count": 268,
+            "jaccard": 0.4036,
+            "liftRatio": 1.055
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "成员个人字幕组Bilibili账号",
+            "count": 242,
+            "jaccard": 0.3523,
+            "liftRatio": 1.17
+          },
+          {
+            "source": "樱坂46微博超话",
+            "target": "海外社交媒体平台",
+            "count": 238,
+            "jaccard": 0.3754,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "成员个人字幕组微博账号",
+            "count": 235,
+            "jaccard": 0.3555,
+            "liftRatio": 1.195
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "樱坂46字幕组Bilibili账号",
+            "count": 235,
+            "jaccard": 0.315,
+            "liftRatio": 1.054
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "樱坂46官网",
+            "count": 193,
+            "jaccard": 0.3227,
+            "liftRatio": 1.175
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "樱坂46微博超话",
+            "count": 180,
+            "jaccard": 0.3774,
+            "liftRatio": 1.464
+          },
+          {
+            "source": "成员个人QQ应援群",
+            "target": "海外社交媒体平台",
+            "count": 159,
+            "jaccard": 0.278,
+            "liftRatio": 1.091
+          },
+          {
+            "source": "其他",
+            "target": "樱坂46字幕组Bilibili账号",
+            "count": 22,
+            "jaccard": 0.0303,
+            "liftRatio": 0.98
+          },
+          {
+            "source": "其他",
+            "target": "成员个人字幕组微博账号",
+            "count": 19,
+            "jaccard": 0.0295,
+            "liftRatio": 0.959
+          },
+          {
+            "source": "其他",
+            "target": "成员个人字幕组Bilibili账号",
+            "count": 16,
+            "jaccard": 0.0235,
+            "liftRatio": 0.768
+          },
+          {
+            "source": "其他",
+            "target": "樱坂46官网",
+            "count": 15,
+            "jaccard": 0.0276,
+            "liftRatio": 0.906
+          },
+          {
+            "source": "其他",
+            "target": "樱坂46微博超话",
+            "count": 13,
+            "jaccard": 0.0316,
+            "liftRatio": 1.049
+          },
+          {
+            "source": "其他",
+            "target": "海外社交媒体平台",
+            "count": 11,
+            "jaccard": 0.0225,
+            "liftRatio": 0.749
+          },
+          {
+            "source": "其他",
+            "target": "成员个人QQ应援群",
+            "count": 5,
+            "jaccard": 0.0179,
+            "liftRatio": 0.624
+          }
+        ]
+      }
+    ],
+    "2026": [
+      {
+        "id": "love_reasons",
+        "year": 2026,
+        "label": "爱上原因共现",
+        "description": "哪些喜欢理由经常被同一个人同时选择。",
+        "questionId": "2026-Q03",
+        "base": 39,
+        "nodes": [
+          {
+            "label": "成员/个性",
+            "count": 35,
+            "rate": 0.8974
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 30,
+            "rate": 0.7692
+          },
+          {
+            "label": "综艺",
+            "count": 24,
+            "rate": 0.6154
+          },
+          {
+            "label": "世界观/概念",
+            "count": 21,
+            "rate": 0.5385
+          },
+          {
+            "label": "音乐",
+            "count": 20,
+            "rate": 0.5128
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 19,
+            "rate": 0.4872
+          }
+        ],
+        "edges": [
+          {
+            "source": "成员/个性",
+            "target": "现场表演/舞蹈",
+            "count": 28,
+            "jaccard": 0.7568,
+            "liftRatio": 1.04
+          },
+          {
+            "source": "成员/个性",
+            "target": "综艺",
+            "count": 22,
+            "jaccard": 0.5946,
+            "liftRatio": 1.021
+          },
+          {
+            "source": "世界观/概念",
+            "target": "成员/个性",
+            "count": 21,
+            "jaccard": 0.6,
+            "liftRatio": 1.114
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "综艺",
+            "count": 21,
+            "jaccard": 0.6364,
+            "liftRatio": 1.137
+          },
+          {
+            "source": "世界观/概念",
+            "target": "现场表演/舞蹈",
+            "count": 20,
+            "jaccard": 0.6452,
+            "liftRatio": 1.238
+          },
+          {
+            "source": "成员/个性",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 18,
+            "jaccard": 0.5,
+            "liftRatio": 1.056
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 18,
+            "jaccard": 0.5806,
+            "liftRatio": 1.232
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "音乐",
+            "count": 18,
+            "jaccard": 0.5625,
+            "liftRatio": 1.17
+          },
+          {
+            "source": "成员/个性",
+            "target": "音乐",
+            "count": 17,
+            "jaccard": 0.4474,
+            "liftRatio": 0.947
+          },
+          {
+            "source": "综艺",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 16,
+            "jaccard": 0.5926,
+            "liftRatio": 1.368
+          },
+          {
+            "source": "综艺",
+            "target": "音乐",
+            "count": 16,
+            "jaccard": 0.5714,
+            "liftRatio": 1.3
+          },
+          {
+            "source": "世界观/概念",
+            "target": "综艺",
+            "count": 15,
+            "jaccard": 0.5,
+            "liftRatio": 1.161
+          },
+          {
+            "source": "世界观/概念",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 14,
+            "jaccard": 0.5385,
+            "liftRatio": 1.368
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "音乐",
+            "count": 13,
+            "jaccard": 0.5,
+            "liftRatio": 1.334
+          },
+          {
+            "source": "世界观/概念",
+            "target": "音乐",
+            "count": 12,
+            "jaccard": 0.4138,
+            "liftRatio": 1.114
+          }
+        ]
+      },
+      {
+        "id": "activity_methods",
+        "year": 2026,
+        "label": "活动方式共现",
+        "description": "哪些偶像活动方式经常组合出现。",
+        "questionId": "2026-Q08",
+        "base": 220,
+        "nodes": [
+          {
+            "label": "观看冠名综艺",
+            "count": 209,
+            "rate": 0.95
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 208,
+            "rate": 0.9455
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 132,
+            "rate": 0.6
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 106,
+            "rate": 0.4818
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 99,
+            "rate": 0.45
+          },
+          {
+            "label": "签名会",
+            "count": 15,
+            "rate": 0.0682
+          },
+          {
+            "label": "UOA/樱恋线下活动",
+            "count": 13,
+            "rate": 0.0591
+          },
+          {
+            "label": "其他",
+            "count": 9,
+            "rate": 0.0409
+          }
+        ],
+        "edges": [
+          {
+            "source": "观看冠名综艺",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 198,
+            "jaccard": 0.9041,
+            "liftRatio": 1.002
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "观看冠名综艺",
+            "count": 130,
+            "jaccard": 0.6161,
+            "liftRatio": 1.037
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 125,
+            "jaccard": 0.5814,
+            "liftRatio": 1.002
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "观看冠名综艺",
+            "count": 101,
+            "jaccard": 0.472,
+            "liftRatio": 1.003
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 99,
+            "jaccard": 0.4605,
+            "liftRatio": 0.988
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "观看冠名综艺",
+            "count": 96,
+            "jaccard": 0.4528,
+            "liftRatio": 1.021
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 94,
+            "jaccard": 0.4413,
+            "liftRatio": 1.004
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "观看其他团外综艺",
+            "count": 65,
+            "jaccard": 0.3757,
+            "liftRatio": 1.022
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "观看其他团外综艺",
+            "count": 63,
+            "jaccard": 0.375,
+            "liftRatio": 1.061
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "线上/线下见面会",
+            "count": 55,
+            "jaccard": 0.3667,
+            "liftRatio": 1.153
+          },
+          {
+            "source": "签名会",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 15,
+            "jaccard": 0.0721,
+            "liftRatio": 1.058
+          },
+          {
+            "source": "签名会",
+            "target": "线上/线下见面会",
+            "count": 14,
+            "jaccard": 0.1308,
+            "liftRatio": 1.937
+          },
+          {
+            "source": "签名会",
+            "target": "观看冠名综艺",
+            "count": 14,
+            "jaccard": 0.0667,
+            "liftRatio": 0.982
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "观看冠名综艺",
+            "count": 13,
+            "jaccard": 0.0622,
+            "liftRatio": 1.053
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 13,
+            "jaccard": 0.0625,
+            "liftRatio": 1.058
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "UOA/樱恋线下活动",
+            "count": 11,
+            "jaccard": 0.1089,
+            "liftRatio": 1.88
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "签名会",
+            "count": 11,
+            "jaccard": 0.1068,
+            "liftRatio": 1.63
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "观看其他团外综艺",
+            "count": 11,
+            "jaccard": 0.0821,
+            "liftRatio": 1.41
+          },
+          {
+            "source": "签名会",
+            "target": "观看其他团外综艺",
+            "count": 10,
+            "jaccard": 0.073,
+            "liftRatio": 1.111
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "线上/线下见面会",
+            "count": 10,
+            "jaccard": 0.0917,
+            "liftRatio": 1.597
+          },
+          {
+            "source": "其他",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 8,
+            "jaccard": 0.0383,
+            "liftRatio": 0.94
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "签名会",
+            "count": 8,
+            "jaccard": 0.4,
+            "liftRatio": 9.026
+          },
+          {
+            "source": "其他",
+            "target": "观看冠名综艺",
+            "count": 7,
+            "jaccard": 0.0332,
+            "liftRatio": 0.819
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "其他",
+            "count": 6,
+            "jaccard": 0.0588,
+            "liftRatio": 1.481
+          },
+          {
+            "source": "其他",
+            "target": "线上/线下见面会",
+            "count": 5,
+            "jaccard": 0.0455,
+            "liftRatio": 1.153
+          }
+        ]
+      },
+      {
+        "id": "ticket_issues",
+        "year": 2026,
+        "label": "购票难点共现",
+        "description": "购票障碍的组合结构。",
+        "questionId": "2026-Q28",
+        "base": 208,
+        "nodes": [
+          {
+            "label": "日本号码",
+            "count": 160,
+            "rate": 0.7692
+          },
+          {
+            "label": "付款方式",
+            "count": 87,
+            "rate": 0.4183
+          },
+          {
+            "label": "账号注册",
+            "count": 70,
+            "rate": 0.3365
+          },
+          {
+            "label": "语言障碍",
+            "count": 52,
+            "rate": 0.25
+          },
+          {
+            "label": "网页导航",
+            "count": 35,
+            "rate": 0.1683
+          },
+          {
+            "label": "其他",
+            "count": 19,
+            "rate": 0.0913
+          }
+        ],
+        "edges": [
+          {
+            "source": "付款方式",
+            "target": "日本号码",
+            "count": 68,
+            "jaccard": 0.3799,
+            "liftRatio": 1.016
+          },
+          {
+            "source": "日本号码",
+            "target": "账号注册",
+            "count": 64,
+            "jaccard": 0.3855,
+            "liftRatio": 1.189
+          },
+          {
+            "source": "日本号码",
+            "target": "语言障碍",
+            "count": 44,
+            "jaccard": 0.2619,
+            "liftRatio": 1.1
+          },
+          {
+            "source": "付款方式",
+            "target": "账号注册",
+            "count": 35,
+            "jaccard": 0.2869,
+            "liftRatio": 1.195
+          },
+          {
+            "source": "语言障碍",
+            "target": "账号注册",
+            "count": 31,
+            "jaccard": 0.3407,
+            "liftRatio": 1.771
+          },
+          {
+            "source": "网页导航",
+            "target": "账号注册",
+            "count": 25,
+            "jaccard": 0.3125,
+            "liftRatio": 2.122
+          },
+          {
+            "source": "日本号码",
+            "target": "网页导航",
+            "count": 25,
+            "jaccard": 0.1471,
+            "liftRatio": 0.929
+          },
+          {
+            "source": "付款方式",
+            "target": "语言障碍",
+            "count": 22,
+            "jaccard": 0.188,
+            "liftRatio": 1.011
+          },
+          {
+            "source": "付款方式",
+            "target": "网页导航",
+            "count": 20,
+            "jaccard": 0.1961,
+            "liftRatio": 1.366
+          },
+          {
+            "source": "网页导航",
+            "target": "语言障碍",
+            "count": 19,
+            "jaccard": 0.2794,
+            "liftRatio": 2.171
+          }
+        ]
+      },
+      {
+        "id": "other_idols",
+        "year": 2026,
+        "label": "其他偶像参与共现",
+        "description": "其他偶像参与类型的重叠。",
+        "questionId": "2026-Q23",
+        "base": 220,
+        "nodes": [
+          {
+            "label": "没有，偶像只看樱坂46",
+            "count": 112,
+            "rate": 0.5091
+          },
+          {
+            "label": "有，日系偶像",
+            "count": 86,
+            "rate": 0.3909
+          },
+          {
+            "label": "有，非日系偶像",
+            "count": 37,
+            "rate": 0.1682
+          }
+        ],
+        "edges": [
+          {
+            "source": "有，日系偶像",
+            "target": "有，非日系偶像",
+            "count": 15,
+            "jaccard": 0.1389,
+            "liftRatio": 1.037
+          }
+        ]
+      },
+      {
+        "id": "favorite_members",
+        "year": 2026,
+        "label": "好感成员共现",
+        "description": "2026 好感成员之间的共同选择关系。",
+        "questionId": "2026-Q04",
+        "base": 220,
+        "nodes": [
+          {
+            "label": "田村保乃",
+            "count": 127,
+            "rate": 0.5773
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 126,
+            "rate": 0.5727
+          },
+          {
+            "label": "森田ひかる",
+            "count": 124,
+            "rate": 0.5636
+          },
+          {
+            "label": "山下瞳月",
+            "count": 95,
+            "rate": 0.4318
+          },
+          {
+            "label": "中嶋優月",
+            "count": 94,
+            "rate": 0.4273
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 94,
+            "rate": 0.4273
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 92,
+            "rate": 0.4182
+          },
+          {
+            "label": "石森璃花",
+            "count": 88,
+            "rate": 0.4
+          },
+          {
+            "label": "山﨑天",
+            "count": 88,
+            "rate": 0.4
+          },
+          {
+            "label": "谷口愛季",
+            "count": 85,
+            "rate": 0.3864
+          },
+          {
+            "label": "遠藤理子",
+            "count": 79,
+            "rate": 0.3591
+          },
+          {
+            "label": "小島凪紗",
+            "count": 78,
+            "rate": 0.3545
+          },
+          {
+            "label": "大園玲",
+            "count": 77,
+            "rate": 0.35
+          },
+          {
+            "label": "的野美青",
+            "count": 76,
+            "rate": 0.3455
+          },
+          {
+            "label": "村山美羽",
+            "count": 75,
+            "rate": 0.3409
+          },
+          {
+            "label": "武元唯衣",
+            "count": 70,
+            "rate": 0.3182
+          },
+          {
+            "label": "村井優",
+            "count": 68,
+            "rate": 0.3091
+          },
+          {
+            "label": "松本和子",
+            "count": 65,
+            "rate": 0.2955
+          },
+          {
+            "label": "増本綺良",
+            "count": 63,
+            "rate": 0.2864
+          },
+          {
+            "label": "勝又春",
+            "count": 62,
+            "rate": 0.2818
+          },
+          {
+            "label": "松田里奈",
+            "count": 56,
+            "rate": 0.2545
+          },
+          {
+            "label": "山川宇衣",
+            "count": 54,
+            "rate": 0.2455
+          },
+          {
+            "label": "向井純葉",
+            "count": 53,
+            "rate": 0.2409
+          },
+          {
+            "label": "大沼晶保",
+            "count": 52,
+            "rate": 0.2364
+          },
+          {
+            "label": "中川智尋",
+            "count": 48,
+            "rate": 0.2182
+          },
+          {
+            "label": "山田桃実",
+            "count": 48,
+            "rate": 0.2182
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 47,
+            "rate": 0.2136
+          },
+          {
+            "label": "浅井恋乃未",
+            "count": 39,
+            "rate": 0.1773
+          },
+          {
+            "label": "佐藤愛桜",
+            "count": 38,
+            "rate": 0.1727
+          },
+          {
+            "label": "稲熊ひな",
+            "count": 35,
+            "rate": 0.1591
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 26,
+            "rate": 0.1182
+          },
+          {
+            "label": "目黒陽色",
+            "count": 19,
+            "rate": 0.0864
+          }
+        ],
+        "edges": [
+          {
+            "source": "森田ひかる",
+            "target": "田村保乃",
+            "count": 101,
+            "jaccard": 0.6733,
+            "liftRatio": 1.411
+          },
+          {
+            "source": "田村保乃",
+            "target": "藤吉夏鈴",
+            "count": 84,
+            "jaccard": 0.497,
+            "liftRatio": 1.155
+          },
+          {
+            "source": "森田ひかる",
+            "target": "藤吉夏鈴",
+            "count": 82,
+            "jaccard": 0.4881,
+            "liftRatio": 1.155
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "田村保乃",
+            "count": 81,
+            "jaccard": 0.5786,
+            "liftRatio": 1.493
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "森田ひかる",
+            "count": 75,
+            "jaccard": 0.5245,
+            "liftRatio": 1.416
+          },
+          {
+            "source": "中嶋優月",
+            "target": "森田ひかる",
+            "count": 74,
+            "jaccard": 0.5139,
+            "liftRatio": 1.397
+          },
+          {
+            "source": "山﨑天",
+            "target": "田村保乃",
+            "count": 71,
+            "jaccard": 0.4931,
+            "liftRatio": 1.398
+          },
+          {
+            "source": "山﨑天",
+            "target": "藤吉夏鈴",
+            "count": 71,
+            "jaccard": 0.4965,
+            "liftRatio": 1.409
+          },
+          {
+            "source": "山下瞳月",
+            "target": "田村保乃",
+            "count": 70,
+            "jaccard": 0.4605,
+            "liftRatio": 1.276
+          },
+          {
+            "source": "山﨑天",
+            "target": "森田ひかる",
+            "count": 70,
+            "jaccard": 0.493,
+            "liftRatio": 1.411
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "田村保乃",
+            "count": 69,
+            "jaccard": 0.46,
+            "liftRatio": 1.299
+          },
+          {
+            "source": "中嶋優月",
+            "target": "田村保乃",
+            "count": 68,
+            "jaccard": 0.4444,
+            "liftRatio": 1.253
+          },
+          {
+            "source": "山下瞳月",
+            "target": "森田ひかる",
+            "count": 68,
+            "jaccard": 0.4503,
+            "liftRatio": 1.27
+          },
+          {
+            "source": "中嶋優月",
+            "target": "谷口愛季",
+            "count": 66,
+            "jaccard": 0.5841,
+            "liftRatio": 1.817
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "藤吉夏鈴",
+            "count": 66,
+            "jaccard": 0.4286,
+            "liftRatio": 1.226
+          },
+          {
+            "source": "森田ひかる",
+            "target": "谷口愛季",
+            "count": 66,
+            "jaccard": 0.4615,
+            "liftRatio": 1.378
+          },
+          {
+            "source": "田村保乃",
+            "target": "石森璃花",
+            "count": 66,
+            "jaccard": 0.443,
+            "liftRatio": 1.299
+          },
+          {
+            "source": "中嶋優月",
+            "target": "石森璃花",
+            "count": 65,
+            "jaccard": 0.5556,
+            "liftRatio": 1.729
+          },
+          {
+            "source": "田村保乃",
+            "target": "谷口愛季",
+            "count": 65,
+            "jaccard": 0.4422,
+            "liftRatio": 1.325
+          },
+          {
+            "source": "森田ひかる",
+            "target": "石森璃花",
+            "count": 64,
+            "jaccard": 0.4324,
+            "liftRatio": 1.29
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "谷口愛季",
+            "count": 64,
+            "jaccard": 0.5664,
+            "liftRatio": 1.801
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "山下瞳月",
+            "count": 64,
+            "jaccard": 0.5203,
+            "liftRatio": 1.611
+          },
+          {
+            "source": "大園玲",
+            "target": "森田ひかる",
+            "count": 64,
+            "jaccard": 0.4672,
+            "liftRatio": 1.475
+          },
+          {
+            "source": "石森璃花",
+            "target": "谷口愛季",
+            "count": 63,
+            "jaccard": 0.5727,
+            "liftRatio": 1.853
+          },
+          {
+            "source": "大園玲",
+            "target": "田村保乃",
+            "count": 63,
+            "jaccard": 0.4468,
+            "liftRatio": 1.417
+          },
+          {
+            "source": "中嶋優月",
+            "target": "山下瞳月",
+            "count": 62,
+            "jaccard": 0.4882,
+            "liftRatio": 1.527
+          },
+          {
+            "source": "山下瞳月",
+            "target": "村井優",
+            "count": 62,
+            "jaccard": 0.6139,
+            "liftRatio": 2.111
+          },
+          {
+            "source": "山下瞳月",
+            "target": "石森璃花",
+            "count": 62,
+            "jaccard": 0.5124,
+            "liftRatio": 1.632
+          },
+          {
+            "source": "山下瞳月",
+            "target": "藤吉夏鈴",
+            "count": 62,
+            "jaccard": 0.3899,
+            "liftRatio": 1.14
+          },
+          {
+            "source": "中嶋優月",
+            "target": "小田倉麗奈",
+            "count": 61,
+            "jaccard": 0.488,
+            "liftRatio": 1.552
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "石森璃花",
+            "count": 61,
+            "jaccard": 0.5126,
+            "liftRatio": 1.658
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "山下瞳月",
+            "count": 61,
+            "jaccard": 0.4766,
+            "liftRatio": 1.503
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "藤吉夏鈴",
+            "count": 60,
+            "jaccard": 0.3797,
+            "liftRatio": 1.139
+          },
+          {
+            "source": "森田ひかる",
+            "target": "的野美青",
+            "count": 60,
+            "jaccard": 0.4286,
+            "liftRatio": 1.401
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "森田ひかる",
+            "count": 60,
+            "jaccard": 0.3846,
+            "liftRatio": 1.157
+          },
+          {
+            "source": "大園玲",
+            "target": "藤吉夏鈴",
+            "count": 59,
+            "jaccard": 0.4097,
+            "liftRatio": 1.338
+          },
+          {
+            "source": "山下瞳月",
+            "target": "谷口愛季",
+            "count": 59,
+            "jaccard": 0.4876,
+            "liftRatio": 1.607
+          },
+          {
+            "source": "田村保乃",
+            "target": "遠藤理子",
+            "count": 59,
+            "jaccard": 0.4014,
+            "liftRatio": 1.294
+          },
+          {
+            "source": "村山美羽",
+            "target": "森田ひかる",
+            "count": 59,
+            "jaccard": 0.4214,
+            "liftRatio": 1.396
+          },
+          {
+            "source": "中嶋優月",
+            "target": "藤吉夏鈴",
+            "count": 58,
+            "jaccard": 0.358,
+            "liftRatio": 1.077
+          },
+          {
+            "source": "大園玲",
+            "target": "守屋麗奈",
+            "count": 58,
+            "jaccard": 0.5133,
+            "liftRatio": 1.763
+          },
+          {
+            "source": "小島凪紗",
+            "target": "小田倉麗奈",
+            "count": 58,
+            "jaccard": 0.5179,
+            "liftRatio": 1.778
+          },
+          {
+            "source": "山下瞳月",
+            "target": "的野美青",
+            "count": 57,
+            "jaccard": 0.5,
+            "liftRatio": 1.737
+          },
+          {
+            "source": "村山美羽",
+            "target": "田村保乃",
+            "count": 57,
+            "jaccard": 0.3931,
+            "liftRatio": 1.317
+          },
+          {
+            "source": "田村保乃",
+            "target": "的野美青",
+            "count": 57,
+            "jaccard": 0.3904,
+            "liftRatio": 1.299
+          },
+          {
+            "source": "中嶋優月",
+            "target": "守屋麗奈",
+            "count": 56,
+            "jaccard": 0.4242,
+            "liftRatio": 1.394
+          },
+          {
+            "source": "石森璃花",
+            "target": "藤吉夏鈴",
+            "count": 56,
+            "jaccard": 0.3544,
+            "liftRatio": 1.111
+          },
+          {
+            "source": "中嶋優月",
+            "target": "遠藤理子",
+            "count": 56,
+            "jaccard": 0.4786,
+            "liftRatio": 1.659
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "小田倉麗奈",
+            "count": 56,
+            "jaccard": 0.4308,
+            "liftRatio": 1.425
+          },
+          {
+            "source": "中嶋優月",
+            "target": "的野美青",
+            "count": 56,
+            "jaccard": 0.4912,
+            "liftRatio": 1.725
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "遠藤理子",
+            "count": 56,
+            "jaccard": 0.487,
+            "liftRatio": 1.695
+          },
+          {
+            "source": "藤吉夏鈴",
+            "target": "谷口愛季",
+            "count": 55,
+            "jaccard": 0.3526,
+            "liftRatio": 1.13
+          },
+          {
+            "source": "小島凪紗",
+            "target": "谷口愛季",
+            "count": 55,
+            "jaccard": 0.5093,
+            "liftRatio": 1.825
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "村山美羽",
+            "count": 55,
+            "jaccard": 0.4911,
+            "liftRatio": 1.754
+          },
+          {
+            "source": "村井優",
+            "target": "石森璃花",
+            "count": 55,
+            "jaccard": 0.5446,
+            "liftRatio": 2.022
+          },
+          {
+            "source": "武元唯衣",
+            "target": "田村保乃",
+            "count": 55,
+            "jaccard": 0.3873,
+            "liftRatio": 1.361
+          },
+          {
+            "source": "的野美青",
+            "target": "石森璃花",
+            "count": 55,
+            "jaccard": 0.5046,
+            "liftRatio": 1.809
+          },
+          {
+            "source": "的野美青",
+            "target": "藤吉夏鈴",
+            "count": 55,
+            "jaccard": 0.3741,
+            "liftRatio": 1.264
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "山﨑天",
+            "count": 55,
+            "jaccard": 0.4331,
+            "liftRatio": 1.463
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "石森璃花",
+            "count": 54,
+            "jaccard": 0.4219,
+            "liftRatio": 1.436
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "谷口愛季",
+            "count": 54,
+            "jaccard": 0.432,
+            "liftRatio": 1.487
+          },
+          {
+            "source": "山下瞳月",
+            "target": "遠藤理子",
+            "count": 54,
+            "jaccard": 0.45,
+            "liftRatio": 1.583
+          },
+          {
+            "source": "中嶋優月",
+            "target": "村山美羽",
+            "count": 54,
+            "jaccard": 0.4696,
+            "liftRatio": 1.685
+          },
+          {
+            "source": "中嶋優月",
+            "target": "村井優",
+            "count": 54,
+            "jaccard": 0.5,
+            "liftRatio": 1.859
+          },
+          {
+            "source": "小島凪紗",
+            "target": "田村保乃",
+            "count": 54,
+            "jaccard": 0.3576,
+            "liftRatio": 1.199
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "的野美青",
+            "count": 54,
+            "jaccard": 0.4737,
+            "liftRatio": 1.699
+          },
+          {
+            "source": "的野美青",
+            "target": "谷口愛季",
+            "count": 54,
+            "jaccard": 0.5047,
+            "liftRatio": 1.839
+          },
+          {
+            "source": "森田ひかる",
+            "target": "遠藤理子",
+            "count": 54,
+            "jaccard": 0.3624,
+            "liftRatio": 1.213
+          },
+          {
+            "source": "小島凪紗",
+            "target": "藤吉夏鈴",
+            "count": 53,
+            "jaccard": 0.351,
+            "liftRatio": 1.186
+          },
+          {
+            "source": "中嶋優月",
+            "target": "大園玲",
+            "count": 53,
+            "jaccard": 0.4492,
+            "liftRatio": 1.611
+          },
+          {
+            "source": "中嶋優月",
+            "target": "小島凪紗",
+            "count": 53,
+            "jaccard": 0.4454,
+            "liftRatio": 1.59
+          },
+          {
+            "source": "山下瞳月",
+            "target": "村山美羽",
+            "count": 53,
+            "jaccard": 0.453,
+            "liftRatio": 1.636
+          },
+          {
+            "source": "村井優",
+            "target": "森田ひかる",
+            "count": 53,
+            "jaccard": 0.3813,
+            "liftRatio": 1.383
+          },
+          {
+            "source": "大園玲",
+            "target": "小田倉麗奈",
+            "count": 52,
+            "jaccard": 0.4444,
+            "liftRatio": 1.615
+          },
+          {
+            "source": "村山美羽",
+            "target": "藤吉夏鈴",
+            "count": 52,
+            "jaccard": 0.349,
+            "liftRatio": 1.211
+          },
+          {
+            "source": "村山美羽",
+            "target": "谷口愛季",
+            "count": 52,
+            "jaccard": 0.4815,
+            "liftRatio": 1.795
+          },
+          {
+            "source": "森田ひかる",
+            "target": "武元唯衣",
+            "count": 52,
+            "jaccard": 0.3662,
+            "liftRatio": 1.318
+          },
+          {
+            "source": "小島凪紗",
+            "target": "遠藤理子",
+            "count": 51,
+            "jaccard": 0.4811,
+            "liftRatio": 1.821
+          },
+          {
+            "source": "小島凪紗",
+            "target": "山下瞳月",
+            "count": 51,
+            "jaccard": 0.418,
+            "liftRatio": 1.514
+          },
+          {
+            "source": "小島凪紗",
+            "target": "石森璃花",
+            "count": 51,
+            "jaccard": 0.4435,
+            "liftRatio": 1.635
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "村井優",
+            "count": 51,
+            "jaccard": 0.4679,
+            "liftRatio": 1.793
+          },
+          {
+            "source": "谷口愛季",
+            "target": "遠藤理子",
+            "count": 51,
+            "jaccard": 0.4513,
+            "liftRatio": 1.671
+          },
+          {
+            "source": "山下瞳月",
+            "target": "山﨑天",
+            "count": 51,
+            "jaccard": 0.3864,
+            "liftRatio": 1.342
+          },
+          {
+            "source": "武元唯衣",
+            "target": "藤吉夏鈴",
+            "count": 50,
+            "jaccard": 0.3425,
+            "liftRatio": 1.247
+          },
+          {
+            "source": "大園玲",
+            "target": "谷口愛季",
+            "count": 50,
+            "jaccard": 0.4464,
+            "liftRatio": 1.681
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "村山美羽",
+            "count": 50,
+            "jaccard": 0.4202,
+            "liftRatio": 1.56
+          },
+          {
+            "source": "小島凪紗",
+            "target": "村井優",
+            "count": 50,
+            "jaccard": 0.5208,
+            "liftRatio": 2.074
+          },
+          {
+            "source": "村井優",
+            "target": "村山美羽",
+            "count": 50,
+            "jaccard": 0.5376,
+            "liftRatio": 2.157
+          },
+          {
+            "source": "村井優",
+            "target": "藤吉夏鈴",
+            "count": 50,
+            "jaccard": 0.3472,
+            "liftRatio": 1.284
+          },
+          {
+            "source": "村井優",
+            "target": "谷口愛季",
+            "count": 50,
+            "jaccard": 0.4854,
+            "liftRatio": 1.903
+          },
+          {
+            "source": "松田里奈",
+            "target": "田村保乃",
+            "count": 50,
+            "jaccard": 0.3759,
+            "liftRatio": 1.547
+          },
+          {
+            "source": "大園玲",
+            "target": "山﨑天",
+            "count": 50,
+            "jaccard": 0.4348,
+            "liftRatio": 1.623
+          },
+          {
+            "source": "小島凪紗",
+            "target": "森田ひかる",
+            "count": 50,
+            "jaccard": 0.3289,
+            "liftRatio": 1.137
+          },
+          {
+            "source": "中嶋優月",
+            "target": "山﨑天",
+            "count": 50,
+            "jaccard": 0.3788,
+            "liftRatio": 1.33
+          },
+          {
+            "source": "中嶋優月",
+            "target": "武元唯衣",
+            "count": 49,
+            "jaccard": 0.4261,
+            "liftRatio": 1.638
+          },
+          {
+            "source": "村井優",
+            "target": "田村保乃",
+            "count": 49,
+            "jaccard": 0.3356,
+            "liftRatio": 1.248
+          },
+          {
+            "source": "松田里奈",
+            "target": "藤吉夏鈴",
+            "count": 49,
+            "jaccard": 0.3684,
+            "liftRatio": 1.528
+          },
+          {
+            "source": "守屋麗奈",
+            "target": "的野美青",
+            "count": 49,
+            "jaccard": 0.405,
+            "liftRatio": 1.509
+          },
+          {
+            "source": "松田里奈",
+            "target": "森田ひかる",
+            "count": 49,
+            "jaccard": 0.374,
+            "liftRatio": 1.552
+          },
+          {
+            "source": "大園玲",
+            "target": "村山美羽",
+            "count": 48,
+            "jaccard": 0.4615,
+            "liftRatio": 1.829
+          }
+        ]
+      },
+      {
+        "id": "meet_members",
+        "year": 2026,
+        "label": "见面会成员共现",
+        "description": "2026 见面会参与成员之间的共同出现关系。",
+        "questionId": "2026-Q12",
+        "base": 106,
+        "nodes": [
+          {
+            "label": "藤吉夏鈴",
+            "count": 25,
+            "rate": 0.2358
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 18,
+            "rate": 0.1698
+          },
+          {
+            "label": "森田ひかる",
+            "count": 17,
+            "rate": 0.1604
+          },
+          {
+            "label": "村山美羽",
+            "count": 16,
+            "rate": 0.1509
+          },
+          {
+            "label": "石森璃花",
+            "count": 15,
+            "rate": 0.1415
+          },
+          {
+            "label": "田村保乃",
+            "count": 15,
+            "rate": 0.1415
+          },
+          {
+            "label": "山﨑天",
+            "count": 14,
+            "rate": 0.1321
+          },
+          {
+            "label": "山下瞳月",
+            "count": 13,
+            "rate": 0.1226
+          },
+          {
+            "label": "中嶋優月",
+            "count": 12,
+            "rate": 0.1132
+          },
+          {
+            "label": "勝又春",
+            "count": 11,
+            "rate": 0.1038
+          },
+          {
+            "label": "井上梨名",
+            "count": 10,
+            "rate": 0.0943
+          },
+          {
+            "label": "不愿透露",
+            "count": 10,
+            "rate": 0.0943
+          },
+          {
+            "label": "遠藤理子",
+            "count": 9,
+            "rate": 0.0849
+          },
+          {
+            "label": "小島凪紗",
+            "count": 9,
+            "rate": 0.0849
+          },
+          {
+            "label": "松本和子",
+            "count": 9,
+            "rate": 0.0849
+          },
+          {
+            "label": "的野美青",
+            "count": 8,
+            "rate": 0.0755
+          },
+          {
+            "label": "向井純葉",
+            "count": 7,
+            "rate": 0.066
+          },
+          {
+            "label": "山川宇衣",
+            "count": 7,
+            "rate": 0.066
+          },
+          {
+            "label": "村井優",
+            "count": 7,
+            "rate": 0.066
+          },
+          {
+            "label": "武元唯衣",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "谷口愛季",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "増本綺良",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "大園玲",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "中川智尋",
+            "count": 6,
+            "rate": 0.0566
+          },
+          {
+            "label": "山田桃実",
+            "count": 5,
+            "rate": 0.0472
+          }
+        ],
+        "edges": [
+          {
+            "source": "勝又春",
+            "target": "小田倉麗奈",
+            "count": 8,
+            "jaccard": 0.381,
+            "liftRatio": 4.283
+          },
+          {
+            "source": "勝又春",
+            "target": "村山美羽",
+            "count": 6,
+            "jaccard": 0.2857,
+            "liftRatio": 3.614
+          },
+          {
+            "source": "中嶋優月",
+            "target": "小田倉麗奈",
+            "count": 6,
+            "jaccard": 0.25,
+            "liftRatio": 2.944
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "村山美羽",
+            "count": 6,
+            "jaccard": 0.2143,
+            "liftRatio": 2.208
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "石森璃花",
+            "count": 6,
+            "jaccard": 0.2222,
+            "liftRatio": 2.356
+          },
+          {
+            "source": "森田ひかる",
+            "target": "田村保乃",
+            "count": 6,
+            "jaccard": 0.2308,
+            "liftRatio": 2.494
+          },
+          {
+            "source": "勝又春",
+            "target": "的野美青",
+            "count": 5,
+            "jaccard": 0.3571,
+            "liftRatio": 6.023
+          },
+          {
+            "source": "的野美青",
+            "target": "石森璃花",
+            "count": 5,
+            "jaccard": 0.2778,
+            "liftRatio": 4.417
+          },
+          {
+            "source": "井上梨名",
+            "target": "村山美羽",
+            "count": 5,
+            "jaccard": 0.2381,
+            "liftRatio": 3.312
+          },
+          {
+            "source": "中嶋優月",
+            "target": "勝又春",
+            "count": 5,
+            "jaccard": 0.2778,
+            "liftRatio": 4.015
+          },
+          {
+            "source": "小田倉麗奈",
+            "target": "松本和子",
+            "count": 5,
+            "jaccard": 0.2273,
+            "liftRatio": 3.272
+          },
+          {
+            "source": "中川智尋",
+            "target": "松本和子",
+            "count": 5,
+            "jaccard": 0.5,
+            "liftRatio": 9.815
+          },
+          {
+            "source": "山﨑天",
+            "target": "藤吉夏鈴",
+            "count": 5,
+            "jaccard": 0.1471,
+            "liftRatio": 1.514
+          },
+          {
+            "source": "田村保乃",
+            "target": "藤吉夏鈴",
+            "count": 5,
+            "jaccard": 0.1429,
+            "liftRatio": 1.413
+          }
+        ]
+      }
+    ]
+  }
+}

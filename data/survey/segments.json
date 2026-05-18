@@ -1,0 +1,579 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-18T03:59:11+00:00",
+    "note": "Segments are heuristic behavior groups derived from anonymous cleaned rows."
+  },
+  "definitions": [
+    {
+      "id": "core",
+      "label": "高投入核心型",
+      "description": "FC 与 MSG 都订阅，并且有演出/票务/见面会/签名会等行动行为。"
+    },
+    {
+      "id": "ticket",
+      "label": "票务行动型",
+      "description": "演出、票务、见面会或签名会行为明显，但不满足高投入核心条件。"
+    },
+    {
+      "id": "member_sub",
+      "label": "成员订阅型",
+      "description": "FC 或 MSG 订阅明显，但线下/票务行为较弱。"
+    },
+    {
+      "id": "community",
+      "label": "社区互动型",
+      "description": "参与中文内容制作、发布，或有较强社区/平台互动。"
+    },
+    {
+      "id": "content",
+      "label": "内容观看型",
+      "description": "主要以观看表演、综艺、社媒、广播、博客等内容消费为主。"
+    },
+    {
+      "id": "lurker",
+      "label": "低参与潜水型",
+      "description": "公开问卷中可观测活动较少。"
+    }
+  ],
+  "years": {
+    "2025": {
+      "sampleCount": 837,
+      "segments": [
+        {
+          "id": "core",
+          "label": "高投入核心型",
+          "description": "FC 与 MSG 都订阅，并且有演出/票务/见面会/签名会等行动行为。",
+          "count": 278,
+          "rate": 0.3321,
+          "profile": {
+            "fan_era": [
+              {
+                "label": "桜月~何歳の頃に戻りたいのか？",
+                "count": 89,
+                "rate": 0.3201
+              },
+              {
+                "label": "欅坂成团~黒い羊",
+                "count": 84,
+                "rate": 0.3022
+              },
+              {
+                "label": "黒い羊后~永遠より長い一瞬",
+                "count": 25,
+                "rate": 0.0899
+              },
+              {
+                "label": "何歳后~自業自得前",
+                "count": 23,
+                "rate": 0.0827
+              }
+            ],
+            "age": [
+              {
+                "label": "18~25",
+                "count": 140,
+                "rate": 0.5036
+              },
+              {
+                "label": "26~30",
+                "count": 95,
+                "rate": 0.3417
+              },
+              {
+                "label": "31~40",
+                "count": 31,
+                "rate": 0.1115
+              },
+              {
+                "label": "18岁以下",
+                "count": 6,
+                "rate": 0.0216
+              }
+            ],
+            "region": [
+              {
+                "label": "中国大陆地区",
+                "count": 237,
+                "rate": 0.8525
+              },
+              {
+                "label": "港澳台或海外地区",
+                "count": 41,
+                "rate": 0.1475
+              }
+            ],
+            "japanese_level": [
+              {
+                "label": "基础水平",
+                "count": 142,
+                "rate": 0.5108
+              },
+              {
+                "label": "日常沟通",
+                "count": 82,
+                "rate": 0.295
+              },
+              {
+                "label": "完全不会",
+                "count": 44,
+                "rate": 0.1583
+              },
+              {
+                "label": "商务洽谈",
+                "count": 5,
+                "rate": 0.018
+              }
+            ],
+            "other_idol_mode": [
+              {
+                "label": "只看樱坂",
+                "count": 164,
+                "rate": 0.5899
+              },
+              {
+                "label": "也看日系偶像",
+                "count": 110,
+                "rate": 0.3957
+              }
+            ],
+            "participation_depth": [
+              {
+                "label": "行动型",
+                "count": 204,
+                "rate": 0.7338
+              },
+              {
+                "label": "高投入",
+                "count": 74,
+                "rate": 0.2662
+              }
+            ]
+          }
+        },
+        {
+          "id": "ticket",
+          "label": "票务行动型",
+          "description": "演出、票务、见面会或签名会行为明显，但不满足高投入核心条件。",
+          "count": 559,
+          "rate": 0.6679,
+          "profile": {
+            "fan_era": [
+              {
+                "label": "桜月~何歳の頃に戻りたいのか？",
+                "count": 171,
+                "rate": 0.3059
+              },
+              {
+                "label": "欅坂成团~黒い羊",
+                "count": 122,
+                "rate": 0.2182
+              },
+              {
+                "label": "黒い羊后~永遠より長い一瞬",
+                "count": 64,
+                "rate": 0.1145
+              },
+              {
+                "label": "Nobody’s fault~As you know?",
+                "count": 58,
+                "rate": 0.1038
+              }
+            ],
+            "age": [
+              {
+                "label": "18~25",
+                "count": 323,
+                "rate": 0.5778
+              },
+              {
+                "label": "26~30",
+                "count": 143,
+                "rate": 0.2558
+              },
+              {
+                "label": "31~40",
+                "count": 70,
+                "rate": 0.1252
+              },
+              {
+                "label": "18岁以下",
+                "count": 15,
+                "rate": 0.0268
+              }
+            ],
+            "region": [
+              {
+                "label": "中国大陆地区",
+                "count": 499,
+                "rate": 0.8927
+              },
+              {
+                "label": "港澳台或海外地区",
+                "count": 60,
+                "rate": 0.1073
+              }
+            ],
+            "japanese_level": [
+              {
+                "label": "基础水平",
+                "count": 320,
+                "rate": 0.5725
+              },
+              {
+                "label": "完全不会",
+                "count": 139,
+                "rate": 0.2487
+              },
+              {
+                "label": "日常沟通",
+                "count": 92,
+                "rate": 0.1646
+              },
+              {
+                "label": "母语水平",
+                "count": 6,
+                "rate": 0.0107
+              }
+            ],
+            "other_idol_mode": [
+              {
+                "label": "也看日系偶像",
+                "count": 295,
+                "rate": 0.5277
+              },
+              {
+                "label": "只看樱坂",
+                "count": 258,
+                "rate": 0.4615
+              },
+              {
+                "label": "也看其他偶像",
+                "count": 6,
+                "rate": 0.0107
+              }
+            ],
+            "participation_depth": [
+              {
+                "label": "订阅/内容型",
+                "count": 316,
+                "rate": 0.5653
+              },
+              {
+                "label": "行动型",
+                "count": 243,
+                "rate": 0.4347
+              }
+            ]
+          }
+        },
+        {
+          "id": "member_sub",
+          "label": "成员订阅型",
+          "description": "FC 或 MSG 订阅明显，但线下/票务行为较弱。",
+          "count": 0,
+          "rate": 0.0,
+          "profile": {}
+        },
+        {
+          "id": "community",
+          "label": "社区互动型",
+          "description": "参与中文内容制作、发布，或有较强社区/平台互动。",
+          "count": 0,
+          "rate": 0.0,
+          "profile": {}
+        },
+        {
+          "id": "content",
+          "label": "内容观看型",
+          "description": "主要以观看表演、综艺、社媒、广播、博客等内容消费为主。",
+          "count": 0,
+          "rate": 0.0,
+          "profile": {}
+        },
+        {
+          "id": "lurker",
+          "label": "低参与潜水型",
+          "description": "公开问卷中可观测活动较少。",
+          "count": 0,
+          "rate": 0.0,
+          "profile": {}
+        }
+      ]
+    },
+    "2026": {
+      "sampleCount": 220,
+      "segments": [
+        {
+          "id": "core",
+          "label": "高投入核心型",
+          "description": "FC 与 MSG 都订阅，并且有演出/票务/见面会/签名会等行动行为。",
+          "count": 87,
+          "rate": 0.3955,
+          "profile": {
+            "fan_era": [
+              {
+                "label": "桜月~何歳の頃に戻りたいのか？",
+                "count": 28,
+                "rate": 0.3218
+              },
+              {
+                "label": "欅坂成团~黒い羊",
+                "count": 27,
+                "rate": 0.3103
+              },
+              {
+                "label": "Nobody’s fault~As you know?",
+                "count": 7,
+                "rate": 0.0805
+              },
+              {
+                "label": "UDAGAWA GENERATION",
+                "count": 6,
+                "rate": 0.069
+              }
+            ],
+            "age": [
+              {
+                "label": "18~25",
+                "count": 48,
+                "rate": 0.5517
+              },
+              {
+                "label": "26~30",
+                "count": 27,
+                "rate": 0.3103
+              },
+              {
+                "label": "31~40",
+                "count": 8,
+                "rate": 0.092
+              }
+            ],
+            "region": [
+              {
+                "label": "中国大陆地区",
+                "count": 72,
+                "rate": 0.8276
+              },
+              {
+                "label": "港澳台或海外地区",
+                "count": 15,
+                "rate": 0.1724
+              }
+            ],
+            "japanese_level": [
+              {
+                "label": "基础水平",
+                "count": 43,
+                "rate": 0.4943
+              },
+              {
+                "label": "日常沟通",
+                "count": 28,
+                "rate": 0.3218
+              },
+              {
+                "label": "商务洽谈",
+                "count": 8,
+                "rate": 0.092
+              },
+              {
+                "label": "完全不会",
+                "count": 6,
+                "rate": 0.069
+              }
+            ],
+            "other_idol_mode": [
+              {
+                "label": "也看日系偶像",
+                "count": 46,
+                "rate": 0.5287
+              },
+              {
+                "label": "只看樱坂",
+                "count": 41,
+                "rate": 0.4713
+              }
+            ],
+            "participation_depth": [
+              {
+                "label": "高投入",
+                "count": 66,
+                "rate": 0.7586
+              },
+              {
+                "label": "行动型",
+                "count": 21,
+                "rate": 0.2414
+              }
+            ]
+          }
+        },
+        {
+          "id": "ticket",
+          "label": "票务行动型",
+          "description": "演出、票务、见面会或签名会行为明显，但不满足高投入核心条件。",
+          "count": 128,
+          "rate": 0.5818,
+          "profile": {
+            "fan_era": [
+              {
+                "label": "桜月~何歳の頃に戻りたいのか？",
+                "count": 54,
+                "rate": 0.4219
+              },
+              {
+                "label": "欅坂成团~黒い羊",
+                "count": 18,
+                "rate": 0.1406
+              },
+              {
+                "label": "自業自得",
+                "count": 12,
+                "rate": 0.0938
+              },
+              {
+                "label": "Nobody’s fault~As you know?",
+                "count": 11,
+                "rate": 0.0859
+              }
+            ],
+            "age": [
+              {
+                "label": "18~25",
+                "count": 69,
+                "rate": 0.5391
+              },
+              {
+                "label": "26~30",
+                "count": 34,
+                "rate": 0.2656
+              },
+              {
+                "label": "31~40",
+                "count": 19,
+                "rate": 0.1484
+              },
+              {
+                "label": "18岁以下",
+                "count": 6,
+                "rate": 0.0469
+              }
+            ],
+            "region": [
+              {
+                "label": "中国大陆地区",
+                "count": 118,
+                "rate": 0.9219
+              },
+              {
+                "label": "港澳台或海外地区",
+                "count": 10,
+                "rate": 0.0781
+              }
+            ],
+            "japanese_level": [
+              {
+                "label": "基础水平",
+                "count": 70,
+                "rate": 0.5469
+              },
+              {
+                "label": "完全不会",
+                "count": 36,
+                "rate": 0.2812
+              },
+              {
+                "label": "日常沟通",
+                "count": 21,
+                "rate": 0.1641
+              }
+            ],
+            "other_idol_mode": [
+              {
+                "label": "只看樱坂",
+                "count": 69,
+                "rate": 0.5391
+              },
+              {
+                "label": "也看日系偶像",
+                "count": 59,
+                "rate": 0.4609
+              }
+            ],
+            "participation_depth": [
+              {
+                "label": "订阅/内容型",
+                "count": 52,
+                "rate": 0.4062
+              },
+              {
+                "label": "行动型",
+                "count": 43,
+                "rate": 0.3359
+              },
+              {
+                "label": "高投入",
+                "count": 33,
+                "rate": 0.2578
+              }
+            ]
+          }
+        },
+        {
+          "id": "member_sub",
+          "label": "成员订阅型",
+          "description": "FC 或 MSG 订阅明显，但线下/票务行为较弱。",
+          "count": 2,
+          "rate": 0.0091,
+          "profile": {
+            "fan_era": [],
+            "age": [],
+            "region": [],
+            "japanese_level": [],
+            "other_idol_mode": [],
+            "participation_depth": []
+          }
+        },
+        {
+          "id": "community",
+          "label": "社区互动型",
+          "description": "参与中文内容制作、发布，或有较强社区/平台互动。",
+          "count": 1,
+          "rate": 0.0045,
+          "profile": {
+            "fan_era": [],
+            "age": [],
+            "region": [],
+            "japanese_level": [],
+            "other_idol_mode": [],
+            "participation_depth": []
+          }
+        },
+        {
+          "id": "content",
+          "label": "内容观看型",
+          "description": "主要以观看表演、综艺、社媒、广播、博客等内容消费为主。",
+          "count": 2,
+          "rate": 0.0091,
+          "profile": {
+            "fan_era": [],
+            "age": [],
+            "region": [],
+            "japanese_level": [],
+            "other_idol_mode": [],
+            "participation_depth": []
+          }
+        },
+        {
+          "id": "lurker",
+          "label": "低参与潜水型",
+          "description": "公开问卷中可观测活动较少。",
+          "count": 0,
+          "rate": 0.0,
+          "profile": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T15:42:37+00:00",
+  "generatedAt": "2026-05-18T04:03:09+00:00",
   "sources": {
     "2025Questionnaire": "private 2025 questionnaire definition; source file not published",
     "2025Responses": "private 2025 response export; source file not published",
@@ -10,20 +10,18 @@
     "questions2026": "questions-2026.json",
     "aggregate2025": "aggregate-2025.json",
     "aggregate2026": "aggregate-2026.json",
-    "cleaningReport": "cleaning-report.json"
+    "cleaningReport": "cleaning-report.json",
+    "crosstabs": "crosstabs.json",
+    "segments": "segments.json",
+    "flows": "flows.json",
+    "networks": "networks.json",
+    "keywords": "keywords.json",
+    "insights": "insights.json",
+    "comparability": "comparability.json"
   },
   "privacy": {
     "publicOutputs": "Aggregated data only; source IPs, submission timestamps, and raw free-text answers are not included.",
-    "privateRows": "Private row-level exports are not part of the public site output.",
-    "excludedSourceFields": [
-      "序号",
-      "总分",
-      "所用时间",
-      "提交答卷时间",
-      "来源",
-      "来源详情",
-      "来自IP"
-    ]
+    "privateRows": "Private row-level exports and source-only field names are not part of the public site output."
   },
   "markerPolicy": {
     "(跳过)": "Preserved as status=skipped_by_logic and excluded from option counts.",

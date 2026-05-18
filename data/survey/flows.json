@@ -1,0 +1,4588 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-18T03:59:11+00:00",
+    "minCount": 5,
+    "privacy": "Only aggregate transition counts are published. Links below the threshold are suppressed."
+  },
+  "years": {
+    "2025": [
+      {
+        "id": "entry_to_reason",
+        "year": 2025,
+        "label": "认识入口 → 爱上原因",
+        "description": "从第一次认识樱坂的入口，流向真正爱上樱坂的原因。",
+        "sourceLabel": "认识入口",
+        "targetLabel": "爱上原因",
+        "base": 837,
+        "sources": [
+          {
+            "label": "来自姐妹团（乃木坂/日向坂）",
+            "count": 240,
+            "rate": 0.2867
+          },
+          {
+            "label": "Bilibili/抖音/视频平台推荐",
+            "count": 162,
+            "rate": 0.1935
+          },
+          {
+            "label": "电视剧/综艺/广播/电影",
+            "count": 157,
+            "rate": 0.1876
+          },
+          {
+            "label": "毕业成员的的活动",
+            "count": 91,
+            "rate": 0.1087
+          },
+          {
+            "label": "其他",
+            "count": 53,
+            "rate": 0.0633
+          },
+          {
+            "label": "社交媒体",
+            "count": 43,
+            "rate": 0.0514
+          },
+          {
+            "label": "家人/朋友/同学/同事推荐",
+            "count": 38,
+            "rate": 0.0454
+          },
+          {
+            "label": "J-POP社群",
+            "count": 27,
+            "rate": 0.0323
+          },
+          {
+            "label": "音乐节/活动",
+            "count": 15,
+            "rate": 0.0179
+          },
+          {
+            "label": "动漫社群",
+            "count": 8,
+            "rate": 0.0096
+          }
+        ],
+        "targets": [
+          {
+            "label": "成员/个性",
+            "count": 721,
+            "rate": 0.8614
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 698,
+            "rate": 0.8339
+          },
+          {
+            "label": "音乐",
+            "count": 587,
+            "rate": 0.7013
+          },
+          {
+            "label": "综艺",
+            "count": 510,
+            "rate": 0.6093
+          },
+          {
+            "label": "世界观/概念",
+            "count": 467,
+            "rate": 0.5579
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 427,
+            "rate": 0.5102
+          },
+          {
+            "label": "与朋友拥有一样的爱好",
+            "count": 56,
+            "rate": 0.0669
+          },
+          {
+            "label": "其他",
+            "count": 30,
+            "rate": 0.0358
+          }
+        ],
+        "links": [
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "成员/个性",
+            "count": 201,
+            "shareOfSource": 0.8375,
+            "shareOfBase": 0.2401
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "现场表演/舞蹈",
+            "count": 180,
+            "shareOfSource": 0.75,
+            "shareOfBase": 0.2151
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "音乐",
+            "count": 165,
+            "shareOfSource": 0.6875,
+            "shareOfBase": 0.1971
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "综艺",
+            "count": 158,
+            "shareOfSource": 0.6583,
+            "shareOfBase": 0.1888
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "成员/个性",
+            "count": 141,
+            "shareOfSource": 0.8981,
+            "shareOfBase": 0.1685
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "现场表演/舞蹈",
+            "count": 140,
+            "shareOfSource": 0.8642,
+            "shareOfBase": 0.1673
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "成员/个性",
+            "count": 139,
+            "shareOfSource": 0.858,
+            "shareOfBase": 0.1661
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "现场表演/舞蹈",
+            "count": 134,
+            "shareOfSource": 0.8535,
+            "shareOfBase": 0.1601
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "音乐",
+            "count": 115,
+            "shareOfSource": 0.7099,
+            "shareOfBase": 0.1374
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "音乐",
+            "count": 112,
+            "shareOfSource": 0.7134,
+            "shareOfBase": 0.1338
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 109,
+            "shareOfSource": 0.4542,
+            "shareOfBase": 0.1302
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "世界观/概念",
+            "count": 105,
+            "shareOfSource": 0.4375,
+            "shareOfBase": 0.1254
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "综艺",
+            "count": 103,
+            "shareOfSource": 0.6358,
+            "shareOfBase": 0.1231
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "综艺",
+            "count": 97,
+            "shareOfSource": 0.6178,
+            "shareOfBase": 0.1159
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "世界观/概念",
+            "count": 96,
+            "shareOfSource": 0.5926,
+            "shareOfBase": 0.1147
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "世界观/概念",
+            "count": 88,
+            "shareOfSource": 0.5605,
+            "shareOfBase": 0.1051
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 87,
+            "shareOfSource": 0.5541,
+            "shareOfBase": 0.1039
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "成员/个性",
+            "count": 85,
+            "shareOfSource": 0.9341,
+            "shareOfBase": 0.1016
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 83,
+            "shareOfSource": 0.5123,
+            "shareOfBase": 0.0992
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "现场表演/舞蹈",
+            "count": 82,
+            "shareOfSource": 0.9011,
+            "shareOfBase": 0.098
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "综艺",
+            "count": 63,
+            "shareOfSource": 0.6923,
+            "shareOfBase": 0.0753
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "世界观/概念",
+            "count": 59,
+            "shareOfSource": 0.6484,
+            "shareOfBase": 0.0705
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "音乐",
+            "count": 55,
+            "shareOfSource": 0.6044,
+            "shareOfBase": 0.0657
+          },
+          {
+            "source": "毕业成员的的活动",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 44,
+            "shareOfSource": 0.4835,
+            "shareOfBase": 0.0526
+          },
+          {
+            "source": "其他",
+            "target": "现场表演/舞蹈",
+            "count": 44,
+            "shareOfSource": 0.8302,
+            "shareOfBase": 0.0526
+          },
+          {
+            "source": "其他",
+            "target": "成员/个性",
+            "count": 41,
+            "shareOfSource": 0.7736,
+            "shareOfBase": 0.049
+          },
+          {
+            "source": "社交媒体",
+            "target": "成员/个性",
+            "count": 40,
+            "shareOfSource": 0.9302,
+            "shareOfBase": 0.0478
+          },
+          {
+            "source": "其他",
+            "target": "音乐",
+            "count": 39,
+            "shareOfSource": 0.7358,
+            "shareOfBase": 0.0466
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "现场表演/舞蹈",
+            "count": 35,
+            "shareOfSource": 0.9211,
+            "shareOfBase": 0.0418
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "成员/个性",
+            "count": 33,
+            "shareOfSource": 0.8684,
+            "shareOfBase": 0.0394
+          },
+          {
+            "source": "社交媒体",
+            "target": "现场表演/舞蹈",
+            "count": 33,
+            "shareOfSource": 0.7674,
+            "shareOfBase": 0.0394
+          },
+          {
+            "source": "其他",
+            "target": "世界观/概念",
+            "count": 33,
+            "shareOfSource": 0.6226,
+            "shareOfBase": 0.0394
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "音乐",
+            "count": 30,
+            "shareOfSource": 0.7895,
+            "shareOfBase": 0.0358
+          },
+          {
+            "source": "社交媒体",
+            "target": "音乐",
+            "count": 29,
+            "shareOfSource": 0.6744,
+            "shareOfBase": 0.0346
+          },
+          {
+            "source": "其他",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 29,
+            "shareOfSource": 0.5472,
+            "shareOfBase": 0.0346
+          },
+          {
+            "source": "J-POP社群",
+            "target": "现场表演/舞蹈",
+            "count": 25,
+            "shareOfSource": 0.9259,
+            "shareOfBase": 0.0299
+          },
+          {
+            "source": "其他",
+            "target": "综艺",
+            "count": 25,
+            "shareOfSource": 0.4717,
+            "shareOfBase": 0.0299
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "世界观/概念",
+            "count": 24,
+            "shareOfSource": 0.6316,
+            "shareOfBase": 0.0287
+          },
+          {
+            "source": "社交媒体",
+            "target": "世界观/概念",
+            "count": 24,
+            "shareOfSource": 0.5581,
+            "shareOfBase": 0.0287
+          },
+          {
+            "source": "J-POP社群",
+            "target": "成员/个性",
+            "count": 23,
+            "shareOfSource": 0.8519,
+            "shareOfBase": 0.0275
+          },
+          {
+            "source": "社交媒体",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 22,
+            "shareOfSource": 0.5116,
+            "shareOfBase": 0.0263
+          },
+          {
+            "source": "J-POP社群",
+            "target": "音乐",
+            "count": 22,
+            "shareOfSource": 0.8148,
+            "shareOfBase": 0.0263
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 21,
+            "shareOfSource": 0.5526,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "与朋友拥有一样的爱好",
+            "count": 19,
+            "shareOfSource": 0.0792,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "综艺",
+            "count": 19,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "J-POP社群",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 18,
+            "shareOfSource": 0.6667,
+            "shareOfBase": 0.0215
+          },
+          {
+            "source": "J-POP社群",
+            "target": "世界观/概念",
+            "count": 16,
+            "shareOfSource": 0.5926,
+            "shareOfBase": 0.0191
+          },
+          {
+            "source": "社交媒体",
+            "target": "综艺",
+            "count": 16,
+            "shareOfSource": 0.3721,
+            "shareOfBase": 0.0191
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "现场表演/舞蹈",
+            "count": 15,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0179
+          },
+          {
+            "source": "J-POP社群",
+            "target": "综艺",
+            "count": 14,
+            "shareOfSource": 0.5185,
+            "shareOfBase": 0.0167
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "世界观/概念",
+            "count": 13,
+            "shareOfSource": 0.8667,
+            "shareOfBase": 0.0155
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "音乐",
+            "count": 13,
+            "shareOfSource": 0.8667,
+            "shareOfBase": 0.0155
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "与朋友拥有一样的爱好",
+            "count": 10,
+            "shareOfSource": 0.0637,
+            "shareOfBase": 0.0119
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "其他",
+            "count": 10,
+            "shareOfSource": 0.0637,
+            "shareOfBase": 0.0119
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 9,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.0108
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "与朋友拥有一样的爱好",
+            "count": 9,
+            "shareOfSource": 0.2368,
+            "shareOfBase": 0.0108
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "成员/个性",
+            "count": 8,
+            "shareOfSource": 0.5333,
+            "shareOfBase": 0.0096
+          },
+          {
+            "source": "音乐节/活动",
+            "target": "综艺",
+            "count": 8,
+            "shareOfSource": 0.5333,
+            "shareOfBase": 0.0096
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "其他",
+            "count": 7,
+            "shareOfSource": 0.0292,
+            "shareOfBase": 0.0084
+          },
+          {
+            "source": "动漫社群",
+            "target": "成员/个性",
+            "count": 7,
+            "shareOfSource": 0.875,
+            "shareOfBase": 0.0084
+          },
+          {
+            "source": "动漫社群",
+            "target": "现场表演/舞蹈",
+            "count": 7,
+            "shareOfSource": 0.875,
+            "shareOfBase": 0.0084
+          },
+          {
+            "source": "动漫社群",
+            "target": "世界观/概念",
+            "count": 6,
+            "shareOfSource": 0.75,
+            "shareOfBase": 0.0072
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "与朋友拥有一样的爱好",
+            "count": 6,
+            "shareOfSource": 0.037,
+            "shareOfBase": 0.0072
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "其他",
+            "count": 5,
+            "shareOfSource": 0.0309,
+            "shareOfBase": 0.006
+          }
+        ]
+      },
+      {
+        "id": "reason_to_activity",
+        "year": 2025,
+        "label": "爱上原因 → 活动方式",
+        "description": "不同喜欢理由最终会导向什么样的偶像活动方式。",
+        "sourceLabel": "爱上原因",
+        "targetLabel": "活动方式",
+        "base": 837,
+        "sources": [
+          {
+            "label": "成员/个性",
+            "count": 721,
+            "rate": 0.8614
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 698,
+            "rate": 0.8339
+          },
+          {
+            "label": "音乐",
+            "count": 587,
+            "rate": 0.7013
+          },
+          {
+            "label": "综艺",
+            "count": 510,
+            "rate": 0.6093
+          },
+          {
+            "label": "世界观/概念",
+            "count": 467,
+            "rate": 0.5579
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 427,
+            "rate": 0.5102
+          },
+          {
+            "label": "与朋友拥有一样的爱好",
+            "count": 56,
+            "rate": 0.0669
+          },
+          {
+            "label": "其他",
+            "count": 30,
+            "rate": 0.0358
+          }
+        ],
+        "targets": [
+          {
+            "label": "观看そこ曲がったら、櫻坂？",
+            "count": 782,
+            "rate": 0.9343
+          },
+          {
+            "label": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 759,
+            "rate": 0.9068
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 715,
+            "rate": 0.8542
+          },
+          {
+            "label": "阅读成员博客",
+            "count": 565,
+            "rate": 0.675
+          },
+          {
+            "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 521,
+            "rate": 0.6225
+          },
+          {
+            "label": "订阅成员MSG",
+            "count": 379,
+            "rate": 0.4528
+          },
+          {
+            "label": "观看サクラミーツ",
+            "count": 281,
+            "rate": 0.3357
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 271,
+            "rate": 0.3238
+          },
+          {
+            "label": "收听櫻坂チャンネル",
+            "count": 246,
+            "rate": 0.2939
+          },
+          {
+            "label": "櫻坂46の「さ」",
+            "count": 235,
+            "rate": 0.2808
+          },
+          {
+            "label": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 211,
+            "rate": 0.2521
+          },
+          {
+            "label": "观看Love it！",
+            "count": 190,
+            "rate": 0.227
+          },
+          {
+            "label": "阅读杂志",
+            "count": 185,
+            "rate": 0.221
+          },
+          {
+            "label": "其他",
+            "count": 85,
+            "rate": 0.1016
+          },
+          {
+            "label": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 61,
+            "rate": 0.0729
+          }
+        ],
+        "links": [
+          {
+            "source": "成员/个性",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 683,
+            "shareOfSource": 0.9473,
+            "shareOfBase": 0.816
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 661,
+            "shareOfSource": 0.947,
+            "shareOfBase": 0.7897
+          },
+          {
+            "source": "成员/个性",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 660,
+            "shareOfSource": 0.9154,
+            "shareOfBase": 0.7885
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 645,
+            "shareOfSource": 0.9241,
+            "shareOfBase": 0.7706
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 618,
+            "shareOfSource": 0.8571,
+            "shareOfBase": 0.7384
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 603,
+            "shareOfSource": 0.8639,
+            "shareOfBase": 0.7204
+          },
+          {
+            "source": "音乐",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 555,
+            "shareOfSource": 0.9455,
+            "shareOfBase": 0.6631
+          },
+          {
+            "source": "音乐",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 539,
+            "shareOfSource": 0.9182,
+            "shareOfBase": 0.644
+          },
+          {
+            "source": "成员/个性",
+            "target": "阅读成员博客",
+            "count": 506,
+            "shareOfSource": 0.7018,
+            "shareOfBase": 0.6045
+          },
+          {
+            "source": "音乐",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 505,
+            "shareOfSource": 0.8603,
+            "shareOfBase": 0.6033
+          },
+          {
+            "source": "综艺",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 490,
+            "shareOfSource": 0.9608,
+            "shareOfBase": 0.5854
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "阅读成员博客",
+            "count": 478,
+            "shareOfSource": 0.6848,
+            "shareOfBase": 0.5711
+          },
+          {
+            "source": "综艺",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 468,
+            "shareOfSource": 0.9176,
+            "shareOfBase": 0.5591
+          },
+          {
+            "source": "成员/个性",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 458,
+            "shareOfSource": 0.6352,
+            "shareOfBase": 0.5472
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 451,
+            "shareOfSource": 0.6461,
+            "shareOfBase": 0.5388
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 447,
+            "shareOfSource": 0.9572,
+            "shareOfBase": 0.5341
+          },
+          {
+            "source": "世界观/概念",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 431,
+            "shareOfSource": 0.9229,
+            "shareOfBase": 0.5149
+          },
+          {
+            "source": "综艺",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 425,
+            "shareOfSource": 0.8333,
+            "shareOfBase": 0.5078
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 410,
+            "shareOfSource": 0.8779,
+            "shareOfBase": 0.4898
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 408,
+            "shareOfSource": 0.9555,
+            "shareOfBase": 0.4875
+          },
+          {
+            "source": "音乐",
+            "target": "阅读成员博客",
+            "count": 404,
+            "shareOfSource": 0.6882,
+            "shareOfBase": 0.4827
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 403,
+            "shareOfSource": 0.9438,
+            "shareOfBase": 0.4815
+          },
+          {
+            "source": "音乐",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 392,
+            "shareOfSource": 0.6678,
+            "shareOfBase": 0.4683
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 382,
+            "shareOfSource": 0.8946,
+            "shareOfBase": 0.4564
+          },
+          {
+            "source": "综艺",
+            "target": "阅读成员博客",
+            "count": 354,
+            "shareOfSource": 0.6941,
+            "shareOfBase": 0.4229
+          },
+          {
+            "source": "成员/个性",
+            "target": "订阅成员MSG",
+            "count": 341,
+            "shareOfSource": 0.473,
+            "shareOfBase": 0.4074
+          },
+          {
+            "source": "世界观/概念",
+            "target": "阅读成员博客",
+            "count": 325,
+            "shareOfSource": 0.6959,
+            "shareOfBase": 0.3883
+          },
+          {
+            "source": "综艺",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 324,
+            "shareOfSource": 0.6353,
+            "shareOfBase": 0.3871
+          },
+          {
+            "source": "世界观/概念",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 322,
+            "shareOfSource": 0.6895,
+            "shareOfBase": 0.3847
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "订阅成员MSG",
+            "count": 316,
+            "shareOfSource": 0.4527,
+            "shareOfBase": 0.3775
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "阅读成员博客",
+            "count": 306,
+            "shareOfSource": 0.7166,
+            "shareOfBase": 0.3656
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 290,
+            "shareOfSource": 0.6792,
+            "shareOfBase": 0.3465
+          },
+          {
+            "source": "音乐",
+            "target": "订阅成员MSG",
+            "count": 252,
+            "shareOfSource": 0.4293,
+            "shareOfBase": 0.3011
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看サクラミーツ",
+            "count": 252,
+            "shareOfSource": 0.3495,
+            "shareOfBase": 0.3011
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看其他团外综艺",
+            "count": 249,
+            "shareOfSource": 0.3454,
+            "shareOfBase": 0.2975
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看サクラミーツ",
+            "count": 242,
+            "shareOfSource": 0.3467,
+            "shareOfBase": 0.2891
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看其他团外综艺",
+            "count": 232,
+            "shareOfSource": 0.3324,
+            "shareOfBase": 0.2772
+          },
+          {
+            "source": "综艺",
+            "target": "订阅成员MSG",
+            "count": 228,
+            "shareOfSource": 0.4471,
+            "shareOfBase": 0.2724
+          },
+          {
+            "source": "世界观/概念",
+            "target": "订阅成员MSG",
+            "count": 221,
+            "shareOfSource": 0.4732,
+            "shareOfBase": 0.264
+          },
+          {
+            "source": "成员/个性",
+            "target": "收听櫻坂チャンネル",
+            "count": 220,
+            "shareOfSource": 0.3051,
+            "shareOfBase": 0.2628
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "收听櫻坂チャンネル",
+            "count": 216,
+            "shareOfSource": 0.3095,
+            "shareOfBase": 0.2581
+          },
+          {
+            "source": "成员/个性",
+            "target": "櫻坂46の「さ」",
+            "count": 216,
+            "shareOfSource": 0.2996,
+            "shareOfBase": 0.2581
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "櫻坂46の「さ」",
+            "count": 209,
+            "shareOfSource": 0.2994,
+            "shareOfBase": 0.2497
+          },
+          {
+            "source": "音乐",
+            "target": "观看其他团外综艺",
+            "count": 202,
+            "shareOfSource": 0.3441,
+            "shareOfBase": 0.2413
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "订阅成员MSG",
+            "count": 201,
+            "shareOfSource": 0.4707,
+            "shareOfBase": 0.2401
+          },
+          {
+            "source": "音乐",
+            "target": "观看サクラミーツ",
+            "count": 199,
+            "shareOfSource": 0.339,
+            "shareOfBase": 0.2378
+          },
+          {
+            "source": "综艺",
+            "target": "观看其他团外综艺",
+            "count": 192,
+            "shareOfSource": 0.3765,
+            "shareOfBase": 0.2294
+          },
+          {
+            "source": "综艺",
+            "target": "观看サクラミーツ",
+            "count": 191,
+            "shareOfSource": 0.3745,
+            "shareOfBase": 0.2282
+          },
+          {
+            "source": "成员/个性",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 190,
+            "shareOfSource": 0.2635,
+            "shareOfBase": 0.227
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 190,
+            "shareOfSource": 0.2722,
+            "shareOfBase": 0.227
+          },
+          {
+            "source": "音乐",
+            "target": "收听櫻坂チャンネル",
+            "count": 180,
+            "shareOfSource": 0.3066,
+            "shareOfBase": 0.2151
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看Love it！",
+            "count": 174,
+            "shareOfSource": 0.2413,
+            "shareOfBase": 0.2079
+          },
+          {
+            "source": "成员/个性",
+            "target": "阅读杂志",
+            "count": 169,
+            "shareOfSource": 0.2344,
+            "shareOfBase": 0.2019
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看サクラミーツ",
+            "count": 168,
+            "shareOfSource": 0.3597,
+            "shareOfBase": 0.2007
+          },
+          {
+            "source": "音乐",
+            "target": "櫻坂46の「さ」",
+            "count": 168,
+            "shareOfSource": 0.2862,
+            "shareOfBase": 0.2007
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "阅读杂志",
+            "count": 164,
+            "shareOfSource": 0.235,
+            "shareOfBase": 0.1959
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看其他团外综艺",
+            "count": 161,
+            "shareOfSource": 0.3448,
+            "shareOfBase": 0.1924
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看Love it！",
+            "count": 161,
+            "shareOfSource": 0.2307,
+            "shareOfBase": 0.1924
+          },
+          {
+            "source": "综艺",
+            "target": "櫻坂46の「さ」",
+            "count": 159,
+            "shareOfSource": 0.3118,
+            "shareOfBase": 0.19
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看サクラミーツ",
+            "count": 155,
+            "shareOfSource": 0.363,
+            "shareOfBase": 0.1852
+          },
+          {
+            "source": "综艺",
+            "target": "收听櫻坂チャンネル",
+            "count": 155,
+            "shareOfSource": 0.3039,
+            "shareOfBase": 0.1852
+          },
+          {
+            "source": "音乐",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 153,
+            "shareOfSource": 0.2606,
+            "shareOfBase": 0.1828
+          },
+          {
+            "source": "世界观/概念",
+            "target": "收听櫻坂チャンネル",
+            "count": 149,
+            "shareOfSource": 0.3191,
+            "shareOfBase": 0.178
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看其他团外综艺",
+            "count": 149,
+            "shareOfSource": 0.3489,
+            "shareOfBase": 0.178
+          },
+          {
+            "source": "世界观/概念",
+            "target": "櫻坂46の「さ」",
+            "count": 145,
+            "shareOfSource": 0.3105,
+            "shareOfBase": 0.1732
+          },
+          {
+            "source": "综艺",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 144,
+            "shareOfSource": 0.2824,
+            "shareOfBase": 0.172
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "收听櫻坂チャンネル",
+            "count": 139,
+            "shareOfSource": 0.3255,
+            "shareOfBase": 0.1661
+          },
+          {
+            "source": "综艺",
+            "target": "观看Love it！",
+            "count": 137,
+            "shareOfSource": 0.2686,
+            "shareOfBase": 0.1637
+          },
+          {
+            "source": "世界观/概念",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 135,
+            "shareOfSource": 0.2891,
+            "shareOfBase": 0.1613
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "櫻坂46の「さ」",
+            "count": 133,
+            "shareOfSource": 0.3115,
+            "shareOfBase": 0.1589
+          },
+          {
+            "source": "音乐",
+            "target": "观看Love it！",
+            "count": 132,
+            "shareOfSource": 0.2249,
+            "shareOfBase": 0.1577
+          },
+          {
+            "source": "音乐",
+            "target": "阅读杂志",
+            "count": 131,
+            "shareOfSource": 0.2232,
+            "shareOfBase": 0.1565
+          },
+          {
+            "source": "世界观/概念",
+            "target": "阅读杂志",
+            "count": 125,
+            "shareOfSource": 0.2677,
+            "shareOfBase": 0.1493
+          },
+          {
+            "source": "综艺",
+            "target": "阅读杂志",
+            "count": 121,
+            "shareOfSource": 0.2373,
+            "shareOfBase": 0.1446
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看Love it！",
+            "count": 121,
+            "shareOfSource": 0.2591,
+            "shareOfBase": 0.1446
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 120,
+            "shareOfSource": 0.281,
+            "shareOfBase": 0.1434
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "阅读杂志",
+            "count": 117,
+            "shareOfSource": 0.274,
+            "shareOfBase": 0.1398
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看Love it！",
+            "count": 104,
+            "shareOfSource": 0.2436,
+            "shareOfBase": 0.1243
+          },
+          {
+            "source": "成员/个性",
+            "target": "其他",
+            "count": 78,
+            "shareOfSource": 0.1082,
+            "shareOfBase": 0.0932
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "其他",
+            "count": 72,
+            "shareOfSource": 0.1032,
+            "shareOfBase": 0.086
+          },
+          {
+            "source": "音乐",
+            "target": "其他",
+            "count": 59,
+            "shareOfSource": 0.1005,
+            "shareOfBase": 0.0705
+          },
+          {
+            "source": "成员/个性",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 55,
+            "shareOfSource": 0.0763,
+            "shareOfBase": 0.0657
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 54,
+            "shareOfSource": 0.0774,
+            "shareOfBase": 0.0645
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 54,
+            "shareOfSource": 0.9643,
+            "shareOfBase": 0.0645
+          },
+          {
+            "source": "综艺",
+            "target": "其他",
+            "count": 54,
+            "shareOfSource": 0.1059,
+            "shareOfBase": 0.0645
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 52,
+            "shareOfSource": 0.9286,
+            "shareOfBase": 0.0621
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 52,
+            "shareOfSource": 0.9286,
+            "shareOfBase": 0.0621
+          },
+          {
+            "source": "世界观/概念",
+            "target": "其他",
+            "count": 49,
+            "shareOfSource": 0.1049,
+            "shareOfBase": 0.0585
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "其他",
+            "count": 48,
+            "shareOfSource": 0.1124,
+            "shareOfBase": 0.0573
+          },
+          {
+            "source": "音乐",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 47,
+            "shareOfSource": 0.0801,
+            "shareOfBase": 0.0562
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "阅读成员博客",
+            "count": 44,
+            "shareOfSource": 0.7857,
+            "shareOfBase": 0.0526
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 43,
+            "shareOfSource": 0.7679,
+            "shareOfBase": 0.0514
+          },
+          {
+            "source": "世界观/概念",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 39,
+            "shareOfSource": 0.0835,
+            "shareOfBase": 0.0466
+          },
+          {
+            "source": "综艺",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 38,
+            "shareOfSource": 0.0745,
+            "shareOfBase": 0.0454
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "订阅成员MSG",
+            "count": 37,
+            "shareOfSource": 0.6607,
+            "shareOfBase": 0.0442
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 37,
+            "shareOfSource": 0.0867,
+            "shareOfBase": 0.0442
+          },
+          {
+            "source": "其他",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 28,
+            "shareOfSource": 0.9333,
+            "shareOfBase": 0.0335
+          },
+          {
+            "source": "其他",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 27,
+            "shareOfSource": 0.9,
+            "shareOfBase": 0.0323
+          },
+          {
+            "source": "其他",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 27,
+            "shareOfSource": 0.9,
+            "shareOfBase": 0.0323
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "观看サクラミーツ",
+            "count": 24,
+            "shareOfSource": 0.4286,
+            "shareOfBase": 0.0287
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "观看其他团外综艺",
+            "count": 24,
+            "shareOfSource": 0.4286,
+            "shareOfBase": 0.0287
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "櫻坂46の「さ」",
+            "count": 22,
+            "shareOfSource": 0.3929,
+            "shareOfBase": 0.0263
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "收听櫻坂チャンネル",
+            "count": 21,
+            "shareOfSource": 0.375,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "观看Love it！",
+            "count": 21,
+            "shareOfSource": 0.375,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "阅读杂志",
+            "count": 21,
+            "shareOfSource": 0.375,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "其他",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 21,
+            "shareOfSource": 0.7,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "其他",
+            "target": "阅读成员博客",
+            "count": 21,
+            "shareOfSource": 0.7,
+            "shareOfBase": 0.0251
+          },
+          {
+            "source": "其他",
+            "target": "观看サクラミーツ",
+            "count": 17,
+            "shareOfSource": 0.5667,
+            "shareOfBase": 0.0203
+          },
+          {
+            "source": "其他",
+            "target": "订阅成员MSG",
+            "count": 17,
+            "shareOfSource": 0.5667,
+            "shareOfBase": 0.0203
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 15,
+            "shareOfSource": 0.2679,
+            "shareOfBase": 0.0179
+          },
+          {
+            "source": "其他",
+            "target": "收听櫻坂チャンネル",
+            "count": 14,
+            "shareOfSource": 0.4667,
+            "shareOfBase": 0.0167
+          },
+          {
+            "source": "其他",
+            "target": "櫻坂46の「さ」",
+            "count": 13,
+            "shareOfSource": 0.4333,
+            "shareOfBase": 0.0155
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 12,
+            "shareOfSource": 0.2143,
+            "shareOfBase": 0.0143
+          },
+          {
+            "source": "其他",
+            "target": "观看Love it！",
+            "count": 11,
+            "shareOfSource": 0.3667,
+            "shareOfBase": 0.0131
+          },
+          {
+            "source": "其他",
+            "target": "观看其他团外综艺",
+            "count": 11,
+            "shareOfSource": 0.3667,
+            "shareOfBase": 0.0131
+          },
+          {
+            "source": "其他",
+            "target": "阅读杂志",
+            "count": 11,
+            "shareOfSource": 0.3667,
+            "shareOfBase": 0.0131
+          },
+          {
+            "source": "其他",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 11,
+            "shareOfSource": 0.3667,
+            "shareOfBase": 0.0131
+          },
+          {
+            "source": "与朋友拥有一样的爱好",
+            "target": "其他",
+            "count": 9,
+            "shareOfSource": 0.1607,
+            "shareOfBase": 0.0108
+          },
+          {
+            "source": "其他",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 7,
+            "shareOfSource": 0.2333,
+            "shareOfBase": 0.0084
+          }
+        ]
+      },
+      {
+        "id": "activity_to_ticket_issue",
+        "year": 2025,
+        "label": "活动方式 → 购票难点",
+        "description": "不同活动方式的人，遭遇的购票阻碍是否不同。",
+        "sourceLabel": "活动方式",
+        "targetLabel": "购票难点",
+        "base": 837,
+        "sources": [
+          {
+            "label": "观看そこ曲がったら、櫻坂？",
+            "count": 782,
+            "rate": 0.9343
+          },
+          {
+            "label": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 759,
+            "rate": 0.9068
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 715,
+            "rate": 0.8542
+          },
+          {
+            "label": "阅读成员博客",
+            "count": 565,
+            "rate": 0.675
+          },
+          {
+            "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 521,
+            "rate": 0.6225
+          },
+          {
+            "label": "订阅成员MSG",
+            "count": 379,
+            "rate": 0.4528
+          },
+          {
+            "label": "观看サクラミーツ",
+            "count": 281,
+            "rate": 0.3357
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 271,
+            "rate": 0.3238
+          },
+          {
+            "label": "收听櫻坂チャンネル",
+            "count": 246,
+            "rate": 0.2939
+          },
+          {
+            "label": "櫻坂46の「さ」",
+            "count": 235,
+            "rate": 0.2808
+          },
+          {
+            "label": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 211,
+            "rate": 0.2521
+          },
+          {
+            "label": "观看Love it！",
+            "count": 190,
+            "rate": 0.227
+          },
+          {
+            "label": "阅读杂志",
+            "count": 185,
+            "rate": 0.221
+          },
+          {
+            "label": "其他",
+            "count": 85,
+            "rate": 0.1016
+          },
+          {
+            "label": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 61,
+            "rate": 0.0729
+          }
+        ],
+        "targets": [
+          {
+            "label": "日本号码",
+            "count": 710,
+            "rate": 0.8483
+          },
+          {
+            "label": "付款方式",
+            "count": 518,
+            "rate": 0.6189
+          },
+          {
+            "label": "账号注册",
+            "count": 390,
+            "rate": 0.4659
+          },
+          {
+            "label": "语言障碍",
+            "count": 323,
+            "rate": 0.3859
+          },
+          {
+            "label": "网页导航",
+            "count": 193,
+            "rate": 0.2306
+          },
+          {
+            "label": "其他",
+            "count": 68,
+            "rate": 0.0812
+          }
+        ],
+        "links": [
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "日本号码",
+            "count": 667,
+            "shareOfSource": 0.8529,
+            "shareOfBase": 0.7969
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "日本号码",
+            "count": 649,
+            "shareOfSource": 0.8551,
+            "shareOfBase": 0.7754
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "日本号码",
+            "count": 613,
+            "shareOfSource": 0.8573,
+            "shareOfBase": 0.7324
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "付款方式",
+            "count": 487,
+            "shareOfSource": 0.6228,
+            "shareOfBase": 0.5818
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "日本号码",
+            "count": 482,
+            "shareOfSource": 0.8531,
+            "shareOfBase": 0.5759
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "付款方式",
+            "count": 480,
+            "shareOfSource": 0.6324,
+            "shareOfBase": 0.5735
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "付款方式",
+            "count": 450,
+            "shareOfSource": 0.6294,
+            "shareOfBase": 0.5376
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "日本号码",
+            "count": 434,
+            "shareOfSource": 0.833,
+            "shareOfBase": 0.5185
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "付款方式",
+            "count": 363,
+            "shareOfSource": 0.6425,
+            "shareOfBase": 0.4337
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "账号注册",
+            "count": 363,
+            "shareOfSource": 0.4783,
+            "shareOfBase": 0.4337
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "账号注册",
+            "count": 360,
+            "shareOfSource": 0.4604,
+            "shareOfBase": 0.4301
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "付款方式",
+            "count": 331,
+            "shareOfSource": 0.6353,
+            "shareOfBase": 0.3955
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "账号注册",
+            "count": 329,
+            "shareOfSource": 0.4601,
+            "shareOfBase": 0.3931
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "日本号码",
+            "count": 320,
+            "shareOfSource": 0.8443,
+            "shareOfBase": 0.3823
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "语言障碍",
+            "count": 299,
+            "shareOfSource": 0.3939,
+            "shareOfBase": 0.3572
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "语言障碍",
+            "count": 298,
+            "shareOfSource": 0.3811,
+            "shareOfBase": 0.356
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "语言障碍",
+            "count": 264,
+            "shareOfSource": 0.3692,
+            "shareOfBase": 0.3154
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "账号注册",
+            "count": 247,
+            "shareOfSource": 0.4372,
+            "shareOfBase": 0.2951
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "付款方式",
+            "count": 237,
+            "shareOfSource": 0.6253,
+            "shareOfBase": 0.2832
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "日本号码",
+            "count": 237,
+            "shareOfSource": 0.8434,
+            "shareOfBase": 0.2832
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "日本号码",
+            "count": 229,
+            "shareOfSource": 0.845,
+            "shareOfBase": 0.2736
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "账号注册",
+            "count": 215,
+            "shareOfSource": 0.4127,
+            "shareOfBase": 0.2569
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "日本号码",
+            "count": 206,
+            "shareOfSource": 0.8374,
+            "shareOfBase": 0.2461
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "语言障碍",
+            "count": 198,
+            "shareOfSource": 0.3504,
+            "shareOfBase": 0.2366
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "日本号码",
+            "count": 195,
+            "shareOfSource": 0.8298,
+            "shareOfBase": 0.233
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "日本号码",
+            "count": 182,
+            "shareOfSource": 0.8626,
+            "shareOfBase": 0.2174
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "付款方式",
+            "count": 182,
+            "shareOfSource": 0.6477,
+            "shareOfBase": 0.2174
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "网页导航",
+            "count": 180,
+            "shareOfSource": 0.2372,
+            "shareOfBase": 0.2151
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "网页导航",
+            "count": 180,
+            "shareOfSource": 0.2302,
+            "shareOfBase": 0.2151
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "语言障碍",
+            "count": 178,
+            "shareOfSource": 0.3417,
+            "shareOfBase": 0.2127
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "付款方式",
+            "count": 167,
+            "shareOfSource": 0.6162,
+            "shareOfBase": 0.1995
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "网页导航",
+            "count": 163,
+            "shareOfSource": 0.228,
+            "shareOfBase": 0.1947
+          },
+          {
+            "source": "观看Love it！",
+            "target": "日本号码",
+            "count": 162,
+            "shareOfSource": 0.8526,
+            "shareOfBase": 0.1935
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "付款方式",
+            "count": 156,
+            "shareOfSource": 0.6638,
+            "shareOfBase": 0.1864
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "付款方式",
+            "count": 154,
+            "shareOfSource": 0.626,
+            "shareOfBase": 0.184
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "付款方式",
+            "count": 153,
+            "shareOfSource": 0.7251,
+            "shareOfBase": 0.1828
+          },
+          {
+            "source": "阅读杂志",
+            "target": "日本号码",
+            "count": 145,
+            "shareOfSource": 0.7838,
+            "shareOfBase": 0.1732
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "账号注册",
+            "count": 140,
+            "shareOfSource": 0.3694,
+            "shareOfBase": 0.1673
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "网页导航",
+            "count": 127,
+            "shareOfSource": 0.2248,
+            "shareOfBase": 0.1517
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "语言障碍",
+            "count": 123,
+            "shareOfSource": 0.3245,
+            "shareOfBase": 0.147
+          },
+          {
+            "source": "阅读杂志",
+            "target": "付款方式",
+            "count": 122,
+            "shareOfSource": 0.6595,
+            "shareOfBase": 0.1458
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "网页导航",
+            "count": 117,
+            "shareOfSource": 0.2246,
+            "shareOfBase": 0.1398
+          },
+          {
+            "source": "观看Love it！",
+            "target": "付款方式",
+            "count": 114,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.1362
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "账号注册",
+            "count": 112,
+            "shareOfSource": 0.4133,
+            "shareOfBase": 0.1338
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "账号注册",
+            "count": 109,
+            "shareOfSource": 0.3879,
+            "shareOfBase": 0.1302
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "语言障碍",
+            "count": 102,
+            "shareOfSource": 0.3764,
+            "shareOfBase": 0.1219
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "账号注册",
+            "count": 94,
+            "shareOfSource": 0.4455,
+            "shareOfBase": 0.1123
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "账号注册",
+            "count": 91,
+            "shareOfSource": 0.3699,
+            "shareOfBase": 0.1087
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "账号注册",
+            "count": 91,
+            "shareOfSource": 0.3872,
+            "shareOfBase": 0.1087
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "语言障碍",
+            "count": 89,
+            "shareOfSource": 0.3167,
+            "shareOfBase": 0.1063
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "语言障碍",
+            "count": 82,
+            "shareOfSource": 0.3886,
+            "shareOfBase": 0.098
+          },
+          {
+            "source": "观看Love it！",
+            "target": "账号注册",
+            "count": 82,
+            "shareOfSource": 0.4316,
+            "shareOfBase": 0.098
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "网页导航",
+            "count": 78,
+            "shareOfSource": 0.2058,
+            "shareOfBase": 0.0932
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "语言障碍",
+            "count": 77,
+            "shareOfSource": 0.3277,
+            "shareOfBase": 0.092
+          },
+          {
+            "source": "阅读杂志",
+            "target": "账号注册",
+            "count": 73,
+            "shareOfSource": 0.3946,
+            "shareOfBase": 0.0872
+          },
+          {
+            "source": "观看Love it！",
+            "target": "语言障碍",
+            "count": 72,
+            "shareOfSource": 0.3789,
+            "shareOfBase": 0.086
+          },
+          {
+            "source": "其他",
+            "target": "日本号码",
+            "count": 69,
+            "shareOfSource": 0.8118,
+            "shareOfBase": 0.0824
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "语言障碍",
+            "count": 66,
+            "shareOfSource": 0.2683,
+            "shareOfBase": 0.0789
+          },
+          {
+            "source": "阅读杂志",
+            "target": "语言障碍",
+            "count": 64,
+            "shareOfSource": 0.3459,
+            "shareOfBase": 0.0765
+          },
+          {
+            "source": "观看そこ曲がったら、櫻坂？",
+            "target": "其他",
+            "count": 63,
+            "shareOfSource": 0.0806,
+            "shareOfBase": 0.0753
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "网页导航",
+            "count": 63,
+            "shareOfSource": 0.2242,
+            "shareOfBase": 0.0753
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "网页导航",
+            "count": 63,
+            "shareOfSource": 0.2325,
+            "shareOfBase": 0.0753
+          },
+          {
+            "source": "浏览中文社媒内容（bilibili，微博等）",
+            "target": "其他",
+            "count": 60,
+            "shareOfSource": 0.0791,
+            "shareOfBase": 0.0717
+          },
+          {
+            "source": "其他",
+            "target": "付款方式",
+            "count": 60,
+            "shareOfSource": 0.7059,
+            "shareOfBase": 0.0717
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "网页导航",
+            "count": 59,
+            "shareOfSource": 0.2511,
+            "shareOfBase": 0.0705
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "网页导航",
+            "count": 57,
+            "shareOfSource": 0.2701,
+            "shareOfBase": 0.0681
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "其他",
+            "count": 53,
+            "shareOfSource": 0.0741,
+            "shareOfBase": 0.0633
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "日本号码",
+            "count": 50,
+            "shareOfSource": 0.8197,
+            "shareOfBase": 0.0597
+          },
+          {
+            "source": "观看Love it！",
+            "target": "网页导航",
+            "count": 48,
+            "shareOfSource": 0.2526,
+            "shareOfBase": 0.0573
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "付款方式",
+            "count": 47,
+            "shareOfSource": 0.7705,
+            "shareOfBase": 0.0562
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "网页导航",
+            "count": 47,
+            "shareOfSource": 0.1911,
+            "shareOfBase": 0.0562
+          },
+          {
+            "source": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "target": "其他",
+            "count": 46,
+            "shareOfSource": 0.0883,
+            "shareOfBase": 0.055
+          },
+          {
+            "source": "阅读成员博客",
+            "target": "其他",
+            "count": 46,
+            "shareOfSource": 0.0814,
+            "shareOfBase": 0.055
+          },
+          {
+            "source": "阅读杂志",
+            "target": "网页导航",
+            "count": 40,
+            "shareOfSource": 0.2162,
+            "shareOfBase": 0.0478
+          },
+          {
+            "source": "其他",
+            "target": "语言障碍",
+            "count": 37,
+            "shareOfSource": 0.4353,
+            "shareOfBase": 0.0442
+          },
+          {
+            "source": "其他",
+            "target": "账号注册",
+            "count": 35,
+            "shareOfSource": 0.4118,
+            "shareOfBase": 0.0418
+          },
+          {
+            "source": "订阅成员MSG",
+            "target": "其他",
+            "count": 34,
+            "shareOfSource": 0.0897,
+            "shareOfBase": 0.0406
+          },
+          {
+            "source": "观看サクラミーツ",
+            "target": "其他",
+            "count": 29,
+            "shareOfSource": 0.1032,
+            "shareOfBase": 0.0346
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "其他",
+            "count": 29,
+            "shareOfSource": 0.107,
+            "shareOfBase": 0.0346
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "账号注册",
+            "count": 27,
+            "shareOfSource": 0.4426,
+            "shareOfBase": 0.0323
+          },
+          {
+            "source": "其他",
+            "target": "网页导航",
+            "count": 25,
+            "shareOfSource": 0.2941,
+            "shareOfBase": 0.0299
+          },
+          {
+            "source": "收听櫻坂チャンネル",
+            "target": "其他",
+            "count": 25,
+            "shareOfSource": 0.1016,
+            "shareOfBase": 0.0299
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "语言障碍",
+            "count": 25,
+            "shareOfSource": 0.4098,
+            "shareOfBase": 0.0299
+          },
+          {
+            "source": "櫻坂46の「さ」",
+            "target": "其他",
+            "count": 24,
+            "shareOfSource": 0.1021,
+            "shareOfBase": 0.0287
+          },
+          {
+            "source": "阅读杂志",
+            "target": "其他",
+            "count": 23,
+            "shareOfSource": 0.1243,
+            "shareOfBase": 0.0275
+          },
+          {
+            "source": "收听さくらひなたロッチの伸びしろラジオ",
+            "target": "网页导航",
+            "count": 19,
+            "shareOfSource": 0.3115,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "收听櫻坂46 こちら有楽町星空放送局",
+            "target": "其他",
+            "count": 17,
+            "shareOfSource": 0.0806,
+            "shareOfBase": 0.0203
+          },
+          {
+            "source": "观看Love it！",
+            "target": "其他",
+            "count": 16,
+            "shareOfSource": 0.0842,
+            "shareOfBase": 0.0191
+          }
+        ]
+      },
+      {
+        "id": "era_to_activity",
+        "year": 2025,
+        "label": "入坑时期 → 活动方式",
+        "description": "不同入坑世代进入社区后采用的活动方式。",
+        "sourceLabel": "入坑时期",
+        "targetLabel": "活动方式",
+        "base": 833,
+        "sources": [
+          {
+            "label": "桜月~何歳の頃に戻りたいのか？",
+            "count": 260,
+            "rate": 0.3121
+          },
+          {
+            "label": "欅坂成团~黒い羊",
+            "count": 206,
+            "rate": 0.2473
+          },
+          {
+            "label": "黒い羊后~永遠より長い一瞬",
+            "count": 89,
+            "rate": 0.1068
+          },
+          {
+            "label": "Nobody’s fault~As you know?",
+            "count": 75,
+            "rate": 0.09
+          },
+          {
+            "label": "自業自得",
+            "count": 67,
+            "rate": 0.0804
+          },
+          {
+            "label": "何歳后~自業自得前",
+            "count": 65,
+            "rate": 0.078
+          },
+          {
+            "label": "As you know? 后~桜月前",
+            "count": 36,
+            "rate": 0.0432
+          },
+          {
+            "label": "I want tomorrow to come",
+            "count": 23,
+            "rate": 0.0276
+          },
+          {
+            "label": "櫻坂启动~Nobody’s fault 前",
+            "count": 5,
+            "rate": 0.006
+          }
+        ],
+        "targets": [
+          {
+            "label": "观看そこ曲がったら、櫻坂？",
+            "count": 779,
+            "rate": 0.9352
+          },
+          {
+            "label": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 755,
+            "rate": 0.9064
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 711,
+            "rate": 0.8535
+          },
+          {
+            "label": "阅读成员博客",
+            "count": 563,
+            "rate": 0.6759
+          },
+          {
+            "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 517,
+            "rate": 0.6206
+          },
+          {
+            "label": "订阅成员MSG",
+            "count": 378,
+            "rate": 0.4538
+          },
+          {
+            "label": "观看サクラミーツ",
+            "count": 280,
+            "rate": 0.3361
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 270,
+            "rate": 0.3241
+          },
+          {
+            "label": "收听櫻坂チャンネル",
+            "count": 246,
+            "rate": 0.2953
+          },
+          {
+            "label": "櫻坂46の「さ」",
+            "count": 234,
+            "rate": 0.2809
+          },
+          {
+            "label": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 211,
+            "rate": 0.2533
+          },
+          {
+            "label": "观看Love it！",
+            "count": 189,
+            "rate": 0.2269
+          },
+          {
+            "label": "阅读杂志",
+            "count": 185,
+            "rate": 0.2221
+          },
+          {
+            "label": "其他",
+            "count": 85,
+            "rate": 0.102
+          },
+          {
+            "label": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 61,
+            "rate": 0.0732
+          }
+        ],
+        "links": [
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 245,
+            "shareOfSource": 0.9423,
+            "shareOfBase": 0.2941
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 241,
+            "shareOfSource": 0.9269,
+            "shareOfBase": 0.2893
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 220,
+            "shareOfSource": 0.8462,
+            "shareOfBase": 0.2641
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 196,
+            "shareOfSource": 0.9515,
+            "shareOfBase": 0.2353
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "阅读成员博客",
+            "count": 192,
+            "shareOfSource": 0.7385,
+            "shareOfBase": 0.2305
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 182,
+            "shareOfSource": 0.8835,
+            "shareOfBase": 0.2185
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 182,
+            "shareOfSource": 0.8835,
+            "shareOfBase": 0.2185
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 158,
+            "shareOfSource": 0.6077,
+            "shareOfBase": 0.1897
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 144,
+            "shareOfSource": 0.699,
+            "shareOfBase": 0.1729
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "订阅成员MSG",
+            "count": 128,
+            "shareOfSource": 0.4923,
+            "shareOfBase": 0.1537
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "阅读成员博客",
+            "count": 120,
+            "shareOfSource": 0.5825,
+            "shareOfBase": 0.1441
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看サクラミーツ",
+            "count": 96,
+            "shareOfSource": 0.3692,
+            "shareOfBase": 0.1152
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "订阅成员MSG",
+            "count": 91,
+            "shareOfSource": 0.4417,
+            "shareOfBase": 0.1092
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "櫻坂46の「さ」",
+            "count": 89,
+            "shareOfSource": 0.3423,
+            "shareOfBase": 0.1068
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 85,
+            "shareOfSource": 0.3269,
+            "shareOfBase": 0.102
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 85,
+            "shareOfSource": 0.9551,
+            "shareOfBase": 0.102
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看其他团外综艺",
+            "count": 84,
+            "shareOfSource": 0.4078,
+            "shareOfBase": 0.1008
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "收听櫻坂チャンネル",
+            "count": 79,
+            "shareOfSource": 0.3835,
+            "shareOfBase": 0.0948
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 77,
+            "shareOfSource": 0.8652,
+            "shareOfBase": 0.0924
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 77,
+            "shareOfSource": 0.8652,
+            "shareOfBase": 0.0924
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "收听櫻坂チャンネル",
+            "count": 76,
+            "shareOfSource": 0.2923,
+            "shareOfBase": 0.0912
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看サクラミーツ",
+            "count": 73,
+            "shareOfSource": 0.3544,
+            "shareOfBase": 0.0876
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看其他团外综艺",
+            "count": 70,
+            "shareOfSource": 0.2692,
+            "shareOfBase": 0.084
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 70,
+            "shareOfSource": 0.9333,
+            "shareOfBase": 0.084
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 69,
+            "shareOfSource": 0.92,
+            "shareOfBase": 0.0828
+          },
+          {
+            "source": "自業自得",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 63,
+            "shareOfSource": 0.9403,
+            "shareOfBase": 0.0756
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "阅读杂志",
+            "count": 61,
+            "shareOfSource": 0.2346,
+            "shareOfBase": 0.0732
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 60,
+            "shareOfSource": 0.9231,
+            "shareOfBase": 0.072
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 60,
+            "shareOfSource": 0.9231,
+            "shareOfBase": 0.072
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "阅读成员博客",
+            "count": 60,
+            "shareOfSource": 0.6742,
+            "shareOfBase": 0.072
+          },
+          {
+            "source": "自業自得",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 60,
+            "shareOfSource": 0.8955,
+            "shareOfBase": 0.072
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 59,
+            "shareOfSource": 0.7867,
+            "shareOfBase": 0.0708
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看Love it！",
+            "count": 58,
+            "shareOfSource": 0.2816,
+            "shareOfBase": 0.0696
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 57,
+            "shareOfSource": 0.8769,
+            "shareOfBase": 0.0684
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "櫻坂46の「さ」",
+            "count": 57,
+            "shareOfSource": 0.2767,
+            "shareOfBase": 0.0684
+          },
+          {
+            "source": "自業自得",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 56,
+            "shareOfSource": 0.8358,
+            "shareOfBase": 0.0672
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 53,
+            "shareOfSource": 0.5955,
+            "shareOfBase": 0.0636
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "阅读杂志",
+            "count": 51,
+            "shareOfSource": 0.2476,
+            "shareOfBase": 0.0612
+          },
+          {
+            "source": "自業自得",
+            "target": "阅读成员博客",
+            "count": 50,
+            "shareOfSource": 0.7463,
+            "shareOfBase": 0.06
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "阅读成员博客",
+            "count": 49,
+            "shareOfSource": 0.6533,
+            "shareOfBase": 0.0588
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "阅读成员博客",
+            "count": 47,
+            "shareOfSource": 0.7231,
+            "shareOfBase": 0.0564
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看Love it！",
+            "count": 46,
+            "shareOfSource": 0.1769,
+            "shareOfBase": 0.0552
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 45,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.054
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 43,
+            "shareOfSource": 0.2087,
+            "shareOfBase": 0.0516
+          },
+          {
+            "source": "自業自得",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 41,
+            "shareOfSource": 0.6119,
+            "shareOfBase": 0.0492
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "订阅成员MSG",
+            "count": 38,
+            "shareOfSource": 0.427,
+            "shareOfBase": 0.0456
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 38,
+            "shareOfSource": 0.5846,
+            "shareOfBase": 0.0456
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看其他团外综艺",
+            "count": 33,
+            "shareOfSource": 0.3708,
+            "shareOfBase": 0.0396
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 32,
+            "shareOfSource": 0.8889,
+            "shareOfBase": 0.0384
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 32,
+            "shareOfSource": 0.8889,
+            "shareOfBase": 0.0384
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "订阅成员MSG",
+            "count": 31,
+            "shareOfSource": 0.4769,
+            "shareOfBase": 0.0372
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 31,
+            "shareOfSource": 0.8611,
+            "shareOfBase": 0.0372
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看其他团外综艺",
+            "count": 31,
+            "shareOfSource": 0.4133,
+            "shareOfBase": 0.0372
+          },
+          {
+            "source": "自業自得",
+            "target": "订阅成员MSG",
+            "count": 31,
+            "shareOfSource": 0.4627,
+            "shareOfBase": 0.0372
+          },
+          {
+            "source": "自業自得",
+            "target": "观看サクラミーツ",
+            "count": 30,
+            "shareOfSource": 0.4478,
+            "shareOfBase": 0.036
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "其他",
+            "count": 28,
+            "shareOfSource": 0.1077,
+            "shareOfBase": 0.0336
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看サクラミーツ",
+            "count": 28,
+            "shareOfSource": 0.3146,
+            "shareOfBase": 0.0336
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "订阅成员MSG",
+            "count": 27,
+            "shareOfSource": 0.36,
+            "shareOfBase": 0.0324
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "其他",
+            "count": 25,
+            "shareOfSource": 0.1214,
+            "shareOfBase": 0.03
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看Love it！",
+            "count": 25,
+            "shareOfSource": 0.2809,
+            "shareOfBase": 0.03
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "收听櫻坂チャンネル",
+            "count": 23,
+            "shareOfSource": 0.2584,
+            "shareOfBase": 0.0276
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "阅读成员博客",
+            "count": 23,
+            "shareOfSource": 0.6389,
+            "shareOfBase": 0.0276
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 22,
+            "shareOfSource": 0.0846,
+            "shareOfBase": 0.0264
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "櫻坂46の「さ」",
+            "count": 22,
+            "shareOfSource": 0.3385,
+            "shareOfBase": 0.0264
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 22,
+            "shareOfSource": 0.9565,
+            "shareOfBase": 0.0264
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 21,
+            "shareOfSource": 0.5833,
+            "shareOfBase": 0.0252
+          },
+          {
+            "source": "自業自得",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 21,
+            "shareOfSource": 0.3134,
+            "shareOfBase": 0.0252
+          },
+          {
+            "source": "自業自得",
+            "target": "观看其他团外综艺",
+            "count": 20,
+            "shareOfSource": 0.2985,
+            "shareOfBase": 0.024
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "观看サクラミーツ",
+            "count": 19,
+            "shareOfSource": 0.2923,
+            "shareOfBase": 0.0228
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "阅读杂志",
+            "count": 19,
+            "shareOfSource": 0.2135,
+            "shareOfBase": 0.0228
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 19,
+            "shareOfSource": 0.8261,
+            "shareOfBase": 0.0228
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看Love it！",
+            "count": 18,
+            "shareOfSource": 0.24,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看サクラミーツ",
+            "count": 18,
+            "shareOfSource": 0.24,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "收听櫻坂チャンネル",
+            "count": 18,
+            "shareOfSource": 0.2769,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 18,
+            "shareOfSource": 0.0874,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "自業自得",
+            "target": "櫻坂46の「さ」",
+            "count": 18,
+            "shareOfSource": 0.2687,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "订阅成员MSG",
+            "count": 18,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.0216
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "观看其他团外综艺",
+            "count": 17,
+            "shareOfSource": 0.2615,
+            "shareOfBase": 0.0204
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 17,
+            "shareOfSource": 0.2615,
+            "shareOfBase": 0.0204
+          },
+          {
+            "source": "自業自得",
+            "target": "观看Love it！",
+            "count": 17,
+            "shareOfSource": 0.2537,
+            "shareOfBase": 0.0204
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 17,
+            "shareOfSource": 0.7391,
+            "shareOfBase": 0.0204
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "櫻坂46の「さ」",
+            "count": 16,
+            "shareOfSource": 0.1798,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 16,
+            "shareOfSource": 0.2133,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "收听櫻坂チャンネル",
+            "count": 16,
+            "shareOfSource": 0.2133,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "阅读杂志",
+            "count": 16,
+            "shareOfSource": 0.2133,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "阅读杂志",
+            "count": 16,
+            "shareOfSource": 0.2462,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "自業自得",
+            "target": "收听櫻坂チャンネル",
+            "count": 16,
+            "shareOfSource": 0.2388,
+            "shareOfBase": 0.0192
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "櫻坂46の「さ」",
+            "count": 15,
+            "shareOfSource": 0.2,
+            "shareOfBase": 0.018
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 15,
+            "shareOfSource": 0.1685,
+            "shareOfBase": 0.018
+          },
+          {
+            "source": "自業自得",
+            "target": "阅读杂志",
+            "count": 13,
+            "shareOfSource": 0.194,
+            "shareOfBase": 0.0156
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "阅读成员博客",
+            "count": 13,
+            "shareOfSource": 0.5652,
+            "shareOfBase": 0.0156
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "观看Love it！",
+            "count": 12,
+            "shareOfSource": 0.1846,
+            "shareOfBase": 0.0144
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "其他",
+            "count": 11,
+            "shareOfSource": 0.1236,
+            "shareOfBase": 0.0132
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "观看Love it！",
+            "count": 11,
+            "shareOfSource": 0.3056,
+            "shareOfBase": 0.0132
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 11,
+            "shareOfSource": 0.4783,
+            "shareOfBase": 0.0132
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "收听櫻坂チャンネル",
+            "count": 10,
+            "shareOfSource": 0.2778,
+            "shareOfBase": 0.012
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "櫻坂46の「さ」",
+            "count": 10,
+            "shareOfSource": 0.2778,
+            "shareOfBase": 0.012
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "观看其他团外综艺",
+            "count": 10,
+            "shareOfSource": 0.2778,
+            "shareOfBase": 0.012
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "观看サクラミーツ",
+            "count": 10,
+            "shareOfSource": 0.2778,
+            "shareOfBase": 0.012
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "订阅成员MSG",
+            "count": 9,
+            "shareOfSource": 0.3913,
+            "shareOfBase": 0.0108
+          },
+          {
+            "source": "自業自得",
+            "target": "其他",
+            "count": 7,
+            "shareOfSource": 0.1045,
+            "shareOfBase": 0.0084
+          },
+          {
+            "source": "何歳后~自業自得前",
+            "target": "其他",
+            "count": 6,
+            "shareOfSource": 0.0923,
+            "shareOfBase": 0.0072
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "其他",
+            "count": 5,
+            "shareOfSource": 0.0667,
+            "shareOfBase": 0.006
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 5,
+            "shareOfSource": 0.1389,
+            "shareOfBase": 0.006
+          },
+          {
+            "source": "As you know? 后~桜月前",
+            "target": "阅读杂志",
+            "count": 5,
+            "shareOfSource": 0.1389,
+            "shareOfBase": 0.006
+          },
+          {
+            "source": "櫻坂启动~Nobody’s fault 前",
+            "target": "观看そこ曲がったら、櫻坂？",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.006
+          }
+        ]
+      }
+    ],
+    "2026": [
+      {
+        "id": "entry_to_reason",
+        "year": 2026,
+        "label": "认识入口 → 爱上原因",
+        "description": "从第一次认识樱坂的入口，流向真正爱上樱坂的原因。",
+        "sourceLabel": "认识入口",
+        "targetLabel": "爱上原因",
+        "base": 39,
+        "sources": [
+          {
+            "label": "Bilibili/抖音/视频平台推荐",
+            "count": 10,
+            "rate": 0.2564
+          },
+          {
+            "label": "电视剧/综艺/广播/电影",
+            "count": 8,
+            "rate": 0.2051
+          },
+          {
+            "label": "毕业成员的的活跃",
+            "count": 6,
+            "rate": 0.1538
+          },
+          {
+            "label": "家人/朋友/同学/同事推荐",
+            "count": 5,
+            "rate": 0.1282
+          },
+          {
+            "label": "来自姐妹团（乃木坂/日向坂）",
+            "count": 5,
+            "rate": 0.1282
+          }
+        ],
+        "targets": [
+          {
+            "label": "成员/个性",
+            "count": 35,
+            "rate": 0.8974
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 30,
+            "rate": 0.7692
+          },
+          {
+            "label": "综艺",
+            "count": 24,
+            "rate": 0.6154
+          },
+          {
+            "label": "世界观/概念",
+            "count": 21,
+            "rate": 0.5385
+          },
+          {
+            "label": "音乐",
+            "count": 20,
+            "rate": 0.5128
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 19,
+            "rate": 0.4872
+          }
+        ],
+        "links": [
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "成员/个性",
+            "count": 9,
+            "shareOfSource": 0.9,
+            "shareOfBase": 0.2308
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "现场表演/舞蹈",
+            "count": 8,
+            "shareOfSource": 0.8,
+            "shareOfBase": 0.2051
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "成员/个性",
+            "count": 7,
+            "shareOfSource": 0.875,
+            "shareOfBase": 0.1795
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "综艺",
+            "count": 7,
+            "shareOfSource": 0.875,
+            "shareOfBase": 0.1795
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "世界观/概念",
+            "count": 6,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.1538
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "综艺",
+            "count": 5,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "Bilibili/抖音/视频平台推荐",
+            "target": "视觉/美学（MV，服装等）",
+            "count": 5,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "世界观/概念",
+            "count": 5,
+            "shareOfSource": 0.625,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "电视剧/综艺/广播/电影",
+            "target": "现场表演/舞蹈",
+            "count": 5,
+            "shareOfSource": 0.625,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "毕业成员的的活跃",
+            "target": "成员/个性",
+            "count": 5,
+            "shareOfSource": 0.8333,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "毕业成员的的活跃",
+            "target": "现场表演/舞蹈",
+            "count": 5,
+            "shareOfSource": 0.8333,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "毕业成员的的活跃",
+            "target": "音乐",
+            "count": 5,
+            "shareOfSource": 0.8333,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "成员/个性",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "家人/朋友/同学/同事推荐",
+            "target": "现场表演/舞蹈",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.1282
+          },
+          {
+            "source": "来自姐妹团（乃木坂/日向坂）",
+            "target": "成员/个性",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.1282
+          }
+        ]
+      },
+      {
+        "id": "reason_to_activity",
+        "year": 2026,
+        "label": "爱上原因 → 活动方式",
+        "description": "不同喜欢理由最终会导向什么样的偶像活动方式。",
+        "sourceLabel": "爱上原因",
+        "targetLabel": "活动方式",
+        "base": 39,
+        "sources": [
+          {
+            "label": "成员/个性",
+            "count": 35,
+            "rate": 0.8974
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 30,
+            "rate": 0.7692
+          },
+          {
+            "label": "综艺",
+            "count": 24,
+            "rate": 0.6154
+          },
+          {
+            "label": "世界观/概念",
+            "count": 21,
+            "rate": 0.5385
+          },
+          {
+            "label": "音乐",
+            "count": 20,
+            "rate": 0.5128
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 19,
+            "rate": 0.4872
+          }
+        ],
+        "targets": [
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 38,
+            "rate": 0.9744
+          },
+          {
+            "label": "观看冠名综艺",
+            "count": 37,
+            "rate": 0.9487
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 19,
+            "rate": 0.4872
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 15,
+            "rate": 0.3846
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 15,
+            "rate": 0.3846
+          }
+        ],
+        "links": [
+          {
+            "source": "成员/个性",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 34,
+            "shareOfSource": 0.9714,
+            "shareOfBase": 0.8718
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看冠名综艺",
+            "count": 33,
+            "shareOfSource": 0.9429,
+            "shareOfBase": 0.8462
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 30,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.7692
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看冠名综艺",
+            "count": 29,
+            "shareOfSource": 0.9667,
+            "shareOfBase": 0.7436
+          },
+          {
+            "source": "综艺",
+            "target": "观看冠名综艺",
+            "count": 24,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.6154
+          },
+          {
+            "source": "综艺",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 24,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.6154
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 21,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.5385
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看冠名综艺",
+            "count": 20,
+            "shareOfSource": 0.9524,
+            "shareOfBase": 0.5128
+          },
+          {
+            "source": "音乐",
+            "target": "观看冠名综艺",
+            "count": 20,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.5128
+          },
+          {
+            "source": "音乐",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 20,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.5128
+          },
+          {
+            "source": "成员/个性",
+            "target": "观看其他团外综艺",
+            "count": 19,
+            "shareOfSource": 0.5429,
+            "shareOfBase": 0.4872
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看冠名综艺",
+            "count": 19,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.4872
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 19,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.4872
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "观看其他团外综艺",
+            "count": 17,
+            "shareOfSource": 0.5667,
+            "shareOfBase": 0.4359
+          },
+          {
+            "source": "成员/个性",
+            "target": "线上/线下见面会",
+            "count": 15,
+            "shareOfSource": 0.4286,
+            "shareOfBase": 0.3846
+          },
+          {
+            "source": "综艺",
+            "target": "观看其他团外综艺",
+            "count": 15,
+            "shareOfSource": 0.625,
+            "shareOfBase": 0.3846
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "线上/线下见面会",
+            "count": 14,
+            "shareOfSource": 0.4667,
+            "shareOfBase": 0.359
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "观看其他团外综艺",
+            "count": 14,
+            "shareOfSource": 0.7368,
+            "shareOfBase": 0.359
+          },
+          {
+            "source": "世界观/概念",
+            "target": "观看其他团外综艺",
+            "count": 13,
+            "shareOfSource": 0.619,
+            "shareOfBase": 0.3333
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "线上/线下见面会",
+            "count": 12,
+            "shareOfSource": 0.6316,
+            "shareOfBase": 0.3077
+          },
+          {
+            "source": "音乐",
+            "target": "观看其他团外综艺",
+            "count": 12,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.3077
+          },
+          {
+            "source": "成员/个性",
+            "target": "UOA/樱恋游戏",
+            "count": 12,
+            "shareOfSource": 0.3429,
+            "shareOfBase": 0.3077
+          },
+          {
+            "source": "现场表演/舞蹈",
+            "target": "UOA/樱恋游戏",
+            "count": 12,
+            "shareOfSource": 0.4,
+            "shareOfBase": 0.3077
+          },
+          {
+            "source": "综艺",
+            "target": "线上/线下见面会",
+            "count": 10,
+            "shareOfSource": 0.4167,
+            "shareOfBase": 0.2564
+          },
+          {
+            "source": "世界观/概念",
+            "target": "UOA/樱恋游戏",
+            "count": 10,
+            "shareOfSource": 0.4762,
+            "shareOfBase": 0.2564
+          },
+          {
+            "source": "世界观/概念",
+            "target": "线上/线下见面会",
+            "count": 9,
+            "shareOfSource": 0.4286,
+            "shareOfBase": 0.2308
+          },
+          {
+            "source": "综艺",
+            "target": "UOA/樱恋游戏",
+            "count": 9,
+            "shareOfSource": 0.375,
+            "shareOfBase": 0.2308
+          },
+          {
+            "source": "视觉/美学（MV，服装等）",
+            "target": "UOA/樱恋游戏",
+            "count": 9,
+            "shareOfSource": 0.4737,
+            "shareOfBase": 0.2308
+          },
+          {
+            "source": "音乐",
+            "target": "线上/线下见面会",
+            "count": 8,
+            "shareOfSource": 0.4,
+            "shareOfBase": 0.2051
+          },
+          {
+            "source": "音乐",
+            "target": "UOA/樱恋游戏",
+            "count": 7,
+            "shareOfSource": 0.35,
+            "shareOfBase": 0.1795
+          }
+        ]
+      },
+      {
+        "id": "activity_to_ticket_issue",
+        "year": 2026,
+        "label": "活动方式 → 购票难点",
+        "description": "不同活动方式的人，遭遇的购票阻碍是否不同。",
+        "sourceLabel": "活动方式",
+        "targetLabel": "购票难点",
+        "base": 208,
+        "sources": [
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 208,
+            "rate": 1.0
+          },
+          {
+            "label": "观看冠名综艺",
+            "count": 198,
+            "rate": 0.9519
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 125,
+            "rate": 0.601
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 99,
+            "rate": 0.476
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 94,
+            "rate": 0.4519
+          },
+          {
+            "label": "签名会",
+            "count": 15,
+            "rate": 0.0721
+          },
+          {
+            "label": "UOA/樱恋线下活动",
+            "count": 13,
+            "rate": 0.0625
+          },
+          {
+            "label": "其他",
+            "count": 8,
+            "rate": 0.0385
+          }
+        ],
+        "targets": [
+          {
+            "label": "日本号码",
+            "count": 160,
+            "rate": 0.7692
+          },
+          {
+            "label": "付款方式",
+            "count": 87,
+            "rate": 0.4183
+          },
+          {
+            "label": "账号注册",
+            "count": 70,
+            "rate": 0.3365
+          },
+          {
+            "label": "语言障碍",
+            "count": 52,
+            "rate": 0.25
+          },
+          {
+            "label": "网页导航",
+            "count": 35,
+            "rate": 0.1683
+          },
+          {
+            "label": "其他",
+            "count": 19,
+            "rate": 0.0913
+          }
+        ],
+        "links": [
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "日本号码",
+            "count": 160,
+            "shareOfSource": 0.7692,
+            "shareOfBase": 0.7692
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "日本号码",
+            "count": 153,
+            "shareOfSource": 0.7727,
+            "shareOfBase": 0.7356
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "日本号码",
+            "count": 90,
+            "shareOfSource": 0.72,
+            "shareOfBase": 0.4327
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "付款方式",
+            "count": 87,
+            "shareOfSource": 0.4183,
+            "shareOfBase": 0.4183
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "付款方式",
+            "count": 84,
+            "shareOfSource": 0.4242,
+            "shareOfBase": 0.4038
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "账号注册",
+            "count": 70,
+            "shareOfSource": 0.3365,
+            "shareOfBase": 0.3365
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "日本号码",
+            "count": 70,
+            "shareOfSource": 0.7447,
+            "shareOfBase": 0.3365
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "账号注册",
+            "count": 67,
+            "shareOfSource": 0.3384,
+            "shareOfBase": 0.3221
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "日本号码",
+            "count": 67,
+            "shareOfSource": 0.6768,
+            "shareOfBase": 0.3221
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "付款方式",
+            "count": 55,
+            "shareOfSource": 0.44,
+            "shareOfBase": 0.2644
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "语言障碍",
+            "count": 52,
+            "shareOfSource": 0.25,
+            "shareOfBase": 0.25
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "语言障碍",
+            "count": 50,
+            "shareOfSource": 0.2525,
+            "shareOfBase": 0.2404
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "付款方式",
+            "count": 46,
+            "shareOfSource": 0.4894,
+            "shareOfBase": 0.2212
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "付款方式",
+            "count": 40,
+            "shareOfSource": 0.404,
+            "shareOfBase": 0.1923
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "账号注册",
+            "count": 40,
+            "shareOfSource": 0.32,
+            "shareOfBase": 0.1923
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "网页导航",
+            "count": 35,
+            "shareOfSource": 0.1683,
+            "shareOfBase": 0.1683
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "网页导航",
+            "count": 34,
+            "shareOfSource": 0.1717,
+            "shareOfBase": 0.1635
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "账号注册",
+            "count": 27,
+            "shareOfSource": 0.2872,
+            "shareOfBase": 0.1298
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "网页导航",
+            "count": 25,
+            "shareOfSource": 0.2,
+            "shareOfBase": 0.1202
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "语言障碍",
+            "count": 23,
+            "shareOfSource": 0.184,
+            "shareOfBase": 0.1106
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "语言障碍",
+            "count": 20,
+            "shareOfSource": 0.2128,
+            "shareOfBase": 0.0962
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "其他",
+            "count": 19,
+            "shareOfSource": 0.0913,
+            "shareOfBase": 0.0913
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "其他",
+            "count": 18,
+            "shareOfSource": 0.0909,
+            "shareOfBase": 0.0865
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "账号注册",
+            "count": 16,
+            "shareOfSource": 0.1616,
+            "shareOfBase": 0.0769
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "语言障碍",
+            "count": 15,
+            "shareOfSource": 0.1515,
+            "shareOfBase": 0.0721
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "其他",
+            "count": 14,
+            "shareOfSource": 0.112,
+            "shareOfBase": 0.0673
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "网页导航",
+            "count": 14,
+            "shareOfSource": 0.1414,
+            "shareOfBase": 0.0673
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "其他",
+            "count": 11,
+            "shareOfSource": 0.1111,
+            "shareOfBase": 0.0529
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "网页导航",
+            "count": 11,
+            "shareOfSource": 0.117,
+            "shareOfBase": 0.0529
+          },
+          {
+            "source": "签名会",
+            "target": "付款方式",
+            "count": 9,
+            "shareOfSource": 0.6,
+            "shareOfBase": 0.0433
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "其他",
+            "count": 8,
+            "shareOfSource": 0.0851,
+            "shareOfBase": 0.0385
+          },
+          {
+            "source": "签名会",
+            "target": "日本号码",
+            "count": 8,
+            "shareOfSource": 0.5333,
+            "shareOfBase": 0.0385
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "付款方式",
+            "count": 7,
+            "shareOfSource": 0.5385,
+            "shareOfBase": 0.0337
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "日本号码",
+            "count": 7,
+            "shareOfSource": 0.5385,
+            "shareOfBase": 0.0337
+          },
+          {
+            "source": "其他",
+            "target": "日本号码",
+            "count": 6,
+            "shareOfSource": 0.75,
+            "shareOfBase": 0.0288
+          }
+        ]
+      },
+      {
+        "id": "era_to_activity",
+        "year": 2026,
+        "label": "入坑时期 → 活动方式",
+        "description": "不同入坑世代进入社区后采用的活动方式。",
+        "sourceLabel": "入坑时期",
+        "targetLabel": "活动方式",
+        "base": 220,
+        "sources": [
+          {
+            "label": "桜月~何歳の頃に戻りたいのか？",
+            "count": 85,
+            "rate": 0.3864
+          },
+          {
+            "label": "欅坂成团~黒い羊",
+            "count": 45,
+            "rate": 0.2045
+          },
+          {
+            "label": "Nobody’s fault~As you know?",
+            "count": 19,
+            "rate": 0.0864
+          },
+          {
+            "label": "自業自得",
+            "count": 16,
+            "rate": 0.0727
+          },
+          {
+            "label": "Unhappy birthday構文",
+            "count": 15,
+            "rate": 0.0682
+          },
+          {
+            "label": "UDAGAWA GENERATION",
+            "count": 11,
+            "rate": 0.05
+          },
+          {
+            "label": "I want tomorrow to come",
+            "count": 9,
+            "rate": 0.0409
+          },
+          {
+            "label": "Addiction",
+            "count": 7,
+            "rate": 0.0318
+          },
+          {
+            "label": "黒い羊后~永遠より長い一瞬",
+            "count": 7,
+            "rate": 0.0318
+          },
+          {
+            "label": "Make or Break",
+            "count": 5,
+            "rate": 0.0227
+          }
+        ],
+        "targets": [
+          {
+            "label": "观看冠名综艺",
+            "count": 209,
+            "rate": 0.95
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 208,
+            "rate": 0.9455
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 132,
+            "rate": 0.6
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 106,
+            "rate": 0.4818
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 99,
+            "rate": 0.45
+          },
+          {
+            "label": "签名会",
+            "count": 15,
+            "rate": 0.0682
+          },
+          {
+            "label": "UOA/樱恋线下活动",
+            "count": 13,
+            "rate": 0.0591
+          },
+          {
+            "label": "其他",
+            "count": 9,
+            "rate": 0.0409
+          }
+        ],
+        "links": [
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看冠名综艺",
+            "count": 82,
+            "shareOfSource": 0.9647,
+            "shareOfBase": 0.3727
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 79,
+            "shareOfSource": 0.9294,
+            "shareOfBase": 0.3591
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "观看其他团外综艺",
+            "count": 55,
+            "shareOfSource": 0.6471,
+            "shareOfBase": 0.25
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 44,
+            "shareOfSource": 0.9778,
+            "shareOfBase": 0.2
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看冠名综艺",
+            "count": 42,
+            "shareOfSource": 0.9333,
+            "shareOfBase": 0.1909
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "线上/线下见面会",
+            "count": 41,
+            "shareOfSource": 0.4824,
+            "shareOfBase": 0.1864
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "UOA/樱恋游戏",
+            "count": 37,
+            "shareOfSource": 0.4353,
+            "shareOfBase": 0.1682
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "观看其他团外综艺",
+            "count": 30,
+            "shareOfSource": 0.6667,
+            "shareOfBase": 0.1364
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "线上/线下见面会",
+            "count": 20,
+            "shareOfSource": 0.4444,
+            "shareOfBase": 0.0909
+          },
+          {
+            "source": "欅坂成团~黒い羊",
+            "target": "UOA/樱恋游戏",
+            "count": 20,
+            "shareOfSource": 0.4444,
+            "shareOfBase": 0.0909
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看冠名综艺",
+            "count": 17,
+            "shareOfSource": 0.8947,
+            "shareOfBase": 0.0773
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 16,
+            "shareOfSource": 0.8421,
+            "shareOfBase": 0.0727
+          },
+          {
+            "source": "自業自得",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 16,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0727
+          },
+          {
+            "source": "Unhappy birthday構文",
+            "target": "观看冠名综艺",
+            "count": 15,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0682
+          },
+          {
+            "source": "自業自得",
+            "target": "观看冠名综艺",
+            "count": 15,
+            "shareOfSource": 0.9375,
+            "shareOfBase": 0.0682
+          },
+          {
+            "source": "Unhappy birthday構文",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 14,
+            "shareOfSource": 0.9333,
+            "shareOfBase": 0.0636
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "线上/线下见面会",
+            "count": 13,
+            "shareOfSource": 0.6842,
+            "shareOfBase": 0.0591
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "观看其他团外综艺",
+            "count": 11,
+            "shareOfSource": 0.5789,
+            "shareOfBase": 0.05
+          },
+          {
+            "source": "UDAGAWA GENERATION",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 11,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.05
+          },
+          {
+            "source": "Nobody’s fault~As you know?",
+            "target": "UOA/樱恋游戏",
+            "count": 10,
+            "shareOfSource": 0.5263,
+            "shareOfBase": 0.0455
+          },
+          {
+            "source": "UDAGAWA GENERATION",
+            "target": "观看冠名综艺",
+            "count": 10,
+            "shareOfSource": 0.9091,
+            "shareOfBase": 0.0455
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "签名会",
+            "count": 9,
+            "shareOfSource": 0.1059,
+            "shareOfBase": 0.0409
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "观看冠名综艺",
+            "count": 9,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0409
+          },
+          {
+            "source": "自業自得",
+            "target": "线上/线下见面会",
+            "count": 9,
+            "shareOfSource": 0.5625,
+            "shareOfBase": 0.0409
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 8,
+            "shareOfSource": 0.8889,
+            "shareOfBase": 0.0364
+          },
+          {
+            "source": "自業自得",
+            "target": "UOA/樱恋游戏",
+            "count": 8,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.0364
+          },
+          {
+            "source": "Unhappy birthday構文",
+            "target": "UOA/樱恋游戏",
+            "count": 8,
+            "shareOfSource": 0.5333,
+            "shareOfBase": 0.0364
+          },
+          {
+            "source": "Unhappy birthday構文",
+            "target": "观看其他团外综艺",
+            "count": 8,
+            "shareOfSource": 0.5333,
+            "shareOfBase": 0.0364
+          },
+          {
+            "source": "桜月~何歳の頃に戻りたいのか？",
+            "target": "UOA/樱恋线下活动",
+            "count": 7,
+            "shareOfSource": 0.0824,
+            "shareOfBase": 0.0318
+          },
+          {
+            "source": "Addiction",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 7,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0318
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看冠名综艺",
+            "count": 7,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0318
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 7,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0318
+          },
+          {
+            "source": "Addiction",
+            "target": "观看冠名综艺",
+            "count": 6,
+            "shareOfSource": 0.8571,
+            "shareOfBase": 0.0273
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "观看其他团外综艺",
+            "count": 6,
+            "shareOfSource": 0.6667,
+            "shareOfBase": 0.0273
+          },
+          {
+            "source": "自業自得",
+            "target": "观看其他团外综艺",
+            "count": 6,
+            "shareOfSource": 0.375,
+            "shareOfBase": 0.0273
+          },
+          {
+            "source": "Unhappy birthday構文",
+            "target": "线上/线下见面会",
+            "count": 6,
+            "shareOfSource": 0.4,
+            "shareOfBase": 0.0273
+          },
+          {
+            "source": "Make or Break",
+            "target": "观看冠名综艺",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "Make or Break",
+            "target": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 5,
+            "shareOfSource": 1.0,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "UDAGAWA GENERATION",
+            "target": "观看其他团外综艺",
+            "count": 5,
+            "shareOfSource": 0.4545,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "Addiction",
+            "target": "线上/线下见面会",
+            "count": 5,
+            "shareOfSource": 0.7143,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "UOA/樱恋游戏",
+            "count": 5,
+            "shareOfSource": 0.7143,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "黒い羊后~永遠より長い一瞬",
+            "target": "观看其他团外综艺",
+            "count": 5,
+            "shareOfSource": 0.7143,
+            "shareOfBase": 0.0227
+          },
+          {
+            "source": "I want tomorrow to come",
+            "target": "线上/线下见面会",
+            "count": 5,
+            "shareOfSource": 0.5556,
+            "shareOfBase": 0.0227
+          }
+        ]
+      },
+      {
+        "id": "activity_to_investment",
+        "year": 2026,
+        "label": "活动方式 → 投入变化",
+        "description": "2026 限定：活动方式与时间/金钱/精力综合升降温之间的关联。",
+        "sourceLabel": "活动方式",
+        "targetLabel": "投入变化",
+        "base": 204,
+        "sources": [
+          {
+            "label": "观看冠名综艺",
+            "count": 193,
+            "rate": 0.9461
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 193,
+            "rate": 0.9461
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 123,
+            "rate": 0.6029
+          },
+          {
+            "label": "线上/线下见面会",
+            "count": 100,
+            "rate": 0.4902
+          },
+          {
+            "label": "UOA/樱恋游戏",
+            "count": 91,
+            "rate": 0.4461
+          },
+          {
+            "label": "签名会",
+            "count": 12,
+            "rate": 0.0588
+          },
+          {
+            "label": "UOA/樱恋线下活动",
+            "count": 12,
+            "rate": 0.0588
+          },
+          {
+            "label": "其他",
+            "count": 7,
+            "rate": 0.0343
+          }
+        ],
+        "targets": [
+          {
+            "label": "升温",
+            "count": 114,
+            "rate": 0.5588
+          },
+          {
+            "label": "降温",
+            "count": 39,
+            "rate": 0.1912
+          },
+          {
+            "label": "稳定/混合",
+            "count": 28,
+            "rate": 0.1373
+          },
+          {
+            "label": "轻微升温",
+            "count": 14,
+            "rate": 0.0686
+          },
+          {
+            "label": "轻微降温",
+            "count": 9,
+            "rate": 0.0441
+          }
+        ],
+        "links": [
+          {
+            "source": "观看冠名综艺",
+            "target": "升温",
+            "count": 110,
+            "shareOfSource": 0.5699,
+            "shareOfBase": 0.5392
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "升温",
+            "count": 107,
+            "shareOfSource": 0.5544,
+            "shareOfBase": 0.5245
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "升温",
+            "count": 72,
+            "shareOfSource": 0.5854,
+            "shareOfBase": 0.3529
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "升温",
+            "count": 66,
+            "shareOfSource": 0.66,
+            "shareOfBase": 0.3235
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "升温",
+            "count": 47,
+            "shareOfSource": 0.5165,
+            "shareOfBase": 0.2304
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "降温",
+            "count": 38,
+            "shareOfSource": 0.1969,
+            "shareOfBase": 0.1863
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "降温",
+            "count": 34,
+            "shareOfSource": 0.1762,
+            "shareOfBase": 0.1667
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "稳定/混合",
+            "count": 27,
+            "shareOfSource": 0.1399,
+            "shareOfBase": 0.1324
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "稳定/混合",
+            "count": 26,
+            "shareOfSource": 0.1347,
+            "shareOfBase": 0.1275
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "降温",
+            "count": 19,
+            "shareOfSource": 0.2088,
+            "shareOfBase": 0.0931
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "降温",
+            "count": 18,
+            "shareOfSource": 0.1463,
+            "shareOfBase": 0.0882
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "稳定/混合",
+            "count": 17,
+            "shareOfSource": 0.1382,
+            "shareOfBase": 0.0833
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "降温",
+            "count": 15,
+            "shareOfSource": 0.15,
+            "shareOfBase": 0.0735
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "轻微升温",
+            "count": 14,
+            "shareOfSource": 0.0725,
+            "shareOfBase": 0.0686
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "轻微升温",
+            "count": 13,
+            "shareOfSource": 0.0674,
+            "shareOfBase": 0.0637
+          },
+          {
+            "source": "线上/线下见面会",
+            "target": "稳定/混合",
+            "count": 12,
+            "shareOfSource": 0.12,
+            "shareOfBase": 0.0588
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "轻微升温",
+            "count": 11,
+            "shareOfSource": 0.1209,
+            "shareOfBase": 0.0539
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "轻微升温",
+            "count": 11,
+            "shareOfSource": 0.0894,
+            "shareOfBase": 0.0539
+          },
+          {
+            "source": "UOA/樱恋游戏",
+            "target": "稳定/混合",
+            "count": 10,
+            "shareOfSource": 0.1099,
+            "shareOfBase": 0.049
+          },
+          {
+            "source": "观看表演（现场，线上直播，购买蓝光）",
+            "target": "轻微降温",
+            "count": 9,
+            "shareOfSource": 0.0466,
+            "shareOfBase": 0.0441
+          },
+          {
+            "source": "签名会",
+            "target": "升温",
+            "count": 8,
+            "shareOfSource": 0.6667,
+            "shareOfBase": 0.0392
+          },
+          {
+            "source": "观看冠名综艺",
+            "target": "轻微降温",
+            "count": 8,
+            "shareOfSource": 0.0415,
+            "shareOfBase": 0.0392
+          },
+          {
+            "source": "UOA/樱恋线下活动",
+            "target": "升温",
+            "count": 6,
+            "shareOfSource": 0.5,
+            "shareOfBase": 0.0294
+          },
+          {
+            "source": "其他",
+            "target": "升温",
+            "count": 5,
+            "shareOfSource": 0.7143,
+            "shareOfBase": 0.0245
+          },
+          {
+            "source": "观看其他团外综艺",
+            "target": "轻微降温",
+            "count": 5,
+            "shareOfSource": 0.0407,
+            "shareOfBase": 0.0245
+          }
+        ]
+      }
+    ]
+  }
+}

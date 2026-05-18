@@ -1,0 +1,2050 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-18T03:59:11+00:00",
+    "privacy": "Only keyword counts are published. Raw text answers are not included; low-frequency terms are suppressed."
+  },
+  "questions": [
+    {
+      "year": 2025,
+      "questionId": "2025-Q15",
+      "title": "您希望在樱坂官方频道上看到更多什么内容",
+      "answeredTextCount": 341,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "企划",
+          "count": 33,
+          "theme": "内容",
+          "rate": 0.0968
+        },
+        {
+          "label": "vlog",
+          "count": 32,
+          "theme": "内容",
+          "rate": 0.0938
+        },
+        {
+          "label": "互动",
+          "count": 24,
+          "theme": "内容",
+          "rate": 0.0704
+        },
+        {
+          "label": "日常",
+          "count": 24,
+          "theme": "内容",
+          "rate": 0.0704
+        },
+        {
+          "label": "幕后",
+          "count": 24,
+          "theme": "内容",
+          "rate": 0.0704
+        },
+        {
+          "label": "外景",
+          "count": 16,
+          "theme": "内容",
+          "rate": 0.0469
+        },
+        {
+          "label": "花絮",
+          "count": 13,
+          "theme": "内容",
+          "rate": 0.0381
+        },
+        {
+          "label": "练习",
+          "count": 11,
+          "theme": "内容",
+          "rate": 0.0323
+        },
+        {
+          "label": "live",
+          "count": 11,
+          "theme": "活动",
+          "rate": 0.0323
+        },
+        {
+          "label": "综艺",
+          "count": 11,
+          "theme": "内容",
+          "rate": 0.0323
+        },
+        {
+          "label": "练习室",
+          "count": 10,
+          "theme": "内容",
+          "rate": 0.0293
+        },
+        {
+          "label": "节目",
+          "count": 10,
+          "theme": "内容",
+          "rate": 0.0293
+        },
+        {
+          "label": "成员日常",
+          "count": 9,
+          "theme": "内容",
+          "rate": 0.0264
+        },
+        {
+          "label": "游戏",
+          "count": 9,
+          "theme": "内容",
+          "rate": 0.0264
+        },
+        {
+          "label": "后台",
+          "count": 8,
+          "theme": "内容",
+          "rate": 0.0235
+        },
+        {
+          "label": "演唱会",
+          "count": 8,
+          "theme": "活动",
+          "rate": 0.0235
+        },
+        {
+          "label": "樱屋",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0205
+        },
+        {
+          "label": "舞蹈",
+          "count": 6,
+          "theme": "内容",
+          "rate": 0.0176
+        },
+        {
+          "label": "歌曲",
+          "count": 6,
+          "theme": "内容",
+          "rate": 0.0176
+        },
+        {
+          "label": "MV",
+          "count": 6,
+          "theme": "内容",
+          "rate": 0.0176
+        },
+        {
+          "label": "house",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0147
+        },
+        {
+          "label": "官方",
+          "count": 5,
+          "theme": "情绪",
+          "rate": 0.0147
+        },
+        {
+          "label": "成员外景",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0117
+        },
+        {
+          "label": "字幕",
+          "count": 4,
+          "theme": "内容",
+          "rate": 0.0117
+        },
+        {
+          "label": "cp",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0117
+        },
+        {
+          "label": "YouTube",
+          "count": 4,
+          "theme": "内容",
+          "rate": 0.0117
+        },
+        {
+          "label": "个性",
+          "count": 4,
+          "theme": "情绪",
+          "rate": 0.0117
+        },
+        {
+          "label": "音乐",
+          "count": 3,
+          "theme": "内容",
+          "rate": 0.0088
+        },
+        {
+          "label": "成员互动",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0088
+        },
+        {
+          "label": "中文字幕",
+          "count": 3,
+          "theme": "内容",
+          "rate": 0.0088
+        }
+      ],
+      "themes": [
+        {
+          "label": "内容",
+          "count": 266,
+          "rate": 0.7801
+        },
+        {
+          "label": "其他",
+          "count": 23,
+          "rate": 0.0674
+        },
+        {
+          "label": "活动",
+          "count": 19,
+          "rate": 0.0557
+        },
+        {
+          "label": "情绪",
+          "count": 9,
+          "rate": 0.0264
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q22",
+      "title": "您在2024年都参与了哪些现场活动",
+      "answeredTextCount": 837,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "live",
+          "count": 218,
+          "theme": "活动",
+          "rate": 0.2605
+        },
+        {
+          "label": "四周年",
+          "count": 51,
+          "theme": "其他",
+          "rate": 0.0609
+        },
+        {
+          "label": "东蛋",
+          "count": 35,
+          "theme": "其他",
+          "rate": 0.0418
+        },
+        {
+          "label": "线上",
+          "count": 32,
+          "theme": "活动",
+          "rate": 0.0382
+        },
+        {
+          "label": "见面会",
+          "count": 28,
+          "theme": "活动",
+          "rate": 0.0335
+        },
+        {
+          "label": "音乐",
+          "count": 28,
+          "theme": "内容",
+          "rate": 0.0335
+        },
+        {
+          "label": "线下",
+          "count": 22,
+          "theme": "活动",
+          "rate": 0.0263
+        },
+        {
+          "label": "th",
+          "count": 16,
+          "theme": "其他",
+          "rate": 0.0191
+        },
+        {
+          "label": "线下见面会",
+          "count": 12,
+          "theme": "其他",
+          "rate": 0.0143
+        },
+        {
+          "label": "演唱会",
+          "count": 10,
+          "theme": "活动",
+          "rate": 0.0119
+        },
+        {
+          "label": "线上见面会",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0108
+        },
+        {
+          "label": "音乐节",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0108
+        },
+        {
+          "label": "香港",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0108
+        },
+        {
+          "label": "周年",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0108
+        },
+        {
+          "label": "zozo",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0096
+        },
+        {
+          "label": "clockenflap",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0096
+        },
+        {
+          "label": "四周年演唱会",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "鸡飞",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "香港鸡飞音乐节",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "backs",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "大阪",
+          "count": 6,
+          "theme": "活动",
+          "rate": 0.0072
+        },
+        {
+          "label": "东京",
+          "count": 6,
+          "theme": "活动",
+          "rate": 0.0072
+        },
+        {
+          "label": "日本",
+          "count": 6,
+          "theme": "活动",
+          "rate": 0.0072
+        },
+        {
+          "label": "香港音乐节",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0072
+        },
+        {
+          "label": "三期",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.006
+        },
+        {
+          "label": "现场",
+          "count": 5,
+          "theme": "活动",
+          "rate": 0.006
+        },
+        {
+          "label": "東蛋",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.006
+        },
+        {
+          "label": "anniversary",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.006
+        },
+        {
+          "label": "咪咕力",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "鸡飞音乐节",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "day1",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "三期生",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "韩国音乐节",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "线上握手会",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "还没有",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "ミーグリ",
+          "count": 3,
+          "theme": "活动",
+          "rate": 0.0036
+        },
+        {
+          "label": "東京ドーム",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "香港鸡飞",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "hk",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "乃木坂",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        }
+      ],
+      "themes": [
+        {
+          "label": "活动",
+          "count": 336,
+          "rate": 0.4014
+        },
+        {
+          "label": "其他",
+          "count": 250,
+          "rate": 0.2987
+        },
+        {
+          "label": "内容",
+          "count": 28,
+          "rate": 0.0335
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q27",
+      "title": "你对于四期生有什么期待吗",
+      "answeredTextCount": 837,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "个性",
+          "count": 47,
+          "theme": "情绪",
+          "rate": 0.0562
+        },
+        {
+          "label": "舞蹈",
+          "count": 24,
+          "theme": "内容",
+          "rate": 0.0287
+        },
+        {
+          "label": "努力",
+          "count": 24,
+          "theme": "情绪",
+          "rate": 0.0287
+        },
+        {
+          "label": "综艺",
+          "count": 17,
+          "theme": "内容",
+          "rate": 0.0203
+        },
+        {
+          "label": "可爱",
+          "count": 15,
+          "theme": "情绪",
+          "rate": 0.0179
+        },
+        {
+          "label": "暂无",
+          "count": 15,
+          "theme": "其他",
+          "rate": 0.0179
+        },
+        {
+          "label": "颜值",
+          "count": 12,
+          "theme": "情绪",
+          "rate": 0.0143
+        },
+        {
+          "label": "性格",
+          "count": 8,
+          "theme": "情绪",
+          "rate": 0.0096
+        },
+        {
+          "label": "表演",
+          "count": 6,
+          "theme": "内容",
+          "rate": 0.0072
+        },
+        {
+          "label": "有个性",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0072
+        },
+        {
+          "label": "世界观",
+          "count": 6,
+          "theme": "内容",
+          "rate": 0.0072
+        },
+        {
+          "label": "暂时没有",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.006
+        },
+        {
+          "label": "健康",
+          "count": 5,
+          "theme": "情绪",
+          "rate": 0.006
+        },
+        {
+          "label": "继续上行",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.006
+        },
+        {
+          "label": "live",
+          "count": 4,
+          "theme": "活动",
+          "rate": 0.0048
+        },
+        {
+          "label": "backs",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "vocal",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "好看",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "舞台表现力",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "都是好孩子",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "成长",
+          "count": 3,
+          "theme": "情绪",
+          "rate": 0.0036
+        },
+        {
+          "label": "有趣",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "漂亮",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "开心",
+          "count": 3,
+          "theme": "情绪",
+          "rate": 0.0036
+        }
+      ],
+      "themes": [
+        {
+          "label": "情绪",
+          "count": 117,
+          "rate": 0.1398
+        },
+        {
+          "label": "其他",
+          "count": 55,
+          "rate": 0.0657
+        },
+        {
+          "label": "内容",
+          "count": 53,
+          "rate": 0.0633
+        },
+        {
+          "label": "活动",
+          "count": 4,
+          "rate": 0.0048
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q28",
+      "title": "写一句话给我们即将到来的四期生吧",
+      "answeredTextCount": 837,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "努力",
+          "count": 40,
+          "theme": "情绪",
+          "rate": 0.0478
+        },
+        {
+          "label": "未来",
+          "count": 24,
+          "theme": "情绪",
+          "rate": 0.0287
+        },
+        {
+          "label": "加油吧",
+          "count": 14,
+          "theme": "其他",
+          "rate": 0.0167
+        },
+        {
+          "label": "欢迎",
+          "count": 13,
+          "theme": "其他",
+          "rate": 0.0155
+        },
+        {
+          "label": "健康",
+          "count": 12,
+          "theme": "情绪",
+          "rate": 0.0143
+        },
+        {
+          "label": "成长",
+          "count": 12,
+          "theme": "情绪",
+          "rate": 0.0143
+        },
+        {
+          "label": "开心",
+          "count": 11,
+          "theme": "情绪",
+          "rate": 0.0131
+        },
+        {
+          "label": "欢迎加入樱坂",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "未来可期",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0084
+        },
+        {
+          "label": "满开",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0072
+        },
+        {
+          "label": "Buddies",
+          "count": 6,
+          "theme": "作品",
+          "rate": 0.0072
+        },
+        {
+          "label": "快乐",
+          "count": 5,
+          "theme": "情绪",
+          "rate": 0.006
+        },
+        {
+          "label": "加油啊",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "欢迎加入",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "练习",
+          "count": 4,
+          "theme": "内容",
+          "rate": 0.0048
+        },
+        {
+          "label": "加油呀",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "暂无",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0048
+        },
+        {
+          "label": "櫻坂上行",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "頑張れ",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "可爱",
+          "count": 3,
+          "theme": "情绪",
+          "rate": 0.0036
+        },
+        {
+          "label": "继续上行吧",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "満開",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "世界观",
+          "count": 3,
+          "theme": "内容",
+          "rate": 0.0036
+        },
+        {
+          "label": "ようこそ",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "加油哦",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "继续上行",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "欢迎来到樱坂",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        },
+        {
+          "label": "不要有压力",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0036
+        }
+      ],
+      "themes": [
+        {
+          "label": "情绪",
+          "count": 107,
+          "rate": 0.1278
+        },
+        {
+          "label": "其他",
+          "count": 90,
+          "rate": 0.1075
+        },
+        {
+          "label": "内容",
+          "count": 7,
+          "rate": 0.0084
+        },
+        {
+          "label": "作品",
+          "count": 6,
+          "rate": 0.0072
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q33",
+      "title": "请问在购买中文区的海外票时您希望有什么属性",
+      "answeredTextCount": 421,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "保证有票",
+          "count": 112,
+          "theme": "其他",
+          "rate": 0.266
+        },
+        {
+          "label": "周边",
+          "count": 83,
+          "theme": "票务",
+          "rate": 0.1971
+        },
+        {
+          "label": "有票",
+          "count": 25,
+          "theme": "其他",
+          "rate": 0.0594
+        },
+        {
+          "label": "支付",
+          "count": 14,
+          "theme": "票务",
+          "rate": 0.0333
+        },
+        {
+          "label": "独特周边",
+          "count": 14,
+          "theme": "其他",
+          "rate": 0.0333
+        },
+        {
+          "label": "中文区",
+          "count": 10,
+          "theme": "情绪",
+          "rate": 0.0238
+        },
+        {
+          "label": "抽选",
+          "count": 9,
+          "theme": "票务",
+          "rate": 0.0214
+        },
+        {
+          "label": "日本",
+          "count": 8,
+          "theme": "活动",
+          "rate": 0.019
+        },
+        {
+          "label": "提供独特周边",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0166
+        },
+        {
+          "label": "海外票",
+          "count": 7,
+          "theme": "票务",
+          "rate": 0.0166
+        },
+        {
+          "label": "有票就行",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0119
+        },
+        {
+          "label": "付款",
+          "count": 5,
+          "theme": "票务",
+          "rate": 0.0119
+        },
+        {
+          "label": "翻译",
+          "count": 4,
+          "theme": "内容",
+          "rate": 0.0095
+        },
+        {
+          "label": "保證有票",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0095
+        },
+        {
+          "label": "购票",
+          "count": 4,
+          "theme": "票务",
+          "rate": 0.0095
+        },
+        {
+          "label": "有票就好",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0095
+        },
+        {
+          "label": "信用卡",
+          "count": 4,
+          "theme": "票务",
+          "rate": 0.0095
+        },
+        {
+          "label": "好位置",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0095
+        },
+        {
+          "label": "位置好",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0071
+        },
+        {
+          "label": "特典",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0071
+        }
+      ],
+      "themes": [
+        {
+          "label": "其他",
+          "count": 181,
+          "rate": 0.4299
+        },
+        {
+          "label": "票务",
+          "count": 126,
+          "rate": 0.2993
+        },
+        {
+          "label": "情绪",
+          "count": 10,
+          "rate": 0.0238
+        },
+        {
+          "label": "活动",
+          "count": 8,
+          "rate": 0.019
+        },
+        {
+          "label": "内容",
+          "count": 4,
+          "rate": 0.0095
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q37",
+      "title": "请选择省份城市与地区:",
+      "answeredTextCount": 736,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywords": [
+        {
+          "label": "广东",
+          "count": 168,
+          "theme": "其他",
+          "rate": 0.2283
+        },
+        {
+          "label": "广州",
+          "count": 79,
+          "theme": "其他",
+          "rate": 0.1073
+        },
+        {
+          "label": "北京",
+          "count": 71,
+          "theme": "其他",
+          "rate": 0.0965
+        },
+        {
+          "label": "上海",
+          "count": 65,
+          "theme": "其他",
+          "rate": 0.0883
+        },
+        {
+          "label": "江苏",
+          "count": 48,
+          "theme": "其他",
+          "rate": 0.0652
+        },
+        {
+          "label": "浙江",
+          "count": 47,
+          "theme": "其他",
+          "rate": 0.0639
+        },
+        {
+          "label": "四川",
+          "count": 43,
+          "theme": "其他",
+          "rate": 0.0584
+        },
+        {
+          "label": "深圳",
+          "count": 37,
+          "theme": "其他",
+          "rate": 0.0503
+        },
+        {
+          "label": "成都",
+          "count": 36,
+          "theme": "其他",
+          "rate": 0.0489
+        },
+        {
+          "label": "山东",
+          "count": 33,
+          "theme": "其他",
+          "rate": 0.0448
+        },
+        {
+          "label": "福建",
+          "count": 31,
+          "theme": "其他",
+          "rate": 0.0421
+        },
+        {
+          "label": "海淀区",
+          "count": 24,
+          "theme": "其他",
+          "rate": 0.0326
+        },
+        {
+          "label": "湖北",
+          "count": 23,
+          "theme": "其他",
+          "rate": 0.0312
+        },
+        {
+          "label": "广西",
+          "count": 22,
+          "theme": "其他",
+          "rate": 0.0299
+        },
+        {
+          "label": "武汉",
+          "count": 22,
+          "theme": "其他",
+          "rate": 0.0299
+        },
+        {
+          "label": "湖南",
+          "count": 22,
+          "theme": "其他",
+          "rate": 0.0299
+        },
+        {
+          "label": "杭州",
+          "count": 21,
+          "theme": "其他",
+          "rate": 0.0285
+        },
+        {
+          "label": "南京",
+          "count": 20,
+          "theme": "其他",
+          "rate": 0.0272
+        },
+        {
+          "label": "朝阳区",
+          "count": 19,
+          "theme": "其他",
+          "rate": 0.0258
+        },
+        {
+          "label": "重庆",
+          "count": 18,
+          "theme": "其他",
+          "rate": 0.0245
+        },
+        {
+          "label": "陕西",
+          "count": 18,
+          "theme": "其他",
+          "rate": 0.0245
+        },
+        {
+          "label": "西安",
+          "count": 16,
+          "theme": "其他",
+          "rate": 0.0217
+        },
+        {
+          "label": "辽宁",
+          "count": 16,
+          "theme": "其他",
+          "rate": 0.0217
+        },
+        {
+          "label": "安徽",
+          "count": 15,
+          "theme": "其他",
+          "rate": 0.0204
+        },
+        {
+          "label": "长沙",
+          "count": 15,
+          "theme": "其他",
+          "rate": 0.0204
+        },
+        {
+          "label": "佛山",
+          "count": 14,
+          "theme": "其他",
+          "rate": 0.019
+        },
+        {
+          "label": "河南",
+          "count": 13,
+          "theme": "其他",
+          "rate": 0.0177
+        },
+        {
+          "label": "南宁",
+          "count": 12,
+          "theme": "其他",
+          "rate": 0.0163
+        },
+        {
+          "label": "福州",
+          "count": 12,
+          "theme": "其他",
+          "rate": 0.0163
+        },
+        {
+          "label": "天津",
+          "count": 11,
+          "theme": "其他",
+          "rate": 0.0149
+        },
+        {
+          "label": "合肥",
+          "count": 10,
+          "theme": "其他",
+          "rate": 0.0136
+        },
+        {
+          "label": "江西",
+          "count": 10,
+          "theme": "其他",
+          "rate": 0.0136
+        },
+        {
+          "label": "河北",
+          "count": 10,
+          "theme": "其他",
+          "rate": 0.0136
+        },
+        {
+          "label": "苏州",
+          "count": 10,
+          "theme": "其他",
+          "rate": 0.0136
+        },
+        {
+          "label": "山西",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "浦东新区",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "厦门",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "沈阳",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "海南",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "东莞",
+          "count": 9,
+          "theme": "其他",
+          "rate": 0.0122
+        },
+        {
+          "label": "西城区",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0109
+        },
+        {
+          "label": "青岛",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0109
+        },
+        {
+          "label": "郑州",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0109
+        },
+        {
+          "label": "黑龙江",
+          "count": 8,
+          "theme": "其他",
+          "rate": 0.0109
+        },
+        {
+          "label": "济南",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0095
+        },
+        {
+          "label": "宁波",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0095
+        },
+        {
+          "label": "徐汇区",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "无锡",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "静安区",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "台州",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "海口",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "温州",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "松江区",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "普陀区",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "哈尔滨",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "虹口区",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "贵州",
+          "count": 6,
+          "theme": "其他",
+          "rate": 0.0082
+        },
+        {
+          "label": "东城区",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "太原",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "大兴区",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "珠海",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "闵行区",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "长春",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "吉林",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "大连",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "云南",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        },
+        {
+          "label": "泉州",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.0068
+        }
+      ],
+      "themes": [
+        {
+          "label": "其他",
+          "count": 1247,
+          "rate": 1.6943
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q38",
+      "title": "国家及地区：",
+      "answeredTextCount": 101,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywords": [
+        {
+          "label": "asia-taiwan-china",
+          "count": 34,
+          "theme": "其他",
+          "rate": 0.3366
+        },
+        {
+          "label": "asia-hongkong-china",
+          "count": 20,
+          "theme": "其他",
+          "rate": 0.198
+        },
+        {
+          "label": "asia-japan",
+          "count": 13,
+          "theme": "其他",
+          "rate": 0.1287
+        },
+        {
+          "label": "northamerica-united",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0693
+        },
+        {
+          "label": "states",
+          "count": 7,
+          "theme": "其他",
+          "rate": 0.0693
+        }
+      ],
+      "themes": [
+        {
+          "label": "其他",
+          "count": 81,
+          "rate": 0.802
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "questionId": "2025-Q40",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "answeredTextCount": 241,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "live",
+          "count": 20,
+          "theme": "活动",
+          "rate": 0.083
+        },
+        {
+          "label": "字幕",
+          "count": 12,
+          "theme": "内容",
+          "rate": 0.0498
+        },
+        {
+          "label": "字幕组",
+          "count": 12,
+          "theme": "情绪",
+          "rate": 0.0498
+        },
+        {
+          "label": "演唱会",
+          "count": 12,
+          "theme": "活动",
+          "rate": 0.0498
+        },
+        {
+          "label": "官方",
+          "count": 8,
+          "theme": "情绪",
+          "rate": 0.0332
+        },
+        {
+          "label": "运营",
+          "count": 5,
+          "theme": "情绪",
+          "rate": 0.0207
+        },
+        {
+          "label": "zzh",
+          "count": 4,
+          "theme": "其他",
+          "rate": 0.0166
+        },
+        {
+          "label": "支付",
+          "count": 4,
+          "theme": "票务",
+          "rate": 0.0166
+        },
+        {
+          "label": "日本",
+          "count": 4,
+          "theme": "活动",
+          "rate": 0.0166
+        },
+        {
+          "label": "周边",
+          "count": 4,
+          "theme": "票务",
+          "rate": 0.0166
+        },
+        {
+          "label": "BAN",
+          "count": 4,
+          "theme": "作品",
+          "rate": 0.0166
+        },
+        {
+          "label": "线下",
+          "count": 3,
+          "theme": "活动",
+          "rate": 0.0124
+        },
+        {
+          "label": "机会",
+          "count": 3,
+          "theme": "情绪",
+          "rate": 0.0124
+        },
+        {
+          "label": "樱坂上行",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0124
+        },
+        {
+          "label": "暂无",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0124
+        },
+        {
+          "label": "巡演",
+          "count": 3,
+          "theme": "活动",
+          "rate": 0.0124
+        },
+        {
+          "label": "感谢",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0124
+        },
+        {
+          "label": "og",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0124
+        },
+        {
+          "label": "音乐",
+          "count": 3,
+          "theme": "内容",
+          "rate": 0.0124
+        }
+      ],
+      "themes": [
+        {
+          "label": "活动",
+          "count": 42,
+          "rate": 0.1743
+        },
+        {
+          "label": "情绪",
+          "count": 28,
+          "rate": 0.1162
+        },
+        {
+          "label": "其他",
+          "count": 16,
+          "rate": 0.0664
+        },
+        {
+          "label": "内容",
+          "count": 15,
+          "rate": 0.0622
+        },
+        {
+          "label": "票务",
+          "count": 8,
+          "rate": 0.0332
+        },
+        {
+          "label": "作品",
+          "count": 4,
+          "rate": 0.0166
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q14",
+      "title": "关于见面会/签名会，你有什么想对没有参与过的人说的话",
+      "answeredTextCount": 25,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [],
+      "themes": []
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q17",
+      "title": "2025年你印象最深刻的是哪一首歌曲的演出",
+      "answeredTextCount": 220,
+      "matchedAnswerCount": 186,
+      "method": "song-dictionary substring match",
+      "minCount": 1,
+      "keywords": [
+        {
+          "label": "Addiction",
+          "count": 34,
+          "theme": "作品",
+          "rate": 0.1545
+        },
+        {
+          "label": "UDAGAWA GENERATION",
+          "count": 22,
+          "theme": "作品",
+          "rate": 0.1
+        },
+        {
+          "label": "港区パセリ",
+          "count": 19,
+          "theme": "作品",
+          "rate": 0.0864
+        },
+        {
+          "label": "紋白蝶が確か飛んでた",
+          "count": 14,
+          "theme": "作品",
+          "rate": 0.0636
+        },
+        {
+          "label": "五月雨よ",
+          "count": 11,
+          "theme": "作品",
+          "rate": 0.05
+        },
+        {
+          "label": "二人セゾン",
+          "count": 9,
+          "theme": "作品",
+          "rate": 0.0409
+        },
+        {
+          "label": "I will be",
+          "count": 7,
+          "theme": "作品",
+          "rate": 0.0318
+        },
+        {
+          "label": "ノンアルコール",
+          "count": 7,
+          "theme": "作品",
+          "rate": 0.0318
+        },
+        {
+          "label": "流れ弾",
+          "count": 6,
+          "theme": "作品",
+          "rate": 0.0273
+        },
+        {
+          "label": "もう一曲 欲しいのかい？",
+          "count": 4,
+          "theme": "作品",
+          "rate": 0.0182
+        },
+        {
+          "label": "マンホールの蓋の上",
+          "count": 4,
+          "theme": "作品",
+          "rate": 0.0182
+        },
+        {
+          "label": "夜空で一番輝いてる星の名前を僕は知らない",
+          "count": 4,
+          "theme": "作品",
+          "rate": 0.0182
+        },
+        {
+          "label": "本質的なこと",
+          "count": 4,
+          "theme": "作品",
+          "rate": 0.0182
+        },
+        {
+          "label": "Buddies",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "Make or Break",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "TOKYO SNOW",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "Unhappy birthday構文",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "偶然の答え",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "承認欲求",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "摩擦係数",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "油を注せ！",
+          "count": 3,
+          "theme": "作品",
+          "rate": 0.0136
+        },
+        {
+          "label": "On my way",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "One-way stairs",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "Start over!",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "コンセントレーション",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "マモリビト",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "何歳の頃に戻りたいのか？",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "僕は僕を好きになれない",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "制服の人魚",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "恋愛無双",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "青空が見えるまで",
+          "count": 2,
+          "theme": "作品",
+          "rate": 0.0091
+        },
+        {
+          "label": "Alter ego",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "BAN",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "Nightmare症候群",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "Nobody's fault",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "Nothing special",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "ずっと 春だったらなあ",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "なぜ 恋をして来なかったんだろう?",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "君と僕と洗濯物",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "引きこもる時間はない",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "桜月",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "死んだふり",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "真夏に何か起きるのかしら",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "確信的クロワッサン",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "紫外線",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "自業自得",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "行かないで",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        },
+        {
+          "label": "静寂の暴力",
+          "count": 1,
+          "theme": "作品",
+          "rate": 0.0045
+        }
+      ],
+      "themes": [
+        {
+          "label": "作品",
+          "count": 206,
+          "rate": 0.9364
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q37",
+      "title": "请问方便透露是哪个城市吗",
+      "answeredTextCount": 125,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 5,
+      "keywords": [
+        {
+          "label": "北京",
+          "count": 23,
+          "theme": "其他",
+          "rate": 0.184
+        },
+        {
+          "label": "上海",
+          "count": 15,
+          "theme": "其他",
+          "rate": 0.12
+        },
+        {
+          "label": "广州",
+          "count": 13,
+          "theme": "其他",
+          "rate": 0.104
+        },
+        {
+          "label": "南京",
+          "count": 5,
+          "theme": "其他",
+          "rate": 0.04
+        }
+      ],
+      "themes": [
+        {
+          "label": "其他",
+          "count": 56,
+          "rate": 0.448
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "questionId": "2026-Q38",
+      "title": "还有什么别的想要告诉我们的吗~",
+      "answeredTextCount": 71,
+      "method": "domain phrase + ngram keyword extraction; raw text not published",
+      "minCount": 3,
+      "keywords": [
+        {
+          "label": "live",
+          "count": 5,
+          "theme": "活动",
+          "rate": 0.0704
+        },
+        {
+          "label": "zzh",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0423
+        },
+        {
+          "label": "翻译",
+          "count": 3,
+          "theme": "内容",
+          "rate": 0.0423
+        },
+        {
+          "label": "感谢",
+          "count": 3,
+          "theme": "其他",
+          "rate": 0.0423
+        }
+      ],
+      "themes": [
+        {
+          "label": "其他",
+          "count": 6,
+          "rate": 0.0845
+        },
+        {
+          "label": "活动",
+          "count": 5,
+          "rate": 0.0704
+        },
+        {
+          "label": "内容",
+          "count": 3,
+          "rate": 0.0423
+        }
+      ]
+    }
+  ]
+}
