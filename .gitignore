@@ -1,0 +1,7 @@
+survey-private/
+.claude/
+KAGENARE-change.md
+survey-bi-changes.md
+scripts/clean_survey_data.py
+scripts/extract_q17_song_mentions.py
+scripts/__pycache__/
