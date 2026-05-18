@@ -1,0 +1,3402 @@
+{
+  "sampleCount": 837,
+  "questions": [
+    {
+      "questionId": "2025-Q01",
+      "number": 1,
+      "title": "请问您成为欅坂46/櫻坂46粉丝的时期：",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 837,
+        "averageLength": 7,
+        "maxLength": 7,
+        "counts": [
+          {
+            "label": "2024-01",
+            "count": 77
+          },
+          {
+            "label": "2024-02",
+            "count": 70
+          },
+          {
+            "label": "2024-03",
+            "count": 39
+          },
+          {
+            "label": "2023-12",
+            "count": 26
+          },
+          {
+            "label": "2024-06",
+            "count": 21
+          },
+          {
+            "label": "2018-01",
+            "count": 20
+          },
+          {
+            "label": "2020-01",
+            "count": 20
+          },
+          {
+            "label": "2023-06",
+            "count": 18
+          },
+          {
+            "label": "2024-09",
+            "count": 17
+          },
+          {
+            "label": "2023-01",
+            "count": 16
+          },
+          {
+            "label": "2023-10",
+            "count": 15
+          },
+          {
+            "label": "2024-04",
+            "count": 15
+          },
+          {
+            "label": "2024-08",
+            "count": 15
+          },
+          {
+            "label": "2024-07",
+            "count": 14
+          },
+          {
+            "label": "2023-11",
+            "count": 13
+          },
+          {
+            "label": "2016-12",
+            "count": 11
+          },
+          {
+            "label": "2019-01",
+            "count": 11
+          },
+          {
+            "label": "2022-07",
+            "count": 11
+          },
+          {
+            "label": "2024-05",
+            "count": 11
+          },
+          {
+            "label": "2019-12",
+            "count": 10
+          },
+          {
+            "label": "2024-10",
+            "count": 10
+          },
+          {
+            "label": "2024-11",
+            "count": 10
+          },
+          {
+            "label": "2016-04",
+            "count": 9
+          },
+          {
+            "label": "2017-01",
+            "count": 9
+          },
+          {
+            "label": "2017-07",
+            "count": 9
+          },
+          {
+            "label": "2020-10",
+            "count": 9
+          },
+          {
+            "label": "2022-01",
+            "count": 9
+          },
+          {
+            "label": "2023-05",
+            "count": 9
+          },
+          {
+            "label": "2015-08",
+            "count": 8
+          },
+          {
+            "label": "2021-01",
+            "count": 8
+          },
+          {
+            "label": "2023-02",
+            "count": 8
+          },
+          {
+            "label": "2018-06",
+            "count": 7
+          },
+          {
+            "label": "2018-08",
+            "count": 7
+          },
+          {
+            "label": "2019-07",
+            "count": 7
+          },
+          {
+            "label": "2020-02",
+            "count": 7
+          },
+          {
+            "label": "2020-12",
+            "count": 7
+          },
+          {
+            "label": "2022-11",
+            "count": 7
+          },
+          {
+            "label": "2023-03",
+            "count": 7
+          },
+          {
+            "label": "2017-03",
+            "count": 6
+          },
+          {
+            "label": "2017-10",
+            "count": 6
+          },
+          {
+            "label": "2022-12",
+            "count": 6
+          },
+          {
+            "label": "2016-01",
+            "count": 5
+          },
+          {
+            "label": "2016-06",
+            "count": 5
+          },
+          {
+            "label": "2016-07",
+            "count": 5
+          },
+          {
+            "label": "2016-11",
+            "count": 5
+          },
+          {
+            "label": "2017-04",
+            "count": 5
+          },
+          {
+            "label": "2017-06",
+            "count": 5
+          },
+          {
+            "label": "2018-10",
+            "count": 5
+          },
+          {
+            "label": "2020-11",
+            "count": 5
+          },
+          {
+            "label": "2022-09",
+            "count": 5
+          },
+          {
+            "label": "2023-08",
+            "count": 5
+          },
+          {
+            "label": "2023-09",
+            "count": 5
+          },
+          {
+            "label": "2016-08",
+            "count": 4
+          },
+          {
+            "label": "2016-09",
+            "count": 4
+          },
+          {
+            "label": "2017-02",
+            "count": 4
+          },
+          {
+            "label": "2017-12",
+            "count": 4
+          },
+          {
+            "label": "2018-07",
+            "count": 4
+          },
+          {
+            "label": "2019-02",
+            "count": 4
+          },
+          {
+            "label": "2019-04",
+            "count": 4
+          },
+          {
+            "label": "2020-03",
+            "count": 4
+          },
+          {
+            "label": "2020-06",
+            "count": 4
+          },
+          {
+            "label": "2020-07",
+            "count": 4
+          },
+          {
+            "label": "2021-06",
+            "count": 4
+          },
+          {
+            "label": "2021-08",
+            "count": 4
+          },
+          {
+            "label": "2022-03",
+            "count": 4
+          },
+          {
+            "label": "2023-07",
+            "count": 4
+          },
+          {
+            "label": "2015-09",
+            "count": 3
+          },
+          {
+            "label": "2015-11",
+            "count": 3
+          },
+          {
+            "label": "2015-12",
+            "count": 3
+          },
+          {
+            "label": "2016-03",
+            "count": 3
+          },
+          {
+            "label": "2017-05",
+            "count": 3
+          },
+          {
+            "label": "2017-09",
+            "count": 3
+          },
+          {
+            "label": "2017-11",
+            "count": 3
+          },
+          {
+            "label": "2018-02",
+            "count": 3
+          },
+          {
+            "label": "2018-09",
+            "count": 3
+          },
+          {
+            "label": "2018-11",
+            "count": 3
+          },
+          {
+            "label": "2019-03",
+            "count": 3
+          },
+          {
+            "label": "2019-05",
+            "count": 3
+          },
+          {
+            "label": "2019-08",
+            "count": 3
+          },
+          {
+            "label": "2019-11",
+            "count": 3
+          },
+          {
+            "label": "2021-05",
+            "count": 3
+          },
+          {
+            "label": "2021-07",
+            "count": 3
+          },
+          {
+            "label": "2021-10",
+            "count": 3
+          },
+          {
+            "label": "2021-12",
+            "count": 3
+          },
+          {
+            "label": "2022-06",
+            "count": 3
+          },
+          {
+            "label": "2023-04",
+            "count": 3
+          },
+          {
+            "label": "2025-02",
+            "count": 3
+          },
+          {
+            "label": "2015-06",
+            "count": 2
+          },
+          {
+            "label": "2015-10",
+            "count": 2
+          },
+          {
+            "label": "2016-02",
+            "count": 2
+          },
+          {
+            "label": "2016-05",
+            "count": 2
+          },
+          {
+            "label": "2018-03",
+            "count": 2
+          },
+          {
+            "label": "2018-04",
+            "count": 2
+          },
+          {
+            "label": "2018-12",
+            "count": 2
+          },
+          {
+            "label": "2019-06",
+            "count": 2
+          },
+          {
+            "label": "2019-10",
+            "count": 2
+          },
+          {
+            "label": "2020-05",
+            "count": 2
+          },
+          {
+            "label": "2021-02",
+            "count": 2
+          },
+          {
+            "label": "2021-04",
+            "count": 2
+          },
+          {
+            "label": "2022-02",
+            "count": 2
+          },
+          {
+            "label": "2022-04",
+            "count": 2
+          },
+          {
+            "label": "2022-05",
+            "count": 2
+          },
+          {
+            "label": "2022-08",
+            "count": 2
+          },
+          {
+            "label": "2022-10",
+            "count": 2
+          },
+          {
+            "label": "2024-12",
+            "count": 2
+          },
+          {
+            "label": "1939-11",
+            "count": 1
+          },
+          {
+            "label": "2015-01",
+            "count": 1
+          },
+          {
+            "label": "2016-10",
+            "count": 1
+          },
+          {
+            "label": "2018-05",
+            "count": 1
+          },
+          {
+            "label": "2020-08",
+            "count": 1
+          },
+          {
+            "label": "2020-09",
+            "count": 1
+          },
+          {
+            "label": "2021-11",
+            "count": 1
+          },
+          {
+            "label": "2025-01",
+            "count": 1
+          },
+          {
+            "label": "2025-03",
+            "count": 1
+          },
+          {
+            "label": "2025-05",
+            "count": 1
+          },
+          {
+            "label": "2025-06",
+            "count": 1
+          },
+          {
+            "label": "2025-07",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "questionId": "2025-Q02",
+      "number": 2,
+      "title": "你和樱坂的第一次接触是什么呢",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "来自姐妹团（乃木坂/日向坂）",
+            "count": 240
+          },
+          {
+            "label": "Bilibili/抖音/视频平台推荐",
+            "count": 162
+          },
+          {
+            "label": "电视剧/综艺/广播/电影",
+            "count": 157
+          },
+          {
+            "label": "毕业成员的的活动",
+            "count": 91
+          },
+          {
+            "label": "其他",
+            "count": 53
+          },
+          {
+            "label": "社交媒体",
+            "count": 43
+          },
+          {
+            "label": "家人/朋友/同学/同事推荐",
+            "count": 38
+          },
+          {
+            "label": "J-POP社群",
+            "count": 27
+          },
+          {
+            "label": "音乐节/活动",
+            "count": 15
+          },
+          {
+            "label": "动漫社群",
+            "count": 8
+          },
+          {
+            "label": "K-POP社群",
+            "count": 3
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q03",
+      "number": 3,
+      "title": "请对成员的好感度排个序吧～",
+      "kind": "ranking",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "ranking",
+        "items": [
+          {
+            "item": "森田ひかる",
+            "rankedCount": 558,
+            "averageRank": 3.68,
+            "top1": 152,
+            "top3": 348,
+            "score": 12456
+          },
+          {
+            "item": "藤吉夏鈴",
+            "rankedCount": 491,
+            "averageRank": 4.34,
+            "top1": 161,
+            "top3": 292,
+            "score": 10633
+          },
+          {
+            "item": "田村保乃",
+            "rankedCount": 488,
+            "averageRank": 4.72,
+            "top1": 55,
+            "top3": 234,
+            "score": 10386
+          },
+          {
+            "item": "守屋麗奈",
+            "rankedCount": 406,
+            "averageRank": 6.91,
+            "top1": 33,
+            "top3": 121,
+            "score": 7749
+          },
+          {
+            "item": "山﨑天",
+            "rankedCount": 371,
+            "averageRank": 6.25,
+            "top1": 44,
+            "top3": 148,
+            "score": 7327
+          },
+          {
+            "item": "山下瞳月",
+            "rankedCount": 362,
+            "averageRank": 7.77,
+            "top1": 36,
+            "top3": 108,
+            "score": 6600
+          },
+          {
+            "item": "大園玲",
+            "rankedCount": 349,
+            "averageRank": 7.5,
+            "top1": 44,
+            "top3": 104,
+            "score": 6458
+          },
+          {
+            "item": "小田倉麗奈",
+            "rankedCount": 346,
+            "averageRank": 8.34,
+            "top1": 32,
+            "top3": 92,
+            "score": 6110
+          },
+          {
+            "item": "中嶋優月",
+            "rankedCount": 342,
+            "averageRank": 8.23,
+            "top1": 20,
+            "top3": 82,
+            "score": 6078
+          },
+          {
+            "item": "石森璃花",
+            "rankedCount": 337,
+            "averageRank": 8.01,
+            "top1": 17,
+            "top3": 87,
+            "score": 6062
+          },
+          {
+            "item": "村山美羽",
+            "rankedCount": 334,
+            "averageRank": 9.25,
+            "top1": 25,
+            "top3": 78,
+            "score": 5595
+          },
+          {
+            "item": "谷口愛季",
+            "rankedCount": 317,
+            "averageRank": 8.97,
+            "top1": 21,
+            "top3": 75,
+            "score": 5400
+          },
+          {
+            "item": "武元唯衣",
+            "rankedCount": 294,
+            "averageRank": 8.95,
+            "top1": 16,
+            "top3": 47,
+            "score": 5014
+          },
+          {
+            "item": "松田里奈",
+            "rankedCount": 283,
+            "averageRank": 9.05,
+            "top1": 11,
+            "top3": 46,
+            "score": 4796
+          },
+          {
+            "item": "小池美波",
+            "rankedCount": 278,
+            "averageRank": 9.03,
+            "top1": 38,
+            "top3": 65,
+            "score": 4718
+          },
+          {
+            "item": "的野美青",
+            "rankedCount": 287,
+            "averageRank": 9.63,
+            "top1": 18,
+            "top3": 45,
+            "score": 4697
+          },
+          {
+            "item": "増本綺良",
+            "rankedCount": 278,
+            "averageRank": 9.77,
+            "top1": 19,
+            "top3": 64,
+            "score": 4512
+          },
+          {
+            "item": "村井優",
+            "rankedCount": 272,
+            "averageRank": 9.8,
+            "top1": 20,
+            "top3": 69,
+            "score": 4406
+          },
+          {
+            "item": "井上梨名",
+            "rankedCount": 251,
+            "averageRank": 9.41,
+            "top1": 16,
+            "top3": 43,
+            "score": 4163
+          },
+          {
+            "item": "遠藤理子",
+            "rankedCount": 267,
+            "averageRank": 10.63,
+            "top1": 16,
+            "top3": 47,
+            "score": 4104
+          },
+          {
+            "item": "小島凪紗",
+            "rankedCount": 237,
+            "averageRank": 11.58,
+            "top1": 16,
+            "top3": 44,
+            "score": 3417
+          },
+          {
+            "item": "向井純葉",
+            "rankedCount": 233,
+            "averageRank": 11.36,
+            "top1": 11,
+            "top3": 35,
+            "score": 3412
+          },
+          {
+            "item": "大沼晶保",
+            "rankedCount": 208,
+            "averageRank": 14.35,
+            "top1": 5,
+            "top3": 16,
+            "score": 2423
+          },
+          {
+            "item": "幸阪茉里乃",
+            "rankedCount": 197,
+            "averageRank": 14.93,
+            "top1": 8,
+            "top3": 20,
+            "score": 2180
+          },
+          {
+            "item": "遠藤光莉",
+            "rankedCount": 158,
+            "averageRank": 19.19,
+            "top1": 3,
+            "top3": 5,
+            "score": 1076
+          }
+        ]
+      }
+    },
+    {
+      "questionId": "2025-Q04",
+      "number": 4,
+      "title": "您最喜欢的A面/主打曲是哪一首：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "Start over!",
+            "count": 276
+          },
+          {
+            "label": "桜月",
+            "count": 157
+          },
+          {
+            "label": "承認欲求",
+            "count": 95
+          },
+          {
+            "label": "摩擦係数",
+            "count": 81
+          },
+          {
+            "label": "BAN",
+            "count": 59
+          },
+          {
+            "label": "流れ弾",
+            "count": 49
+          },
+          {
+            "label": "何歳の頃に戻りたいのか？",
+            "count": 37
+          },
+          {
+            "label": "自業自得",
+            "count": 28
+          },
+          {
+            "label": "五月雨よ",
+            "count": 27
+          },
+          {
+            "label": "Nobody's fault",
+            "count": 19
+          },
+          {
+            "label": "I want tomorrow to come",
+            "count": 9
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q05",
+      "number": 5,
+      "title": "您最喜欢的附加单曲是哪一首",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "なぜ 恋をして来なかったんだろう?",
+            "count": 100
+          },
+          {
+            "label": "静寂の暴力",
+            "count": 91
+          },
+          {
+            "label": "TOKYO SNOW",
+            "count": 50
+          },
+          {
+            "label": "Dead end",
+            "count": 49
+          },
+          {
+            "label": "Cool",
+            "count": 40
+          },
+          {
+            "label": "偶然の答え",
+            "count": 36
+          },
+          {
+            "label": "隙間風よ",
+            "count": 32
+          },
+          {
+            "label": "無言の宇宙",
+            "count": 29
+          },
+          {
+            "label": "夏の近道",
+            "count": 28
+          },
+          {
+            "label": "最終の地下鉄に乗って",
+            "count": 26
+          },
+          {
+            "label": "マンホールの蓋の上",
+            "count": 25
+          },
+          {
+            "label": "思ったよりも寂しくない",
+            "count": 23
+          },
+          {
+            "label": "断絶",
+            "count": 18
+          },
+          {
+            "label": "条件反射で泣けて来る",
+            "count": 18
+          },
+          {
+            "label": "もしかしたら真実",
+            "count": 17
+          },
+          {
+            "label": "制服の人魚",
+            "count": 16
+          },
+          {
+            "label": "Buddies",
+            "count": 15
+          },
+          {
+            "label": "ジャマイカビール",
+            "count": 14
+          },
+          {
+            "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+            "count": 14
+          },
+          {
+            "label": "僕たちの La vie en rose",
+            "count": 13
+          },
+          {
+            "label": "車間距離",
+            "count": 12
+          },
+          {
+            "label": "ブルームーンキス",
+            "count": 11
+          },
+          {
+            "label": "僕のジレンマ",
+            "count": 11
+          },
+          {
+            "label": "半信半疑",
+            "count": 10
+          },
+          {
+            "label": "君と僕と洗濯物",
+            "count": 10
+          },
+          {
+            "label": "僕は僕を好きになれない",
+            "count": 9
+          },
+          {
+            "label": "一瞬の馬",
+            "count": 8
+          },
+          {
+            "label": "油を注せ！",
+            "count": 8
+          },
+          {
+            "label": "One-way stairs",
+            "count": 6
+          },
+          {
+            "label": "嵐の前、世界の終わり",
+            "count": 6
+          },
+          {
+            "label": "櫻坂の詩",
+            "count": 6
+          },
+          {
+            "label": "Anthem time",
+            "count": 5
+          },
+          {
+            "label": "その日まで",
+            "count": 5
+          },
+          {
+            "label": "それが愛なのね",
+            "count": 5
+          },
+          {
+            "label": "ドローン旋回中",
+            "count": 5
+          },
+          {
+            "label": "引きこもる時間はない",
+            "count": 5
+          },
+          {
+            "label": "恋が絶滅する日",
+            "count": 5
+          },
+          {
+            "label": "本質的なこと",
+            "count": 5
+          },
+          {
+            "label": "On my way",
+            "count": 4
+          },
+          {
+            "label": "コンビナート",
+            "count": 4
+          },
+          {
+            "label": "マモリビト",
+            "count": 4
+          },
+          {
+            "label": "無念",
+            "count": 4
+          },
+          {
+            "label": "魂のLiar",
+            "count": 4
+          },
+          {
+            "label": "Don't cut in line!",
+            "count": 3
+          },
+          {
+            "label": "ずっと 春だったらなあ",
+            "count": 3
+          },
+          {
+            "label": "もう一曲 欲しいのかい？",
+            "count": 3
+          },
+          {
+            "label": "美しきNervous",
+            "count": 3
+          },
+          {
+            "label": "風の音",
+            "count": 3
+          },
+          {
+            "label": "I'm in",
+            "count": 2
+          },
+          {
+            "label": "Plastic regret",
+            "count": 2
+          },
+          {
+            "label": "イザベルについて",
+            "count": 2
+          },
+          {
+            "label": "ソニア",
+            "count": 2
+          },
+          {
+            "label": "愛し合いなさい",
+            "count": 2
+          },
+          {
+            "label": "縁起担ぎ",
+            "count": 2
+          },
+          {
+            "label": "タイムマシーンでYeah!",
+            "count": 1
+          },
+          {
+            "label": "心の影絵",
+            "count": 1
+          },
+          {
+            "label": "恋は向いてない",
+            "count": 1
+          },
+          {
+            "label": "標識",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q06",
+      "number": 6,
+      "title": "您最喜欢的Unit曲是哪一首",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "制服の人魚",
+            "count": 123
+          },
+          {
+            "label": "断絶",
+            "count": 123
+          },
+          {
+            "label": "ジャマイカビール",
+            "count": 118
+          },
+          {
+            "label": "ずっと 春だったらなあ",
+            "count": 78
+          },
+          {
+            "label": "僕たちの La vie en rose",
+            "count": 74
+          },
+          {
+            "label": "On my way",
+            "count": 46
+          },
+          {
+            "label": "One-way stairs",
+            "count": 44
+          },
+          {
+            "label": "縁起担ぎ",
+            "count": 43
+          },
+          {
+            "label": "今さらSuddenly",
+            "count": 40
+          },
+          {
+            "label": "標識",
+            "count": 30
+          },
+          {
+            "label": "Don't cut in line!",
+            "count": 29
+          },
+          {
+            "label": "イザベルについて",
+            "count": 28
+          },
+          {
+            "label": "恋は向いてない",
+            "count": 24
+          },
+          {
+            "label": "心の影絵",
+            "count": 19
+          },
+          {
+            "label": "真夏に何か起きるのかしら",
+            "count": 18
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q07",
+      "number": 7,
+      "title": "您最喜欢的期别曲是哪一首",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "静寂の暴力",
+            "count": 302
+          },
+          {
+            "label": "夏の近道",
+            "count": 136
+          },
+          {
+            "label": "コンビナート",
+            "count": 89
+          },
+          {
+            "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+            "count": 71
+          },
+          {
+            "label": "本質的なこと",
+            "count": 57
+          },
+          {
+            "label": "Anthem time",
+            "count": 56
+          },
+          {
+            "label": "風の音",
+            "count": 41
+          },
+          {
+            "label": "引きこもる時間はない",
+            "count": 36
+          },
+          {
+            "label": "マモリビト",
+            "count": 27
+          },
+          {
+            "label": "タイムマシーンでYeah!",
+            "count": 22
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q08",
+      "number": 8,
+      "title": "您最喜欢的Backs曲是哪一首",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "僕は僕を好きになれない",
+            "count": 203
+          },
+          {
+            "label": "無念",
+            "count": 161
+          },
+          {
+            "label": "油を注せ！",
+            "count": 154
+          },
+          {
+            "label": "愛し合いなさい",
+            "count": 89
+          },
+          {
+            "label": "ソニア",
+            "count": 86
+          },
+          {
+            "label": "I'm in",
+            "count": 82
+          },
+          {
+            "label": "確信的クロワッサン",
+            "count": 62
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q09",
+      "number": 9,
+      "title": "您最喜欢的MV是哪一支",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "Start over!",
+            "count": 253
+          },
+          {
+            "label": "流れ弾",
+            "count": 58
+          },
+          {
+            "label": "なぜ 恋をして来なかったんだろう?",
+            "count": 52
+          },
+          {
+            "label": "静寂の暴力",
+            "count": 50
+          },
+          {
+            "label": "桜月",
+            "count": 45
+          },
+          {
+            "label": "承認欲求",
+            "count": 44
+          },
+          {
+            "label": "偶然の答え",
+            "count": 43
+          },
+          {
+            "label": "摩擦係数",
+            "count": 38
+          },
+          {
+            "label": "Cool",
+            "count": 29
+          },
+          {
+            "label": "夏の近道",
+            "count": 25
+          },
+          {
+            "label": "BAN",
+            "count": 23
+          },
+          {
+            "label": "Dead end",
+            "count": 21
+          },
+          {
+            "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+            "count": 14
+          },
+          {
+            "label": "僕は僕を好きになれない",
+            "count": 14
+          },
+          {
+            "label": "無言の宇宙",
+            "count": 14
+          },
+          {
+            "label": "ドローン旋回中",
+            "count": 13
+          },
+          {
+            "label": "五月雨よ",
+            "count": 12
+          },
+          {
+            "label": "僕のジレンマ",
+            "count": 12
+          },
+          {
+            "label": "車間距離",
+            "count": 12
+          },
+          {
+            "label": "隙間風よ",
+            "count": 11
+          },
+          {
+            "label": "君がサヨナラ言えたって・・・",
+            "count": 10
+          },
+          {
+            "label": "Nobody's fault",
+            "count": 9
+          },
+          {
+            "label": "自業自得",
+            "count": 9
+          },
+          {
+            "label": "何歳の頃に戻りたいのか？",
+            "count": 5
+          },
+          {
+            "label": "マモリビト",
+            "count": 4
+          },
+          {
+            "label": "I want tomorrow to come",
+            "count": 3
+          },
+          {
+            "label": "引きこもる時間はない",
+            "count": 3
+          },
+          {
+            "label": "思ったよりも寂しくない",
+            "count": 3
+          },
+          {
+            "label": "本質的なこと",
+            "count": 3
+          },
+          {
+            "label": "油を注せ！",
+            "count": 3
+          },
+          {
+            "label": "Buddies",
+            "count": 1
+          },
+          {
+            "label": "愛し合いなさい",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q10",
+      "number": 10,
+      "title": "什么让您爱上樱坂46",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "成员/个性",
+            "count": 721
+          },
+          {
+            "label": "现场表演/舞蹈",
+            "count": 698
+          },
+          {
+            "label": "音乐",
+            "count": 587
+          },
+          {
+            "label": "综艺",
+            "count": 510
+          },
+          {
+            "label": "世界观/概念",
+            "count": 467
+          },
+          {
+            "label": "视觉/美学（MV，服装等）",
+            "count": 427
+          },
+          {
+            "label": "与朋友拥有一样的爱好",
+            "count": 56
+          },
+          {
+            "label": "其他",
+            "count": 30
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 4.18
+      }
+    },
+    {
+      "questionId": "2025-Q11",
+      "number": 11,
+      "title": "当您选推的时候，都有哪些因素影响了您",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "个性",
+            "count": 733
+          },
+          {
+            "label": "舞台表现",
+            "count": 627
+          },
+          {
+            "label": "视觉表现",
+            "count": 582
+          },
+          {
+            "label": "音乐和舞蹈技能",
+            "count": 427
+          },
+          {
+            "label": "人气",
+            "count": 86
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 2.93
+      }
+    },
+    {
+      "questionId": "2025-Q12",
+      "number": 12,
+      "title": "您中文和日文内容浏览占比大约各有多少？",
+      "kind": "ratio",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "ratio",
+        "fields": {
+          "日文内容": {
+            "average": 35.75,
+            "min": 0.0,
+            "max": 100.0,
+            "distribution": [
+              {
+                "label": "20",
+                "count": 126
+              },
+              {
+                "label": "40",
+                "count": 74
+              },
+              {
+                "label": "30",
+                "count": 57
+              },
+              {
+                "label": "10",
+                "count": 56
+              },
+              {
+                "label": "50",
+                "count": 56
+              },
+              {
+                "label": "0",
+                "count": 34
+              },
+              {
+                "label": "80",
+                "count": 33
+              },
+              {
+                "label": "60",
+                "count": 32
+              },
+              {
+                "label": "70",
+                "count": 23
+              },
+              {
+                "label": "21",
+                "count": 17
+              },
+              {
+                "label": "19",
+                "count": 16
+              },
+              {
+                "label": "25",
+                "count": 16
+              },
+              {
+                "label": "35",
+                "count": 15
+              },
+              {
+                "label": "5",
+                "count": 15
+              },
+              {
+                "label": "15",
+                "count": 13
+              },
+              {
+                "label": "41",
+                "count": 12
+              },
+              {
+                "label": "22",
+                "count": 11
+              },
+              {
+                "label": "39",
+                "count": 11
+              },
+              {
+                "label": "90",
+                "count": 10
+              },
+              {
+                "label": "18",
+                "count": 9
+              },
+              {
+                "label": "31",
+                "count": 8
+              },
+              {
+                "label": "51",
+                "count": 8
+              },
+              {
+                "label": "81",
+                "count": 8
+              },
+              {
+                "label": "23",
+                "count": 7
+              },
+              {
+                "label": "32",
+                "count": 7
+              },
+              {
+                "label": "17",
+                "count": 6
+              },
+              {
+                "label": "42",
+                "count": 6
+              },
+              {
+                "label": "43",
+                "count": 6
+              },
+              {
+                "label": "62",
+                "count": 6
+              },
+              {
+                "label": "45",
+                "count": 5
+              },
+              {
+                "label": "75",
+                "count": 5
+              },
+              {
+                "label": "79",
+                "count": 5
+              },
+              {
+                "label": "11",
+                "count": 4
+              },
+              {
+                "label": "29",
+                "count": 4
+              },
+              {
+                "label": "33",
+                "count": 4
+              },
+              {
+                "label": "34",
+                "count": 4
+              },
+              {
+                "label": "36",
+                "count": 4
+              },
+              {
+                "label": "64",
+                "count": 4
+              },
+              {
+                "label": "65",
+                "count": 4
+              },
+              {
+                "label": "9",
+                "count": 4
+              },
+              {
+                "label": "100",
+                "count": 3
+              },
+              {
+                "label": "12",
+                "count": 3
+              },
+              {
+                "label": "13",
+                "count": 3
+              },
+              {
+                "label": "24",
+                "count": 3
+              },
+              {
+                "label": "26",
+                "count": 3
+              },
+              {
+                "label": "28",
+                "count": 3
+              },
+              {
+                "label": "38",
+                "count": 3
+              },
+              {
+                "label": "46",
+                "count": 3
+              },
+              {
+                "label": "48",
+                "count": 3
+              },
+              {
+                "label": "49",
+                "count": 3
+              },
+              {
+                "label": "55",
+                "count": 3
+              },
+              {
+                "label": "6",
+                "count": 3
+              },
+              {
+                "label": "61",
+                "count": 3
+              },
+              {
+                "label": "63",
+                "count": 3
+              },
+              {
+                "label": "7",
+                "count": 3
+              },
+              {
+                "label": "82",
+                "count": 3
+              },
+              {
+                "label": "85",
+                "count": 3
+              },
+              {
+                "label": "1",
+                "count": 2
+              },
+              {
+                "label": "27",
+                "count": 2
+              },
+              {
+                "label": "3",
+                "count": 2
+              },
+              {
+                "label": "37",
+                "count": 2
+              },
+              {
+                "label": "4",
+                "count": 2
+              },
+              {
+                "label": "53",
+                "count": 2
+              },
+              {
+                "label": "56",
+                "count": 2
+              },
+              {
+                "label": "58",
+                "count": 2
+              },
+              {
+                "label": "66",
+                "count": 2
+              },
+              {
+                "label": "71",
+                "count": 2
+              },
+              {
+                "label": "72",
+                "count": 2
+              },
+              {
+                "label": "74",
+                "count": 2
+              },
+              {
+                "label": "8",
+                "count": 2
+              },
+              {
+                "label": "14",
+                "count": 1
+              },
+              {
+                "label": "2",
+                "count": 1
+              },
+              {
+                "label": "44",
+                "count": 1
+              },
+              {
+                "label": "54",
+                "count": 1
+              },
+              {
+                "label": "68",
+                "count": 1
+              },
+              {
+                "label": "76",
+                "count": 1
+              },
+              {
+                "label": "77",
+                "count": 1
+              },
+              {
+                "label": "78",
+                "count": 1
+              },
+              {
+                "label": "83",
+                "count": 1
+              },
+              {
+                "label": "84",
+                "count": 1
+              },
+              {
+                "label": "87",
+                "count": 1
+              },
+              {
+                "label": "92",
+                "count": 1
+              },
+              {
+                "label": "93",
+                "count": 1
+              },
+              {
+                "label": "94",
+                "count": 1
+              },
+              {
+                "label": "95",
+                "count": 1
+              }
+            ]
+          },
+          "中文内容": {
+            "average": 64.25,
+            "min": 0.0,
+            "max": 100.0,
+            "distribution": [
+              {
+                "label": "80",
+                "count": 126
+              },
+              {
+                "label": "60",
+                "count": 74
+              },
+              {
+                "label": "70",
+                "count": 57
+              },
+              {
+                "label": "50",
+                "count": 56
+              },
+              {
+                "label": "90",
+                "count": 56
+              },
+              {
+                "label": "100",
+                "count": 34
+              },
+              {
+                "label": "20",
+                "count": 33
+              },
+              {
+                "label": "40",
+                "count": 32
+              },
+              {
+                "label": "30",
+                "count": 23
+              },
+              {
+                "label": "79",
+                "count": 17
+              },
+              {
+                "label": "75",
+                "count": 16
+              },
+              {
+                "label": "81",
+                "count": 16
+              },
+              {
+                "label": "65",
+                "count": 15
+              },
+              {
+                "label": "95",
+                "count": 15
+              },
+              {
+                "label": "85",
+                "count": 13
+              },
+              {
+                "label": "59",
+                "count": 12
+              },
+              {
+                "label": "61",
+                "count": 11
+              },
+              {
+                "label": "78",
+                "count": 11
+              },
+              {
+                "label": "10",
+                "count": 10
+              },
+              {
+                "label": "82",
+                "count": 9
+              },
+              {
+                "label": "19",
+                "count": 8
+              },
+              {
+                "label": "49",
+                "count": 8
+              },
+              {
+                "label": "69",
+                "count": 8
+              },
+              {
+                "label": "68",
+                "count": 7
+              },
+              {
+                "label": "77",
+                "count": 7
+              },
+              {
+                "label": "38",
+                "count": 6
+              },
+              {
+                "label": "57",
+                "count": 6
+              },
+              {
+                "label": "58",
+                "count": 6
+              },
+              {
+                "label": "83",
+                "count": 6
+              },
+              {
+                "label": "21",
+                "count": 5
+              },
+              {
+                "label": "25",
+                "count": 5
+              },
+              {
+                "label": "55",
+                "count": 5
+              },
+              {
+                "label": "35",
+                "count": 4
+              },
+              {
+                "label": "36",
+                "count": 4
+              },
+              {
+                "label": "64",
+                "count": 4
+              },
+              {
+                "label": "66",
+                "count": 4
+              },
+              {
+                "label": "67",
+                "count": 4
+              },
+              {
+                "label": "71",
+                "count": 4
+              },
+              {
+                "label": "89",
+                "count": 4
+              },
+              {
+                "label": "91",
+                "count": 4
+              },
+              {
+                "label": "0",
+                "count": 3
+              },
+              {
+                "label": "15",
+                "count": 3
+              },
+              {
+                "label": "18",
+                "count": 3
+              },
+              {
+                "label": "37",
+                "count": 3
+              },
+              {
+                "label": "39",
+                "count": 3
+              },
+              {
+                "label": "45",
+                "count": 3
+              },
+              {
+                "label": "51",
+                "count": 3
+              },
+              {
+                "label": "52",
+                "count": 3
+              },
+              {
+                "label": "54",
+                "count": 3
+              },
+              {
+                "label": "62",
+                "count": 3
+              },
+              {
+                "label": "72",
+                "count": 3
+              },
+              {
+                "label": "74",
+                "count": 3
+              },
+              {
+                "label": "76",
+                "count": 3
+              },
+              {
+                "label": "87",
+                "count": 3
+              },
+              {
+                "label": "88",
+                "count": 3
+              },
+              {
+                "label": "93",
+                "count": 3
+              },
+              {
+                "label": "94",
+                "count": 3
+              },
+              {
+                "label": "26",
+                "count": 2
+              },
+              {
+                "label": "28",
+                "count": 2
+              },
+              {
+                "label": "29",
+                "count": 2
+              },
+              {
+                "label": "34",
+                "count": 2
+              },
+              {
+                "label": "42",
+                "count": 2
+              },
+              {
+                "label": "44",
+                "count": 2
+              },
+              {
+                "label": "47",
+                "count": 2
+              },
+              {
+                "label": "63",
+                "count": 2
+              },
+              {
+                "label": "73",
+                "count": 2
+              },
+              {
+                "label": "92",
+                "count": 2
+              },
+              {
+                "label": "96",
+                "count": 2
+              },
+              {
+                "label": "97",
+                "count": 2
+              },
+              {
+                "label": "99",
+                "count": 2
+              },
+              {
+                "label": "13",
+                "count": 1
+              },
+              {
+                "label": "16",
+                "count": 1
+              },
+              {
+                "label": "17",
+                "count": 1
+              },
+              {
+                "label": "22",
+                "count": 1
+              },
+              {
+                "label": "23",
+                "count": 1
+              },
+              {
+                "label": "24",
+                "count": 1
+              },
+              {
+                "label": "32",
+                "count": 1
+              },
+              {
+                "label": "46",
+                "count": 1
+              },
+              {
+                "label": "5",
+                "count": 1
+              },
+              {
+                "label": "56",
+                "count": 1
+              },
+              {
+                "label": "6",
+                "count": 1
+              },
+              {
+                "label": "7",
+                "count": 1
+              },
+              {
+                "label": "8",
+                "count": 1
+              },
+              {
+                "label": "86",
+                "count": 1
+              },
+              {
+                "label": "98",
+                "count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "questionId": "2025-Q13",
+      "number": 13,
+      "title": "您如何进行您的樱坂46偶像活动呢？",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "观看そこ曲がったら、櫻坂？",
+            "count": 782
+          },
+          {
+            "label": "浏览中文社媒内容（bilibili，微博等）",
+            "count": 759
+          },
+          {
+            "label": "观看表演（现场，线上直播，购买蓝光）",
+            "count": 715
+          },
+          {
+            "label": "阅读成员博客",
+            "count": 565
+          },
+          {
+            "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+            "count": 521
+          },
+          {
+            "label": "订阅成员MSG",
+            "count": 379
+          },
+          {
+            "label": "观看サクラミーツ",
+            "count": 281
+          },
+          {
+            "label": "观看其他团外综艺",
+            "count": 271
+          },
+          {
+            "label": "收听櫻坂チャンネル",
+            "count": 246
+          },
+          {
+            "label": "櫻坂46の「さ」",
+            "count": 235
+          },
+          {
+            "label": "收听櫻坂46 こちら有楽町星空放送局",
+            "count": 211
+          },
+          {
+            "label": "观看Love it！",
+            "count": 190
+          },
+          {
+            "label": "阅读杂志",
+            "count": 185
+          },
+          {
+            "label": "其他",
+            "count": 93
+          },
+          {
+            "label": "收听さくらひなたロッチの伸びしろラジオ",
+            "count": 61
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 6.56
+      }
+    },
+    {
+      "questionId": "2025-Q14",
+      "number": 14,
+      "title": "您希望Seed&Flower如何支持中文区偶像活动呢",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "针对中文区的活动（线上见面会，演出直播）",
+            "count": 635
+          },
+          {
+            "label": "更高频率的演唱会海外票抽选",
+            "count": 603
+          },
+          {
+            "label": "参与音乐节/动漫展等活动",
+            "count": 581
+          },
+          {
+            "label": "官方转樱/微转樱",
+            "count": 554
+          },
+          {
+            "label": "周边商品的直邮",
+            "count": 530
+          },
+          {
+            "label": "入驻中文社交平台",
+            "count": 527
+          },
+          {
+            "label": "其他",
+            "count": 50
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 4.16
+      }
+    },
+    {
+      "questionId": "2025-Q15",
+      "number": 15,
+      "title": "您希望在樱坂官方频道上看到更多什么内容",
+      "kind": "text",
+      "statusCounts": {
+        "empty_marker": 496,
+        "answered": 341
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 341,
+        "averageLength": 10.82,
+        "maxLength": 141
+      }
+    },
+    {
+      "questionId": "2025-Q16",
+      "number": 16,
+      "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "否",
+            "count": 477
+          },
+          {
+            "label": "是",
+            "count": 360
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q17",
+      "number": 17,
+      "title": "您是否订阅了成员Message",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "是",
+            "count": 419
+          },
+          {
+            "label": "否",
+            "count": 418
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q18",
+      "number": 18,
+      "title": "您订阅了多少个成员的Message",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 419,
+        "blank": 418
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "2～5",
+            "count": 255
+          },
+          {
+            "label": "1",
+            "count": 126
+          },
+          {
+            "label": "6～9",
+            "count": 29
+          },
+          {
+            "label": "10～12",
+            "count": 4
+          },
+          {
+            "label": "12个以上（非全员）",
+            "count": 4
+          },
+          {
+            "label": "全员订阅",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q19",
+      "number": 19,
+      "title": "您大多使用哪些平台获取樱坂内容",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "樱坂46字幕组Bilibili账号",
+            "count": 723
+          },
+          {
+            "label": "成员个人字幕组Bilibili账号",
+            "count": 671
+          },
+          {
+            "label": "成员个人字幕组微博账号",
+            "count": 638
+          },
+          {
+            "label": "樱坂46官网",
+            "count": 533
+          },
+          {
+            "label": "海外社交媒体平台",
+            "count": 473
+          },
+          {
+            "label": "樱坂46微博超话",
+            "count": 399
+          },
+          {
+            "label": "成员个人QQ应援群",
+            "count": 258
+          },
+          {
+            "label": "其他",
+            "count": 26
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 4.45
+      }
+    },
+    {
+      "questionId": "2025-Q20",
+      "number": 20,
+      "title": "您是否参与了樱坂46中文内容的制作/发布",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "否",
+            "count": 708
+          },
+          {
+            "label": "是",
+            "count": 129
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q21",
+      "number": 21,
+      "title": "您是否还参与其他团体的活动",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "没有，只看樱坂46",
+            "count": 422
+          },
+          {
+            "label": "有，日本偶像",
+            "count": 405
+          },
+          {
+            "label": "有，地下/地元偶像",
+            "count": 38
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 1.03
+      }
+    },
+    {
+      "questionId": "2025-Q22",
+      "number": 22,
+      "title": "您在2024年都参与了哪些现场活动",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 837,
+        "averageLength": 4.62,
+        "maxLength": 43
+      }
+    },
+    {
+      "questionId": "2025-Q23",
+      "number": 23,
+      "title": "谁是您的2024最佳进步奖",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "遠藤理子",
+            "count": 116
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 99
+          },
+          {
+            "label": "山下瞳月",
+            "count": 77
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 60
+          },
+          {
+            "label": "的野美青",
+            "count": 59
+          },
+          {
+            "label": "向井純葉",
+            "count": 52
+          },
+          {
+            "label": "石森璃花",
+            "count": 48
+          },
+          {
+            "label": "村井優",
+            "count": 45
+          },
+          {
+            "label": "中嶋優月",
+            "count": 36
+          },
+          {
+            "label": "村山美羽",
+            "count": 32
+          },
+          {
+            "label": "森田ひかる",
+            "count": 25
+          },
+          {
+            "label": "山﨑天",
+            "count": 23
+          },
+          {
+            "label": "増本綺良",
+            "count": 20
+          },
+          {
+            "label": "大園玲",
+            "count": 20
+          },
+          {
+            "label": "谷口愛季",
+            "count": 17
+          },
+          {
+            "label": "井上梨名",
+            "count": 15
+          },
+          {
+            "label": "大沼晶保",
+            "count": 14
+          },
+          {
+            "label": "小島凪紗",
+            "count": 13
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 12
+          },
+          {
+            "label": "田村保乃",
+            "count": 12
+          },
+          {
+            "label": "武元唯衣",
+            "count": 11
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 10
+          },
+          {
+            "label": "小池美波",
+            "count": 9
+          },
+          {
+            "label": "松田里奈",
+            "count": 8
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 4
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q24",
+      "number": 24,
+      "title": "2025年，您觉得谁会拿到solo单曲",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "田村保乃",
+            "count": 159
+          },
+          {
+            "label": "松田里奈",
+            "count": 124
+          },
+          {
+            "label": "森田ひかる",
+            "count": 115
+          },
+          {
+            "label": "小池美波",
+            "count": 102
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 65
+          },
+          {
+            "label": "谷口愛季",
+            "count": 53
+          },
+          {
+            "label": "山下瞳月",
+            "count": 52
+          },
+          {
+            "label": "山﨑天",
+            "count": 45
+          },
+          {
+            "label": "的野美青",
+            "count": 27
+          },
+          {
+            "label": "石森璃花",
+            "count": 25
+          },
+          {
+            "label": "中嶋優月",
+            "count": 15
+          },
+          {
+            "label": "大園玲",
+            "count": 8
+          },
+          {
+            "label": "村井優",
+            "count": 8
+          },
+          {
+            "label": "村山美羽",
+            "count": 8
+          },
+          {
+            "label": "遠藤理子",
+            "count": 8
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 7
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 4
+          },
+          {
+            "label": "井上梨名",
+            "count": 3
+          },
+          {
+            "label": "小島凪紗",
+            "count": 3
+          },
+          {
+            "label": "向井純葉",
+            "count": 2
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 2
+          },
+          {
+            "label": "増本綺良",
+            "count": 1
+          },
+          {
+            "label": "武元唯衣",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q25",
+      "number": 25,
+      "title": "2025年，您觉得谁哪位成员会成为万众瞩目的焦点",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "山下瞳月",
+            "count": 158
+          },
+          {
+            "label": "森田ひかる",
+            "count": 125
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 123
+          },
+          {
+            "label": "的野美青",
+            "count": 97
+          },
+          {
+            "label": "田村保乃",
+            "count": 66
+          },
+          {
+            "label": "山﨑天",
+            "count": 55
+          },
+          {
+            "label": "村山美羽",
+            "count": 42
+          },
+          {
+            "label": "谷口愛季",
+            "count": 37
+          },
+          {
+            "label": "中嶋優月",
+            "count": 25
+          },
+          {
+            "label": "村井優",
+            "count": 21
+          },
+          {
+            "label": "石森璃花",
+            "count": 18
+          },
+          {
+            "label": "小池美波",
+            "count": 11
+          },
+          {
+            "label": "向井純葉",
+            "count": 9
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 9
+          },
+          {
+            "label": "大園玲",
+            "count": 8
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 7
+          },
+          {
+            "label": "遠藤理子",
+            "count": 7
+          },
+          {
+            "label": "松田里奈",
+            "count": 5
+          },
+          {
+            "label": "武元唯衣",
+            "count": 5
+          },
+          {
+            "label": "増本綺良",
+            "count": 3
+          },
+          {
+            "label": "小島凪紗",
+            "count": 3
+          },
+          {
+            "label": "井上梨名",
+            "count": 2
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q26",
+      "number": 26,
+      "title": "2025年，您觉得哪些成员会走上C位",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "森田ひかる",
+            "count": 417
+          },
+          {
+            "label": "田村保乃",
+            "count": 368
+          },
+          {
+            "label": "藤吉夏鈴",
+            "count": 337
+          },
+          {
+            "label": "的野美青",
+            "count": 321
+          },
+          {
+            "label": "山下瞳月",
+            "count": 280
+          },
+          {
+            "label": "谷口愛季",
+            "count": 246
+          },
+          {
+            "label": "山﨑天",
+            "count": 217
+          },
+          {
+            "label": "村山美羽",
+            "count": 142
+          },
+          {
+            "label": "村井優",
+            "count": 82
+          },
+          {
+            "label": "小池美波",
+            "count": 57
+          },
+          {
+            "label": "中嶋優月",
+            "count": 56
+          },
+          {
+            "label": "守屋麗奈",
+            "count": 45
+          },
+          {
+            "label": "大園玲",
+            "count": 35
+          },
+          {
+            "label": "小田倉麗奈",
+            "count": 29
+          },
+          {
+            "label": "石森璃花",
+            "count": 26
+          },
+          {
+            "label": "向井純葉",
+            "count": 21
+          },
+          {
+            "label": "遠藤理子",
+            "count": 20
+          },
+          {
+            "label": "小島凪紗",
+            "count": 11
+          },
+          {
+            "label": "増本綺良",
+            "count": 10
+          },
+          {
+            "label": "武元唯衣",
+            "count": 9
+          },
+          {
+            "label": "松田里奈",
+            "count": 6
+          },
+          {
+            "label": "幸阪茉里乃",
+            "count": 5
+          },
+          {
+            "label": "大沼晶保",
+            "count": 3
+          },
+          {
+            "label": "遠藤光莉",
+            "count": 3
+          },
+          {
+            "label": "井上梨名",
+            "count": 2
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 3.28
+      }
+    },
+    {
+      "questionId": "2025-Q27",
+      "number": 27,
+      "title": "你对于四期生有什么期待吗",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 837,
+        "averageLength": 9.43,
+        "maxLength": 117
+      }
+    },
+    {
+      "questionId": "2025-Q28",
+      "number": 28,
+      "title": "写一句话给我们即将到来的四期生吧",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 837,
+        "averageLength": 8.92,
+        "maxLength": 136
+      }
+    },
+    {
+      "questionId": "2025-Q29",
+      "number": 29,
+      "title": "抽选樱坂46演唱会门票的难度您觉得有多大",
+      "kind": "rating",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "rating",
+        "counts": [
+          {
+            "label": "5",
+            "count": 271
+          },
+          {
+            "label": "3",
+            "count": 112
+          },
+          {
+            "label": "6",
+            "count": 100
+          },
+          {
+            "label": "4",
+            "count": 91
+          },
+          {
+            "label": "1",
+            "count": 74
+          },
+          {
+            "label": "7",
+            "count": 65
+          },
+          {
+            "label": "2",
+            "count": 51
+          },
+          {
+            "label": "8",
+            "count": 45
+          },
+          {
+            "label": "10",
+            "count": 20
+          },
+          {
+            "label": "9",
+            "count": 8
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q30",
+      "number": 30,
+      "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+      "kind": "multi",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "multi",
+        "counts": [
+          {
+            "label": "日本号码",
+            "count": 710
+          },
+          {
+            "label": "付款方式",
+            "count": 518
+          },
+          {
+            "label": "账号注册",
+            "count": 390
+          },
+          {
+            "label": "语言障碍",
+            "count": 323
+          },
+          {
+            "label": "网页导航",
+            "count": 193
+          },
+          {
+            "label": "其他",
+            "count": 68
+          }
+        ],
+        "detailCounts": [],
+        "averageSelected": 2.63
+      }
+    },
+    {
+      "questionId": "2025-Q31",
+      "number": 31,
+      "title": "您对2024年樱坂46演唱会的海外票体验如何",
+      "kind": "rating",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "rating",
+        "counts": [
+          {
+            "label": "5",
+            "count": 270
+          },
+          {
+            "label": "6",
+            "count": 144
+          },
+          {
+            "label": "10",
+            "count": 98
+          },
+          {
+            "label": "8",
+            "count": 95
+          },
+          {
+            "label": "7",
+            "count": 73
+          },
+          {
+            "label": "4",
+            "count": 50
+          },
+          {
+            "label": "1",
+            "count": 31
+          },
+          {
+            "label": "9",
+            "count": 31
+          },
+          {
+            "label": "3",
+            "count": 30
+          },
+          {
+            "label": "2",
+            "count": 15
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q32",
+      "number": 32,
+      "title": "如果说对中文区销售海外票，您的购买意愿如何",
+      "kind": "rating",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "rating",
+        "counts": [
+          {
+            "label": "10",
+            "count": 465
+          },
+          {
+            "label": "8",
+            "count": 104
+          },
+          {
+            "label": "9",
+            "count": 70
+          },
+          {
+            "label": "7",
+            "count": 69
+          },
+          {
+            "label": "5",
+            "count": 65
+          },
+          {
+            "label": "6",
+            "count": 43
+          },
+          {
+            "label": "1",
+            "count": 9
+          },
+          {
+            "label": "4",
+            "count": 8
+          },
+          {
+            "label": "3",
+            "count": 3
+          },
+          {
+            "label": "2",
+            "count": 1
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q33",
+      "number": 33,
+      "title": "请问在购买中文区的海外票时您希望有什么属性",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 421,
+        "empty_marker": 416
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 421,
+        "averageLength": 8.48,
+        "maxLength": 114
+      }
+    },
+    {
+      "questionId": "2025-Q34",
+      "number": 34,
+      "title": "您的性别：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "女",
+            "count": 453
+          },
+          {
+            "label": "男",
+            "count": 306
+          },
+          {
+            "label": "不愿透露",
+            "count": 78
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q35",
+      "number": 35,
+      "title": "您的年龄段：",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "18~25",
+            "count": 463
+          },
+          {
+            "label": "26~30",
+            "count": 238
+          },
+          {
+            "label": "31~40",
+            "count": 101
+          },
+          {
+            "label": "18岁以下",
+            "count": 21
+          },
+          {
+            "label": "41~50",
+            "count": 12
+          },
+          {
+            "label": "51岁以上",
+            "count": 2
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q36",
+      "number": 36,
+      "title": "请问您所在的地区是",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "中国大陆地区",
+            "count": 736
+          },
+          {
+            "label": "港澳台或海外地区",
+            "count": 101
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q37",
+      "number": 37,
+      "title": "请选择省份城市与地区:",
+      "kind": "text",
+      "statusCounts": {
+        "answered": 736,
+        "blank": 101
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 736,
+        "averageLength": 5.28,
+        "maxLength": 8
+      }
+    },
+    {
+      "questionId": "2025-Q38",
+      "number": 38,
+      "title": "国家及地区：",
+      "kind": "text",
+      "statusCounts": {
+        "blank": 736,
+        "answered": 101
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 101,
+        "averageLength": 16.79,
+        "maxLength": 26
+      }
+    },
+    {
+      "questionId": "2025-Q39",
+      "number": 39,
+      "title": "请问您的日语水平如何",
+      "kind": "single",
+      "statusCounts": {
+        "answered": 837
+      },
+      "result": {
+        "type": "single",
+        "counts": [
+          {
+            "label": "基础水平",
+            "count": 462
+          },
+          {
+            "label": "完全不会",
+            "count": 183
+          },
+          {
+            "label": "日常沟通",
+            "count": 174
+          },
+          {
+            "label": "母语水平",
+            "count": 11
+          },
+          {
+            "label": "商务洽谈",
+            "count": 7
+          }
+        ],
+        "detailCount": 0,
+        "unknownCodes": {}
+      }
+    },
+    {
+      "questionId": "2025-Q40",
+      "number": 40,
+      "title": "还有什么别的想要告诉我们的吗~",
+      "kind": "text",
+      "statusCounts": {
+        "empty_marker": 596,
+        "answered": 241
+      },
+      "result": {
+        "type": "text",
+        "answeredTextCount": 241,
+        "averageLength": 18.8,
+        "maxLength": 367
+      }
+    }
+  ]
+}

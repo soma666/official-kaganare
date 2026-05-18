@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "2025-Q01",
+    "year": 2025,
+    "number": 1,
+    "title": "请问您成为欅坂46/櫻坂46粉丝的时期：",
+    "kind": "text",
+    "sourceType": "填空题",
+    "headers": [
+      "1、请问您成为欅坂46/櫻坂46粉丝的时期："
+    ]
+  },
+  {
+    "id": "2025-Q02",
+    "year": 2025,
+    "number": 2,
+    "title": "你和樱坂的第一次接触是什么呢",
+    "kind": "single",
+    "sourceType": "单选题",
+    "notes": [
+      "第一次如何了解到樱坂，不论是欅坂46/櫻坂46时期"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "毕业成员的的活动",
+        "raw": "○毕业成员的的活动",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "来自姐妹团（乃木坂/日向坂）",
+        "raw": "○来自姐妹团（乃木坂/日向坂）",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "电视剧/综艺/广播/电影",
+        "raw": "○电视剧/综艺/广播/电影",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "社交媒体",
+        "raw": "○社交媒体",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "Bilibili/抖音/视频平台推荐",
+        "raw": "○Bilibili/抖音/视频平台推荐",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "J-POP社群",
+        "raw": "○J-POP社群",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "K-POP社群",
+        "raw": "○K-POP社群",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "动漫社群",
+        "raw": "○动漫社群",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "音乐节/活动",
+        "raw": "○音乐节/活动",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "家人/朋友/同学/同事推荐",
+        "raw": "○家人/朋友/同学/同事推荐",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "其他",
+        "raw": "○其他 _________________",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "2、你和樱坂的第一次接触是什么呢"
+    ]
+  },
+  {
+    "id": "2025-Q03",
+    "year": 2025,
+    "number": 3,
+    "title": "请对成员的好感度排个序吧～",
+    "kind": "ranking",
+    "sourceType": "排序题，请在中括号内依次填入数字",
+    "notes": [
+      "可以做只选一个的单推人"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "小池美波",
+        "raw": "[ ]小池美波",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "井上梨名",
+        "raw": "[ ]井上梨名",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "武元唯衣",
+        "raw": "[ ]武元唯衣",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "田村保乃",
+        "raw": "[ ]田村保乃",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "藤吉夏鈴",
+        "raw": "[ ]藤吉夏鈴",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "松田里奈",
+        "raw": "[ ]松田里奈",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "森田ひかる",
+        "raw": "[ ]森田ひかる",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "山﨑天",
+        "raw": "[ ]山﨑天",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "遠藤光莉",
+        "raw": "[ ]遠藤光莉",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "大園玲",
+        "raw": "[ ]大園玲",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "大沼晶保",
+        "raw": "[ ]大沼晶保",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "幸阪茉里乃",
+        "raw": "[ ]幸阪茉里乃",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "増本綺良",
+        "raw": "[ ]増本綺良",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "守屋麗奈",
+        "raw": "[ ]守屋麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "石森璃花",
+        "raw": "[ ]石森璃花",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "遠藤理子",
+        "raw": "[ ]遠藤理子",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "小田倉麗奈",
+        "raw": "[ ]小田倉麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "小島凪紗",
+        "raw": "[ ]小島凪紗",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "谷口愛季",
+        "raw": "[ ]谷口愛季",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "中嶋優月",
+        "raw": "[ ]中嶋優月",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "的野美青",
+        "raw": "[ ]的野美青",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "向井純葉",
+        "raw": "[ ]向井純葉",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "村井優",
+        "raw": "[ ]村井優",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "村山美羽",
+        "raw": "[ ]村山美羽",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "山下瞳月",
+        "raw": "[ ]山下瞳月",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "3、(小池美波)",
+      "3、(井上梨名)",
+      "3、(武元唯衣)",
+      "3、(田村保乃)",
+      "3、(藤吉夏鈴)",
+      "3、(松田里奈)",
+      "3、(森田ひかる)",
+      "3、(山﨑天)",
+      "3、(遠藤光莉)",
+      "3、(大園玲)",
+      "3、(大沼晶保)",
+      "3、(幸阪茉里乃)",
+      "3、(増本綺良)",
+      "3、(守屋麗奈)",
+      "3、(石森璃花)",
+      "3、(遠藤理子)",
+      "3、(小田倉麗奈)",
+      "3、(小島凪紗)",
+      "3、(谷口愛季)",
+      "3、(中嶋優月)",
+      "3、(的野美青)",
+      "3、(向井純葉)",
+      "3、(村井優)",
+      "3、(村山美羽)",
+      "3、(山下瞳月)"
+    ]
+  },
+  {
+    "id": "2025-Q04",
+    "year": 2025,
+    "number": 4,
+    "title": "您最喜欢的A面/主打曲是哪一首：",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "Nobody's fault",
+        "raw": "○Nobody's fault",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "BAN",
+        "raw": "○BAN",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "流れ弾",
+        "raw": "○流れ弾",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "五月雨よ",
+        "raw": "○五月雨よ",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "摩擦係数",
+        "raw": "○摩擦係数",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "桜月",
+        "raw": "○桜月",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "Start over!",
+        "raw": "○Start over!",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "承認欲求",
+        "raw": "○承認欲求",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "何歳の頃に戻りたいのか？",
+        "raw": "○何歳の頃に戻りたいのか？",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "自業自得",
+        "raw": "○自業自得",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "I want tomorrow to come",
+        "raw": "○I want tomorrow to come",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "4、您最喜欢的A面/主打曲是哪一首："
+    ]
+  },
+  {
+    "id": "2025-Q05",
+    "year": 2025,
+    "number": 5,
+    "title": "您最喜欢的附加单曲是哪一首",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "なぜ 恋をして来なかったんだろう?",
+        "raw": "○なぜ 恋をして来なかったんだろう?",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "Buddies",
+        "raw": "○Buddies",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "半信半疑",
+        "raw": "○半信半疑",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "Plastic regret",
+        "raw": "○Plastic regret",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "最終の地下鉄に乗って",
+        "raw": "○最終の地下鉄に乗って",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "ブルームーンキス",
+        "raw": "○ブルームーンキス",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "偶然の答え",
+        "raw": "○偶然の答え",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "それが愛なのね",
+        "raw": "○それが愛なのね",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "君と僕と洗濯物",
+        "raw": "○君と僕と洗濯物",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "Microscope",
+        "raw": "○Microscope",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "思ったよりも寂しくない",
+        "raw": "○思ったよりも寂しくない",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "櫻坂の詩",
+        "raw": "○櫻坂の詩",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "Dead end",
+        "raw": "○Dead end",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "ソニア",
+        "raw": "○ソニア",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "ジャマイカビール",
+        "raw": "○ジャマイカビール",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "On my way",
+        "raw": "○On my way",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "無言の宇宙",
+        "raw": "○無言の宇宙",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "美しきNervous",
+        "raw": "○美しきNervous",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "僕のジレンマ",
+        "raw": "○僕のジレンマ",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "I'm in",
+        "raw": "○I'm in",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "断絶",
+        "raw": "○断絶",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "制服の人魚",
+        "raw": "○制服の人魚",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "車間距離",
+        "raw": "○車間距離",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "恋が絶滅する日",
+        "raw": "○恋が絶滅する日",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "条件反射で泣けて来る",
+        "raw": "○条件反射で泣けて来る",
+        "hasDetail": false
+      },
+      {
+        "code": 26,
+        "label": "One-way stairs",
+        "raw": "○One-way stairs",
+        "hasDetail": false
+      },
+      {
+        "code": 27,
+        "label": "タイムマシーンでYeah!",
+        "raw": "○タイムマシーンでYeah!",
+        "hasDetail": false
+      },
+      {
+        "code": 28,
+        "label": "ずっと 春だったらなあ",
+        "raw": "○ずっと 春だったらなあ",
+        "hasDetail": false
+      },
+      {
+        "code": 29,
+        "label": "Cool",
+        "raw": "○Cool",
+        "hasDetail": false
+      },
+      {
+        "code": 30,
+        "label": "無念",
+        "raw": "○無念",
+        "hasDetail": false
+      },
+      {
+        "code": 31,
+        "label": "もしかしたら真実",
+        "raw": "○もしかしたら真実",
+        "hasDetail": false
+      },
+      {
+        "code": 32,
+        "label": "魂のLiar",
+        "raw": "○魂のLiar",
+        "hasDetail": false
+      },
+      {
+        "code": 33,
+        "label": "夏の近道",
+        "raw": "○夏の近道",
+        "hasDetail": false
+      },
+      {
+        "code": 34,
+        "label": "その日まで",
+        "raw": "○その日まで",
+        "hasDetail": false
+      },
+      {
+        "code": 35,
+        "label": "静寂の暴力",
+        "raw": "○静寂の暴力",
+        "hasDetail": false
+      },
+      {
+        "code": 36,
+        "label": "風の音",
+        "raw": "○風の音",
+        "hasDetail": false
+      },
+      {
+        "code": 37,
+        "label": "コンビナート",
+        "raw": "○コンビナート",
+        "hasDetail": false
+      },
+      {
+        "code": 38,
+        "label": "Anthem time",
+        "raw": "○Anthem time",
+        "hasDetail": false
+      },
+      {
+        "code": 39,
+        "label": "一瞬の馬",
+        "raw": "○一瞬の馬",
+        "hasDetail": false
+      },
+      {
+        "code": 40,
+        "label": "ドローン旋回中",
+        "raw": "○ドローン旋回中",
+        "hasDetail": false
+      },
+      {
+        "code": 41,
+        "label": "マモリビト",
+        "raw": "○マモリビト",
+        "hasDetail": false
+      },
+      {
+        "code": 42,
+        "label": "確信的クロワッサン",
+        "raw": "○確信的クロワッサン",
+        "hasDetail": false
+      },
+      {
+        "code": 43,
+        "label": "僕たちの La vie en rose",
+        "raw": "○僕たちの La vie en rose",
+        "hasDetail": false
+      },
+      {
+        "code": 44,
+        "label": "Don't cut in line!",
+        "raw": "○Don't cut in line!",
+        "hasDetail": false
+      },
+      {
+        "code": 45,
+        "label": "マンホールの蓋の上",
+        "raw": "○マンホールの蓋の上",
+        "hasDetail": false
+      },
+      {
+        "code": 46,
+        "label": "隙間風よ",
+        "raw": "○隙間風よ",
+        "hasDetail": false
+      },
+      {
+        "code": 47,
+        "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+        "raw": "○何度 LOVE SONGの歌詞を読み返しただろう",
+        "hasDetail": false
+      },
+      {
+        "code": 48,
+        "label": "油を注せ！",
+        "raw": "○油を注せ！",
+        "hasDetail": false
+      },
+      {
+        "code": 49,
+        "label": "真夏に何か起きるのかしら",
+        "raw": "○真夏に何か起きるのかしら",
+        "hasDetail": false
+      },
+      {
+        "code": 50,
+        "label": "心の影絵",
+        "raw": "○心の影絵",
+        "hasDetail": false
+      },
+      {
+        "code": 51,
+        "label": "恋は向いてない",
+        "raw": "○恋は向いてない",
+        "hasDetail": false
+      },
+      {
+        "code": 52,
+        "label": "泣かせて Hold me tight!",
+        "raw": "○泣かせて　Hold me tight!",
+        "hasDetail": false
+      },
+      {
+        "code": 53,
+        "label": "引きこもる時間はない",
+        "raw": "○引きこもる時間はない",
+        "hasDetail": false
+      },
+      {
+        "code": 54,
+        "label": "愛し合いなさい",
+        "raw": "○愛し合いなさい",
+        "hasDetail": false
+      },
+      {
+        "code": 55,
+        "label": "イザベルについて",
+        "raw": "○イザベルについて",
+        "hasDetail": false
+      },
+      {
+        "code": 56,
+        "label": "縁起担ぎ",
+        "raw": "○縁起担ぎ",
+        "hasDetail": false
+      },
+      {
+        "code": 57,
+        "label": "標識",
+        "raw": "○標識",
+        "hasDetail": false
+      },
+      {
+        "code": 58,
+        "label": "もう一曲 欲しいのかい？",
+        "raw": "○もう一曲 欲しいのかい？",
+        "hasDetail": false
+      },
+      {
+        "code": 59,
+        "label": "本質的なこと",
+        "raw": "○本質的なこと",
+        "hasDetail": false
+      },
+      {
+        "code": 60,
+        "label": "僕は僕を好きになれない",
+        "raw": "○僕は僕を好きになれない",
+        "hasDetail": false
+      },
+      {
+        "code": 61,
+        "label": "今さらSuddenly",
+        "raw": "○今さらSuddenly",
+        "hasDetail": false
+      },
+      {
+        "code": 62,
+        "label": "嵐の前、世界の終わり",
+        "raw": "○嵐の前、世界の終わり",
+        "hasDetail": false
+      },
+      {
+        "code": 63,
+        "label": "19歳のガレット",
+        "raw": "○19歳のガレット",
+        "hasDetail": false
+      },
+      {
+        "code": 64,
+        "label": "TOKYO SNOW",
+        "raw": "○TOKYO SNOW",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "5、您最喜欢的附加单曲是哪一首"
+    ]
+  },
+  {
+    "id": "2025-Q06",
+    "year": 2025,
+    "number": 6,
+    "title": "您最喜欢的Unit曲是哪一首",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "ジャマイカビール",
+        "raw": "○ジャマイカビール",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "On my way",
+        "raw": "○On my way",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "断絶",
+        "raw": "○断絶",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "制服の人魚",
+        "raw": "○制服の人魚",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "One-way stairs",
+        "raw": "○One-way stairs",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "ずっと 春だったらなあ",
+        "raw": "○ずっと 春だったらなあ",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "僕たちの La vie en rose",
+        "raw": "○僕たちの La vie en rose",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "Don't cut in line!",
+        "raw": "○Don't cut in line!",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "真夏に何か起きるのかしら",
+        "raw": "○真夏に何か起きるのかしら",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "心の影絵",
+        "raw": "○心の影絵",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "恋は向いてない",
+        "raw": "○恋は向いてない",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "イザベルについて",
+        "raw": "○イザベルについて",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "縁起担ぎ",
+        "raw": "○縁起担ぎ",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "標識",
+        "raw": "○標識",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "今さらSuddenly",
+        "raw": "○今さらSuddenly",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "6、您最喜欢的Unit曲是哪一首"
+    ]
+  },
+  {
+    "id": "2025-Q07",
+    "year": 2025,
+    "number": 7,
+    "title": "您最喜欢的期别曲是哪一首",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "タイムマシーンでYeah!",
+        "raw": "○タイムマシーンでYeah!",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "夏の近道",
+        "raw": "○夏の近道",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "静寂の暴力",
+        "raw": "○静寂の暴力",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "風の音",
+        "raw": "○風の音",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "Anthem time",
+        "raw": "○Anthem time",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "マモリビト",
+        "raw": "○マモリビト",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+        "raw": "○何度 LOVE SONGの歌詞を読み返しただろう",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "引きこもる時間はない",
+        "raw": "○引きこもる時間はない",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "本質的なこと",
+        "raw": "○本質的なこと",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "コンビナート",
+        "raw": "○コンビナート",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "7、您最喜欢的期别曲是哪一首"
+    ]
+  },
+  {
+    "id": "2025-Q08",
+    "year": 2025,
+    "number": 8,
+    "title": "您最喜欢的Backs曲是哪一首",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "僕は僕を好きになれない",
+        "raw": "○僕は僕を好きになれない",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "愛し合いなさい",
+        "raw": "○愛し合いなさい",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "油を注せ！",
+        "raw": "○油を注せ！",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "確信的クロワッサン",
+        "raw": "○確信的クロワッサン",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "無念",
+        "raw": "○無念",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "I'm in",
+        "raw": "○I'm in",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "ソニア",
+        "raw": "○ソニア",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "8、您最喜欢的Backs曲是哪一首"
+    ]
+  },
+  {
+    "id": "2025-Q09",
+    "year": 2025,
+    "number": 9,
+    "title": "您最喜欢的MV是哪一支",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "Nobody's fault",
+        "raw": "○Nobody's fault",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "なぜ 恋をして来なかったんだろう?",
+        "raw": "○なぜ 恋をして来なかったんだろう?",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "Buddies",
+        "raw": "○Buddies",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "BAN",
+        "raw": "○BAN",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "偶然の答え",
+        "raw": "○偶然の答え",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "思ったよりも寂しくない",
+        "raw": "○思ったよりも寂しくない",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "流れ弾",
+        "raw": "○流れ弾",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "Dead end",
+        "raw": "○Dead end",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "無言の宇宙",
+        "raw": "○無言の宇宙",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "五月雨よ",
+        "raw": "○五月雨よ",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "僕のジレンマ",
+        "raw": "○僕のジレンマ",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "車間距離",
+        "raw": "○車間距離",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "摩擦係数",
+        "raw": "○摩擦係数",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "桜月",
+        "raw": "○桜月",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "Cool",
+        "raw": "○Cool",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "夏の近道",
+        "raw": "○夏の近道",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "Start over!",
+        "raw": "○Start over!",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "静寂の暴力",
+        "raw": "○静寂の暴力",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "ドローン旋回中",
+        "raw": "○ドローン旋回中",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "承認欲求",
+        "raw": "○承認欲求",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "マモリビト",
+        "raw": "○マモリビト",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "隙間風よ",
+        "raw": "○隙間風よ",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "君がサヨナラ言えたって・・・",
+        "raw": "○君がサヨナラ言えたって・・・",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "何歳の頃に戻りたいのか？",
+        "raw": "○何歳の頃に戻りたいのか？",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "何度 LOVE SONGの歌詞を読み返しただろう",
+        "raw": "○何度 LOVE SONGの歌詞を読み返しただろう",
+        "hasDetail": false
+      },
+      {
+        "code": 26,
+        "label": "油を注せ！",
+        "raw": "○油を注せ！",
+        "hasDetail": false
+      },
+      {
+        "code": 27,
+        "label": "自業自得",
+        "raw": "○自業自得",
+        "hasDetail": false
+      },
+      {
+        "code": 28,
+        "label": "引きこもる時間はない",
+        "raw": "○引きこもる時間はない",
+        "hasDetail": false
+      },
+      {
+        "code": 29,
+        "label": "愛し合いなさい",
+        "raw": "○愛し合いなさい",
+        "hasDetail": false
+      },
+      {
+        "code": 30,
+        "label": "I want tomorrow to come",
+        "raw": "○I want tomorrow to come",
+        "hasDetail": false
+      },
+      {
+        "code": 31,
+        "label": "本質的なこと",
+        "raw": "○本質的なこと",
+        "hasDetail": false
+      },
+      {
+        "code": 32,
+        "label": "僕は僕を好きになれない",
+        "raw": "○僕は僕を好きになれない",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "9、您最喜欢的MV是哪一支"
+    ]
+  },
+  {
+    "id": "2025-Q10",
+    "year": 2025,
+    "number": 10,
+    "title": "什么让您爱上樱坂46",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "notes": [
+      "如果有什么特别的音乐MV或者表演让您深深爱上樱坂，也可以在其他里注明"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "世界观/概念",
+        "raw": "□世界观/概念",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "音乐",
+        "raw": "□音乐",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "现场表演/舞蹈",
+        "raw": "□现场表演/舞蹈",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "成员/个性",
+        "raw": "□成员/个性",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "综艺",
+        "raw": "□综艺",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "视觉/美学（MV，服装等）",
+        "raw": "□视觉/美学（MV，服装等）",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "与朋友拥有一样的爱好",
+        "raw": "□与朋友拥有一样的爱好",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "其他",
+        "raw": "□其他",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "10、什么让您爱上樱坂46(世界观/概念)",
+      "10、(音乐)",
+      "10、(现场表演/舞蹈)",
+      "10、(成员/个性)",
+      "10、(综艺)",
+      "10、(视觉/美学（MV，服装等）)",
+      "10、(与朋友拥有一样的爱好)",
+      "10、(其他)"
+    ]
+  },
+  {
+    "id": "2025-Q11",
+    "year": 2025,
+    "number": 11,
+    "title": "当您选推的时候，都有哪些因素影响了您",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "视觉表现",
+        "raw": "□视觉表现",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "个性",
+        "raw": "□个性",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "舞台表现",
+        "raw": "□舞台表现",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "音乐和舞蹈技能",
+        "raw": "□音乐和舞蹈技能",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "人气",
+        "raw": "□人气",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "11、当您选推的时候，都有哪些因素影响了您(视觉表现)",
+      "11、(个性)",
+      "11、(舞台表现)",
+      "11、(音乐和舞蹈技能)",
+      "11、(人气)"
+    ]
+  },
+  {
+    "id": "2025-Q12",
+    "year": 2025,
+    "number": 12,
+    "title": "您中文和日文内容浏览占比大约各有多少？",
+    "kind": "ratio",
+    "sourceType": "比重题",
+    "notes": [
+      "日文内容________________________",
+      "中文内容________________________",
+      "提示：请填入数字，所有项总和必须等于100"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "日文内容"
+      },
+      {
+        "code": 2,
+        "label": "中文内容"
+      }
+    ],
+    "headers": [
+      "12、您中文和日文内容浏览占比大约各有多少？—日文内容",
+      "12、中文内容"
+    ]
+  },
+  {
+    "id": "2025-Q13",
+    "year": 2025,
+    "number": 13,
+    "title": "您如何进行您的樱坂46偶像活动呢？",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "notes": [
+      "参与什么活动，看什么内容"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "观看表演（现场，线上直播，购买蓝光）",
+        "raw": "□观看表演（现场，线上直播，购买蓝光）",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "阅读成员博客",
+        "raw": "□阅读成员博客",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "订阅成员MSG",
+        "raw": "□订阅成员MSG",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "观看そこ曲がったら、櫻坂？",
+        "raw": "□观看そこ曲がったら、櫻坂？",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "观看サクラミーツ",
+        "raw": "□观看サクラミーツ",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "观看Love it！",
+        "raw": "□观看Love it！",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "观看其他团外综艺",
+        "raw": "□观看其他团外综艺",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "阅读杂志",
+        "raw": "□阅读杂志",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "收听櫻坂46 こちら有楽町星空放送局",
+        "raw": "□收听櫻坂46 こちら有楽町星空放送局",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "收听さくらひなたロッチの伸びしろラジオ",
+        "raw": "□收听さくらひなたロッチの伸びしろラジオ",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "櫻坂46の「さ」",
+        "raw": "□櫻坂46の「さ」",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "其他",
+        "raw": "□其他团外广播",
+        "hasDetail": true
+      },
+      {
+        "code": 13,
+        "label": "收听櫻坂チャンネル",
+        "raw": "□收听櫻坂チャンネル",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+        "raw": "□浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "浏览中文社媒内容（bilibili，微博等）",
+        "raw": "□浏览中文社媒内容（bilibili，微博等）",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "其他",
+        "raw": "□其他 _________________",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "13、您如何进行您的樱坂46偶像活动呢？(观看表演（现场，线上直播，购买蓝光）)",
+      "13、(阅读成员博客)",
+      "13、(订阅成员MSG)",
+      "13、(观看そこ曲がったら、櫻坂？)",
+      "13、(观看サクラミーツ)",
+      "13、(观看Love it！)",
+      "13、(观看其他团外综艺)",
+      "13、(阅读杂志)",
+      "13、(收听櫻坂46 こちら有楽町星空放送局)",
+      "13、(收听さくらひなたロッチの伸びしろラジオ)",
+      "13、(櫻坂46の「さ」)",
+      "13、(其他团外广播)",
+      "13、(收听櫻坂チャンネル)",
+      "13、(浏览原生社媒内容（X，Instagram，Youtube，SHOWROOM，TikTok）)",
+      "13、(浏览中文社媒内容（bilibili，微博等）)",
+      "13、(其他)"
+    ]
+  },
+  {
+    "id": "2025-Q14",
+    "year": 2025,
+    "number": 14,
+    "title": "您希望Seed&Flower如何支持中文区偶像活动呢",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "入驻中文社交平台",
+        "raw": "□入驻中文社交平台",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "更高频率的演唱会海外票抽选",
+        "raw": "□更高频率的演唱会海外票抽选",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "参与音乐节/动漫展等活动",
+        "raw": "□参与音乐节/动漫展等活动",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "周边商品的直邮",
+        "raw": "□周边商品的直邮",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "针对中文区的活动（线上见面会，演出直播）",
+        "raw": "□针对中文区的活动（线上见面会，演出直播）",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "官方转樱/微转樱",
+        "raw": "□官方转樱/微转樱",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "其他",
+        "raw": "□其他 _________________",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "14、您希望Seed&Flower如何支持中文区偶像活动呢(入驻中文社交平台)",
+      "14、(更高频率的演唱会海外票抽选)",
+      "14、(参与音乐节/动漫展等活动)",
+      "14、(周边商品的直邮)",
+      "14、(针对中文区的活动（线上见面会，演出直播）)",
+      "14、(官方转樱/微转樱)",
+      "14、(其他)"
+    ]
+  },
+  {
+    "id": "2025-Q15",
+    "year": 2025,
+    "number": 15,
+    "title": "您希望在樱坂官方频道上看到更多什么内容",
+    "kind": "text",
+    "sourceType": "填空题",
+    "headers": [
+      "15、您希望在樱坂官方频道上看到更多什么内容"
+    ]
+  },
+  {
+    "id": "2025-Q16",
+    "year": 2025,
+    "number": 16,
+    "title": "您是否订阅了官方粉丝俱乐部 Official Fan Club",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "是",
+        "raw": "○是",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "否",
+        "raw": "○否",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "16、您是否订阅了官方粉丝俱乐部 Official Fan Club"
+    ]
+  },
+  {
+    "id": "2025-Q17",
+    "year": 2025,
+    "number": 17,
+    "title": "您是否订阅了成员Message",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "是",
+        "raw": "○是",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "否",
+        "raw": "○否",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "17、您是否订阅了成员Message"
+    ]
+  },
+  {
+    "id": "2025-Q18",
+    "year": 2025,
+    "number": 18,
+    "title": "您订阅了多少个成员的Message",
+    "kind": "single",
+    "sourceType": "单选题",
+    "notes": [
+      "依赖于第17题第1个选项"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "1",
+        "raw": "○1",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "2～5",
+        "raw": "○2～5",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "6～9",
+        "raw": "○6～9",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "10～12",
+        "raw": "○10～12",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "12个以上（非全员）",
+        "raw": "○12个以上（非全员）",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "全员订阅",
+        "raw": "○全员订阅",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "18、您订阅了多少个成员的Message"
+    ]
+  },
+  {
+    "id": "2025-Q19",
+    "year": 2025,
+    "number": 19,
+    "title": "您大多使用哪些平台获取樱坂内容",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "樱坂46官网",
+        "raw": "□樱坂46官网",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "成员个人字幕组Bilibili账号",
+        "raw": "□成员个人字幕组Bilibili账号",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "成员个人字幕组微博账号",
+        "raw": "□成员个人字幕组微博账号",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "成员个人QQ应援群",
+        "raw": "□成员个人QQ应援群",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "樱坂46字幕组Bilibili账号",
+        "raw": "□樱坂46字幕组Bilibili账号",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "樱坂46微博超话",
+        "raw": "□樱坂46微博超话",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "海外社交媒体平台",
+        "raw": "□海外社交媒体平台",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "其他",
+        "raw": "□其他 _________________",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "19、您大多使用哪些平台获取樱坂内容(樱坂46官网)",
+      "19、(成员个人字幕组Bilibili账号)",
+      "19、(成员个人字幕组微博账号)",
+      "19、(成员个人QQ应援群)",
+      "19、(樱坂46字幕组Bilibili账号)",
+      "19、(樱坂46微博超话)",
+      "19、(海外社交媒体平台)",
+      "19、(其他)"
+    ]
+  },
+  {
+    "id": "2025-Q20",
+    "year": 2025,
+    "number": 20,
+    "title": "您是否参与了樱坂46中文内容的制作/发布",
+    "kind": "single",
+    "sourceType": "单选题",
+    "notes": [
+      "Blog翻译，新闻翻译和搬运等内容"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "是",
+        "raw": "○是",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "否",
+        "raw": "○否",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "20、您是否参与了樱坂46中文内容的制作/发布"
+    ]
+  },
+  {
+    "id": "2025-Q21",
+    "year": 2025,
+    "number": 21,
+    "title": "您是否还参与其他团体的活动",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "有，日本偶像",
+        "raw": "□有，日本偶像 _________________",
+        "hasDetail": true
+      },
+      {
+        "code": 2,
+        "label": "有，地下/地元偶像",
+        "raw": "□有，地下/地元偶像 _________________",
+        "hasDetail": true
+      },
+      {
+        "code": 3,
+        "label": "没有，只看樱坂46",
+        "raw": "□没有，只看樱坂46",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "21、您是否还参与其他团体的活动(有，日本偶像)",
+      "21、(有，地下/地元偶像)",
+      "21、(没有，只看樱坂46)"
+    ]
+  },
+  {
+    "id": "2025-Q22",
+    "year": 2025,
+    "number": 22,
+    "title": "您在2024年都参与了哪些现场活动",
+    "kind": "text",
+    "sourceType": "填空题",
+    "notes": [
+      "Live，线下见面会，私物签名会"
+    ],
+    "headers": [
+      "22、您在2024年都参与了哪些现场活动"
+    ]
+  },
+  {
+    "id": "2025-Q23",
+    "year": 2025,
+    "number": 23,
+    "title": "谁是您的2024最佳进步奖",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "小池美波",
+        "raw": "○小池美波",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "井上梨名",
+        "raw": "○井上梨名",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "武元唯衣",
+        "raw": "○武元唯衣",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "田村保乃",
+        "raw": "○田村保乃",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "藤吉夏鈴",
+        "raw": "○藤吉夏鈴",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "松田里奈",
+        "raw": "○松田里奈",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "森田ひかる",
+        "raw": "○森田ひかる",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "山﨑天",
+        "raw": "○山﨑天",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "遠藤光莉",
+        "raw": "○遠藤光莉",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "大園玲",
+        "raw": "○大園玲",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "大沼晶保",
+        "raw": "○大沼晶保",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "幸阪茉里乃",
+        "raw": "○幸阪茉里乃",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "増本綺良",
+        "raw": "○増本綺良",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "守屋麗奈",
+        "raw": "○守屋麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "石森璃花",
+        "raw": "○石森璃花",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "遠藤理子",
+        "raw": "○遠藤理子",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "小田倉麗奈",
+        "raw": "○小田倉麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "小島凪紗",
+        "raw": "○小島凪紗",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "谷口愛季",
+        "raw": "○谷口愛季",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "中嶋優月",
+        "raw": "○中嶋優月",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "的野美青",
+        "raw": "○的野美青",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "向井純葉",
+        "raw": "○向井純葉",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "村井優",
+        "raw": "○村井優",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "村山美羽",
+        "raw": "○村山美羽",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "山下瞳月",
+        "raw": "○山下瞳月",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "23、谁是您的2024最佳进步奖"
+    ]
+  },
+  {
+    "id": "2025-Q24",
+    "year": 2025,
+    "number": 24,
+    "title": "2025年，您觉得谁会拿到solo单曲",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "小池美波",
+        "raw": "○小池美波",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "井上梨名",
+        "raw": "○井上梨名",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "武元唯衣",
+        "raw": "○武元唯衣",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "田村保乃",
+        "raw": "○田村保乃",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "藤吉夏鈴",
+        "raw": "○藤吉夏鈴",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "松田里奈",
+        "raw": "○松田里奈",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "森田ひかる",
+        "raw": "○森田ひかる",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "山﨑天",
+        "raw": "○山﨑天",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "遠藤光莉",
+        "raw": "○遠藤光莉",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "大園玲",
+        "raw": "○大園玲",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "大沼晶保",
+        "raw": "○大沼晶保",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "幸阪茉里乃",
+        "raw": "○幸阪茉里乃",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "増本綺良",
+        "raw": "○増本綺良",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "守屋麗奈",
+        "raw": "○守屋麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "石森璃花",
+        "raw": "○石森璃花",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "遠藤理子",
+        "raw": "○遠藤理子",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "小田倉麗奈",
+        "raw": "○小田倉麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "小島凪紗",
+        "raw": "○小島凪紗",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "谷口愛季",
+        "raw": "○谷口愛季",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "中嶋優月",
+        "raw": "○中嶋優月",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "的野美青",
+        "raw": "○的野美青",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "向井純葉",
+        "raw": "○向井純葉",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "村井優",
+        "raw": "○村井優",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "村山美羽",
+        "raw": "○村山美羽",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "山下瞳月",
+        "raw": "○山下瞳月",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "24、2025年，您觉得谁会拿到solo单曲"
+    ]
+  },
+  {
+    "id": "2025-Q25",
+    "year": 2025,
+    "number": 25,
+    "title": "2025年，您觉得谁哪位成员会成为万众瞩目的焦点",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "小池美波",
+        "raw": "○小池美波",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "井上梨名",
+        "raw": "○井上梨名",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "武元唯衣",
+        "raw": "○武元唯衣",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "田村保乃",
+        "raw": "○田村保乃",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "藤吉夏鈴",
+        "raw": "○藤吉夏鈴",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "松田里奈",
+        "raw": "○松田里奈",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "森田ひかる",
+        "raw": "○森田ひかる",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "山﨑天",
+        "raw": "○山﨑天",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "遠藤光莉",
+        "raw": "○遠藤光莉",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "大園玲",
+        "raw": "○大園玲",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "大沼晶保",
+        "raw": "○大沼晶保",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "幸阪茉里乃",
+        "raw": "○幸阪茉里乃",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "増本綺良",
+        "raw": "○増本綺良",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "守屋麗奈",
+        "raw": "○守屋麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "石森璃花",
+        "raw": "○石森璃花",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "遠藤理子",
+        "raw": "○遠藤理子",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "小田倉麗奈",
+        "raw": "○小田倉麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "小島凪紗",
+        "raw": "○小島凪紗",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "谷口愛季",
+        "raw": "○谷口愛季",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "中嶋優月",
+        "raw": "○中嶋優月",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "的野美青",
+        "raw": "○的野美青",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "向井純葉",
+        "raw": "○向井純葉",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "村井優",
+        "raw": "○村井優",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "村山美羽",
+        "raw": "○村山美羽",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "山下瞳月",
+        "raw": "○山下瞳月",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "25、2025年，您觉得谁哪位成员会成为万众瞩目的焦点"
+    ]
+  },
+  {
+    "id": "2025-Q26",
+    "year": 2025,
+    "number": 26,
+    "title": "2025年，您觉得哪些成员会走上C位",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "小池美波",
+        "raw": "□小池美波",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "井上梨名",
+        "raw": "□井上梨名",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "武元唯衣",
+        "raw": "□武元唯衣",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "田村保乃",
+        "raw": "□田村保乃",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "藤吉夏鈴",
+        "raw": "□藤吉夏鈴",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "松田里奈",
+        "raw": "□松田里奈",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "森田ひかる",
+        "raw": "□森田ひかる",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "山﨑天",
+        "raw": "□山﨑天",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "遠藤光莉",
+        "raw": "□遠藤光莉",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "大園玲",
+        "raw": "□大園玲",
+        "hasDetail": false
+      },
+      {
+        "code": 11,
+        "label": "大沼晶保",
+        "raw": "□大沼晶保",
+        "hasDetail": false
+      },
+      {
+        "code": 12,
+        "label": "幸阪茉里乃",
+        "raw": "□幸阪茉里乃",
+        "hasDetail": false
+      },
+      {
+        "code": 13,
+        "label": "増本綺良",
+        "raw": "□増本綺良",
+        "hasDetail": false
+      },
+      {
+        "code": 14,
+        "label": "守屋麗奈",
+        "raw": "□守屋麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 15,
+        "label": "石森璃花",
+        "raw": "□石森璃花",
+        "hasDetail": false
+      },
+      {
+        "code": 16,
+        "label": "遠藤理子",
+        "raw": "□遠藤理子",
+        "hasDetail": false
+      },
+      {
+        "code": 17,
+        "label": "小田倉麗奈",
+        "raw": "□小田倉麗奈",
+        "hasDetail": false
+      },
+      {
+        "code": 18,
+        "label": "小島凪紗",
+        "raw": "□小島凪紗",
+        "hasDetail": false
+      },
+      {
+        "code": 19,
+        "label": "谷口愛季",
+        "raw": "□谷口愛季",
+        "hasDetail": false
+      },
+      {
+        "code": 20,
+        "label": "中嶋優月",
+        "raw": "□中嶋優月",
+        "hasDetail": false
+      },
+      {
+        "code": 21,
+        "label": "的野美青",
+        "raw": "□的野美青",
+        "hasDetail": false
+      },
+      {
+        "code": 22,
+        "label": "向井純葉",
+        "raw": "□向井純葉",
+        "hasDetail": false
+      },
+      {
+        "code": 23,
+        "label": "村井優",
+        "raw": "□村井優",
+        "hasDetail": false
+      },
+      {
+        "code": 24,
+        "label": "村山美羽",
+        "raw": "□村山美羽",
+        "hasDetail": false
+      },
+      {
+        "code": 25,
+        "label": "山下瞳月",
+        "raw": "□山下瞳月",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "26、2025年，您觉得哪些成员会走上C位(小池美波)",
+      "26、(井上梨名)",
+      "26、(武元唯衣)",
+      "26、(田村保乃)",
+      "26、(藤吉夏鈴)",
+      "26、(松田里奈)",
+      "26、(森田ひかる)",
+      "26、(山﨑天)",
+      "26、(遠藤光莉)",
+      "26、(大園玲)",
+      "26、(大沼晶保)",
+      "26、(幸阪茉里乃)",
+      "26、(増本綺良)",
+      "26、(守屋麗奈)",
+      "26、(石森璃花)",
+      "26、(遠藤理子)",
+      "26、(小田倉麗奈)",
+      "26、(小島凪紗)",
+      "26、(谷口愛季)",
+      "26、(中嶋優月)",
+      "26、(的野美青)",
+      "26、(向井純葉)",
+      "26、(村井優)",
+      "26、(村山美羽)",
+      "26、(山下瞳月)"
+    ]
+  },
+  {
+    "id": "2025-Q27",
+    "year": 2025,
+    "number": 27,
+    "title": "你对于四期生有什么期待吗",
+    "kind": "text",
+    "sourceType": "填空题",
+    "headers": [
+      "27、你对于四期生有什么期待吗"
+    ]
+  },
+  {
+    "id": "2025-Q28",
+    "year": 2025,
+    "number": 28,
+    "title": "写一句话给我们即将到来的四期生吧",
+    "kind": "text",
+    "sourceType": "填空题",
+    "headers": [
+      "28、写一句话给我们即将到来的四期生吧"
+    ]
+  },
+  {
+    "id": "2025-Q29",
+    "year": 2025,
+    "number": 29,
+    "title": "抽选樱坂46演唱会门票的难度您觉得有多大",
+    "kind": "rating",
+    "sourceType": "单选题",
+    "notes": [
+      "非常不满意",
+      "非常满意"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "1",
+        "raw": "○1",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "2",
+        "raw": "○2",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "3",
+        "raw": "○3",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "4",
+        "raw": "○4",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "5",
+        "raw": "○5",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "6",
+        "raw": "○6",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "7",
+        "raw": "○7",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "8",
+        "raw": "○8",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "9",
+        "raw": "○9",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "10",
+        "raw": "○10",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "29、抽选樱坂46演唱会门票的难度您觉得有多大"
+    ]
+  },
+  {
+    "id": "2025-Q30",
+    "year": 2025,
+    "number": 30,
+    "title": "除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于",
+    "kind": "multi",
+    "sourceType": "多选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "日本号码",
+        "raw": "□日本号码",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "账号注册",
+        "raw": "□账号注册",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "网页导航",
+        "raw": "□网页导航",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "付款方式",
+        "raw": "□付款方式",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "语言障碍",
+        "raw": "□语言障碍",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "其他",
+        "raw": "□其他 _________________",
+        "hasDetail": true
+      }
+    ],
+    "headers": [
+      "30、除去抽选的随机性之外，购买樱坂46线下演唱会门票的难点在于(日本号码)",
+      "30、(账号注册)",
+      "30、(网页导航)",
+      "30、(付款方式)",
+      "30、(语言障碍)",
+      "30、(其他)"
+    ]
+  },
+  {
+    "id": "2025-Q31",
+    "year": 2025,
+    "number": 31,
+    "title": "您对2024年樱坂46演唱会的海外票体验如何",
+    "kind": "rating",
+    "sourceType": "单选题",
+    "notes": [
+      "非常不满意",
+      "非常满意"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "1",
+        "raw": "○1",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "2",
+        "raw": "○2",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "3",
+        "raw": "○3",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "4",
+        "raw": "○4",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "5",
+        "raw": "○5",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "6",
+        "raw": "○6",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "7",
+        "raw": "○7",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "8",
+        "raw": "○8",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "9",
+        "raw": "○9",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "10",
+        "raw": "○10",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "31、您对2024年樱坂46演唱会的海外票体验如何"
+    ]
+  },
+  {
+    "id": "2025-Q32",
+    "year": 2025,
+    "number": 32,
+    "title": "如果说对中文区销售海外票，您的购买意愿如何",
+    "kind": "rating",
+    "sourceType": "单选题",
+    "notes": [
+      "非常不满意",
+      "非常满意"
+    ],
+    "options": [
+      {
+        "code": 1,
+        "label": "1",
+        "raw": "○1",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "2",
+        "raw": "○2",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "3",
+        "raw": "○3",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "4",
+        "raw": "○4",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "5",
+        "raw": "○5",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "6",
+        "raw": "○6",
+        "hasDetail": false
+      },
+      {
+        "code": 7,
+        "label": "7",
+        "raw": "○7",
+        "hasDetail": false
+      },
+      {
+        "code": 8,
+        "label": "8",
+        "raw": "○8",
+        "hasDetail": false
+      },
+      {
+        "code": 9,
+        "label": "9",
+        "raw": "○9",
+        "hasDetail": false
+      },
+      {
+        "code": 10,
+        "label": "10",
+        "raw": "○10",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "32、如果说对中文区销售海外票，您的购买意愿如何"
+    ]
+  },
+  {
+    "id": "2025-Q33",
+    "year": 2025,
+    "number": 33,
+    "title": "请问在购买中文区的海外票时您希望有什么属性",
+    "kind": "text",
+    "sourceType": "填空题",
+    "notes": [
+      "比如保证有票，提供独特的周边等等"
+    ],
+    "headers": [
+      "33、请问在购买中文区的海外票时您希望有什么属性"
+    ]
+  },
+  {
+    "id": "2025-Q34",
+    "year": 2025,
+    "number": 34,
+    "title": "您的性别：",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "男",
+        "raw": "○男",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "女",
+        "raw": "○女",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "不愿透露",
+        "raw": "○不愿透露",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "34、您的性别："
+    ]
+  },
+  {
+    "id": "2025-Q35",
+    "year": 2025,
+    "number": 35,
+    "title": "您的年龄段：",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "18岁以下",
+        "raw": "○18岁以下",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "18~25",
+        "raw": "○18~25",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "26~30",
+        "raw": "○26~30",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "31~40",
+        "raw": "○31~40",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "41~50",
+        "raw": "○41~50",
+        "hasDetail": false
+      },
+      {
+        "code": 6,
+        "label": "51岁以上",
+        "raw": "○51岁以上",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "35、您的年龄段："
+    ]
+  },
+  {
+    "id": "2025-Q36",
+    "year": 2025,
+    "number": 36,
+    "title": "请问您所在的地区是",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "中国大陆地区",
+        "raw": "○中国大陆地区",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "港澳台或海外地区",
+        "raw": "○港澳台或海外地区",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "36、请问您所在的地区是"
+    ]
+  },
+  {
+    "id": "2025-Q37",
+    "year": 2025,
+    "number": 37,
+    "title": "请选择省份城市与地区:",
+    "kind": "text",
+    "sourceType": "填空题",
+    "notes": [
+      "依赖于第36题第1个选项"
+    ],
+    "headers": [
+      "37、请选择省份城市与地区:"
+    ]
+  },
+  {
+    "id": "2025-Q38",
+    "year": 2025,
+    "number": 38,
+    "title": "国家及地区：",
+    "kind": "text",
+    "sourceType": "填空题",
+    "notes": [
+      "依赖于第36题第2个选项"
+    ],
+    "headers": [
+      "38、国家及地区："
+    ]
+  },
+  {
+    "id": "2025-Q39",
+    "year": 2025,
+    "number": 39,
+    "title": "请问您的日语水平如何",
+    "kind": "single",
+    "sourceType": "单选题",
+    "options": [
+      {
+        "code": 1,
+        "label": "完全不会",
+        "raw": "○完全不会",
+        "hasDetail": false
+      },
+      {
+        "code": 2,
+        "label": "基础水平",
+        "raw": "○基础水平",
+        "hasDetail": false
+      },
+      {
+        "code": 3,
+        "label": "日常沟通",
+        "raw": "○日常沟通",
+        "hasDetail": false
+      },
+      {
+        "code": 4,
+        "label": "母语水平",
+        "raw": "○母语水平",
+        "hasDetail": false
+      },
+      {
+        "code": 5,
+        "label": "商务洽谈",
+        "raw": "○商务洽谈",
+        "hasDetail": false
+      }
+    ],
+    "headers": [
+      "39、请问您的日语水平如何"
+    ]
+  },
+  {
+    "id": "2025-Q40",
+    "year": 2025,
+    "number": 40,
+    "title": "还有什么别的想要告诉我们的吗~",
+    "kind": "text",
+    "sourceType": "填空题",
+    "headers": [
+      "40、还有什么别的想要告诉我们的吗~"
+    ]
+  }
+]

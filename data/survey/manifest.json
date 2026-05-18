@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-05-17T15:42:37+00:00",
+  "sources": {
+    "2025Questionnaire": "2025年樱坂中文区生态调研 (1).docx",
+    "2025Responses": "298823196_按序号_2025年樱坂中文区生态调研_837_837.xlsx",
+    "2026Responses": "346464983_按文本_2026年樱坂中文区生态调研_221_220.xlsx"
+  },
+  "outputs": {
+    "questions2025": "questions-2025.json",
+    "questions2026": "questions-2026.json",
+    "aggregate2025": "aggregate-2025.json",
+    "aggregate2026": "aggregate-2026.json",
+    "cleaningReport": "cleaning-report.json"
+  },
+  "privacy": {
+    "publicOutputs": "Aggregated data only; source IPs, submission timestamps, and raw free-text answers are not included.",
+    "privateRows": "Use --write-private-rows to export anonymized row-level data into survey-private/, which is git-ignored.",
+    "excludedSourceFields": [
+      "序号",
+      "总分",
+      "所用时间",
+      "提交答卷时间",
+      "来源",
+      "来源详情",
+      "来自IP"
+    ]
+  },
+  "markerPolicy": {
+    "(跳过)": "Preserved as status=skipped_by_logic and excluded from option counts.",
+    "(空)": "Preserved as status=empty_marker and excluded from option counts.",
+    "otherWithDetail": "Values shaped like label〖detail〗 are split into label/detail; public aggregates count labels and detail presence only."
+  }
+}
