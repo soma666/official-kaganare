@@ -9,14 +9,12 @@
     },
     "reasoningSummary": {
       "gen1": "小池美波——原欅坂46 1期，转入樱坂46 后保留为 1 期生；已毕业（用户确认）。",
-      "gen2_active": "五位长期活跃成员（森田/藤吉/田村/山﨑/松田），原欅坂46 2期生转入樱坂46 后保留为 2 期生；遠藤光莉同样为 2 期现役（用户确认）。",
+      "gen2_active": "森田/藤吉/田村/山﨑/松田/遠藤光莉，以及守屋麗奈/大園玲/増本綺良/大沼晶保/幸阪茉里乃均为 2 期生。",
       "gen2_graduated": "武元唯衣、井上梨名 原 2 期生，已毕业（用户确认）。武元唯衣在 2026-Q05 候选列表中仍出现，推测问卷编制时未同步毕业状态。",
-      "gen3_confirmed": "11 位 2021 年樱坂46 新 3 期生 audition 入团（石森/遠藤理子/大園/大沼/幸阪/小島/谷口/的野/増本/向井/守屋麗奈）。",
-      "gen3_inferred": "5 位（山下瞳月/中嶋優月/村山美羽/村井優/小田倉麗奈）在 2025-Q03 中出现且属于 2026-Q05 二/三期候选，但不在已知 2 期或 2021 年 3 期 audition 名单中——推断为后续追加加入的 3 期生（或更细分组），需用户确认。",
+      "gen3_confirmed": "11 位樱坂46 3 期生（石森璃花/遠藤理子/小田倉麗奈/小島凪紗/谷口愛季/中嶋優月/的野美青/向井純葉/村井優/村山美羽/山下瞳月）。",
       "gen4": "9 位 2024 年新 4 期生 audition 成员（与 2026-Q06 完全吻合）。"
     },
     "todoChecklist": [
-      "核对 confidence: 'inferred' 的成员期别（目前共 5 位标为 3 期推断）",
       "若有未识别成员（filter UI 会显示『注意：N 位未确认』），按问卷数据补全",
       "新加入成员或新毕业事件发生时同步更新"
     ]
@@ -36,21 +34,21 @@
 
     "石森璃花": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
     "遠藤理子": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
-    "大園玲": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
-    "大沼晶保": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
-    "幸阪茉里乃": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "大園玲": { "gen": 2, "status": "active", "confidence": "known", "aliases": [] },
+    "大沼晶保": { "gen": 2, "status": "active", "confidence": "known", "aliases": [] },
+    "幸阪茉里乃": { "gen": 2, "status": "active", "confidence": "known", "aliases": [] },
     "小島凪紗": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
     "谷口愛季": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
     "的野美青": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
-    "増本綺良": { "gen": 3, "status": "active", "confidence": "known", "aliases": ["増本 綺良"] },
+    "増本綺良": { "gen": 2, "status": "active", "confidence": "known", "aliases": ["増本 綺良"] },
     "向井純葉": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
-    "守屋麗奈": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "守屋麗奈": { "gen": 2, "status": "active", "confidence": "known", "aliases": [] },
 
-    "山下瞳月": { "gen": 3, "status": "active", "confidence": "inferred", "aliases": [] },
-    "中嶋優月": { "gen": 3, "status": "active", "confidence": "inferred", "aliases": [] },
-    "村山美羽": { "gen": 3, "status": "active", "confidence": "inferred", "aliases": [] },
-    "村井優": { "gen": 3, "status": "active", "confidence": "inferred", "aliases": [] },
-    "小田倉麗奈": { "gen": 3, "status": "active", "confidence": "inferred", "aliases": [] },
+    "山下瞳月": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "中嶋優月": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "村山美羽": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "村井優": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
+    "小田倉麗奈": { "gen": 3, "status": "active", "confidence": "known", "aliases": [] },
 
     "松本和子": { "gen": 4, "status": "active", "confidence": "data", "aliases": [] },
     "勝又春": { "gen": 4, "status": "active", "confidence": "data", "aliases": [] },
