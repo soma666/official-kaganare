@@ -674,9 +674,11 @@ function renderOverview() {
     <div class="view-layout">
       ${renderInsightCards((state.data.insights?.items || []).slice(0, 6), '值得继续探索的线索')}
       ${renderFanEraPanel(true)}
-      <section class="panel-grid three">
-        ${renderMetricPanel('2025-Q34', 2025, '2025 性别', 5)}
-        ${renderMetricPanel('2026-Q33', 2026, '2026 性别', 5)}
+      <section class="panel-grid">
+        ${renderComparePanel(compareDefinitions.gender, 6)}
+        ${renderComparePanel(compareDefinitions.age, 8)}
+      </section>
+      <section class="panel-grid">
         ${renderComparePanel({
           title: '日语水平',
           copy: '基础画像维度，按回答人数占比展示。',
@@ -684,10 +686,7 @@ function renderOverview() {
           q2026: '2026-Q35',
           labels: [['完全不会'], ['基础水平'], ['日常沟通'], ['母语水平'], ['商务洽谈']],
         }, 5)}
-      </section>
-      <section class="panel-grid">
-        ${renderComparePanel(compareDefinitions.gender, 6)}
-        ${renderComparePanel(compareDefinitions.age, 8)}
+        ${renderComparePanel(compareDefinitions.region, 4)}
       </section>
       <section class="panel-grid">
         ${renderMetricPanel('2025-Q13', 2025, '2025 偶像活动方式', 12)}
@@ -697,8 +696,7 @@ function renderOverview() {
         ${renderMetricPanel('2025-Q19', 2025, '2025 内容获取平台', 10)}
         ${renderMetricPanel('2025-Q14', 2025, '希望官方支持中文区的方式', 10)}
       </section>
-      <section class="panel-grid three">
-        ${renderComparePanel(compareDefinitions.region, 4)}
+      <section class="panel-grid">
         ${renderComparePanel(compareDefinitions.otherIdols, 4)}
         ${renderMetricPanel('2026-Q26', 2026, '2026 对四期生的感受', 6)}
       </section>
