@@ -22,6 +22,7 @@ Allowed public data:
 - `/data/survey/networks.json`
 - `/data/survey/keywords.json`
 - `/data/survey/insights.json`
+- `/data/survey/outliers.json`
 - `/data/survey/comparability.json`
 - `/data/survey/segments.json`
 - `/data/survey/member-profiles.json`
@@ -51,6 +52,7 @@ node cli/survey-bi.mjs find "海外席"
 node cli/survey-bi.mjs question 2026-Q01 --format md
 node cli/survey-bi.mjs crosstab --year 2026 --x japanese_level --y ticket_issues --top 12
 node cli/survey-bi.mjs insights --theme ticket --year 2026 --top 10
+node cli/survey-bi.mjs outliers --severity high --top 10
 node cli/survey-bi.mjs keywords 2026-Q17 --top 30
 node cli/survey-bi.mjs flow --year 2026 --id era_to_activity --source "Start over!"
 node cli/survey-bi.mjs network --year 2026 --id favorite_members --focus "山下瞳月"
@@ -76,6 +78,7 @@ Default output is JSON. Use `--format md` or `--format table` when a human-reada
 - `preset segment_overseas_2026`: behavior segment by overseas lottery participation.
 - `member-profile --year 2026 --member <name>`: supporter profile for one member, using public aggregate counts only.
 - `member-similar --year 2026 --member <name>`: members whose supporter profiles are closest by public aggregate dimension rates.
+- `outliers --year 2026 --type small_sample_signal`: interpretation warnings and exploration leads for denominator shifts, small samples, cross-year jumps, and sparse free-text aggregates.
 
 ## Interpretation Notes
 

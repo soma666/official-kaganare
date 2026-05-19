@@ -17,6 +17,7 @@ const SURVEY_FILES = {
   networks: 'networks.json',
   keywords: 'keywords.json',
   insights: 'insights.json',
+  outliers: 'outliers.json',
   comparability: 'comparability.json',
   segments: 'segments.json',
   memberProfiles: 'member-profiles.json',
@@ -106,6 +107,11 @@ async function runCommand(name, options, ctx) {
   if (name === 'insights') {
     const insights = await loadSurveyJson(ctx, 'insights');
     return ok({ insights: filterInsights(insights.items || [], options) });
+  }
+
+  if (name === 'outliers') {
+    const outliers = await loadSurveyJson(ctx, 'outliers');
+    return ok({ outliers: filterOutliers(outliers.items || [], options), meta: outliers._meta });
   }
 
   if (name === 'keywords') {
@@ -216,6 +222,7 @@ function summarizeCatalog(catalog) {
     flows: catalog.flows?.length || 0,
     networks: catalog.networks?.length || 0,
     keywordQuestions: catalog.keywordQuestions?.length || 0,
+    outlierTypes: catalog.outliers?.types?.length || 0,
     memberProfiles: catalog.memberProfiles ? true : false,
     privacy: catalog.privacy,
   };
@@ -238,6 +245,7 @@ function findCatalog(catalog, query, top) {
     ['flow', catalog.flows || []],
     ['network', catalog.networks || []],
     ['keyword', catalog.keywordQuestions || []],
+    ['outlierType', catalog.outliers?.types || []],
     ['memberProfileSignal', catalog.memberProfiles?.signals || []],
     ['memberProfileSupport', Object.values(catalog.memberProfiles?.supportTypes || {}).flat()],
   ];
@@ -309,6 +317,53 @@ function filterInsights(items, options) {
     .filter((item) => !year || String(item.year) === year)
     .filter((item) => !theme || insightInTheme(item, theme))
     .slice(0, top);
+}
+
+function filterOutliers(items, options) {
+  const top = Number(options.top || 10);
+  const year = options.year ? String(options.year) : null;
+  const type = options.type || null;
+  const severity = options.severity || null;
+  const tag = options.tag || null;
+  const query = options.query || options.q || null;
+  return items
+    .filter((item) => !year || (item.years || []).map(String).includes(year))
+    .filter((item) => !type || item.type === type)
+    .filter((item) => !severity || item.severity === severity)
+    .filter((item) => !tag || (item.tags || []).some((value) => includesText(value, tag)))
+    .filter((item) => !query || [
+      item.title,
+      item.summary,
+      item.recommendation,
+      ...(item.tags || []),
+      ...(item.questionIds || []),
+      ...(item.dimensionIds || []),
+      ...(item.metricIds || []),
+    ].some((value) => includesText(value, query)))
+    .sort((a, b) => (b.priority || 0) - (a.priority || 0))
+    .slice(0, top)
+    .map((item) => pickOutlier(item));
+}
+
+function pickOutlier(item) {
+  return {
+    id: item.id,
+    type: item.type,
+    severity: item.severity,
+    title: item.title,
+    summary: item.summary,
+    years: item.years,
+    questionIds: item.questionIds,
+    dimensionIds: item.dimensionIds,
+    metricIds: item.metricIds,
+    base: item.base,
+    answered: item.answered,
+    count: item.count,
+    rate: item.rate,
+    delta: item.delta,
+    tags: item.tags,
+    recommendation: item.recommendation,
+  };
 }
 
 function insightInTheme(item, theme) {
@@ -513,7 +568,7 @@ function toMarkdown(payload) {
 }
 
 function toTable(payload) {
-  const rows = payload.results || payload.table?.cells || payload.insights || payload.memberProfiles?.members || payload.memberProfile?.highlights || payload.similarMembers?.rows || payload.question?.keywords || payload.question?.result?.counts || payload.flow?.links || payload.network?.edges || [];
+  const rows = payload.results || payload.table?.cells || payload.insights || payload.outliers || payload.memberProfiles?.members || payload.memberProfile?.highlights || payload.similarMembers?.rows || payload.question?.keywords || payload.question?.result?.counts || payload.flow?.links || payload.network?.edges || [];
   if (!Array.isArray(rows) || !rows.length) return JSON.stringify(payload, null, 2);
   const columns = [...new Set(rows.flatMap((row) => Object.keys(row)))];
   const widths = columns.map((key) => Math.max(key.length, ...rows.map((row) => cellText(row[key]).length)));
@@ -540,6 +595,7 @@ Usage:
   node cli/survey-bi.mjs question <questionId> [--top 20]
   node cli/survey-bi.mjs crosstab --year 2026 --x japanese_level --y ticket_issues [--mode lift|rate|count]
   node cli/survey-bi.mjs insights [--theme ticket] [--year 2026]
+  node cli/survey-bi.mjs outliers [--year 2026] [--type cross_year_shift] [--severity high]
   node cli/survey-bi.mjs keywords <questionId>
   node cli/survey-bi.mjs flow --year 2026 --id era_to_activity [--source text] [--target text]
   node cli/survey-bi.mjs network --year 2026 --id favorite_members [--focus text]

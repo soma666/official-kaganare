@@ -7,6 +7,7 @@ const CORE_SURVEY_FILES = {
   report: 'data/survey/cleaning-report.json',
   members: 'data/members.json',
   insights: 'data/survey/insights.json',
+  outliers: 'data/survey/outliers.json',
   comparability: 'data/survey/comparability.json',
 };
 
@@ -41,6 +42,20 @@ const INSIGHT_FILTERS = [
   { id: 'works', label: '作品/内容', metrics: ['favorite_song', 'favorite_mv', 'content_platforms', 'official_support'] },
   { id: 'investment', label: '投入变化', metrics: ['investment_time', 'investment_money', 'investment_energy', 'fourth_gen_feeling'] },
 ];
+
+const OUTLIER_TYPE_LABELS = {
+  scope_warning: '口径警报',
+  small_sample_signal: '小样本高波动',
+  cross_year_shift: '跨年跳变',
+  structural_signal: '强结构信号',
+  text_sparse: '自由文本稀疏',
+};
+
+const OUTLIER_SEVERITY_LABELS = {
+  high: '高优先级',
+  medium: '观察',
+  low: '提示',
+};
 
 const EXPLORE_PRESETS = [
   {
@@ -458,6 +473,7 @@ async function loadSurveyData() {
       report,
       members,
       insights,
+      outliers,
       comparability,
     ] = await Promise.all(
       Object.values(CORE_SURVEY_FILES).map(loadJsonFile)
@@ -478,6 +494,7 @@ async function loadSurveyData() {
       membersMeta: members._meta || {},
       memberIndex: buildMemberIndex(members.members || {}),
       insights,
+      outliers,
       comparability,
       resourceErrors: {},
       resourceLoading: {},
@@ -682,6 +699,7 @@ function renderKpis() {
 function renderOverview() {
   return `
     <div class="view-layout">
+      ${renderOutlierCards(getTopOutliers(6), '需要谨慎解读的野值点', '这些不是错误数据，而是分母、口径、小样本或跨年结构变化带来的解释提示。')}
       ${renderInsightCards((state.data.insights?.items || []).slice(0, 6), '值得继续探索的线索')}
       ${renderFanEraPanel(true)}
       <section class="panel-grid">
@@ -759,6 +777,7 @@ function renderExplore() {
     <div class="view-layout">
       ${controls}
       ${renderExploreGuide(table)}
+      ${renderOutlierCards(getOutliersForTable(table, 4), '当前组合的解释提示', '和当前维度/指标相关的口径警报、小样本信号或结构性变化。')}
       ${renderInsightCards(cards, '探索线索')}
       ${renderCrosstabPanel(table, state.exploreMode, true)}
       ${renderLiftPanel(table)}
@@ -1003,6 +1022,106 @@ function getSelectionComparabilityNotes(table) {
       });
     });
   return notes.filter((item, index, arr) => arr.findIndex((candidate) => candidate.label === item.label && candidate.status === item.status) === index);
+}
+
+function getTopOutliers(limit = 6) {
+  return (state.data?.outliers?.items || [])
+    .slice()
+    .sort((a, b) => (b.priority || 0) - (a.priority || 0))
+    .slice(0, limit);
+}
+
+function getOutliersForTable(table, limit = 4) {
+  if (!table) {
+    return [];
+  }
+  const year = String(table.year);
+  return (state.data?.outliers?.items || [])
+    .filter((item) => outlierMatchesTable(item, table, year))
+    .sort((a, b) => (b.priority || 0) - (a.priority || 0))
+    .slice(0, limit);
+}
+
+function outlierMatchesTable(item, table, year) {
+  const years = (item.years || []).map(String);
+  if (years.length && !years.includes(year)) {
+    return false;
+  }
+  const dimensionIds = item.dimensionIds || [];
+  const metricIds = item.metricIds || [];
+  const hasDirectMatch = metricIds.includes(table.metricId)
+    || (dimensionIds.includes(table.dimensionId) && !metricIds.length);
+  const hasLinkMatch = (item.links || []).some((link) => (
+    link.kind === 'crosstab'
+    && String(link.year) === year
+    && link.dimensionId === table.dimensionId
+    && link.metricId === table.metricId
+  ));
+  return hasDirectMatch || hasLinkMatch;
+}
+
+function renderOutlierCards(items, title = '解释提示', copy = '') {
+  if (!items?.length) {
+    return '';
+  }
+  const cards = items.map((item) => {
+    const openAttrs = getOutlierOpenAttrs(item);
+    return `
+      <article
+        class="outlier-card severity-${escapeHtml(item.severity || 'medium')}"
+        ${openAttrs}
+        tabindex="${openAttrs ? '0' : '-1'}"
+      >
+        <div class="outlier-card-head">
+          <span>${escapeHtml(OUTLIER_TYPE_LABELS[item.type] || item.type || '提示')}</span>
+          <strong>${escapeHtml(OUTLIER_SEVERITY_LABELS[item.severity] || item.severity || '提示')}</strong>
+        </div>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p>${escapeHtml(item.summary)}</p>
+        <div class="outlier-meta">
+          ${renderOutlierMetric('Years', (item.years || []).join('/'))}
+          ${renderOutlierMetric('N', item.answered ? `${formatNumber(item.answered)} / ${formatNumber(item.base || 0)}` : formatNumber(item.base || 0))}
+          ${item.rate != null ? renderOutlierMetric('Rate', formatPercent(item.rate)) : ''}
+          ${item.delta != null ? renderOutlierMetric('Delta', `${item.delta > 0 ? '+' : ''}${formatPercent(item.delta)}`) : ''}
+        </div>
+        <div class="outlier-tags">
+          ${(item.tags || []).slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  return `
+    <section class="bi-panel wide outlier-panel">
+      <div class="panel-head">
+        <div>
+          <div class="panel-kicker">interpretation layer</div>
+          <h2 class="panel-title">${escapeHtml(title)}</h2>
+          ${copy ? `<p class="panel-copy">${escapeHtml(copy)}</p>` : ''}
+        </div>
+      </div>
+      <div class="outlier-grid">${cards}</div>
+    </section>
+  `;
+}
+
+function renderOutlierMetric(label, value) {
+  if (value == null || value === '') {
+    return '';
+  }
+  return `<span><em>${escapeHtml(label)}</em>${escapeHtml(String(value))}</span>`;
+}
+
+function getOutlierOpenAttrs(item) {
+  const crosstab = (item.links || []).find((link) => link.kind === 'crosstab' && link.year && link.dimensionId && link.metricId);
+  if (crosstab) {
+    return `role="button" data-open-crosstab data-crosstab-year="${escapeHtml(crosstab.year)}" data-crosstab-dimension="${escapeHtml(crosstab.dimensionId)}" data-crosstab-metric="${escapeHtml(crosstab.metricId)}"`;
+  }
+  const question = (item.links || []).find((link) => link.kind === 'question' && link.id);
+  if (question) {
+    return `role="button" data-open-question="${escapeHtml(question.id)}"`;
+  }
+  return '';
 }
 
 function getComparabilityGroup(id) {
@@ -2694,7 +2813,7 @@ function bindDynamicControls(container) {
   });
 
   container.querySelectorAll('[data-open-crosstab]').forEach((button) => {
-    button.addEventListener('click', () => {
+    const openCrosstab = () => {
       state.exploreYear = String(button.dataset.crosstabYear);
       state.exploreDimension = button.dataset.crosstabDimension;
       state.exploreMetric = button.dataset.crosstabMetric;
@@ -2702,6 +2821,34 @@ function bindDynamicControls(container) {
       state.explorePreset = 'custom';
       setActiveView('explore');
       render();
+    };
+    button.addEventListener('click', openCrosstab);
+    button.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openCrosstab();
+      }
+    });
+  });
+
+  container.querySelectorAll('[data-open-question]').forEach((button) => {
+    const openQuestion = () => {
+      const questionId = button.dataset.openQuestion;
+      const year = inferYearFromQuestionId(questionId);
+      if (!year) {
+        return;
+      }
+      state.explorerYear = year;
+      state.explorerQuestionId = questionId;
+      setActiveView('explorer');
+      render();
+    };
+    button.addEventListener('click', openQuestion);
+    button.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openQuestion();
+      }
     });
   });
 
@@ -3374,6 +3521,11 @@ function getQuestion(year, questionId) {
     return null;
   }
   return aggregate.questions.find((question) => question.questionId === questionId) || null;
+}
+
+function inferYearFromQuestionId(questionId) {
+  const match = String(questionId || '').match(/^(\d{4})-/);
+  return match ? match[1] : '';
 }
 
 function getKeywordQuestion(year, questionId) {

@@ -17,6 +17,7 @@
     "networks": "networks.json",
     "keywords": "keywords.json",
     "insights": "insights.json",
+    "outliers": "outliers.json",
     "comparability": "comparability.json",
     "agentCatalog": "agent-catalog.json",
     "memberProfiles": "member-profiles.json"

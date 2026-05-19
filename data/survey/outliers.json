@@ -1,0 +1,287 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-19T00:00:00+08:00",
+    "method": "Curated interpretation layer derived only from public aggregate, crosstab, keyword, comparability, and cleaning-report outputs.",
+    "privacy": "Aggregate signals only. No row-level responses, source spreadsheets, source documents, or raw free-text answers are included.",
+    "types": {
+      "scope_warning": "The denominator, skip logic, or question scope makes direct comparison risky.",
+      "small_sample_signal": "The signal is large but based on a small group, so it should be treated as exploratory.",
+      "cross_year_shift": "A comparable aggregate changed strongly between 2025 and 2026.",
+      "structural_signal": "A stable segment relationship is strong enough to use as an exploration route.",
+      "text_sparse": "Free-text aggregation is sparse or suppressed by threshold, so absence of keywords is not absence of feedback."
+    }
+  },
+  "items": [
+    {
+      "id": "2026-q02-q03-routed-sample",
+      "type": "scope_warning",
+      "severity": "high",
+      "priority": 100,
+      "title": "2026 初次认识/爱上樱坂原因不是全样本",
+      "summary": "2026 Q02/Q03 只有 39 人回答，181 人由逻辑跳过；它们不能和 2025 全样本问题直接比较。",
+      "years": [2026],
+      "questionIds": ["2026-Q02", "2026-Q03"],
+      "base": 220,
+      "answered": 39,
+      "rate": 0.1773,
+      "tags": ["分母变化", "跳题逻辑", "跨年慎比"],
+      "links": [
+        { "kind": "question", "id": "2026-Q02" },
+        { "kind": "question", "id": "2026-Q03" }
+      ],
+      "recommendation": "展示时固定显示 answered/base，并在跨年对比中降权或单独成组。"
+    },
+    {
+      "id": "2026-signing-small-sample",
+      "type": "small_sample_signal",
+      "severity": "high",
+      "priority": 96,
+      "title": "2026 签名会题只有 15 人回答",
+      "summary": "签名会参与成员题 N=15，任何成员排序和共现都很容易被少数回答放大。",
+      "years": [2026],
+      "questionIds": ["2026-Q13"],
+      "base": 220,
+      "answered": 15,
+      "rate": 0.0682,
+      "tags": ["小样本", "见面会/签名会", "高波动"],
+      "links": [
+        { "kind": "question", "id": "2026-Q13" },
+        { "kind": "network", "year": 2026, "id": "meet_members" }
+      ],
+      "recommendation": "只作为线索，不做成员强弱结论；卡片上标注 N=15。"
+    },
+    {
+      "id": "2026-overseas-ticket-denominators",
+      "type": "scope_warning",
+      "severity": "high",
+      "priority": 94,
+      "title": "2026 海外席链路分母连续变化",
+      "summary": "海外席难点为 N=208，抽选参与为 N=208，抽中场次和抽选满意度为 N=71，观看体验为 N=154。",
+      "years": [2026],
+      "questionIds": ["2026-Q27", "2026-Q28", "2026-Q29", "2026-Q30", "2026-Q31", "2026-Q32"],
+      "dimensionIds": ["behavior_segment", "participation_depth"],
+      "metricIds": ["ticket_issues", "overseas_lottery", "overseas_ticket_feel", "overseas_ticket_experience"],
+      "base": 220,
+      "answered": 208,
+      "rate": 0.9455,
+      "tags": ["分母变化", "票务", "海外席"],
+      "links": [
+        { "kind": "question", "id": "2026-Q29" },
+        { "kind": "crosstab", "year": 2026, "dimensionId": "behavior_segment", "metricId": "overseas_lottery" }
+      ],
+      "recommendation": "海外席题组应按路径展示，避免把后续题当成全样本满意度。"
+    },
+    {
+      "id": "gender-cross-year-shift",
+      "type": "cross_year_shift",
+      "severity": "high",
+      "priority": 90,
+      "title": "性别结构跨年变化明显",
+      "summary": "女受访者占比从 54.1% 升至 63.2%，男受访者占比从 36.6% 降至 24.1%。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q34", "2026-Q33"],
+      "dimensionIds": ["gender"],
+      "base": 1057,
+      "delta": 0.091,
+      "tags": ["基础画像", "跨年跳变"],
+      "links": [
+        { "kind": "question", "id": "2025-Q34" },
+        { "kind": "question", "id": "2026-Q33" }
+      ],
+      "recommendation": "解释成员偏好、作品偏好和活动行为变化时，把性别结构变化作为背景变量。"
+    },
+    {
+      "id": "message-cross-year-rise",
+      "type": "cross_year_shift",
+      "severity": "high",
+      "priority": 88,
+      "title": "MSG 订阅显著上升，FC 基本稳定",
+      "summary": "MSG 订阅率从 50.1% 升至 64.5%，而 FC 订阅率只从 43.0% 到 44.1%。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q16", "2025-Q17", "2026-Q18", "2026-Q19"],
+      "dimensionIds": ["fan_club", "message"],
+      "metricIds": ["fan_club", "message", "message_count"],
+      "base": 1057,
+      "delta": 0.1449,
+      "tags": ["订阅", "跨年跳变", "参与深度"],
+      "links": [
+        { "kind": "crosstab", "year": 2026, "dimensionId": "fan_club", "metricId": "message" }
+      ],
+      "recommendation": "把 MSG 看作更敏感的深度参与指标，而不是和 FC 合并为单一付费指标。"
+    },
+    {
+      "id": "content-creator-cross-year-rise",
+      "type": "cross_year_shift",
+      "severity": "high",
+      "priority": 86,
+      "title": "中文内容制作者比例翻倍",
+      "summary": "内容制作参与率从 15.4% 升至 30.5%，可能意味着 2026 样本更偏核心/活跃用户。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q20", "2026-Q22"],
+      "dimensionIds": ["content_creator"],
+      "metricIds": ["content_creation", "message", "fan_club"],
+      "base": 1057,
+      "delta": 0.151,
+      "tags": ["社区生态", "跨年跳变", "样本结构"],
+      "links": [
+        { "kind": "crosstab", "year": 2026, "dimensionId": "content_creator", "metricId": "message" }
+      ],
+      "recommendation": "跨年比较社区活跃度时，需要区分真实生态升温和样本活跃度上升。"
+    },
+    {
+      "id": "ticket-issues-cross-year-easing",
+      "type": "cross_year_shift",
+      "severity": "high",
+      "priority": 84,
+      "title": "票务难点整体下降，但日本号码仍是最大门槛",
+      "summary": "日本号码从 84.8% 降至 76.9%，付款方式从 61.9% 降至 41.8%，但日本号码仍是第一障碍。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q30", "2026-Q28"],
+      "dimensionIds": ["japanese_level", "participation_depth"],
+      "metricIds": ["ticket_issues"],
+      "base": 1045,
+      "delta": -0.201,
+      "tags": ["票务", "跨年跳变", "结构改善"],
+      "links": [
+        { "kind": "question", "id": "2026-Q28" },
+        { "kind": "crosstab", "year": 2026, "dimensionId": "japanese_level", "metricId": "ticket_issues" }
+      ],
+      "recommendation": "把“问题变轻”和“核心门槛仍在”同时展示，避免单向解读。"
+    },
+    {
+      "id": "2026-favorite-members-wide-lens",
+      "type": "scope_warning",
+      "severity": "high",
+      "priority": 82,
+      "title": "2026 有好感成员是广义好感池",
+      "summary": "Q04 平均每人选择 10.19 个成员，不应当被当作首推或强推指标。",
+      "years": [2026],
+      "questionIds": ["2026-Q04", "2026-Q05", "2026-Q06"],
+      "dimensionIds": ["participation_depth", "behavior_segment"],
+      "metricIds": ["favorite_members"],
+      "base": 220,
+      "answered": 220,
+      "rate": 1,
+      "tags": ["成员", "口径提醒", "多选"],
+      "links": [
+        { "kind": "question", "id": "2026-Q04" },
+        { "kind": "crosstab", "year": 2026, "dimensionId": "participation_depth", "metricId": "favorite_members" }
+      ],
+      "recommendation": "成员画像里默认解释为“支持者/好感者”，首推分析应使用 Q05/Q06。"
+    },
+    {
+      "id": "2026-fourth-gen-none",
+      "type": "structural_signal",
+      "severity": "medium",
+      "priority": 76,
+      "title": "四期生题里“以上均无”很突出",
+      "summary": "2026 最喜欢四期生成员中，“以上均无”为 17.7%，接近松本和子 20.5% 与勝又春 18.2%。",
+      "years": [2026],
+      "questionIds": ["2026-Q06", "2026-Q26"],
+      "metricIds": ["fourth_gen_feeling"],
+      "base": 220,
+      "count": 39,
+      "rate": 0.1773,
+      "tags": ["四期生", "成员", "观望"],
+      "links": [
+        { "kind": "question", "id": "2026-Q06" },
+        { "kind": "question", "id": "2026-Q26" }
+      ],
+      "recommendation": "解读四期成员排序时，把“尚未形成明确偏好”的人群单独保留。"
+    },
+    {
+      "id": "recent-era-small-sample-lift",
+      "type": "small_sample_signal",
+      "severity": "medium",
+      "priority": 74,
+      "title": "新近入坑时期容易出现高 lift",
+      "summary": "例如 UDAGAWA GENERATION 入坑 N=11，时间/精力投入增加都达到 90.9%；这更像早期信号而非稳定结论。",
+      "years": [2026],
+      "questionIds": ["2026-Q01", "2026-Q09", "2026-Q09-3"],
+      "dimensionIds": ["fan_era"],
+      "metricIds": ["investment_time", "investment_energy", "favorite_members"],
+      "base": 11,
+      "count": 10,
+      "rate": 0.9091,
+      "tags": ["小样本", "入坑时期", "投入变化"],
+      "links": [
+        { "kind": "crosstab", "year": 2026, "dimensionId": "fan_era", "metricId": "investment_time" }
+      ],
+      "recommendation": "在图表上标注“小样本高波动”，并允许用户切换到人数模式。"
+    },
+    {
+      "id": "japanese-level-ticket-structure",
+      "type": "structural_signal",
+      "severity": "high",
+      "priority": 72,
+      "title": "日语水平与票务障碍关系稳定且强",
+      "summary": "完全不会日语的人更容易选择语言障碍：2025 为 68.8% vs 总体 38.6%，2026 为 51.2% vs 总体 25.0%。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q30", "2025-Q39", "2026-Q28", "2026-Q35"],
+      "dimensionIds": ["japanese_level"],
+      "metricIds": ["ticket_issues"],
+      "base": 224,
+      "tags": ["票务", "日语水平", "稳定结构"],
+      "links": [
+        { "kind": "crosstab", "year": 2026, "dimensionId": "japanese_level", "metricId": "ticket_issues" }
+      ],
+      "recommendation": "这是适合做长期追踪的结构变量，不应只作为单年描述。"
+    },
+    {
+      "id": "content-creator-message-structure",
+      "type": "structural_signal",
+      "severity": "high",
+      "priority": 70,
+      "title": "内容制作者高度绑定 MSG",
+      "summary": "内容制作者中的 MSG 订阅率很高：2025 为 79.1%，2026 为 86.6%。",
+      "years": [2025, 2026],
+      "questionIds": ["2025-Q17", "2025-Q20", "2026-Q19", "2026-Q22"],
+      "dimensionIds": ["content_creator"],
+      "metricIds": ["message", "content_creation"],
+      "base": 196,
+      "tags": ["社区生态", "MSG", "稳定结构"],
+      "links": [
+        { "kind": "crosstab", "year": 2026, "dimensionId": "content_creator", "metricId": "message" }
+      ],
+      "recommendation": "把内容生产者作为核心生态人群追踪，并和订阅/票务行为联动分析。"
+    },
+    {
+      "id": "2025-overseas-ticket-text-guarantee",
+      "type": "structural_signal",
+      "severity": "medium",
+      "priority": 66,
+      "title": "2025 海外票自由文本里“保证有票”非常集中",
+      "summary": "Q33 的关键词中“保证有票”出现 112 次，“周边”出现 83 次，需求集中度高。",
+      "years": [2025],
+      "questionIds": ["2025-Q33"],
+      "metricIds": ["overseas_ticket_feel"],
+      "base": 421,
+      "count": 112,
+      "rate": 0.266,
+      "tags": ["自由文本", "票务", "海外票"],
+      "links": [
+        { "kind": "question", "id": "2025-Q33" },
+        { "kind": "keywords", "questionId": "2025-Q33" }
+      ],
+      "recommendation": "自由文本不要只看词云，把“保证有票/周边”作为海外票产品需求聚类。"
+    },
+    {
+      "id": "2026-q14-text-sparse",
+      "type": "text_sparse",
+      "severity": "medium",
+      "priority": 62,
+      "title": "2026 Q14 有回答但关键词不足",
+      "summary": "见面会/签名会建议题有 25 条文本，但没有达到关键词聚合展示阈值；这不等于没有反馈。",
+      "years": [2026],
+      "questionIds": ["2026-Q14"],
+      "base": 220,
+      "answered": 25,
+      "rate": 0.1136,
+      "tags": ["自由文本", "阈值", "小样本"],
+      "links": [
+        { "kind": "question", "id": "2026-Q14" }
+      ],
+      "recommendation": "页面显示“文本样本稀疏”而不是空状态，避免用户误以为没有人回答。"
+    }
+  ]
+}

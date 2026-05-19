@@ -27,6 +27,7 @@
     "networks": "networks.json",
     "keywords": "keywords.json",
     "insights": "insights.json",
+    "outliers": "outliers.json",
     "comparability": "comparability.json",
     "segments": "segments.json",
     "memberProfiles": "member-profiles.json"
@@ -41,6 +42,7 @@
       "question",
       "crosstab",
       "insights",
+      "outliers",
       "keywords",
       "flow",
       "network",
@@ -4257,6 +4259,42 @@
       "note": "这些题仅 2026 问卷存在。"
     }
   ],
+  "outliers": {
+    "file": "outliers.json",
+    "description": "Interpretation warning layer for denominator shifts, small samples, cross-year jumps, structural signals, and sparse free-text aggregates.",
+    "privacy": "Derived only from public aggregate JSON. It does not include raw responses or raw free-text answers.",
+    "types": [
+      {
+        "id": "scope_warning",
+        "label": "口径警报"
+      },
+      {
+        "id": "small_sample_signal",
+        "label": "小样本高波动"
+      },
+      {
+        "id": "cross_year_shift",
+        "label": "跨年跳变"
+      },
+      {
+        "id": "structural_signal",
+        "label": "强结构信号"
+      },
+      {
+        "id": "text_sparse",
+        "label": "自由文本稀疏"
+      }
+    ],
+    "severities": [
+      "high",
+      "medium"
+    ],
+    "examples": [
+      "outliers --severity high",
+      "outliers --type cross_year_shift",
+      "outliers --year 2026"
+    ]
+  },
   "memberProfiles": {
     "file": "member-profiles.json",
     "description": "Anonymous aggregate profiles for people who support a given member under supported survey lenses.",
